@@ -1,0 +1,247 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{8817CB20-B2EF-4C16-86B6-F7F763F94901}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>SiPPOON_PP</RootNamespace>
+    <AssemblyName>SiPPOON_PP</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Icon_for_program.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DLLConnectionString, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\3 курс\Русакова\Примеры\DLLConnectionString\DLLConnectionString\bin\Debug\DLLConnectionString.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="About_Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="About_Form.Designer.cs">
+      <DependentUpon>About_Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DB_Procedures.cs" />
+    <Compile Include="Excel_Document.cs" />
+    <Compile Include="Fill_Table.cs" />
+    <Compile Include="Filter_Table.cs" />
+    <Compile Include="Forget_Password.cs" />
+    <Compile Include="Form_Admin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_Admin.Designer.cs">
+      <DependentUpon>Form_Admin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_Authorize.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_Authorize.Designer.cs">
+      <DependentUpon>Form_Authorize.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_Configuration.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_Configuration.Designer.cs">
+      <DependentUpon>Form_Configuration.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_Forget.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_Forget.Designer.cs">
+      <DependentUpon>Form_Forget.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_Feedback.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_Feedback.Designer.cs">
+      <DependentUpon>Form_Feedback.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_Okruga.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_Okruga.Designer.cs">
+      <DependentUpon>Form_Okruga.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_Kategorii.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_Kategorii.Designer.cs">
+      <DependentUpon>Form_Kategorii.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_Registration.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_Registration.Designer.cs">
+      <DependentUpon>Form_Registration.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_Result.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_Result.Designer.cs">
+      <DependentUpon>Form_Result.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_Zastavka.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_Zastavka.Designer.cs">
+      <DependentUpon>Form_Zastavka.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Registry_Class.cs" />
+    <Compile Include="Send_Mail.cs" />
+    <EmbeddedResource Include="About_Form.resx">
+      <DependentUpon>About_Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_Admin.resx">
+      <DependentUpon>Form_Admin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_Authorize.resx">
+      <DependentUpon>Form_Authorize.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_Configuration.resx">
+      <DependentUpon>Form_Configuration.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_Forget.resx">
+      <DependentUpon>Form_Forget.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_Feedback.resx">
+      <DependentUpon>Form_Feedback.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_Okruga.resx">
+      <DependentUpon>Form_Okruga.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_Kategorii.resx">
+      <DependentUpon>Form_Kategorii.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_Registration.resx">
+      <DependentUpon>Form_Registration.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_Result.resx">
+      <DependentUpon>Form_Result.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_Zastavka.resx">
+      <DependentUpon>Form_Zastavka.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Result_Kat.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Result_Okr.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Result_Kategorii.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Result_Okruga.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Icon_for_program.ico" />
+    <None Include="Resources\star_disable.png" />
+    <None Include="Resources\star_enable.png" />
+    <None Include="Resources\krest.png" />
+    <None Include="Resources\gal.png" />
+    <None Include="Resources\Mail.png" />
+    <None Include="Resources\About_Program.png" />
+    <None Include="Resources\About_Author.png" />
+    <None Include="Resources\Export.png" />
+    <None Include="Resources\Exit.png" />
+    <None Include="Resources\Excel.png" />
+    <None Include="Resources\Open.png" />
+    <None Include="Resources\About.png" />
+    <None Include="Resources\BackGroungImage.png" />
+    <None Include="Resources\glaz.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="Microsoft.Office.Core">
+      <Guid>{2DF8D04C-5BFA-101B-BDE5-00AA0044DE52}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>8</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="Microsoft.Office.Interop.Excel">
+      <Guid>{00020813-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>9</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="VBIDE">
+      <Guid>{0002E157-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>5</VersionMajor>
+      <VersionMinor>3</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

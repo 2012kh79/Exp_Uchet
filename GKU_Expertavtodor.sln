@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29230.47
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SiPPOON_PP", "SiPPOON_PP\SiPPOON_PP.csproj", "{8817CB20-B2EF-4C16-86B6-F7F763F94901}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8817CB20-B2EF-4C16-86B6-F7F763F94901}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8817CB20-B2EF-4C16-86B6-F7F763F94901}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8817CB20-B2EF-4C16-86B6-F7F763F94901}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8817CB20-B2EF-4C16-86B6-F7F763F94901}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {28065EBF-A1C6-486C-825D-948B788CDFAD}
+	EndGlobalSection
+EndGlobal
