@@ -27,9 +27,9 @@ namespace SiPPOON_PP
 
         public static string Hash(string input)
         {
-            using (SHA1Managed sha1 = new SHA1Managed())
+            using (SHA256Managed sha2 = new SHA256Managed())
             {
-                var hash = sha1.ComputeHash(Encoding.UTF8.GetBytes(input));
+                var hash = sha2.ComputeHash(Encoding.UTF8.GetBytes(input));
                 var sb = new StringBuilder(hash.Length * 2);
 
                 foreach (byte b in hash)
