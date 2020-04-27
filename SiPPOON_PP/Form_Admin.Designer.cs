@@ -32,6 +32,8 @@
             this.tc_Admin = new System.Windows.Forms.TabControl();
             this.tp_Users = new System.Windows.Forms.TabPage();
             this.gb_Rabota_s_dannimy = new System.Windows.Forms.GroupBox();
+            this.tb_Mail = new System.Windows.Forms.TextBox();
+            this.lb_Mail = new System.Windows.Forms.Label();
             this.lbl_Employee = new System.Windows.Forms.Label();
             this.cmb_Employee = new System.Windows.Forms.ComboBox();
             this.pb_Exit = new System.Windows.Forms.PictureBox();
@@ -56,8 +58,6 @@
             this.tb_Fam = new System.Windows.Forms.TextBox();
             this.btn_Insert_Sotrudnik = new System.Windows.Forms.Button();
             this.dgv_Employee = new System.Windows.Forms.DataGridView();
-            this.tb_Mail = new System.Windows.Forms.TextBox();
-            this.lb_Mail = new System.Windows.Forms.Label();
             this.tc_Admin.SuspendLayout();
             this.tp_Users.SuspendLayout();
             this.gb_Rabota_s_dannimy.SuspendLayout();
@@ -115,6 +115,22 @@
             this.gb_Rabota_s_dannimy.TabIndex = 3;
             this.gb_Rabota_s_dannimy.TabStop = false;
             this.gb_Rabota_s_dannimy.Text = "Работа с данными";
+            // 
+            // tb_Mail
+            // 
+            this.tb_Mail.Location = new System.Drawing.Point(75, 71);
+            this.tb_Mail.Name = "tb_Mail";
+            this.tb_Mail.Size = new System.Drawing.Size(215, 20);
+            this.tb_Mail.TabIndex = 15;
+            // 
+            // lb_Mail
+            // 
+            this.lb_Mail.AutoSize = true;
+            this.lb_Mail.Location = new System.Drawing.Point(28, 74);
+            this.lb_Mail.Name = "lb_Mail";
+            this.lb_Mail.Size = new System.Drawing.Size(40, 13);
+            this.lb_Mail.TabIndex = 16;
+            this.lb_Mail.Text = "Почта:";
             // 
             // lbl_Employee
             // 
@@ -353,22 +369,6 @@
             this.dgv_Employee.Size = new System.Drawing.Size(770, 249);
             this.dgv_Employee.TabIndex = 4;
             this.dgv_Employee.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgv_Employee_CellContentClick);
-            // 
-            // tb_Mail
-            // 
-            this.tb_Mail.Location = new System.Drawing.Point(75, 71);
-            this.tb_Mail.Name = "tb_Mail";
-            this.tb_Mail.Size = new System.Drawing.Size(215, 20);
-            this.tb_Mail.TabIndex = 15;
-            // 
-            // lb_Mail
-            // 
-            this.lb_Mail.AutoSize = true;
-            this.lb_Mail.Location = new System.Drawing.Point(28, 74);
-            this.lb_Mail.Name = "lb_Mail";
-            this.lb_Mail.Size = new System.Drawing.Size(40, 13);
-            this.lb_Mail.TabIndex = 16;
-            this.lb_Mail.Text = "Почта:";
             // 
             // Form_Admin
             // 

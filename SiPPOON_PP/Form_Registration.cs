@@ -19,8 +19,8 @@ namespace SiPPOON_PP
         {
             InitializeComponent();
             this.DoubleBuffered = true;
-            this.BackgroundImage = new Bitmap(Properties.Resources.BackGroungImage);
-            this.btGlaz.BackgroundImage = Properties.Resources.glaz;
+            this.BackgroundImage = new Bitmap(Properties.Resources.BackGroundImage);
+            this.btGlaz.BackgroundImage = Properties.Resources.Glaz;
             tbPass.UseSystemPasswordChar = true;
             tbRepeatPass.UseSystemPasswordChar = true;
         }
@@ -67,46 +67,46 @@ namespace SiPPOON_PP
             Enable = 0;
             if (tb_Fam.Text.Length >= 4)
             {
-                pictureBox4.Image = Properties.Resources.gal;
+                pictureBox4.Image = Properties.Resources.Galochka;
                 Enable++;
             }
             else
-                pictureBox4.Image = Properties.Resources.krest;
+                pictureBox4.Image = Properties.Resources.Krest;
             if (tbImya.Text.Length >= 4)
             {
-                pictureBox5.Image = Properties.Resources.gal;
+                pictureBox5.Image = Properties.Resources.Galochka;
                 Enable++;
             }
             else
-                pictureBox5.Image = Properties.Resources.krest;
+                pictureBox5.Image = Properties.Resources.Krest;
             if (Regex.IsMatch(tbLogin.Text, patLogin, RegexOptions.IgnoreCase) & tbLogin.Text.Length >= 4)
             {
-                pictureBox2.Image = Properties.Resources.gal;
+                pictureBox2.Image = Properties.Resources.Galochka;
                 Enable++;
             }
             else
-                pictureBox2.Image = Properties.Resources.krest;
+                pictureBox2.Image = Properties.Resources.Krest;
             if (Regex.IsMatch(tb_Pochta.Text, patEmail, RegexOptions.IgnoreCase))
             {
-                pictureBox1.Image = Properties.Resources.gal;
+                pictureBox1.Image = Properties.Resources.Galochka;
                 Enable++;
             }
             else
-                pictureBox1.Image = Properties.Resources.krest;
+                pictureBox1.Image = Properties.Resources.Krest;
             if (tbPass.Text.Equals(tbRepeatPass.Text))
             {
                 if (Regex.IsMatch(tbPass.Text, patPassword, RegexOptions.IgnoreCase) & tbPass.Text.Length >= 4)
                 {
-                    pictureBox3.Image = Properties.Resources.gal;
+                    pictureBox3.Image = Properties.Resources.Galochka;
                     Enable++;
                 }
                 else
-                    pictureBox3.Image = Properties.Resources.krest;
+                    pictureBox3.Image = Properties.Resources.Krest;
             }
             else
             {
                 MessageBox.Show("Пароли не совпадают!");
-                pictureBox3.Image = Properties.Resources.krest;
+                pictureBox3.Image = Properties.Resources.Krest;
             }
             if (Enable == 5)
                 btReg.Enabled = true;

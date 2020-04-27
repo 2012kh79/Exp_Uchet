@@ -2,6 +2,7 @@
 using System.Windows.Forms;
 using System.Drawing;
 using System.Windows.Forms.DataVisualization.Charting;
+using System.Collections.Generic;
 
 namespace SiPPOON_PP
 {
@@ -186,34 +187,38 @@ namespace SiPPOON_PP
             }
         }
 
-        public void Chart_Export(Chart chart, DataGridView data, CheckedListBox listBox)
+        public void Chart_Export(Chart chart, DataGridView data, CheckedListBox listBox, List<string> objectList)
         {
             int k = data.SelectedCells[0].RowIndex;
             try
             {
-                if ((Boolean)data.Rows[k].Cells[0].Value == false)
+                switch ((Boolean)data.Rows[k].Cells[0].Value)
                 {
-                    data.Rows[k].Cells[0].Value = true;
-                    if (listBox.GetItemChecked(0) == true)
-                        chart.Series["Продольная ровность"].Points.AddXY(data.Rows[k].Cells[3].Value.ToString(), data.Rows[k].Cells[5].Value);
-                    if (listBox.GetItemChecked(1) == true)
-                        chart.Series["Поперечная ровность"].Points.AddXY(data.Rows[k].Cells[3].Value.ToString(), data.Rows[k].Cells[10].Value);
-                    if (listBox.GetItemChecked(2) == true)
-                        chart.Series["Плотность трещин"].Points.AddXY(data.Rows[k].Cells[3].Value.ToString(), data.Rows[k].Cells[15].Value);
-                    if (listBox.GetItemChecked(3) == true)
-                        chart.Series["Плотность ремонтных карт"].Points.AddXY(data.Rows[k].Cells[3].Value.ToString(), data.Rows[k].Cells[20].Value);
-                }
-                else if ((Boolean)data.Rows[k].Cells[0].Value == true)
-                {
-                    data.Rows[k].Cells[0].Value = false;
-                    if (listBox.GetItemChecked(0) == true)
-                        chart.Series["Продольная ровность"].Points.Clear();
-                    if (listBox.GetItemChecked(1) == true)
-                        chart.Series["Поперечная ровность"].Points.Clear();
-                    if (listBox.GetItemChecked(2) == true)
-                        chart.Series["Плотность трещин"].Points.Clear();
-                    if (listBox.GetItemChecked(3) == true)
-                        chart.Series["Плотность ремонтных карт"].Points.Clear();
+                    case true:
+                        data.Rows[k].Cells[0].Value = false;
+                        int kol = objectList.IndexOf(data.Rows[k].Cells[3].Value.ToString());
+                        if (listBox.GetItemChecked(0) == true)
+                            chart.Series["Продольная ровность"].Points.RemoveAt(kol);
+                        if (listBox.GetItemChecked(1) == true)
+                            chart.Series["Поперечная ровность"].Points.RemoveAt(kol);
+                        if (listBox.GetItemChecked(2) == true)
+                            chart.Series["Плотность трещин"].Points.RemoveAt(kol);
+                        if (listBox.GetItemChecked(3) == true)
+                            chart.Series["Плотность ремонтных карт"].Points.RemoveAt(kol);
+                        objectList.RemoveAt(kol);
+                        break;
+                    case false:
+                        data.Rows[k].Cells[0].Value = true;
+                        if (listBox.GetItemChecked(0) == true)
+                            chart.Series["Продольная ровность"].Points.AddXY(data.Rows[k].Cells[3].Value.ToString(), data.Rows[k].Cells[5].Value);
+                        if (listBox.GetItemChecked(1) == true)
+                            chart.Series["Поперечная ровность"].Points.AddXY(data.Rows[k].Cells[3].Value.ToString(), data.Rows[k].Cells[10].Value);
+                        if (listBox.GetItemChecked(2) == true)
+                            chart.Series["Плотность трещин"].Points.AddXY(data.Rows[k].Cells[3].Value.ToString(), data.Rows[k].Cells[15].Value);
+                        if (listBox.GetItemChecked(3) == true)
+                            chart.Series["Плотность ремонтных карт"].Points.AddXY(data.Rows[k].Cells[3].Value.ToString(), data.Rows[k].Cells[20].Value);
+                        objectList.Add(data.Rows[k].Cells[3].Value.ToString());
+                        break;
                 }
             }
             catch (Exception ex)

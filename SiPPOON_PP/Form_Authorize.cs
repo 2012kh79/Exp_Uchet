@@ -18,7 +18,7 @@ namespace SiPPOON_PP
         {
             InitializeComponent();
             this.DoubleBuffered = true;
-            this.BackgroundImage = new Bitmap(Properties.Resources.BackGroungImage);
+            this.BackgroundImage = new Bitmap(Properties.Resources.BackGroundImage);
             tbPass.UseSystemPasswordChar = true;
         }
 

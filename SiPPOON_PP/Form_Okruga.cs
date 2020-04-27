@@ -1,8 +1,8 @@
 ﻿using System;
 using System.Data;
 using System.Windows.Forms;
-using System.Data.OleDb;
 using System.Threading;
+using System.Collections.Generic;
 
 namespace SiPPOON_PP
 {
@@ -10,6 +10,8 @@ namespace SiPPOON_PP
     {
         string constr;
         DataGridView dgv_Excel;
+        List<string> objectList = new List<string>();
+
         public Form_Okruga()
         {
             InitializeComponent();
@@ -20,18 +22,12 @@ namespace SiPPOON_PP
         {
             Fill_Table table = new Fill_Table();
             Filter_Table filter = new Filter_Table();
-            DataTable data = new DataTable();
             Action action = () =>
             {
                 try
                 {
-                    OleDbConnection Con = new OleDbConnection(constr);
-                    OleDbCommand OleConnection = new OleDbCommand("SELECT * FROM [Округа$A9:AP5349]", Con);
-                    Con.Open();
-                    OleDbDataAdapter sda = new OleDbDataAdapter(OleConnection);
-                    sda.Fill(data);
-                    table.Table(dgv_Okruga, data);
-                    filter.Sort_Table(dgv_Okruga);
+                    table.dtOkrugaFill();
+                    table.Table(dgv_Okruga, table.dtOkruga);
                     dgv_Okruga.ReadOnly = true;
                 }
                 catch
@@ -45,17 +41,12 @@ namespace SiPPOON_PP
         public void dgv_VAO_Fill()
         {
             Fill_Table table = new Fill_Table();
-            DataTable data = new DataTable();
             Action action = () =>
             {
                 try
                 {
-                    OleDbConnection Con = new OleDbConnection(constr);
-                    OleDbCommand OleConnection = new OleDbCommand("SELECT * FROM [Округа$A384:AP903]", Con);
-                    Con.Open();
-                    OleDbDataAdapter sda = new OleDbDataAdapter(OleConnection);
-                    sda.Fill(data);
-                    table.Table(dgv_VAO, data);
+                    table.dtVAOFill();
+                    table.Table(dgv_VAO, table.dtVAO);
                     dgv_VAO.ReadOnly = true;
                 }
                 catch
@@ -69,17 +60,12 @@ namespace SiPPOON_PP
         public void dgv_ZAO_Fill()
         {
             Fill_Table table = new Fill_Table();
-            DataTable data = new DataTable();
             Action action = () =>
             {
                 try
                 {
-                    OleDbConnection Con = new OleDbConnection(constr);
-                    OleDbCommand OleConnection = new OleDbCommand("SELECT * FROM [Округа$A904:AP1388]", Con);
-                    Con.Open();
-                    OleDbDataAdapter sda = new OleDbDataAdapter(OleConnection);
-                    sda.Fill(data);
-                    table.Table(dgv_ZAO, data);
+                    table.dtZAOFill();
+                    table.Table(dgv_ZAO, table.dtZAO);
                     dgv_ZAO.ReadOnly = true;
                 }
                 catch
@@ -93,17 +79,12 @@ namespace SiPPOON_PP
         public void dgv_ZelAO_Fill()
         {
             Fill_Table table = new Fill_Table();
-            DataTable data = new DataTable();
             Action action = () =>
             {
                 try
                 {
-                    OleDbConnection Con = new OleDbConnection(constr);
-                    OleDbCommand OleConnection = new OleDbCommand("SELECT * FROM [Округа$A1389:AP1500]", Con);
-                    Con.Open();
-                    OleDbDataAdapter sda = new OleDbDataAdapter(OleConnection);
-                    sda.Fill(data);
-                    table.Table(dgv_ZelAO, data);
+                    table.dtZelAoFill();
+                    table.Table(dgv_ZelAO, table.dtZelAO);
                     dgv_ZelAO.ReadOnly = true;
                 }
                 catch
@@ -117,17 +98,12 @@ namespace SiPPOON_PP
         public void dgv_SAO_Fill()
         {
             Fill_Table table = new Fill_Table();
-            DataTable data = new DataTable();
             Action action = () =>
             {
                 try
                 {
-                    OleDbConnection Con = new OleDbConnection(constr);
-                    OleDbCommand OleConnection = new OleDbCommand("SELECT * FROM [Округа$A1501:AP2094]", Con);
-                    Con.Open();
-                    OleDbDataAdapter sda = new OleDbDataAdapter(OleConnection);
-                    sda.Fill(data);
-                    table.Table(dgv_SAO, data);
+                    table.dtSAOFill();
+                    table.Table(dgv_SAO, table.dtSAO);
                     dgv_SAO.ReadOnly = true;
                 }
                 catch
@@ -141,17 +117,12 @@ namespace SiPPOON_PP
         public void dgv_SVAO_Fill()
         {
             Fill_Table table = new Fill_Table();
-            DataTable data = new DataTable();
             Action action = () =>
             {
                 try
                 {
-                    OleDbConnection Con = new OleDbConnection(constr);
-                    OleDbCommand OleConnection = new OleDbCommand("SELECT * FROM [Округа$A2095:AP2709]", Con);
-                    Con.Open();
-                    OleDbDataAdapter sda = new OleDbDataAdapter(OleConnection);
-                    sda.Fill(data);
-                    table.Table(dgv_SVAO, data);
+                    table.dtKategoriya_1Fill();
+                    table.Table(dgv_SVAO, table.dtSVAO);
                     dgv_SVAO.ReadOnly = true;
                 }
                 catch
@@ -165,17 +136,12 @@ namespace SiPPOON_PP
         public void dgv_SZAO_Fill()
         {
             Fill_Table table = new Fill_Table();
-            DataTable data = new DataTable();
             Action action = () =>
             {
                 try
                 {
-                    OleDbConnection Con = new OleDbConnection(constr);
-                    OleDbCommand OleConnection = new OleDbCommand("SELECT * FROM [Округа$A2710:AP3007]", Con);
-                    Con.Open();
-                    OleDbDataAdapter sda = new OleDbDataAdapter(OleConnection);
-                    sda.Fill(data);
-                    table.Table(dgv_SZAO, data);
+                    table.dtSZAOFill();
+                    table.Table(dgv_SZAO, table.dtSZAO);
                     dgv_SZAO.ReadOnly = true;
                 }
                 catch
@@ -189,17 +155,12 @@ namespace SiPPOON_PP
         public void dgv_TiNAO_Fill()
         {
             Fill_Table table = new Fill_Table();
-            DataTable data = new DataTable();
             Action action = () =>
             {
                 try
                 {
-                    OleDbConnection Con = new OleDbConnection(constr);
-                    OleDbCommand OleConnection = new OleDbCommand("SELECT * FROM [Округа$A3008:AP3170]", Con);
-                    Con.Open();
-                    OleDbDataAdapter sda = new OleDbDataAdapter(OleConnection);
-                    sda.Fill(data);
-                    table.Table(dgv_TiNAO, data);
+                    table.dtTiNAOFill();
+                    table.Table(dgv_TiNAO, table.dtTiNAO);
                     dgv_TiNAO.ReadOnly = true;
                 }
                 catch
@@ -213,17 +174,12 @@ namespace SiPPOON_PP
         public void dgv_TSAO_Fill()
         {
             Fill_Table table = new Fill_Table();
-            DataTable data = new DataTable();
             Action action = () =>
             {
                 try
                 {
-                    OleDbConnection Con = new OleDbConnection(constr);
-                    OleDbCommand OleConnection = new OleDbCommand("SELECT * FROM [Округа$A3171:AP4123]", Con);
-                    Con.Open();
-                    OleDbDataAdapter sda = new OleDbDataAdapter(OleConnection);
-                    sda.Fill(data);
-                    table.Table(dgv_TSAO, data);
+                    table.dtTSAOFill();
+                    table.Table(dgv_TSAO, table.dtTSAO);
                     dgv_TSAO.ReadOnly = true;
                 }
                 catch
@@ -237,17 +193,12 @@ namespace SiPPOON_PP
         public void dgv_YAO_Fill()
         {
             Fill_Table table = new Fill_Table();
-            DataTable data = new DataTable();
             Action action = () =>
             {
                 try
                 {
-                    OleDbConnection Con = new OleDbConnection(constr);
-                    OleDbCommand OleConnection = new OleDbCommand("SELECT * FROM [Округа$A4124:AP4531]", Con);
-                    Con.Open();
-                    OleDbDataAdapter sda = new OleDbDataAdapter(OleConnection);
-                    sda.Fill(data);
-                    table.Table(dgv_YAO, data);
+                    table.dtYAOFill();
+                    table.Table(dgv_YAO, table.dtYAO);
                     dgv_YAO.ReadOnly = true;
                 }
                 catch
@@ -261,17 +212,12 @@ namespace SiPPOON_PP
         public void dgv_YVAO_Fill()
         {
             Fill_Table table = new Fill_Table();
-            DataTable data = new DataTable();
             Action action = () =>
             {
                 try
                 {
-                    OleDbConnection Con = new OleDbConnection(constr);
-                    OleDbCommand OleConnection = new OleDbCommand("SELECT * FROM [Округа$A4532:AP5048]", Con);
-                    Con.Open();
-                    OleDbDataAdapter sda = new OleDbDataAdapter(OleConnection);
-                    sda.Fill(data);
-                    table.Table(dgv_YVAO, data);
+                    table.dtYVAOFill();
+                    table.Table(dgv_YVAO, table.dtYVAO);
                     dgv_YVAO.ReadOnly = true;
                 }
                 catch
@@ -285,17 +231,12 @@ namespace SiPPOON_PP
         public void dgv_YZAO_Fill()
         {
             Fill_Table table = new Fill_Table();
-            DataTable data = new DataTable();
             Action action = () =>
             {
                 try
                 {
-                    OleDbConnection Con = new OleDbConnection(constr);
-                    OleDbCommand OleConnection = new OleDbCommand("SELECT * FROM [Округа$A5049:AP5347]", Con);
-                    Con.Open();
-                    OleDbDataAdapter sda = new OleDbDataAdapter(OleConnection);
-                    sda.Fill(data);
-                    table.Table(dgv_YZAO, data);
+                    table.dtYZAOFill();
+                    table.Table(dgv_YZAO, table.dtYZAO);
                     dgv_YZAO.ReadOnly = true;
                 }
                 catch
@@ -676,7 +617,7 @@ namespace SiPPOON_PP
         private void dgv_Okruga_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
             Filter_Table filter = new Filter_Table();
-            filter.Chart_Export(chart_Okruga, dgv_Okruga, clb_Okruga);
+            filter.Chart_Export(chart_Okruga, dgv_Okruga, clb_Okruga, objectList);
         }
 
         private void clb_Okruga_SelectedIndexChanged(object sender, EventArgs e)
@@ -688,7 +629,7 @@ namespace SiPPOON_PP
         private void dgv_VAO_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
             Filter_Table filter = new Filter_Table();
-            filter.Chart_Export(chart_VAO, dgv_VAO, clb_VAO);
+            filter.Chart_Export(chart_VAO, dgv_VAO, clb_VAO, objectList);
         }
 
         private void clb_VAO_SelectedIndexChanged(object sender, EventArgs e)
@@ -700,7 +641,7 @@ namespace SiPPOON_PP
         private void dgv_ZAO_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
             Filter_Table filter = new Filter_Table();
-            filter.Chart_Export(chart_ZAO, dgv_ZAO, clb_ZAO);
+            filter.Chart_Export(chart_ZAO, dgv_ZAO, clb_ZAO, objectList);
         }
 
         private void clb_ZAO_SelectedIndexChanged(object sender, EventArgs e)
@@ -712,7 +653,7 @@ namespace SiPPOON_PP
         private void dgv_ZelAO_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
             Filter_Table filter = new Filter_Table();
-            filter.Chart_Export(chart_ZelAO, dgv_ZelAO, clb_ZelAO);
+            filter.Chart_Export(chart_ZelAO, dgv_ZelAO, clb_ZelAO, objectList);
         }
 
         private void clb_ZelAO_SelectedIndexChanged(object sender, EventArgs e)
@@ -724,7 +665,7 @@ namespace SiPPOON_PP
         private void dgv_SAO_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
             Filter_Table filter = new Filter_Table();
-            filter.Chart_Export(chart_SAO, dgv_SAO, clb_SAO);
+            filter.Chart_Export(chart_SAO, dgv_SAO, clb_SAO, objectList);
         }
 
         private void clb_SAO_SelectedIndexChanged(object sender, EventArgs e)
@@ -736,7 +677,7 @@ namespace SiPPOON_PP
         private void dgv_SVAO_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
             Filter_Table filter = new Filter_Table();
-            filter.Chart_Export(chart_SVAO, dgv_SVAO, clb_SVAO);
+            filter.Chart_Export(chart_SVAO, dgv_SVAO, clb_SVAO, objectList);
         }
 
         private void clb_SVAO_SelectedIndexChanged(object sender, EventArgs e)
@@ -748,7 +689,7 @@ namespace SiPPOON_PP
         private void dgv_SZAO_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
             Filter_Table filter = new Filter_Table();
-            filter.Chart_Export(chart_SZAO, dgv_SZAO, clb_SZAO);
+            filter.Chart_Export(chart_SZAO, dgv_SZAO, clb_SZAO, objectList);
         }
 
         private void clb_SZAO_SelectedIndexChanged(object sender, EventArgs e)
@@ -760,7 +701,7 @@ namespace SiPPOON_PP
         private void dgv_TiNAO_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
             Filter_Table filter = new Filter_Table();
-            filter.Chart_Export(chart_TiNAO, dgv_TiNAO, clb_TiNAO);
+            filter.Chart_Export(chart_TiNAO, dgv_TiNAO, clb_TiNAO, objectList);
         }
 
         private void clb_TiNAO_SelectedIndexChanged(object sender, EventArgs e)
@@ -772,7 +713,7 @@ namespace SiPPOON_PP
         private void dgv_TSAO_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
             Filter_Table filter = new Filter_Table();
-            filter.Chart_Export(chart_TSAO, dgv_TSAO, clb_TSAO);
+            filter.Chart_Export(chart_TSAO, dgv_TSAO, clb_TSAO, objectList);
         }
 
         private void clb_TSAO_SelectedIndexChanged(object sender, EventArgs e)
@@ -784,7 +725,7 @@ namespace SiPPOON_PP
         private void dgv_YAO_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
             Filter_Table filter = new Filter_Table();
-            filter.Chart_Export(chart_YAO, dgv_YAO, clb_YAO);
+            filter.Chart_Export(chart_YAO, dgv_YAO, clb_YAO, objectList);
         }
 
         private void clb_YAO_SelectedIndexChanged(object sender, EventArgs e)
@@ -796,7 +737,7 @@ namespace SiPPOON_PP
         private void dgv_YVAO_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
             Filter_Table filter = new Filter_Table();
-            filter.Chart_Export(chart_YVAO, dgv_YVAO, clb_YVAO);
+            filter.Chart_Export(chart_YVAO, dgv_YVAO, clb_YVAO, objectList);
         }
 
         private void clb_YVAO_SelectedIndexChanged(object sender, EventArgs e)
@@ -808,7 +749,7 @@ namespace SiPPOON_PP
         private void dgv_YZAO_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
             Filter_Table filter = new Filter_Table();
-            filter.Chart_Export(chart_YZAO, dgv_YZAO, clb_YZAO);
+            filter.Chart_Export(chart_YZAO, dgv_YZAO, clb_YZAO, objectList);
         }
 
         private void clb_YZAO_SelectedIndexChanged(object sender, EventArgs e)

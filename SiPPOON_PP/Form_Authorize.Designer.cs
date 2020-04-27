@@ -115,7 +115,7 @@
             // 
             // btGlaz
             // 
-            this.btGlaz.BackgroundImage = global::SiPPOON_PP.Properties.Resources.glaz;
+            this.btGlaz.BackgroundImage = global::SiPPOON_PP.Properties.Resources.Glaz;
             this.btGlaz.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.btGlaz.Location = new System.Drawing.Point(316, 147);
             this.btGlaz.Name = "btGlaz";

@@ -17,7 +17,7 @@ namespace SiPPOON_PP
             InitializeComponent();
             this.DoubleBuffered = true;
             tb_Mail.Text = "ivan.ivanov@mail.ru";
-            this.BackgroundImage = Properties.Resources.BackGroungImage;
+            //this.BackgroundImage = Properties.Resources.BackGroundImage;
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -99,7 +99,7 @@ namespace SiPPOON_PP
             tb_Repeat_Password.UseSystemPasswordChar = true;
             this.Controls.Add(tb_Repeat_Password);
 
-            btn_Glaz.BackgroundImage = Properties.Resources.glaz;
+            btn_Glaz.BackgroundImage = Properties.Resources.Glaz;
             btn_Glaz.BackgroundImageLayout = ImageLayout.Zoom;
             btn_Glaz.Size = new Size(28,28);
             btn_Glaz.Location = new Point(424, 69);
@@ -181,16 +181,16 @@ namespace SiPPOON_PP
             {
                 if (Regex.IsMatch(tb_Password.Text, patPassword, RegexOptions.IgnoreCase) & tb_Password.Text.Length >= 4)
                 {
-                    pb_Check.Image = Properties.Resources.gal;
+                    pb_Check.Image = Properties.Resources.Galochka;
                     Enable++;
                 }
                 else
-                    pb_Check.Image = Properties.Resources.krest;
+                    pb_Check.Image = Properties.Resources.Krest;
             }
             else
             {
                 MessageBox.Show("Пароли не совпадают!");
-                pb_Check.Image = Properties.Resources.krest;
+                pb_Check.Image = Properties.Resources.Krest;
             }
             if (Enable == 1)
                 btn_Next.Enabled = true;

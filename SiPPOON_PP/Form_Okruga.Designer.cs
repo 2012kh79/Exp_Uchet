@@ -28,175 +28,55 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle7 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle8 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle9 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle10 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle11 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle12 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea1 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
             System.Windows.Forms.DataVisualization.Charting.Legend legend1 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea2 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
             System.Windows.Forms.DataVisualization.Charting.Legend legend2 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea3 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
             System.Windows.Forms.DataVisualization.Charting.Legend legend3 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea4 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
             System.Windows.Forms.DataVisualization.Charting.Legend legend4 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea5 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
             System.Windows.Forms.DataVisualization.Charting.Legend legend5 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea6 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
             System.Windows.Forms.DataVisualization.Charting.Legend legend6 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea7 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
             System.Windows.Forms.DataVisualization.Charting.Legend legend7 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle7 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea8 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
             System.Windows.Forms.DataVisualization.Charting.Legend legend8 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle8 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea9 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
             System.Windows.Forms.DataVisualization.Charting.Legend legend9 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle9 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea10 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
             System.Windows.Forms.DataVisualization.Charting.Legend legend10 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle10 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea11 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
             System.Windows.Forms.DataVisualization.Charting.Legend legend11 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle11 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea12 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
             System.Windows.Forms.DataVisualization.Charting.Legend legend12 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle12 = new System.Windows.Forms.DataGridViewCellStyle();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form_Okruga));
             this.lbl_Result_Okrug = new System.Windows.Forms.Label();
             this.tc_Okruga = new System.Windows.Forms.TabControl();
             this.Okruga = new System.Windows.Forms.TabPage();
+            this.gb_chart_Okruga = new System.Windows.Forms.GroupBox();
+            this.chart_Okruga = new System.Windows.Forms.DataVisualization.Charting.Chart();
+            this.clb_Okruga = new System.Windows.Forms.CheckedListBox();
             this.gb_Rabota_Okruga = new System.Windows.Forms.GroupBox();
             this.rb_Clear_Okruga = new System.Windows.Forms.RadioButton();
             this.rb_Deffect_Okruga = new System.Windows.Forms.RadioButton();
             this.rb_Prev_Okruga = new System.Windows.Forms.RadioButton();
             this.lbl_Filter_Okruga = new System.Windows.Forms.Label();
             this.dgv_Okruga = new System.Windows.Forms.DataGridView();
-            this.VAO = new System.Windows.Forms.TabPage();
-            this.gb_VAO = new System.Windows.Forms.GroupBox();
-            this.rb_Clear_VAO = new System.Windows.Forms.RadioButton();
-            this.rb_Deffect_VAO = new System.Windows.Forms.RadioButton();
-            this.rb_Prev_VAO = new System.Windows.Forms.RadioButton();
-            this.lbl_Filter_VAO = new System.Windows.Forms.Label();
-            this.dgv_VAO = new System.Windows.Forms.DataGridView();
-            this.ZAO = new System.Windows.Forms.TabPage();
-            this.gb_ZAO = new System.Windows.Forms.GroupBox();
-            this.rb_Clear_ZAO = new System.Windows.Forms.RadioButton();
-            this.rb_Deffect_ZAO = new System.Windows.Forms.RadioButton();
-            this.rb_Prev_ZAO = new System.Windows.Forms.RadioButton();
-            this.lbl_Filter_ZAO = new System.Windows.Forms.Label();
-            this.dgv_ZAO = new System.Windows.Forms.DataGridView();
-            this.ZelAO = new System.Windows.Forms.TabPage();
-            this.gb_ZelAO = new System.Windows.Forms.GroupBox();
-            this.rb_ZelAO = new System.Windows.Forms.RadioButton();
-            this.rb_Deffect_ZelAO = new System.Windows.Forms.RadioButton();
-            this.rb_Prev_ZelAO = new System.Windows.Forms.RadioButton();
-            this.lbl_Filter_ZelAO = new System.Windows.Forms.Label();
-            this.dgv_ZelAO = new System.Windows.Forms.DataGridView();
-            this.SAO = new System.Windows.Forms.TabPage();
-            this.gb_SAO = new System.Windows.Forms.GroupBox();
-            this.rb_Clear_SAO = new System.Windows.Forms.RadioButton();
-            this.rb_Deffect_SAO = new System.Windows.Forms.RadioButton();
-            this.rb_Prev_SAO = new System.Windows.Forms.RadioButton();
-            this.lbl_Filter_SAO = new System.Windows.Forms.Label();
-            this.dgv_SAO = new System.Windows.Forms.DataGridView();
-            this.SVAO = new System.Windows.Forms.TabPage();
-            this.gb_SVAO = new System.Windows.Forms.GroupBox();
-            this.rb_Clear_SVAO = new System.Windows.Forms.RadioButton();
-            this.rb_Deffect_SVAO = new System.Windows.Forms.RadioButton();
-            this.rb_Prev_SVAO = new System.Windows.Forms.RadioButton();
-            this.lbl_Filter_SVAO = new System.Windows.Forms.Label();
-            this.dgv_SVAO = new System.Windows.Forms.DataGridView();
-            this.SZAO = new System.Windows.Forms.TabPage();
-            this.gb_SZAO = new System.Windows.Forms.GroupBox();
-            this.rb_Clear_SZAO = new System.Windows.Forms.RadioButton();
-            this.rb_Deffect_SZAO = new System.Windows.Forms.RadioButton();
-            this.rb_Prev_SZAO = new System.Windows.Forms.RadioButton();
-            this.lbl_Filter_SZAO = new System.Windows.Forms.Label();
-            this.dgv_SZAO = new System.Windows.Forms.DataGridView();
-            this.TiNAO = new System.Windows.Forms.TabPage();
-            this.gb_TiNAO = new System.Windows.Forms.GroupBox();
-            this.rb_Clear_TiNAO = new System.Windows.Forms.RadioButton();
-            this.rb_Deffect_TiNAO = new System.Windows.Forms.RadioButton();
-            this.rb_Prev_TiNAO = new System.Windows.Forms.RadioButton();
-            this.lbl_Filter_TiNAO = new System.Windows.Forms.Label();
-            this.dgv_TiNAO = new System.Windows.Forms.DataGridView();
-            this.TCAO = new System.Windows.Forms.TabPage();
-            this.gb_TSAO = new System.Windows.Forms.GroupBox();
-            this.rb_Clear_TSAO = new System.Windows.Forms.RadioButton();
-            this.rb_Deffect_TSAO = new System.Windows.Forms.RadioButton();
-            this.rb_Prev_TSAO = new System.Windows.Forms.RadioButton();
-            this.lbl_Filter_TSAO = new System.Windows.Forms.Label();
-            this.dgv_TSAO = new System.Windows.Forms.DataGridView();
-            this.YAO = new System.Windows.Forms.TabPage();
-            this.gb_YAO = new System.Windows.Forms.GroupBox();
-            this.rb_Clear_YAO = new System.Windows.Forms.RadioButton();
-            this.rb_Deffect_YAO = new System.Windows.Forms.RadioButton();
-            this.rb_Prev_YAO = new System.Windows.Forms.RadioButton();
-            this.lbl_Filter_YAO = new System.Windows.Forms.Label();
-            this.dgv_YAO = new System.Windows.Forms.DataGridView();
-            this.YVAO = new System.Windows.Forms.TabPage();
-            this.gb_YVAO = new System.Windows.Forms.GroupBox();
-            this.rb_Clear_YVAO = new System.Windows.Forms.RadioButton();
-            this.rb_Deffect_YVAO = new System.Windows.Forms.RadioButton();
-            this.rb_Prev_YVAO = new System.Windows.Forms.RadioButton();
-            this.lbl_Filter_YVAO = new System.Windows.Forms.Label();
-            this.dgv_YVAO = new System.Windows.Forms.DataGridView();
-            this.YZAO = new System.Windows.Forms.TabPage();
-            this.gb_YZAO = new System.Windows.Forms.GroupBox();
-            this.rb_Clear_YZAO = new System.Windows.Forms.RadioButton();
-            this.rb_Deffect_YZAO = new System.Windows.Forms.RadioButton();
-            this.rb_Prev_YZAO = new System.Windows.Forms.RadioButton();
-            this.lbl_Filter_YZAO = new System.Windows.Forms.Label();
-            this.dgv_YZAO = new System.Windows.Forms.DataGridView();
-            this.menuStrip_Okruga = new System.Windows.Forms.MenuStrip();
-            this.Menu_File = new System.Windows.Forms.ToolStripMenuItem();
-            this.открытьToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripMenuItem3 = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripSeparator();
-            this.выходToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.справкаToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.информацияОбАвтореToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.информацияОПрограммеToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.gb_chart_Okruga = new System.Windows.Forms.GroupBox();
-            this.chart_Okruga = new System.Windows.Forms.DataVisualization.Charting.Chart();
-            this.clb_Okruga = new System.Windows.Forms.CheckedListBox();
-            this.gb_chart_VAO = new System.Windows.Forms.GroupBox();
-            this.chart_VAO = new System.Windows.Forms.DataVisualization.Charting.Chart();
-            this.clb_VAO = new System.Windows.Forms.CheckedListBox();
-            this.gb_chart_ZAO = new System.Windows.Forms.GroupBox();
-            this.chart_ZAO = new System.Windows.Forms.DataVisualization.Charting.Chart();
-            this.clb_ZAO = new System.Windows.Forms.CheckedListBox();
-            this.gb_chart_ZelAO = new System.Windows.Forms.GroupBox();
-            this.chart_ZelAO = new System.Windows.Forms.DataVisualization.Charting.Chart();
-            this.clb_ZelAO = new System.Windows.Forms.CheckedListBox();
-            this.gb_chart_SAO = new System.Windows.Forms.GroupBox();
-            this.chart_SAO = new System.Windows.Forms.DataVisualization.Charting.Chart();
-            this.clb_SAO = new System.Windows.Forms.CheckedListBox();
-            this.gb_chart_SVAO = new System.Windows.Forms.GroupBox();
-            this.chart_SVAO = new System.Windows.Forms.DataVisualization.Charting.Chart();
-            this.clb_SVAO = new System.Windows.Forms.CheckedListBox();
-            this.gb_chart_SZAO = new System.Windows.Forms.GroupBox();
-            this.chart_SZAO = new System.Windows.Forms.DataVisualization.Charting.Chart();
-            this.clb_SZAO = new System.Windows.Forms.CheckedListBox();
-            this.gb_chart_TiNAO = new System.Windows.Forms.GroupBox();
-            this.chart_TiNAO = new System.Windows.Forms.DataVisualization.Charting.Chart();
-            this.clb_TiNAO = new System.Windows.Forms.CheckedListBox();
-            this.gb_chart_TSAO = new System.Windows.Forms.GroupBox();
-            this.chart_TSAO = new System.Windows.Forms.DataVisualization.Charting.Chart();
-            this.clb_TSAO = new System.Windows.Forms.CheckedListBox();
-            this.gb_chart_YAO = new System.Windows.Forms.GroupBox();
-            this.chart_YAO = new System.Windows.Forms.DataVisualization.Charting.Chart();
-            this.clb_YAO = new System.Windows.Forms.CheckedListBox();
-            this.gb_chart_YVAO = new System.Windows.Forms.GroupBox();
-            this.chart_YVAO = new System.Windows.Forms.DataVisualization.Charting.Chart();
-            this.clb_YVAO = new System.Windows.Forms.CheckedListBox();
-            this.gb_chart_YZAO = new System.Windows.Forms.GroupBox();
-            this.chart_YZAO = new System.Windows.Forms.DataVisualization.Charting.Chart();
-            this.clb_YZAO = new System.Windows.Forms.CheckedListBox();
             this.Column1 = new System.Windows.Forms.DataGridViewCheckBoxColumn();
             this.dataGridViewTextBoxColumn421 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn422 = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -240,6 +120,16 @@
             this.dataGridViewTextBoxColumn460 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn461 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn462 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.VAO = new System.Windows.Forms.TabPage();
+            this.gb_chart_VAO = new System.Windows.Forms.GroupBox();
+            this.chart_VAO = new System.Windows.Forms.DataVisualization.Charting.Chart();
+            this.clb_VAO = new System.Windows.Forms.CheckedListBox();
+            this.gb_VAO = new System.Windows.Forms.GroupBox();
+            this.rb_Clear_VAO = new System.Windows.Forms.RadioButton();
+            this.rb_Deffect_VAO = new System.Windows.Forms.RadioButton();
+            this.rb_Prev_VAO = new System.Windows.Forms.RadioButton();
+            this.lbl_Filter_VAO = new System.Windows.Forms.Label();
+            this.dgv_VAO = new System.Windows.Forms.DataGridView();
             this.dataGridViewCheckBoxColumn1 = new System.Windows.Forms.DataGridViewCheckBoxColumn();
             this.Nomer_PP = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.ID_ODH = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -283,6 +173,16 @@
             this.Ploshad_prod_pop2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Obshaya_ploshad = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Obsh_ploshad2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ZAO = new System.Windows.Forms.TabPage();
+            this.gb_chart_ZAO = new System.Windows.Forms.GroupBox();
+            this.chart_ZAO = new System.Windows.Forms.DataVisualization.Charting.Chart();
+            this.clb_ZAO = new System.Windows.Forms.CheckedListBox();
+            this.gb_ZAO = new System.Windows.Forms.GroupBox();
+            this.rb_Clear_ZAO = new System.Windows.Forms.RadioButton();
+            this.rb_Deffect_ZAO = new System.Windows.Forms.RadioButton();
+            this.rb_Prev_ZAO = new System.Windows.Forms.RadioButton();
+            this.lbl_Filter_ZAO = new System.Windows.Forms.Label();
+            this.dgv_ZAO = new System.Windows.Forms.DataGridView();
             this.dataGridViewCheckBoxColumn2 = new System.Windows.Forms.DataGridViewCheckBoxColumn();
             this.dataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -326,6 +226,16 @@
             this.dataGridViewTextBoxColumn40 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn41 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn42 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ZelAO = new System.Windows.Forms.TabPage();
+            this.gb_chart_ZelAO = new System.Windows.Forms.GroupBox();
+            this.chart_ZelAO = new System.Windows.Forms.DataVisualization.Charting.Chart();
+            this.clb_ZelAO = new System.Windows.Forms.CheckedListBox();
+            this.gb_ZelAO = new System.Windows.Forms.GroupBox();
+            this.rb_ZelAO = new System.Windows.Forms.RadioButton();
+            this.rb_Deffect_ZelAO = new System.Windows.Forms.RadioButton();
+            this.rb_Prev_ZelAO = new System.Windows.Forms.RadioButton();
+            this.lbl_Filter_ZelAO = new System.Windows.Forms.Label();
+            this.dgv_ZelAO = new System.Windows.Forms.DataGridView();
             this.dataGridViewCheckBoxColumn3 = new System.Windows.Forms.DataGridViewCheckBoxColumn();
             this.dataGridViewTextBoxColumn43 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn44 = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -369,6 +279,16 @@
             this.dataGridViewTextBoxColumn82 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn83 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn84 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.SAO = new System.Windows.Forms.TabPage();
+            this.gb_chart_SAO = new System.Windows.Forms.GroupBox();
+            this.chart_SAO = new System.Windows.Forms.DataVisualization.Charting.Chart();
+            this.clb_SAO = new System.Windows.Forms.CheckedListBox();
+            this.gb_SAO = new System.Windows.Forms.GroupBox();
+            this.rb_Clear_SAO = new System.Windows.Forms.RadioButton();
+            this.rb_Deffect_SAO = new System.Windows.Forms.RadioButton();
+            this.rb_Prev_SAO = new System.Windows.Forms.RadioButton();
+            this.lbl_Filter_SAO = new System.Windows.Forms.Label();
+            this.dgv_SAO = new System.Windows.Forms.DataGridView();
             this.dataGridViewCheckBoxColumn4 = new System.Windows.Forms.DataGridViewCheckBoxColumn();
             this.dataGridViewTextBoxColumn85 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn86 = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -412,6 +332,16 @@
             this.dataGridViewTextBoxColumn124 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn125 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn126 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.SVAO = new System.Windows.Forms.TabPage();
+            this.gb_chart_SVAO = new System.Windows.Forms.GroupBox();
+            this.chart_SVAO = new System.Windows.Forms.DataVisualization.Charting.Chart();
+            this.clb_SVAO = new System.Windows.Forms.CheckedListBox();
+            this.gb_SVAO = new System.Windows.Forms.GroupBox();
+            this.rb_Clear_SVAO = new System.Windows.Forms.RadioButton();
+            this.rb_Deffect_SVAO = new System.Windows.Forms.RadioButton();
+            this.rb_Prev_SVAO = new System.Windows.Forms.RadioButton();
+            this.lbl_Filter_SVAO = new System.Windows.Forms.Label();
+            this.dgv_SVAO = new System.Windows.Forms.DataGridView();
             this.dataGridViewCheckBoxColumn5 = new System.Windows.Forms.DataGridViewCheckBoxColumn();
             this.dataGridViewTextBoxColumn127 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn128 = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -455,6 +385,16 @@
             this.dataGridViewTextBoxColumn166 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn167 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn168 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.SZAO = new System.Windows.Forms.TabPage();
+            this.gb_chart_SZAO = new System.Windows.Forms.GroupBox();
+            this.chart_SZAO = new System.Windows.Forms.DataVisualization.Charting.Chart();
+            this.clb_SZAO = new System.Windows.Forms.CheckedListBox();
+            this.gb_SZAO = new System.Windows.Forms.GroupBox();
+            this.rb_Clear_SZAO = new System.Windows.Forms.RadioButton();
+            this.rb_Deffect_SZAO = new System.Windows.Forms.RadioButton();
+            this.rb_Prev_SZAO = new System.Windows.Forms.RadioButton();
+            this.lbl_Filter_SZAO = new System.Windows.Forms.Label();
+            this.dgv_SZAO = new System.Windows.Forms.DataGridView();
             this.dataGridViewCheckBoxColumn6 = new System.Windows.Forms.DataGridViewCheckBoxColumn();
             this.dataGridViewTextBoxColumn169 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn170 = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -498,6 +438,16 @@
             this.dataGridViewTextBoxColumn208 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn209 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn210 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.TiNAO = new System.Windows.Forms.TabPage();
+            this.gb_chart_TiNAO = new System.Windows.Forms.GroupBox();
+            this.chart_TiNAO = new System.Windows.Forms.DataVisualization.Charting.Chart();
+            this.clb_TiNAO = new System.Windows.Forms.CheckedListBox();
+            this.gb_TiNAO = new System.Windows.Forms.GroupBox();
+            this.rb_Clear_TiNAO = new System.Windows.Forms.RadioButton();
+            this.rb_Deffect_TiNAO = new System.Windows.Forms.RadioButton();
+            this.rb_Prev_TiNAO = new System.Windows.Forms.RadioButton();
+            this.lbl_Filter_TiNAO = new System.Windows.Forms.Label();
+            this.dgv_TiNAO = new System.Windows.Forms.DataGridView();
             this.dataGridViewCheckBoxColumn7 = new System.Windows.Forms.DataGridViewCheckBoxColumn();
             this.dataGridViewTextBoxColumn211 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn212 = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -541,6 +491,16 @@
             this.dataGridViewTextBoxColumn250 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn251 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn252 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.TCAO = new System.Windows.Forms.TabPage();
+            this.gb_chart_TSAO = new System.Windows.Forms.GroupBox();
+            this.chart_TSAO = new System.Windows.Forms.DataVisualization.Charting.Chart();
+            this.clb_TSAO = new System.Windows.Forms.CheckedListBox();
+            this.gb_TSAO = new System.Windows.Forms.GroupBox();
+            this.rb_Clear_TSAO = new System.Windows.Forms.RadioButton();
+            this.rb_Deffect_TSAO = new System.Windows.Forms.RadioButton();
+            this.rb_Prev_TSAO = new System.Windows.Forms.RadioButton();
+            this.lbl_Filter_TSAO = new System.Windows.Forms.Label();
+            this.dgv_TSAO = new System.Windows.Forms.DataGridView();
             this.dataGridViewCheckBoxColumn8 = new System.Windows.Forms.DataGridViewCheckBoxColumn();
             this.dataGridViewTextBoxColumn253 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn254 = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -584,6 +544,16 @@
             this.dataGridViewTextBoxColumn292 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn293 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn294 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.YAO = new System.Windows.Forms.TabPage();
+            this.gb_chart_YAO = new System.Windows.Forms.GroupBox();
+            this.chart_YAO = new System.Windows.Forms.DataVisualization.Charting.Chart();
+            this.clb_YAO = new System.Windows.Forms.CheckedListBox();
+            this.gb_YAO = new System.Windows.Forms.GroupBox();
+            this.rb_Clear_YAO = new System.Windows.Forms.RadioButton();
+            this.rb_Deffect_YAO = new System.Windows.Forms.RadioButton();
+            this.rb_Prev_YAO = new System.Windows.Forms.RadioButton();
+            this.lbl_Filter_YAO = new System.Windows.Forms.Label();
+            this.dgv_YAO = new System.Windows.Forms.DataGridView();
             this.dataGridViewCheckBoxColumn9 = new System.Windows.Forms.DataGridViewCheckBoxColumn();
             this.dataGridViewTextBoxColumn295 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn296 = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -627,6 +597,16 @@
             this.dataGridViewTextBoxColumn334 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn335 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn336 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.YVAO = new System.Windows.Forms.TabPage();
+            this.gb_chart_YVAO = new System.Windows.Forms.GroupBox();
+            this.chart_YVAO = new System.Windows.Forms.DataVisualization.Charting.Chart();
+            this.clb_YVAO = new System.Windows.Forms.CheckedListBox();
+            this.gb_YVAO = new System.Windows.Forms.GroupBox();
+            this.rb_Clear_YVAO = new System.Windows.Forms.RadioButton();
+            this.rb_Deffect_YVAO = new System.Windows.Forms.RadioButton();
+            this.rb_Prev_YVAO = new System.Windows.Forms.RadioButton();
+            this.lbl_Filter_YVAO = new System.Windows.Forms.Label();
+            this.dgv_YVAO = new System.Windows.Forms.DataGridView();
             this.dataGridViewCheckBoxColumn10 = new System.Windows.Forms.DataGridViewCheckBoxColumn();
             this.dataGridViewTextBoxColumn337 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn338 = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -670,6 +650,16 @@
             this.dataGridViewTextBoxColumn376 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn377 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn378 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.YZAO = new System.Windows.Forms.TabPage();
+            this.gb_chart_YZAO = new System.Windows.Forms.GroupBox();
+            this.chart_YZAO = new System.Windows.Forms.DataVisualization.Charting.Chart();
+            this.clb_YZAO = new System.Windows.Forms.CheckedListBox();
+            this.gb_YZAO = new System.Windows.Forms.GroupBox();
+            this.rb_Clear_YZAO = new System.Windows.Forms.RadioButton();
+            this.rb_Deffect_YZAO = new System.Windows.Forms.RadioButton();
+            this.rb_Prev_YZAO = new System.Windows.Forms.RadioButton();
+            this.lbl_Filter_YZAO = new System.Windows.Forms.Label();
+            this.dgv_YZAO = new System.Windows.Forms.DataGridView();
             this.dataGridViewCheckBoxColumn11 = new System.Windows.Forms.DataGridViewCheckBoxColumn();
             this.dataGridViewTextBoxColumn379 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn380 = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -713,68 +703,96 @@
             this.dataGridViewTextBoxColumn418 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn419 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn420 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.menuStrip_Okruga = new System.Windows.Forms.MenuStrip();
+            this.файлToolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
+            this.открытьToolStripMenuItem3 = new System.Windows.Forms.ToolStripMenuItem();
+            this.печатьToolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
+            this.Menu_File = new System.Windows.Forms.ToolStripMenuItem();
+            this.открытьToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripMenuItem3 = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripSeparator();
+            this.выходToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.справкаToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.информацияОбАвтореToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.информацияОПрограммеToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.файлToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.открытьToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.печатьToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripMenuItem4 = new System.Windows.Forms.ToolStripSeparator();
+            this.выходToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.excelToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.файлToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.открытьToolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
+            this.печатьToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripMenuItem5 = new System.Windows.Forms.ToolStripSeparator();
+            this.выходToolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
+            this.excelToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripMenuItem6 = new System.Windows.Forms.ToolStripSeparator();
+            this.выходToolStripMenuItem3 = new System.Windows.Forms.ToolStripMenuItem();
+            this.excelToolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
             this.tc_Okruga.SuspendLayout();
             this.Okruga.SuspendLayout();
+            this.gb_chart_Okruga.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.chart_Okruga)).BeginInit();
             this.gb_Rabota_Okruga.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgv_Okruga)).BeginInit();
             this.VAO.SuspendLayout();
+            this.gb_chart_VAO.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.chart_VAO)).BeginInit();
             this.gb_VAO.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgv_VAO)).BeginInit();
             this.ZAO.SuspendLayout();
+            this.gb_chart_ZAO.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.chart_ZAO)).BeginInit();
             this.gb_ZAO.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgv_ZAO)).BeginInit();
             this.ZelAO.SuspendLayout();
+            this.gb_chart_ZelAO.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.chart_ZelAO)).BeginInit();
             this.gb_ZelAO.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgv_ZelAO)).BeginInit();
             this.SAO.SuspendLayout();
+            this.gb_chart_SAO.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.chart_SAO)).BeginInit();
             this.gb_SAO.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgv_SAO)).BeginInit();
             this.SVAO.SuspendLayout();
+            this.gb_chart_SVAO.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.chart_SVAO)).BeginInit();
             this.gb_SVAO.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgv_SVAO)).BeginInit();
             this.SZAO.SuspendLayout();
+            this.gb_chart_SZAO.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.chart_SZAO)).BeginInit();
             this.gb_SZAO.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgv_SZAO)).BeginInit();
             this.TiNAO.SuspendLayout();
+            this.gb_chart_TiNAO.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.chart_TiNAO)).BeginInit();
             this.gb_TiNAO.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgv_TiNAO)).BeginInit();
             this.TCAO.SuspendLayout();
+            this.gb_chart_TSAO.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.chart_TSAO)).BeginInit();
             this.gb_TSAO.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgv_TSAO)).BeginInit();
             this.YAO.SuspendLayout();
+            this.gb_chart_YAO.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.chart_YAO)).BeginInit();
             this.gb_YAO.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgv_YAO)).BeginInit();
             this.YVAO.SuspendLayout();
+            this.gb_chart_YVAO.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.chart_YVAO)).BeginInit();
             this.gb_YVAO.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgv_YVAO)).BeginInit();
             this.YZAO.SuspendLayout();
+            this.gb_chart_YZAO.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.chart_YZAO)).BeginInit();
             this.gb_YZAO.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgv_YZAO)).BeginInit();
             this.menuStrip_Okruga.SuspendLayout();
-            this.gb_chart_Okruga.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.chart_Okruga)).BeginInit();
-            this.gb_chart_VAO.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.chart_VAO)).BeginInit();
-            this.gb_chart_ZAO.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.chart_ZAO)).BeginInit();
-            this.gb_chart_ZelAO.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.chart_ZelAO)).BeginInit();
-            this.gb_chart_SAO.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.chart_SAO)).BeginInit();
-            this.gb_chart_SVAO.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.chart_SVAO)).BeginInit();
-            this.gb_chart_SZAO.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.chart_SZAO)).BeginInit();
-            this.gb_chart_TiNAO.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.chart_TiNAO)).BeginInit();
-            this.gb_chart_TSAO.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.chart_TSAO)).BeginInit();
-            this.gb_chart_YAO.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.chart_YAO)).BeginInit();
-            this.gb_chart_YVAO.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.chart_YVAO)).BeginInit();
-            this.gb_chart_YZAO.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.chart_YZAO)).BeginInit();
             this.SuspendLayout();
             // 
             // lbl_Result_Okrug
@@ -822,6 +840,50 @@
             this.Okruga.TabIndex = 11;
             this.Okruga.Text = "Округа";
             this.Okruga.UseVisualStyleBackColor = true;
+            // 
+            // gb_chart_Okruga
+            // 
+            this.gb_chart_Okruga.Controls.Add(this.chart_Okruga);
+            this.gb_chart_Okruga.Controls.Add(this.clb_Okruga);
+            this.gb_chart_Okruga.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.gb_chart_Okruga.Location = new System.Drawing.Point(271, 560);
+            this.gb_chart_Okruga.Name = "gb_chart_Okruga";
+            this.gb_chart_Okruga.Size = new System.Drawing.Size(702, 109);
+            this.gb_chart_Okruga.TabIndex = 16;
+            this.gb_chart_Okruga.TabStop = false;
+            this.gb_chart_Okruga.Text = "Работа с диаграммой";
+            // 
+            // chart_Okruga
+            // 
+            chartArea1.Name = "ChartArea1";
+            this.chart_Okruga.ChartAreas.Add(chartArea1);
+            this.chart_Okruga.Dock = System.Windows.Forms.DockStyle.Fill;
+            legend1.Name = "Legend1";
+            this.chart_Okruga.Legends.Add(legend1);
+            this.chart_Okruga.Location = new System.Drawing.Point(3, 35);
+            this.chart_Okruga.Name = "chart_Okruga";
+            this.chart_Okruga.Size = new System.Drawing.Size(696, 71);
+            this.chart_Okruga.TabIndex = 1;
+            this.chart_Okruga.Text = "chart7";
+            // 
+            // clb_Okruga
+            // 
+            this.clb_Okruga.CheckOnClick = true;
+            this.clb_Okruga.ColumnWidth = 160;
+            this.clb_Okruga.Dock = System.Windows.Forms.DockStyle.Top;
+            this.clb_Okruga.FormattingEnabled = true;
+            this.clb_Okruga.Items.AddRange(new object[] {
+            "Продольная ровность",
+            "Поперечная ровность",
+            "Плотность трещин",
+            "Плотность ремонтных карт"});
+            this.clb_Okruga.Location = new System.Drawing.Point(3, 16);
+            this.clb_Okruga.MultiColumn = true;
+            this.clb_Okruga.Name = "clb_Okruga";
+            this.clb_Okruga.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.clb_Okruga.Size = new System.Drawing.Size(696, 19);
+            this.clb_Okruga.TabIndex = 0;
+            this.clb_Okruga.SelectedIndexChanged += new System.EventHandler(this.clb_Okruga_SelectedIndexChanged);
             // 
             // gb_Rabota_Okruga
             // 
@@ -951,2192 +1013,6 @@
             this.dgv_Okruga.Size = new System.Drawing.Size(970, 518);
             this.dgv_Okruga.TabIndex = 13;
             this.dgv_Okruga.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgv_Okruga_CellContentClick);
-            // 
-            // VAO
-            // 
-            this.VAO.Controls.Add(this.gb_chart_VAO);
-            this.VAO.Controls.Add(this.gb_VAO);
-            this.VAO.Controls.Add(this.lbl_Filter_VAO);
-            this.VAO.Controls.Add(this.dgv_VAO);
-            this.VAO.Location = new System.Drawing.Point(4, 22);
-            this.VAO.Name = "VAO";
-            this.VAO.Padding = new System.Windows.Forms.Padding(3);
-            this.VAO.Size = new System.Drawing.Size(976, 672);
-            this.VAO.TabIndex = 0;
-            this.VAO.Text = "ВАО";
-            this.VAO.UseVisualStyleBackColor = true;
-            // 
-            // gb_VAO
-            // 
-            this.gb_VAO.Controls.Add(this.rb_Clear_VAO);
-            this.gb_VAO.Controls.Add(this.rb_Deffect_VAO);
-            this.gb_VAO.Controls.Add(this.rb_Prev_VAO);
-            this.gb_VAO.Dock = System.Windows.Forms.DockStyle.Left;
-            this.gb_VAO.Location = new System.Drawing.Point(3, 560);
-            this.gb_VAO.Name = "gb_VAO";
-            this.gb_VAO.Size = new System.Drawing.Size(268, 109);
-            this.gb_VAO.TabIndex = 12;
-            this.gb_VAO.TabStop = false;
-            this.gb_VAO.Text = "Работа с данными";
-            // 
-            // rb_Clear_VAO
-            // 
-            this.rb_Clear_VAO.AutoSize = true;
-            this.rb_Clear_VAO.Dock = System.Windows.Forms.DockStyle.Top;
-            this.rb_Clear_VAO.Location = new System.Drawing.Point(3, 50);
-            this.rb_Clear_VAO.Name = "rb_Clear_VAO";
-            this.rb_Clear_VAO.Size = new System.Drawing.Size(262, 17);
-            this.rb_Clear_VAO.TabIndex = 6;
-            this.rb_Clear_VAO.TabStop = true;
-            this.rb_Clear_VAO.Text = "Очистить фильтр";
-            this.rb_Clear_VAO.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.rb_Clear_VAO.UseVisualStyleBackColor = true;
-            this.rb_Clear_VAO.CheckedChanged += new System.EventHandler(this.rb_Clear_VAO_CheckedChanged);
-            // 
-            // rb_Deffect_VAO
-            // 
-            this.rb_Deffect_VAO.AutoSize = true;
-            this.rb_Deffect_VAO.Dock = System.Windows.Forms.DockStyle.Top;
-            this.rb_Deffect_VAO.Location = new System.Drawing.Point(3, 33);
-            this.rb_Deffect_VAO.Name = "rb_Deffect_VAO";
-            this.rb_Deffect_VAO.Size = new System.Drawing.Size(262, 17);
-            this.rb_Deffect_VAO.TabIndex = 1;
-            this.rb_Deffect_VAO.TabStop = true;
-            this.rb_Deffect_VAO.Text = "Деффектные участки дорог (>40%)";
-            this.rb_Deffect_VAO.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.rb_Deffect_VAO.UseVisualStyleBackColor = true;
-            this.rb_Deffect_VAO.CheckedChanged += new System.EventHandler(this.rb_Deffect_VAO_CheckedChanged);
-            // 
-            // rb_Prev_VAO
-            // 
-            this.rb_Prev_VAO.AutoSize = true;
-            this.rb_Prev_VAO.Dock = System.Windows.Forms.DockStyle.Top;
-            this.rb_Prev_VAO.Location = new System.Drawing.Point(3, 16);
-            this.rb_Prev_VAO.Name = "rb_Prev_VAO";
-            this.rb_Prev_VAO.Size = new System.Drawing.Size(262, 17);
-            this.rb_Prev_VAO.TabIndex = 0;
-            this.rb_Prev_VAO.TabStop = true;
-            this.rb_Prev_VAO.Text = "Превышающие элементы";
-            this.rb_Prev_VAO.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.rb_Prev_VAO.UseVisualStyleBackColor = true;
-            this.rb_Prev_VAO.CheckedChanged += new System.EventHandler(this.rb_Prev_VAO_CheckedChanged);
-            // 
-            // lbl_Filter_VAO
-            // 
-            this.lbl_Filter_VAO.Dock = System.Windows.Forms.DockStyle.Top;
-            this.lbl_Filter_VAO.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.lbl_Filter_VAO.Location = new System.Drawing.Point(3, 521);
-            this.lbl_Filter_VAO.Name = "lbl_Filter_VAO";
-            this.lbl_Filter_VAO.Size = new System.Drawing.Size(970, 39);
-            this.lbl_Filter_VAO.TabIndex = 6;
-            this.lbl_Filter_VAO.Text = "Фильтр";
-            this.lbl_Filter_VAO.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // dgv_VAO
-            // 
-            this.dgv_VAO.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle2.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            dataGridViewCellStyle2.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgv_VAO.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
-            this.dgv_VAO.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgv_VAO.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.dataGridViewCheckBoxColumn1,
-            this.Nomer_PP,
-            this.ID_ODH,
-            this.Naimenovanie_Object,
-            this.Ploshad_Proeszhey_Chasti,
-            this.Prod_Rovn_max,
-            this.Prod_rovn_sr_znach,
-            this.Prod_rovn_sr_defect,
-            this.Prod_rovn_ploshad,
-            this.Prod_rovn_ploshad2,
-            this.Pop_rovn_max,
-            this.Pop_rovnost_sr_znach,
-            this.Pop_rovn_sr_defect,
-            this.Pop_rovn_ploshad,
-            this.Pop_rovn_plosahd2,
-            this.Treshin_max,
-            this.Treshin_sr_znach,
-            this.Treshin_sr_defect,
-            this.Treshin_ploshad,
-            this.Treshin_ploshad2,
-            this.Remont_max,
-            this.Remont_sr_znach,
-            this.Remont_sr_defect,
-            this.Remont_ploshad,
-            this.Remont_ploshad2,
-            this.Ploshad_Odin,
-            this.Ploshad_odin2,
-            this.Ploshad_dva,
-            this.Ploshad_dva2,
-            this.Ploshad_tri,
-            this.Ploshad_tri2,
-            this.Ploshad_chi,
-            this.Plosahd_chi2,
-            this.Ploshad_Treshina,
-            this.Ploshad_treshina2,
-            this.Ploshad_prod,
-            this.Ploshad_prod2,
-            this.Ploshad_Pop,
-            this.Ploshad_pop2,
-            this.Ploshad_prod_pop,
-            this.Ploshad_prod_pop2,
-            this.Obshaya_ploshad,
-            this.Obsh_ploshad2});
-            this.dgv_VAO.Dock = System.Windows.Forms.DockStyle.Top;
-            this.dgv_VAO.Location = new System.Drawing.Point(3, 3);
-            this.dgv_VAO.Name = "dgv_VAO";
-            this.dgv_VAO.Size = new System.Drawing.Size(970, 518);
-            this.dgv_VAO.TabIndex = 1;
-            this.dgv_VAO.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgv_VAO_CellContentClick);
-            // 
-            // ZAO
-            // 
-            this.ZAO.Controls.Add(this.gb_chart_ZAO);
-            this.ZAO.Controls.Add(this.gb_ZAO);
-            this.ZAO.Controls.Add(this.lbl_Filter_ZAO);
-            this.ZAO.Controls.Add(this.dgv_ZAO);
-            this.ZAO.Location = new System.Drawing.Point(4, 22);
-            this.ZAO.Name = "ZAO";
-            this.ZAO.Padding = new System.Windows.Forms.Padding(3);
-            this.ZAO.Size = new System.Drawing.Size(976, 672);
-            this.ZAO.TabIndex = 1;
-            this.ZAO.Text = "ЗАО";
-            this.ZAO.UseVisualStyleBackColor = true;
-            // 
-            // gb_ZAO
-            // 
-            this.gb_ZAO.Controls.Add(this.rb_Clear_ZAO);
-            this.gb_ZAO.Controls.Add(this.rb_Deffect_ZAO);
-            this.gb_ZAO.Controls.Add(this.rb_Prev_ZAO);
-            this.gb_ZAO.Dock = System.Windows.Forms.DockStyle.Left;
-            this.gb_ZAO.Location = new System.Drawing.Point(3, 560);
-            this.gb_ZAO.Name = "gb_ZAO";
-            this.gb_ZAO.Size = new System.Drawing.Size(268, 109);
-            this.gb_ZAO.TabIndex = 12;
-            this.gb_ZAO.TabStop = false;
-            this.gb_ZAO.Text = "Работа с данными";
-            // 
-            // rb_Clear_ZAO
-            // 
-            this.rb_Clear_ZAO.AutoSize = true;
-            this.rb_Clear_ZAO.Dock = System.Windows.Forms.DockStyle.Top;
-            this.rb_Clear_ZAO.Location = new System.Drawing.Point(3, 50);
-            this.rb_Clear_ZAO.Name = "rb_Clear_ZAO";
-            this.rb_Clear_ZAO.Size = new System.Drawing.Size(262, 17);
-            this.rb_Clear_ZAO.TabIndex = 6;
-            this.rb_Clear_ZAO.TabStop = true;
-            this.rb_Clear_ZAO.Text = "Очистить фильтр";
-            this.rb_Clear_ZAO.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.rb_Clear_ZAO.UseVisualStyleBackColor = true;
-            this.rb_Clear_ZAO.CheckedChanged += new System.EventHandler(this.rb_Clear_ZAO_CheckedChanged);
-            // 
-            // rb_Deffect_ZAO
-            // 
-            this.rb_Deffect_ZAO.AutoSize = true;
-            this.rb_Deffect_ZAO.Dock = System.Windows.Forms.DockStyle.Top;
-            this.rb_Deffect_ZAO.Location = new System.Drawing.Point(3, 33);
-            this.rb_Deffect_ZAO.Name = "rb_Deffect_ZAO";
-            this.rb_Deffect_ZAO.Size = new System.Drawing.Size(262, 17);
-            this.rb_Deffect_ZAO.TabIndex = 1;
-            this.rb_Deffect_ZAO.TabStop = true;
-            this.rb_Deffect_ZAO.Text = "Деффектные участки дорог (>40%)";
-            this.rb_Deffect_ZAO.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.rb_Deffect_ZAO.UseVisualStyleBackColor = true;
-            this.rb_Deffect_ZAO.CheckedChanged += new System.EventHandler(this.rb_Deffect_ZAO_CheckedChanged);
-            // 
-            // rb_Prev_ZAO
-            // 
-            this.rb_Prev_ZAO.AutoSize = true;
-            this.rb_Prev_ZAO.Dock = System.Windows.Forms.DockStyle.Top;
-            this.rb_Prev_ZAO.Location = new System.Drawing.Point(3, 16);
-            this.rb_Prev_ZAO.Name = "rb_Prev_ZAO";
-            this.rb_Prev_ZAO.Size = new System.Drawing.Size(262, 17);
-            this.rb_Prev_ZAO.TabIndex = 0;
-            this.rb_Prev_ZAO.TabStop = true;
-            this.rb_Prev_ZAO.Text = "Превышающие элементы";
-            this.rb_Prev_ZAO.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.rb_Prev_ZAO.UseVisualStyleBackColor = true;
-            this.rb_Prev_ZAO.CheckedChanged += new System.EventHandler(this.rb_Prev_ZAO_CheckedChanged);
-            // 
-            // lbl_Filter_ZAO
-            // 
-            this.lbl_Filter_ZAO.Dock = System.Windows.Forms.DockStyle.Top;
-            this.lbl_Filter_ZAO.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.lbl_Filter_ZAO.Location = new System.Drawing.Point(3, 521);
-            this.lbl_Filter_ZAO.Name = "lbl_Filter_ZAO";
-            this.lbl_Filter_ZAO.Size = new System.Drawing.Size(970, 39);
-            this.lbl_Filter_ZAO.TabIndex = 6;
-            this.lbl_Filter_ZAO.Text = "Фильтр";
-            this.lbl_Filter_ZAO.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // dgv_ZAO
-            // 
-            this.dgv_ZAO.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle3.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            dataGridViewCellStyle3.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgv_ZAO.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle3;
-            this.dgv_ZAO.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgv_ZAO.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.dataGridViewCheckBoxColumn2,
-            this.dataGridViewTextBoxColumn1,
-            this.dataGridViewTextBoxColumn2,
-            this.dataGridViewTextBoxColumn3,
-            this.dataGridViewTextBoxColumn4,
-            this.dataGridViewTextBoxColumn5,
-            this.dataGridViewTextBoxColumn6,
-            this.dataGridViewTextBoxColumn7,
-            this.dataGridViewTextBoxColumn8,
-            this.dataGridViewTextBoxColumn9,
-            this.dataGridViewTextBoxColumn10,
-            this.dataGridViewTextBoxColumn11,
-            this.dataGridViewTextBoxColumn12,
-            this.dataGridViewTextBoxColumn13,
-            this.dataGridViewTextBoxColumn14,
-            this.dataGridViewTextBoxColumn15,
-            this.dataGridViewTextBoxColumn16,
-            this.dataGridViewTextBoxColumn17,
-            this.dataGridViewTextBoxColumn18,
-            this.dataGridViewTextBoxColumn19,
-            this.dataGridViewTextBoxColumn20,
-            this.dataGridViewTextBoxColumn21,
-            this.dataGridViewTextBoxColumn22,
-            this.dataGridViewTextBoxColumn23,
-            this.dataGridViewTextBoxColumn24,
-            this.dataGridViewTextBoxColumn25,
-            this.dataGridViewTextBoxColumn26,
-            this.dataGridViewTextBoxColumn27,
-            this.dataGridViewTextBoxColumn28,
-            this.dataGridViewTextBoxColumn29,
-            this.dataGridViewTextBoxColumn30,
-            this.dataGridViewTextBoxColumn31,
-            this.dataGridViewTextBoxColumn32,
-            this.dataGridViewTextBoxColumn33,
-            this.dataGridViewTextBoxColumn34,
-            this.dataGridViewTextBoxColumn35,
-            this.dataGridViewTextBoxColumn36,
-            this.dataGridViewTextBoxColumn37,
-            this.dataGridViewTextBoxColumn38,
-            this.dataGridViewTextBoxColumn39,
-            this.dataGridViewTextBoxColumn40,
-            this.dataGridViewTextBoxColumn41,
-            this.dataGridViewTextBoxColumn42});
-            this.dgv_ZAO.Dock = System.Windows.Forms.DockStyle.Top;
-            this.dgv_ZAO.Location = new System.Drawing.Point(3, 3);
-            this.dgv_ZAO.Name = "dgv_ZAO";
-            this.dgv_ZAO.Size = new System.Drawing.Size(970, 518);
-            this.dgv_ZAO.TabIndex = 2;
-            this.dgv_ZAO.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgv_ZAO_CellContentClick);
-            // 
-            // ZelAO
-            // 
-            this.ZelAO.Controls.Add(this.gb_chart_ZelAO);
-            this.ZelAO.Controls.Add(this.gb_ZelAO);
-            this.ZelAO.Controls.Add(this.lbl_Filter_ZelAO);
-            this.ZelAO.Controls.Add(this.dgv_ZelAO);
-            this.ZelAO.Location = new System.Drawing.Point(4, 22);
-            this.ZelAO.Name = "ZelAO";
-            this.ZelAO.Padding = new System.Windows.Forms.Padding(3);
-            this.ZelAO.Size = new System.Drawing.Size(976, 672);
-            this.ZelAO.TabIndex = 2;
-            this.ZelAO.Text = "ЗелАО";
-            this.ZelAO.UseVisualStyleBackColor = true;
-            // 
-            // gb_ZelAO
-            // 
-            this.gb_ZelAO.Controls.Add(this.rb_ZelAO);
-            this.gb_ZelAO.Controls.Add(this.rb_Deffect_ZelAO);
-            this.gb_ZelAO.Controls.Add(this.rb_Prev_ZelAO);
-            this.gb_ZelAO.Dock = System.Windows.Forms.DockStyle.Left;
-            this.gb_ZelAO.Location = new System.Drawing.Point(3, 560);
-            this.gb_ZelAO.Name = "gb_ZelAO";
-            this.gb_ZelAO.Size = new System.Drawing.Size(268, 109);
-            this.gb_ZelAO.TabIndex = 12;
-            this.gb_ZelAO.TabStop = false;
-            this.gb_ZelAO.Text = "Работа с данными";
-            // 
-            // rb_ZelAO
-            // 
-            this.rb_ZelAO.AutoSize = true;
-            this.rb_ZelAO.Dock = System.Windows.Forms.DockStyle.Top;
-            this.rb_ZelAO.Location = new System.Drawing.Point(3, 50);
-            this.rb_ZelAO.Name = "rb_ZelAO";
-            this.rb_ZelAO.Size = new System.Drawing.Size(262, 17);
-            this.rb_ZelAO.TabIndex = 6;
-            this.rb_ZelAO.TabStop = true;
-            this.rb_ZelAO.Text = "Очистить фильтр";
-            this.rb_ZelAO.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.rb_ZelAO.UseVisualStyleBackColor = true;
-            this.rb_ZelAO.CheckedChanged += new System.EventHandler(this.rb_ZelAO_CheckedChanged);
-            // 
-            // rb_Deffect_ZelAO
-            // 
-            this.rb_Deffect_ZelAO.AutoSize = true;
-            this.rb_Deffect_ZelAO.Dock = System.Windows.Forms.DockStyle.Top;
-            this.rb_Deffect_ZelAO.Location = new System.Drawing.Point(3, 33);
-            this.rb_Deffect_ZelAO.Name = "rb_Deffect_ZelAO";
-            this.rb_Deffect_ZelAO.Size = new System.Drawing.Size(262, 17);
-            this.rb_Deffect_ZelAO.TabIndex = 1;
-            this.rb_Deffect_ZelAO.TabStop = true;
-            this.rb_Deffect_ZelAO.Text = "Деффектные участки дорог (>40%)";
-            this.rb_Deffect_ZelAO.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.rb_Deffect_ZelAO.UseVisualStyleBackColor = true;
-            this.rb_Deffect_ZelAO.CheckedChanged += new System.EventHandler(this.rb_Deffect_ZelAO_CheckedChanged);
-            // 
-            // rb_Prev_ZelAO
-            // 
-            this.rb_Prev_ZelAO.AutoSize = true;
-            this.rb_Prev_ZelAO.Dock = System.Windows.Forms.DockStyle.Top;
-            this.rb_Prev_ZelAO.Location = new System.Drawing.Point(3, 16);
-            this.rb_Prev_ZelAO.Name = "rb_Prev_ZelAO";
-            this.rb_Prev_ZelAO.Size = new System.Drawing.Size(262, 17);
-            this.rb_Prev_ZelAO.TabIndex = 0;
-            this.rb_Prev_ZelAO.TabStop = true;
-            this.rb_Prev_ZelAO.Text = "Превышающие элементы";
-            this.rb_Prev_ZelAO.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.rb_Prev_ZelAO.UseVisualStyleBackColor = true;
-            this.rb_Prev_ZelAO.CheckedChanged += new System.EventHandler(this.rb_Prev_ZelAO_CheckedChanged);
-            // 
-            // lbl_Filter_ZelAO
-            // 
-            this.lbl_Filter_ZelAO.Dock = System.Windows.Forms.DockStyle.Top;
-            this.lbl_Filter_ZelAO.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.lbl_Filter_ZelAO.Location = new System.Drawing.Point(3, 521);
-            this.lbl_Filter_ZelAO.Name = "lbl_Filter_ZelAO";
-            this.lbl_Filter_ZelAO.Size = new System.Drawing.Size(970, 39);
-            this.lbl_Filter_ZelAO.TabIndex = 6;
-            this.lbl_Filter_ZelAO.Text = "Фильтр";
-            this.lbl_Filter_ZelAO.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // dgv_ZelAO
-            // 
-            this.dgv_ZelAO.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle4.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle4.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            dataGridViewCellStyle4.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle4.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle4.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle4.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgv_ZelAO.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle4;
-            this.dgv_ZelAO.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgv_ZelAO.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.dataGridViewCheckBoxColumn3,
-            this.dataGridViewTextBoxColumn43,
-            this.dataGridViewTextBoxColumn44,
-            this.dataGridViewTextBoxColumn45,
-            this.dataGridViewTextBoxColumn46,
-            this.dataGridViewTextBoxColumn47,
-            this.dataGridViewTextBoxColumn48,
-            this.dataGridViewTextBoxColumn49,
-            this.dataGridViewTextBoxColumn50,
-            this.dataGridViewTextBoxColumn51,
-            this.dataGridViewTextBoxColumn52,
-            this.dataGridViewTextBoxColumn53,
-            this.dataGridViewTextBoxColumn54,
-            this.dataGridViewTextBoxColumn55,
-            this.dataGridViewTextBoxColumn56,
-            this.dataGridViewTextBoxColumn57,
-            this.dataGridViewTextBoxColumn58,
-            this.dataGridViewTextBoxColumn59,
-            this.dataGridViewTextBoxColumn60,
-            this.dataGridViewTextBoxColumn61,
-            this.dataGridViewTextBoxColumn62,
-            this.dataGridViewTextBoxColumn63,
-            this.dataGridViewTextBoxColumn64,
-            this.dataGridViewTextBoxColumn65,
-            this.dataGridViewTextBoxColumn66,
-            this.dataGridViewTextBoxColumn67,
-            this.dataGridViewTextBoxColumn68,
-            this.dataGridViewTextBoxColumn69,
-            this.dataGridViewTextBoxColumn70,
-            this.dataGridViewTextBoxColumn71,
-            this.dataGridViewTextBoxColumn72,
-            this.dataGridViewTextBoxColumn73,
-            this.dataGridViewTextBoxColumn74,
-            this.dataGridViewTextBoxColumn75,
-            this.dataGridViewTextBoxColumn76,
-            this.dataGridViewTextBoxColumn77,
-            this.dataGridViewTextBoxColumn78,
-            this.dataGridViewTextBoxColumn79,
-            this.dataGridViewTextBoxColumn80,
-            this.dataGridViewTextBoxColumn81,
-            this.dataGridViewTextBoxColumn82,
-            this.dataGridViewTextBoxColumn83,
-            this.dataGridViewTextBoxColumn84});
-            this.dgv_ZelAO.Dock = System.Windows.Forms.DockStyle.Top;
-            this.dgv_ZelAO.Location = new System.Drawing.Point(3, 3);
-            this.dgv_ZelAO.Name = "dgv_ZelAO";
-            this.dgv_ZelAO.Size = new System.Drawing.Size(970, 518);
-            this.dgv_ZelAO.TabIndex = 2;
-            this.dgv_ZelAO.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgv_ZelAO_CellContentClick);
-            // 
-            // SAO
-            // 
-            this.SAO.Controls.Add(this.gb_chart_SAO);
-            this.SAO.Controls.Add(this.gb_SAO);
-            this.SAO.Controls.Add(this.lbl_Filter_SAO);
-            this.SAO.Controls.Add(this.dgv_SAO);
-            this.SAO.Location = new System.Drawing.Point(4, 22);
-            this.SAO.Name = "SAO";
-            this.SAO.Padding = new System.Windows.Forms.Padding(3);
-            this.SAO.Size = new System.Drawing.Size(976, 672);
-            this.SAO.TabIndex = 3;
-            this.SAO.Text = "САО";
-            this.SAO.UseVisualStyleBackColor = true;
-            // 
-            // gb_SAO
-            // 
-            this.gb_SAO.Controls.Add(this.rb_Clear_SAO);
-            this.gb_SAO.Controls.Add(this.rb_Deffect_SAO);
-            this.gb_SAO.Controls.Add(this.rb_Prev_SAO);
-            this.gb_SAO.Dock = System.Windows.Forms.DockStyle.Left;
-            this.gb_SAO.Location = new System.Drawing.Point(3, 560);
-            this.gb_SAO.Name = "gb_SAO";
-            this.gb_SAO.Size = new System.Drawing.Size(268, 109);
-            this.gb_SAO.TabIndex = 12;
-            this.gb_SAO.TabStop = false;
-            this.gb_SAO.Text = "Работа с данными";
-            // 
-            // rb_Clear_SAO
-            // 
-            this.rb_Clear_SAO.AutoSize = true;
-            this.rb_Clear_SAO.Dock = System.Windows.Forms.DockStyle.Top;
-            this.rb_Clear_SAO.Location = new System.Drawing.Point(3, 50);
-            this.rb_Clear_SAO.Name = "rb_Clear_SAO";
-            this.rb_Clear_SAO.Size = new System.Drawing.Size(262, 17);
-            this.rb_Clear_SAO.TabIndex = 6;
-            this.rb_Clear_SAO.TabStop = true;
-            this.rb_Clear_SAO.Text = "Очистить фильтр";
-            this.rb_Clear_SAO.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.rb_Clear_SAO.UseVisualStyleBackColor = true;
-            this.rb_Clear_SAO.CheckedChanged += new System.EventHandler(this.rb_Clear_SAO_CheckedChanged);
-            // 
-            // rb_Deffect_SAO
-            // 
-            this.rb_Deffect_SAO.AutoSize = true;
-            this.rb_Deffect_SAO.Dock = System.Windows.Forms.DockStyle.Top;
-            this.rb_Deffect_SAO.Location = new System.Drawing.Point(3, 33);
-            this.rb_Deffect_SAO.Name = "rb_Deffect_SAO";
-            this.rb_Deffect_SAO.Size = new System.Drawing.Size(262, 17);
-            this.rb_Deffect_SAO.TabIndex = 1;
-            this.rb_Deffect_SAO.TabStop = true;
-            this.rb_Deffect_SAO.Text = "Деффектные участки дорог (>40%)";
-            this.rb_Deffect_SAO.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.rb_Deffect_SAO.UseVisualStyleBackColor = true;
-            this.rb_Deffect_SAO.CheckedChanged += new System.EventHandler(this.rb_Deffect_SAO_CheckedChanged);
-            // 
-            // rb_Prev_SAO
-            // 
-            this.rb_Prev_SAO.AutoSize = true;
-            this.rb_Prev_SAO.Dock = System.Windows.Forms.DockStyle.Top;
-            this.rb_Prev_SAO.Location = new System.Drawing.Point(3, 16);
-            this.rb_Prev_SAO.Name = "rb_Prev_SAO";
-            this.rb_Prev_SAO.Size = new System.Drawing.Size(262, 17);
-            this.rb_Prev_SAO.TabIndex = 0;
-            this.rb_Prev_SAO.TabStop = true;
-            this.rb_Prev_SAO.Text = "Превышающие элементы";
-            this.rb_Prev_SAO.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.rb_Prev_SAO.UseVisualStyleBackColor = true;
-            this.rb_Prev_SAO.CheckedChanged += new System.EventHandler(this.rb_Prev_SAO_CheckedChanged);
-            // 
-            // lbl_Filter_SAO
-            // 
-            this.lbl_Filter_SAO.Dock = System.Windows.Forms.DockStyle.Top;
-            this.lbl_Filter_SAO.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.lbl_Filter_SAO.Location = new System.Drawing.Point(3, 521);
-            this.lbl_Filter_SAO.Name = "lbl_Filter_SAO";
-            this.lbl_Filter_SAO.Size = new System.Drawing.Size(970, 39);
-            this.lbl_Filter_SAO.TabIndex = 6;
-            this.lbl_Filter_SAO.Text = "Фильтр";
-            this.lbl_Filter_SAO.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // dgv_SAO
-            // 
-            this.dgv_SAO.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle5.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle5.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            dataGridViewCellStyle5.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle5.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle5.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgv_SAO.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle5;
-            this.dgv_SAO.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgv_SAO.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.dataGridViewCheckBoxColumn4,
-            this.dataGridViewTextBoxColumn85,
-            this.dataGridViewTextBoxColumn86,
-            this.dataGridViewTextBoxColumn87,
-            this.dataGridViewTextBoxColumn88,
-            this.dataGridViewTextBoxColumn89,
-            this.dataGridViewTextBoxColumn90,
-            this.dataGridViewTextBoxColumn91,
-            this.dataGridViewTextBoxColumn92,
-            this.dataGridViewTextBoxColumn93,
-            this.dataGridViewTextBoxColumn94,
-            this.dataGridViewTextBoxColumn95,
-            this.dataGridViewTextBoxColumn96,
-            this.dataGridViewTextBoxColumn97,
-            this.dataGridViewTextBoxColumn98,
-            this.dataGridViewTextBoxColumn99,
-            this.dataGridViewTextBoxColumn100,
-            this.dataGridViewTextBoxColumn101,
-            this.dataGridViewTextBoxColumn102,
-            this.dataGridViewTextBoxColumn103,
-            this.dataGridViewTextBoxColumn104,
-            this.dataGridViewTextBoxColumn105,
-            this.dataGridViewTextBoxColumn106,
-            this.dataGridViewTextBoxColumn107,
-            this.dataGridViewTextBoxColumn108,
-            this.dataGridViewTextBoxColumn109,
-            this.dataGridViewTextBoxColumn110,
-            this.dataGridViewTextBoxColumn111,
-            this.dataGridViewTextBoxColumn112,
-            this.dataGridViewTextBoxColumn113,
-            this.dataGridViewTextBoxColumn114,
-            this.dataGridViewTextBoxColumn115,
-            this.dataGridViewTextBoxColumn116,
-            this.dataGridViewTextBoxColumn117,
-            this.dataGridViewTextBoxColumn118,
-            this.dataGridViewTextBoxColumn119,
-            this.dataGridViewTextBoxColumn120,
-            this.dataGridViewTextBoxColumn121,
-            this.dataGridViewTextBoxColumn122,
-            this.dataGridViewTextBoxColumn123,
-            this.dataGridViewTextBoxColumn124,
-            this.dataGridViewTextBoxColumn125,
-            this.dataGridViewTextBoxColumn126});
-            this.dgv_SAO.Dock = System.Windows.Forms.DockStyle.Top;
-            this.dgv_SAO.Location = new System.Drawing.Point(3, 3);
-            this.dgv_SAO.Name = "dgv_SAO";
-            this.dgv_SAO.Size = new System.Drawing.Size(970, 518);
-            this.dgv_SAO.TabIndex = 2;
-            this.dgv_SAO.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgv_SAO_CellContentClick);
-            // 
-            // SVAO
-            // 
-            this.SVAO.Controls.Add(this.gb_chart_SVAO);
-            this.SVAO.Controls.Add(this.gb_SVAO);
-            this.SVAO.Controls.Add(this.lbl_Filter_SVAO);
-            this.SVAO.Controls.Add(this.dgv_SVAO);
-            this.SVAO.Location = new System.Drawing.Point(4, 22);
-            this.SVAO.Name = "SVAO";
-            this.SVAO.Padding = new System.Windows.Forms.Padding(3);
-            this.SVAO.Size = new System.Drawing.Size(976, 672);
-            this.SVAO.TabIndex = 4;
-            this.SVAO.Text = "СВАО";
-            this.SVAO.UseVisualStyleBackColor = true;
-            // 
-            // gb_SVAO
-            // 
-            this.gb_SVAO.Controls.Add(this.rb_Clear_SVAO);
-            this.gb_SVAO.Controls.Add(this.rb_Deffect_SVAO);
-            this.gb_SVAO.Controls.Add(this.rb_Prev_SVAO);
-            this.gb_SVAO.Dock = System.Windows.Forms.DockStyle.Left;
-            this.gb_SVAO.Location = new System.Drawing.Point(3, 560);
-            this.gb_SVAO.Name = "gb_SVAO";
-            this.gb_SVAO.Size = new System.Drawing.Size(268, 109);
-            this.gb_SVAO.TabIndex = 12;
-            this.gb_SVAO.TabStop = false;
-            this.gb_SVAO.Text = "Работа с данными";
-            // 
-            // rb_Clear_SVAO
-            // 
-            this.rb_Clear_SVAO.AutoSize = true;
-            this.rb_Clear_SVAO.Dock = System.Windows.Forms.DockStyle.Top;
-            this.rb_Clear_SVAO.Location = new System.Drawing.Point(3, 50);
-            this.rb_Clear_SVAO.Name = "rb_Clear_SVAO";
-            this.rb_Clear_SVAO.Size = new System.Drawing.Size(262, 17);
-            this.rb_Clear_SVAO.TabIndex = 6;
-            this.rb_Clear_SVAO.TabStop = true;
-            this.rb_Clear_SVAO.Text = "Очистить фильтр";
-            this.rb_Clear_SVAO.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.rb_Clear_SVAO.UseVisualStyleBackColor = true;
-            this.rb_Clear_SVAO.CheckedChanged += new System.EventHandler(this.rb_Clear_SVAO_CheckedChanged);
-            // 
-            // rb_Deffect_SVAO
-            // 
-            this.rb_Deffect_SVAO.AutoSize = true;
-            this.rb_Deffect_SVAO.Dock = System.Windows.Forms.DockStyle.Top;
-            this.rb_Deffect_SVAO.Location = new System.Drawing.Point(3, 33);
-            this.rb_Deffect_SVAO.Name = "rb_Deffect_SVAO";
-            this.rb_Deffect_SVAO.Size = new System.Drawing.Size(262, 17);
-            this.rb_Deffect_SVAO.TabIndex = 1;
-            this.rb_Deffect_SVAO.TabStop = true;
-            this.rb_Deffect_SVAO.Text = "Деффектные участки дорог (>40%)";
-            this.rb_Deffect_SVAO.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.rb_Deffect_SVAO.UseVisualStyleBackColor = true;
-            this.rb_Deffect_SVAO.CheckedChanged += new System.EventHandler(this.rb_Deffect_SVAO_CheckedChanged);
-            // 
-            // rb_Prev_SVAO
-            // 
-            this.rb_Prev_SVAO.AutoSize = true;
-            this.rb_Prev_SVAO.Dock = System.Windows.Forms.DockStyle.Top;
-            this.rb_Prev_SVAO.Location = new System.Drawing.Point(3, 16);
-            this.rb_Prev_SVAO.Name = "rb_Prev_SVAO";
-            this.rb_Prev_SVAO.Size = new System.Drawing.Size(262, 17);
-            this.rb_Prev_SVAO.TabIndex = 0;
-            this.rb_Prev_SVAO.TabStop = true;
-            this.rb_Prev_SVAO.Text = "Превышающие элементы";
-            this.rb_Prev_SVAO.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.rb_Prev_SVAO.UseVisualStyleBackColor = true;
-            this.rb_Prev_SVAO.CheckedChanged += new System.EventHandler(this.rb_Prev_SVAO_CheckedChanged);
-            // 
-            // lbl_Filter_SVAO
-            // 
-            this.lbl_Filter_SVAO.Dock = System.Windows.Forms.DockStyle.Top;
-            this.lbl_Filter_SVAO.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.lbl_Filter_SVAO.Location = new System.Drawing.Point(3, 521);
-            this.lbl_Filter_SVAO.Name = "lbl_Filter_SVAO";
-            this.lbl_Filter_SVAO.Size = new System.Drawing.Size(970, 39);
-            this.lbl_Filter_SVAO.TabIndex = 6;
-            this.lbl_Filter_SVAO.Text = "Фильтр";
-            this.lbl_Filter_SVAO.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // dgv_SVAO
-            // 
-            this.dgv_SVAO.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle6.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle6.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            dataGridViewCellStyle6.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle6.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle6.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle6.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgv_SVAO.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle6;
-            this.dgv_SVAO.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgv_SVAO.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.dataGridViewCheckBoxColumn5,
-            this.dataGridViewTextBoxColumn127,
-            this.dataGridViewTextBoxColumn128,
-            this.dataGridViewTextBoxColumn129,
-            this.dataGridViewTextBoxColumn130,
-            this.dataGridViewTextBoxColumn131,
-            this.dataGridViewTextBoxColumn132,
-            this.dataGridViewTextBoxColumn133,
-            this.dataGridViewTextBoxColumn134,
-            this.dataGridViewTextBoxColumn135,
-            this.dataGridViewTextBoxColumn136,
-            this.dataGridViewTextBoxColumn137,
-            this.dataGridViewTextBoxColumn138,
-            this.dataGridViewTextBoxColumn139,
-            this.dataGridViewTextBoxColumn140,
-            this.dataGridViewTextBoxColumn141,
-            this.dataGridViewTextBoxColumn142,
-            this.dataGridViewTextBoxColumn143,
-            this.dataGridViewTextBoxColumn144,
-            this.dataGridViewTextBoxColumn145,
-            this.dataGridViewTextBoxColumn146,
-            this.dataGridViewTextBoxColumn147,
-            this.dataGridViewTextBoxColumn148,
-            this.dataGridViewTextBoxColumn149,
-            this.dataGridViewTextBoxColumn150,
-            this.dataGridViewTextBoxColumn151,
-            this.dataGridViewTextBoxColumn152,
-            this.dataGridViewTextBoxColumn153,
-            this.dataGridViewTextBoxColumn154,
-            this.dataGridViewTextBoxColumn155,
-            this.dataGridViewTextBoxColumn156,
-            this.dataGridViewTextBoxColumn157,
-            this.dataGridViewTextBoxColumn158,
-            this.dataGridViewTextBoxColumn159,
-            this.dataGridViewTextBoxColumn160,
-            this.dataGridViewTextBoxColumn161,
-            this.dataGridViewTextBoxColumn162,
-            this.dataGridViewTextBoxColumn163,
-            this.dataGridViewTextBoxColumn164,
-            this.dataGridViewTextBoxColumn165,
-            this.dataGridViewTextBoxColumn166,
-            this.dataGridViewTextBoxColumn167,
-            this.dataGridViewTextBoxColumn168});
-            this.dgv_SVAO.Dock = System.Windows.Forms.DockStyle.Top;
-            this.dgv_SVAO.Location = new System.Drawing.Point(3, 3);
-            this.dgv_SVAO.Name = "dgv_SVAO";
-            this.dgv_SVAO.Size = new System.Drawing.Size(970, 518);
-            this.dgv_SVAO.TabIndex = 2;
-            this.dgv_SVAO.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgv_SVAO_CellContentClick);
-            // 
-            // SZAO
-            // 
-            this.SZAO.Controls.Add(this.gb_chart_SZAO);
-            this.SZAO.Controls.Add(this.gb_SZAO);
-            this.SZAO.Controls.Add(this.lbl_Filter_SZAO);
-            this.SZAO.Controls.Add(this.dgv_SZAO);
-            this.SZAO.Location = new System.Drawing.Point(4, 22);
-            this.SZAO.Name = "SZAO";
-            this.SZAO.Padding = new System.Windows.Forms.Padding(3);
-            this.SZAO.Size = new System.Drawing.Size(976, 672);
-            this.SZAO.TabIndex = 5;
-            this.SZAO.Text = "СЗАО";
-            this.SZAO.UseVisualStyleBackColor = true;
-            // 
-            // gb_SZAO
-            // 
-            this.gb_SZAO.Controls.Add(this.rb_Clear_SZAO);
-            this.gb_SZAO.Controls.Add(this.rb_Deffect_SZAO);
-            this.gb_SZAO.Controls.Add(this.rb_Prev_SZAO);
-            this.gb_SZAO.Dock = System.Windows.Forms.DockStyle.Left;
-            this.gb_SZAO.Location = new System.Drawing.Point(3, 560);
-            this.gb_SZAO.Name = "gb_SZAO";
-            this.gb_SZAO.Size = new System.Drawing.Size(268, 109);
-            this.gb_SZAO.TabIndex = 12;
-            this.gb_SZAO.TabStop = false;
-            this.gb_SZAO.Text = "Работа с данными";
-            // 
-            // rb_Clear_SZAO
-            // 
-            this.rb_Clear_SZAO.AutoSize = true;
-            this.rb_Clear_SZAO.Dock = System.Windows.Forms.DockStyle.Top;
-            this.rb_Clear_SZAO.Location = new System.Drawing.Point(3, 50);
-            this.rb_Clear_SZAO.Name = "rb_Clear_SZAO";
-            this.rb_Clear_SZAO.Size = new System.Drawing.Size(262, 17);
-            this.rb_Clear_SZAO.TabIndex = 6;
-            this.rb_Clear_SZAO.TabStop = true;
-            this.rb_Clear_SZAO.Text = "Очистить фильтр";
-            this.rb_Clear_SZAO.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.rb_Clear_SZAO.UseVisualStyleBackColor = true;
-            this.rb_Clear_SZAO.CheckedChanged += new System.EventHandler(this.rb_Clear_SZAO_CheckedChanged);
-            // 
-            // rb_Deffect_SZAO
-            // 
-            this.rb_Deffect_SZAO.AutoSize = true;
-            this.rb_Deffect_SZAO.Dock = System.Windows.Forms.DockStyle.Top;
-            this.rb_Deffect_SZAO.Location = new System.Drawing.Point(3, 33);
-            this.rb_Deffect_SZAO.Name = "rb_Deffect_SZAO";
-            this.rb_Deffect_SZAO.Size = new System.Drawing.Size(262, 17);
-            this.rb_Deffect_SZAO.TabIndex = 1;
-            this.rb_Deffect_SZAO.TabStop = true;
-            this.rb_Deffect_SZAO.Text = "Деффектные участки дорог (>40%)";
-            this.rb_Deffect_SZAO.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.rb_Deffect_SZAO.UseVisualStyleBackColor = true;
-            this.rb_Deffect_SZAO.CheckedChanged += new System.EventHandler(this.rb_Deffect_SZAO_CheckedChanged);
-            // 
-            // rb_Prev_SZAO
-            // 
-            this.rb_Prev_SZAO.AutoSize = true;
-            this.rb_Prev_SZAO.Dock = System.Windows.Forms.DockStyle.Top;
-            this.rb_Prev_SZAO.Location = new System.Drawing.Point(3, 16);
-            this.rb_Prev_SZAO.Name = "rb_Prev_SZAO";
-            this.rb_Prev_SZAO.Size = new System.Drawing.Size(262, 17);
-            this.rb_Prev_SZAO.TabIndex = 0;
-            this.rb_Prev_SZAO.TabStop = true;
-            this.rb_Prev_SZAO.Text = "Превышающие элементы";
-            this.rb_Prev_SZAO.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.rb_Prev_SZAO.UseVisualStyleBackColor = true;
-            this.rb_Prev_SZAO.CheckedChanged += new System.EventHandler(this.rb_Prev_SZAO_CheckedChanged);
-            // 
-            // lbl_Filter_SZAO
-            // 
-            this.lbl_Filter_SZAO.Dock = System.Windows.Forms.DockStyle.Top;
-            this.lbl_Filter_SZAO.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.lbl_Filter_SZAO.Location = new System.Drawing.Point(3, 521);
-            this.lbl_Filter_SZAO.Name = "lbl_Filter_SZAO";
-            this.lbl_Filter_SZAO.Size = new System.Drawing.Size(970, 39);
-            this.lbl_Filter_SZAO.TabIndex = 6;
-            this.lbl_Filter_SZAO.Text = "Фильтр";
-            this.lbl_Filter_SZAO.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // dgv_SZAO
-            // 
-            this.dgv_SZAO.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            dataGridViewCellStyle7.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle7.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle7.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            dataGridViewCellStyle7.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle7.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle7.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle7.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgv_SZAO.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle7;
-            this.dgv_SZAO.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgv_SZAO.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.dataGridViewCheckBoxColumn6,
-            this.dataGridViewTextBoxColumn169,
-            this.dataGridViewTextBoxColumn170,
-            this.dataGridViewTextBoxColumn171,
-            this.dataGridViewTextBoxColumn172,
-            this.dataGridViewTextBoxColumn173,
-            this.dataGridViewTextBoxColumn174,
-            this.dataGridViewTextBoxColumn175,
-            this.dataGridViewTextBoxColumn176,
-            this.dataGridViewTextBoxColumn177,
-            this.dataGridViewTextBoxColumn178,
-            this.dataGridViewTextBoxColumn179,
-            this.dataGridViewTextBoxColumn180,
-            this.dataGridViewTextBoxColumn181,
-            this.dataGridViewTextBoxColumn182,
-            this.dataGridViewTextBoxColumn183,
-            this.dataGridViewTextBoxColumn184,
-            this.dataGridViewTextBoxColumn185,
-            this.dataGridViewTextBoxColumn186,
-            this.dataGridViewTextBoxColumn187,
-            this.dataGridViewTextBoxColumn188,
-            this.dataGridViewTextBoxColumn189,
-            this.dataGridViewTextBoxColumn190,
-            this.dataGridViewTextBoxColumn191,
-            this.dataGridViewTextBoxColumn192,
-            this.dataGridViewTextBoxColumn193,
-            this.dataGridViewTextBoxColumn194,
-            this.dataGridViewTextBoxColumn195,
-            this.dataGridViewTextBoxColumn196,
-            this.dataGridViewTextBoxColumn197,
-            this.dataGridViewTextBoxColumn198,
-            this.dataGridViewTextBoxColumn199,
-            this.dataGridViewTextBoxColumn200,
-            this.dataGridViewTextBoxColumn201,
-            this.dataGridViewTextBoxColumn202,
-            this.dataGridViewTextBoxColumn203,
-            this.dataGridViewTextBoxColumn204,
-            this.dataGridViewTextBoxColumn205,
-            this.dataGridViewTextBoxColumn206,
-            this.dataGridViewTextBoxColumn207,
-            this.dataGridViewTextBoxColumn208,
-            this.dataGridViewTextBoxColumn209,
-            this.dataGridViewTextBoxColumn210});
-            this.dgv_SZAO.Dock = System.Windows.Forms.DockStyle.Top;
-            this.dgv_SZAO.Location = new System.Drawing.Point(3, 3);
-            this.dgv_SZAO.Name = "dgv_SZAO";
-            this.dgv_SZAO.Size = new System.Drawing.Size(970, 518);
-            this.dgv_SZAO.TabIndex = 2;
-            this.dgv_SZAO.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgv_SZAO_CellContentClick);
-            // 
-            // TiNAO
-            // 
-            this.TiNAO.Controls.Add(this.gb_chart_TiNAO);
-            this.TiNAO.Controls.Add(this.gb_TiNAO);
-            this.TiNAO.Controls.Add(this.lbl_Filter_TiNAO);
-            this.TiNAO.Controls.Add(this.dgv_TiNAO);
-            this.TiNAO.Location = new System.Drawing.Point(4, 22);
-            this.TiNAO.Name = "TiNAO";
-            this.TiNAO.Padding = new System.Windows.Forms.Padding(3);
-            this.TiNAO.Size = new System.Drawing.Size(976, 672);
-            this.TiNAO.TabIndex = 6;
-            this.TiNAO.Text = "ТиНАО";
-            this.TiNAO.UseVisualStyleBackColor = true;
-            // 
-            // gb_TiNAO
-            // 
-            this.gb_TiNAO.Controls.Add(this.rb_Clear_TiNAO);
-            this.gb_TiNAO.Controls.Add(this.rb_Deffect_TiNAO);
-            this.gb_TiNAO.Controls.Add(this.rb_Prev_TiNAO);
-            this.gb_TiNAO.Dock = System.Windows.Forms.DockStyle.Left;
-            this.gb_TiNAO.Location = new System.Drawing.Point(3, 560);
-            this.gb_TiNAO.Name = "gb_TiNAO";
-            this.gb_TiNAO.Size = new System.Drawing.Size(268, 109);
-            this.gb_TiNAO.TabIndex = 12;
-            this.gb_TiNAO.TabStop = false;
-            this.gb_TiNAO.Text = "Работа с данными";
-            // 
-            // rb_Clear_TiNAO
-            // 
-            this.rb_Clear_TiNAO.AutoSize = true;
-            this.rb_Clear_TiNAO.Dock = System.Windows.Forms.DockStyle.Top;
-            this.rb_Clear_TiNAO.Location = new System.Drawing.Point(3, 50);
-            this.rb_Clear_TiNAO.Name = "rb_Clear_TiNAO";
-            this.rb_Clear_TiNAO.Size = new System.Drawing.Size(262, 17);
-            this.rb_Clear_TiNAO.TabIndex = 6;
-            this.rb_Clear_TiNAO.TabStop = true;
-            this.rb_Clear_TiNAO.Text = "Очистить фильтр";
-            this.rb_Clear_TiNAO.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.rb_Clear_TiNAO.UseVisualStyleBackColor = true;
-            this.rb_Clear_TiNAO.CheckedChanged += new System.EventHandler(this.rb_Clear_TiNAO_CheckedChanged);
-            // 
-            // rb_Deffect_TiNAO
-            // 
-            this.rb_Deffect_TiNAO.AutoSize = true;
-            this.rb_Deffect_TiNAO.Dock = System.Windows.Forms.DockStyle.Top;
-            this.rb_Deffect_TiNAO.Location = new System.Drawing.Point(3, 33);
-            this.rb_Deffect_TiNAO.Name = "rb_Deffect_TiNAO";
-            this.rb_Deffect_TiNAO.Size = new System.Drawing.Size(262, 17);
-            this.rb_Deffect_TiNAO.TabIndex = 1;
-            this.rb_Deffect_TiNAO.TabStop = true;
-            this.rb_Deffect_TiNAO.Text = "Деффектные участки дорог (>40%)";
-            this.rb_Deffect_TiNAO.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.rb_Deffect_TiNAO.UseVisualStyleBackColor = true;
-            this.rb_Deffect_TiNAO.CheckedChanged += new System.EventHandler(this.rb_Deffect_TiNAO_CheckedChanged);
-            // 
-            // rb_Prev_TiNAO
-            // 
-            this.rb_Prev_TiNAO.AutoSize = true;
-            this.rb_Prev_TiNAO.Dock = System.Windows.Forms.DockStyle.Top;
-            this.rb_Prev_TiNAO.Location = new System.Drawing.Point(3, 16);
-            this.rb_Prev_TiNAO.Name = "rb_Prev_TiNAO";
-            this.rb_Prev_TiNAO.Size = new System.Drawing.Size(262, 17);
-            this.rb_Prev_TiNAO.TabIndex = 0;
-            this.rb_Prev_TiNAO.TabStop = true;
-            this.rb_Prev_TiNAO.Text = "Превышающие элементы";
-            this.rb_Prev_TiNAO.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.rb_Prev_TiNAO.UseVisualStyleBackColor = true;
-            this.rb_Prev_TiNAO.CheckedChanged += new System.EventHandler(this.rb_Prev_TiNAO_CheckedChanged);
-            // 
-            // lbl_Filter_TiNAO
-            // 
-            this.lbl_Filter_TiNAO.Dock = System.Windows.Forms.DockStyle.Top;
-            this.lbl_Filter_TiNAO.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.lbl_Filter_TiNAO.Location = new System.Drawing.Point(3, 521);
-            this.lbl_Filter_TiNAO.Name = "lbl_Filter_TiNAO";
-            this.lbl_Filter_TiNAO.Size = new System.Drawing.Size(970, 39);
-            this.lbl_Filter_TiNAO.TabIndex = 6;
-            this.lbl_Filter_TiNAO.Text = "Фильтр";
-            this.lbl_Filter_TiNAO.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // dgv_TiNAO
-            // 
-            this.dgv_TiNAO.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            dataGridViewCellStyle8.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle8.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle8.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            dataGridViewCellStyle8.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle8.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle8.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle8.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgv_TiNAO.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle8;
-            this.dgv_TiNAO.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgv_TiNAO.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.dataGridViewCheckBoxColumn7,
-            this.dataGridViewTextBoxColumn211,
-            this.dataGridViewTextBoxColumn212,
-            this.dataGridViewTextBoxColumn213,
-            this.dataGridViewTextBoxColumn214,
-            this.dataGridViewTextBoxColumn215,
-            this.dataGridViewTextBoxColumn216,
-            this.dataGridViewTextBoxColumn217,
-            this.dataGridViewTextBoxColumn218,
-            this.dataGridViewTextBoxColumn219,
-            this.dataGridViewTextBoxColumn220,
-            this.dataGridViewTextBoxColumn221,
-            this.dataGridViewTextBoxColumn222,
-            this.dataGridViewTextBoxColumn223,
-            this.dataGridViewTextBoxColumn224,
-            this.dataGridViewTextBoxColumn225,
-            this.dataGridViewTextBoxColumn226,
-            this.dataGridViewTextBoxColumn227,
-            this.dataGridViewTextBoxColumn228,
-            this.dataGridViewTextBoxColumn229,
-            this.dataGridViewTextBoxColumn230,
-            this.dataGridViewTextBoxColumn231,
-            this.dataGridViewTextBoxColumn232,
-            this.dataGridViewTextBoxColumn233,
-            this.dataGridViewTextBoxColumn234,
-            this.dataGridViewTextBoxColumn235,
-            this.dataGridViewTextBoxColumn236,
-            this.dataGridViewTextBoxColumn237,
-            this.dataGridViewTextBoxColumn238,
-            this.dataGridViewTextBoxColumn239,
-            this.dataGridViewTextBoxColumn240,
-            this.dataGridViewTextBoxColumn241,
-            this.dataGridViewTextBoxColumn242,
-            this.dataGridViewTextBoxColumn243,
-            this.dataGridViewTextBoxColumn244,
-            this.dataGridViewTextBoxColumn245,
-            this.dataGridViewTextBoxColumn246,
-            this.dataGridViewTextBoxColumn247,
-            this.dataGridViewTextBoxColumn248,
-            this.dataGridViewTextBoxColumn249,
-            this.dataGridViewTextBoxColumn250,
-            this.dataGridViewTextBoxColumn251,
-            this.dataGridViewTextBoxColumn252});
-            this.dgv_TiNAO.Dock = System.Windows.Forms.DockStyle.Top;
-            this.dgv_TiNAO.Location = new System.Drawing.Point(3, 3);
-            this.dgv_TiNAO.Name = "dgv_TiNAO";
-            this.dgv_TiNAO.Size = new System.Drawing.Size(970, 518);
-            this.dgv_TiNAO.TabIndex = 2;
-            this.dgv_TiNAO.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgv_TiNAO_CellContentClick);
-            // 
-            // TCAO
-            // 
-            this.TCAO.Controls.Add(this.gb_chart_TSAO);
-            this.TCAO.Controls.Add(this.gb_TSAO);
-            this.TCAO.Controls.Add(this.lbl_Filter_TSAO);
-            this.TCAO.Controls.Add(this.dgv_TSAO);
-            this.TCAO.Location = new System.Drawing.Point(4, 22);
-            this.TCAO.Name = "TCAO";
-            this.TCAO.Padding = new System.Windows.Forms.Padding(3);
-            this.TCAO.Size = new System.Drawing.Size(976, 672);
-            this.TCAO.TabIndex = 7;
-            this.TCAO.Text = "ЦАО";
-            this.TCAO.UseVisualStyleBackColor = true;
-            // 
-            // gb_TSAO
-            // 
-            this.gb_TSAO.Controls.Add(this.rb_Clear_TSAO);
-            this.gb_TSAO.Controls.Add(this.rb_Deffect_TSAO);
-            this.gb_TSAO.Controls.Add(this.rb_Prev_TSAO);
-            this.gb_TSAO.Dock = System.Windows.Forms.DockStyle.Left;
-            this.gb_TSAO.Location = new System.Drawing.Point(3, 560);
-            this.gb_TSAO.Name = "gb_TSAO";
-            this.gb_TSAO.Size = new System.Drawing.Size(268, 109);
-            this.gb_TSAO.TabIndex = 12;
-            this.gb_TSAO.TabStop = false;
-            this.gb_TSAO.Text = "Работа с данными";
-            // 
-            // rb_Clear_TSAO
-            // 
-            this.rb_Clear_TSAO.AutoSize = true;
-            this.rb_Clear_TSAO.Dock = System.Windows.Forms.DockStyle.Top;
-            this.rb_Clear_TSAO.Location = new System.Drawing.Point(3, 50);
-            this.rb_Clear_TSAO.Name = "rb_Clear_TSAO";
-            this.rb_Clear_TSAO.Size = new System.Drawing.Size(262, 17);
-            this.rb_Clear_TSAO.TabIndex = 6;
-            this.rb_Clear_TSAO.TabStop = true;
-            this.rb_Clear_TSAO.Text = "Очистить фильтр";
-            this.rb_Clear_TSAO.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.rb_Clear_TSAO.UseVisualStyleBackColor = true;
-            this.rb_Clear_TSAO.CheckedChanged += new System.EventHandler(this.rb_Clear_TSAO_CheckedChanged);
-            // 
-            // rb_Deffect_TSAO
-            // 
-            this.rb_Deffect_TSAO.AutoSize = true;
-            this.rb_Deffect_TSAO.Dock = System.Windows.Forms.DockStyle.Top;
-            this.rb_Deffect_TSAO.Location = new System.Drawing.Point(3, 33);
-            this.rb_Deffect_TSAO.Name = "rb_Deffect_TSAO";
-            this.rb_Deffect_TSAO.Size = new System.Drawing.Size(262, 17);
-            this.rb_Deffect_TSAO.TabIndex = 1;
-            this.rb_Deffect_TSAO.TabStop = true;
-            this.rb_Deffect_TSAO.Text = "Деффектные участки дорог (>40%)";
-            this.rb_Deffect_TSAO.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.rb_Deffect_TSAO.UseVisualStyleBackColor = true;
-            this.rb_Deffect_TSAO.CheckedChanged += new System.EventHandler(this.rb_Deffect_TSAO_CheckedChanged);
-            // 
-            // rb_Prev_TSAO
-            // 
-            this.rb_Prev_TSAO.AutoSize = true;
-            this.rb_Prev_TSAO.Dock = System.Windows.Forms.DockStyle.Top;
-            this.rb_Prev_TSAO.Location = new System.Drawing.Point(3, 16);
-            this.rb_Prev_TSAO.Name = "rb_Prev_TSAO";
-            this.rb_Prev_TSAO.Size = new System.Drawing.Size(262, 17);
-            this.rb_Prev_TSAO.TabIndex = 0;
-            this.rb_Prev_TSAO.TabStop = true;
-            this.rb_Prev_TSAO.Text = "Превышающие элементы";
-            this.rb_Prev_TSAO.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.rb_Prev_TSAO.UseVisualStyleBackColor = true;
-            this.rb_Prev_TSAO.CheckedChanged += new System.EventHandler(this.rb_Prev_TSAO_CheckedChanged);
-            // 
-            // lbl_Filter_TSAO
-            // 
-            this.lbl_Filter_TSAO.Dock = System.Windows.Forms.DockStyle.Top;
-            this.lbl_Filter_TSAO.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.lbl_Filter_TSAO.Location = new System.Drawing.Point(3, 521);
-            this.lbl_Filter_TSAO.Name = "lbl_Filter_TSAO";
-            this.lbl_Filter_TSAO.Size = new System.Drawing.Size(970, 39);
-            this.lbl_Filter_TSAO.TabIndex = 6;
-            this.lbl_Filter_TSAO.Text = "Фильтр";
-            this.lbl_Filter_TSAO.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // dgv_TSAO
-            // 
-            this.dgv_TSAO.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            dataGridViewCellStyle9.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle9.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle9.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            dataGridViewCellStyle9.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle9.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle9.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle9.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgv_TSAO.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle9;
-            this.dgv_TSAO.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgv_TSAO.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.dataGridViewCheckBoxColumn8,
-            this.dataGridViewTextBoxColumn253,
-            this.dataGridViewTextBoxColumn254,
-            this.dataGridViewTextBoxColumn255,
-            this.dataGridViewTextBoxColumn256,
-            this.dataGridViewTextBoxColumn257,
-            this.dataGridViewTextBoxColumn258,
-            this.dataGridViewTextBoxColumn259,
-            this.dataGridViewTextBoxColumn260,
-            this.dataGridViewTextBoxColumn261,
-            this.dataGridViewTextBoxColumn262,
-            this.dataGridViewTextBoxColumn263,
-            this.dataGridViewTextBoxColumn264,
-            this.dataGridViewTextBoxColumn265,
-            this.dataGridViewTextBoxColumn266,
-            this.dataGridViewTextBoxColumn267,
-            this.dataGridViewTextBoxColumn268,
-            this.dataGridViewTextBoxColumn269,
-            this.dataGridViewTextBoxColumn270,
-            this.dataGridViewTextBoxColumn271,
-            this.dataGridViewTextBoxColumn272,
-            this.dataGridViewTextBoxColumn273,
-            this.dataGridViewTextBoxColumn274,
-            this.dataGridViewTextBoxColumn275,
-            this.dataGridViewTextBoxColumn276,
-            this.dataGridViewTextBoxColumn277,
-            this.dataGridViewTextBoxColumn278,
-            this.dataGridViewTextBoxColumn279,
-            this.dataGridViewTextBoxColumn280,
-            this.dataGridViewTextBoxColumn281,
-            this.dataGridViewTextBoxColumn282,
-            this.dataGridViewTextBoxColumn283,
-            this.dataGridViewTextBoxColumn284,
-            this.dataGridViewTextBoxColumn285,
-            this.dataGridViewTextBoxColumn286,
-            this.dataGridViewTextBoxColumn287,
-            this.dataGridViewTextBoxColumn288,
-            this.dataGridViewTextBoxColumn289,
-            this.dataGridViewTextBoxColumn290,
-            this.dataGridViewTextBoxColumn291,
-            this.dataGridViewTextBoxColumn292,
-            this.dataGridViewTextBoxColumn293,
-            this.dataGridViewTextBoxColumn294});
-            this.dgv_TSAO.Dock = System.Windows.Forms.DockStyle.Top;
-            this.dgv_TSAO.Location = new System.Drawing.Point(3, 3);
-            this.dgv_TSAO.Name = "dgv_TSAO";
-            this.dgv_TSAO.Size = new System.Drawing.Size(970, 518);
-            this.dgv_TSAO.TabIndex = 3;
-            this.dgv_TSAO.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgv_TSAO_CellContentClick);
-            // 
-            // YAO
-            // 
-            this.YAO.Controls.Add(this.gb_chart_YAO);
-            this.YAO.Controls.Add(this.gb_YAO);
-            this.YAO.Controls.Add(this.lbl_Filter_YAO);
-            this.YAO.Controls.Add(this.dgv_YAO);
-            this.YAO.Location = new System.Drawing.Point(4, 22);
-            this.YAO.Name = "YAO";
-            this.YAO.Padding = new System.Windows.Forms.Padding(3);
-            this.YAO.Size = new System.Drawing.Size(976, 672);
-            this.YAO.TabIndex = 8;
-            this.YAO.Text = "ЮАО";
-            this.YAO.UseVisualStyleBackColor = true;
-            // 
-            // gb_YAO
-            // 
-            this.gb_YAO.Controls.Add(this.rb_Clear_YAO);
-            this.gb_YAO.Controls.Add(this.rb_Deffect_YAO);
-            this.gb_YAO.Controls.Add(this.rb_Prev_YAO);
-            this.gb_YAO.Dock = System.Windows.Forms.DockStyle.Left;
-            this.gb_YAO.Location = new System.Drawing.Point(3, 560);
-            this.gb_YAO.Name = "gb_YAO";
-            this.gb_YAO.Size = new System.Drawing.Size(268, 109);
-            this.gb_YAO.TabIndex = 12;
-            this.gb_YAO.TabStop = false;
-            this.gb_YAO.Text = "Работа с данными";
-            // 
-            // rb_Clear_YAO
-            // 
-            this.rb_Clear_YAO.AutoSize = true;
-            this.rb_Clear_YAO.Dock = System.Windows.Forms.DockStyle.Top;
-            this.rb_Clear_YAO.Location = new System.Drawing.Point(3, 50);
-            this.rb_Clear_YAO.Name = "rb_Clear_YAO";
-            this.rb_Clear_YAO.Size = new System.Drawing.Size(262, 17);
-            this.rb_Clear_YAO.TabIndex = 6;
-            this.rb_Clear_YAO.TabStop = true;
-            this.rb_Clear_YAO.Text = "Очистить фильтр";
-            this.rb_Clear_YAO.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.rb_Clear_YAO.UseVisualStyleBackColor = true;
-            this.rb_Clear_YAO.CheckedChanged += new System.EventHandler(this.rb_Clear_YAO_CheckedChanged);
-            // 
-            // rb_Deffect_YAO
-            // 
-            this.rb_Deffect_YAO.AutoSize = true;
-            this.rb_Deffect_YAO.Dock = System.Windows.Forms.DockStyle.Top;
-            this.rb_Deffect_YAO.Location = new System.Drawing.Point(3, 33);
-            this.rb_Deffect_YAO.Name = "rb_Deffect_YAO";
-            this.rb_Deffect_YAO.Size = new System.Drawing.Size(262, 17);
-            this.rb_Deffect_YAO.TabIndex = 1;
-            this.rb_Deffect_YAO.TabStop = true;
-            this.rb_Deffect_YAO.Text = "Деффектные участки дорог (>40%)";
-            this.rb_Deffect_YAO.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.rb_Deffect_YAO.UseVisualStyleBackColor = true;
-            this.rb_Deffect_YAO.CheckedChanged += new System.EventHandler(this.rb_Deffect_YAO_CheckedChanged);
-            // 
-            // rb_Prev_YAO
-            // 
-            this.rb_Prev_YAO.AutoSize = true;
-            this.rb_Prev_YAO.Dock = System.Windows.Forms.DockStyle.Top;
-            this.rb_Prev_YAO.Location = new System.Drawing.Point(3, 16);
-            this.rb_Prev_YAO.Name = "rb_Prev_YAO";
-            this.rb_Prev_YAO.Size = new System.Drawing.Size(262, 17);
-            this.rb_Prev_YAO.TabIndex = 0;
-            this.rb_Prev_YAO.TabStop = true;
-            this.rb_Prev_YAO.Text = "Превышающие элементы";
-            this.rb_Prev_YAO.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.rb_Prev_YAO.UseVisualStyleBackColor = true;
-            this.rb_Prev_YAO.CheckedChanged += new System.EventHandler(this.rb_Prev_YAO_CheckedChanged);
-            // 
-            // lbl_Filter_YAO
-            // 
-            this.lbl_Filter_YAO.Dock = System.Windows.Forms.DockStyle.Top;
-            this.lbl_Filter_YAO.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.lbl_Filter_YAO.Location = new System.Drawing.Point(3, 521);
-            this.lbl_Filter_YAO.Name = "lbl_Filter_YAO";
-            this.lbl_Filter_YAO.Size = new System.Drawing.Size(970, 39);
-            this.lbl_Filter_YAO.TabIndex = 6;
-            this.lbl_Filter_YAO.Text = "Фильтр";
-            this.lbl_Filter_YAO.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // dgv_YAO
-            // 
-            this.dgv_YAO.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            dataGridViewCellStyle10.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle10.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle10.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            dataGridViewCellStyle10.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle10.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle10.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle10.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgv_YAO.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle10;
-            this.dgv_YAO.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgv_YAO.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.dataGridViewCheckBoxColumn9,
-            this.dataGridViewTextBoxColumn295,
-            this.dataGridViewTextBoxColumn296,
-            this.dataGridViewTextBoxColumn297,
-            this.dataGridViewTextBoxColumn298,
-            this.dataGridViewTextBoxColumn299,
-            this.dataGridViewTextBoxColumn300,
-            this.dataGridViewTextBoxColumn301,
-            this.dataGridViewTextBoxColumn302,
-            this.dataGridViewTextBoxColumn303,
-            this.dataGridViewTextBoxColumn304,
-            this.dataGridViewTextBoxColumn305,
-            this.dataGridViewTextBoxColumn306,
-            this.dataGridViewTextBoxColumn307,
-            this.dataGridViewTextBoxColumn308,
-            this.dataGridViewTextBoxColumn309,
-            this.dataGridViewTextBoxColumn310,
-            this.dataGridViewTextBoxColumn311,
-            this.dataGridViewTextBoxColumn312,
-            this.dataGridViewTextBoxColumn313,
-            this.dataGridViewTextBoxColumn314,
-            this.dataGridViewTextBoxColumn315,
-            this.dataGridViewTextBoxColumn316,
-            this.dataGridViewTextBoxColumn317,
-            this.dataGridViewTextBoxColumn318,
-            this.dataGridViewTextBoxColumn319,
-            this.dataGridViewTextBoxColumn320,
-            this.dataGridViewTextBoxColumn321,
-            this.dataGridViewTextBoxColumn322,
-            this.dataGridViewTextBoxColumn323,
-            this.dataGridViewTextBoxColumn324,
-            this.dataGridViewTextBoxColumn325,
-            this.dataGridViewTextBoxColumn326,
-            this.dataGridViewTextBoxColumn327,
-            this.dataGridViewTextBoxColumn328,
-            this.dataGridViewTextBoxColumn329,
-            this.dataGridViewTextBoxColumn330,
-            this.dataGridViewTextBoxColumn331,
-            this.dataGridViewTextBoxColumn332,
-            this.dataGridViewTextBoxColumn333,
-            this.dataGridViewTextBoxColumn334,
-            this.dataGridViewTextBoxColumn335,
-            this.dataGridViewTextBoxColumn336});
-            this.dgv_YAO.Dock = System.Windows.Forms.DockStyle.Top;
-            this.dgv_YAO.Location = new System.Drawing.Point(3, 3);
-            this.dgv_YAO.Name = "dgv_YAO";
-            this.dgv_YAO.Size = new System.Drawing.Size(970, 518);
-            this.dgv_YAO.TabIndex = 3;
-            this.dgv_YAO.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgv_YAO_CellContentClick);
-            // 
-            // YVAO
-            // 
-            this.YVAO.Controls.Add(this.gb_chart_YVAO);
-            this.YVAO.Controls.Add(this.gb_YVAO);
-            this.YVAO.Controls.Add(this.lbl_Filter_YVAO);
-            this.YVAO.Controls.Add(this.dgv_YVAO);
-            this.YVAO.Location = new System.Drawing.Point(4, 22);
-            this.YVAO.Name = "YVAO";
-            this.YVAO.Padding = new System.Windows.Forms.Padding(3);
-            this.YVAO.Size = new System.Drawing.Size(976, 672);
-            this.YVAO.TabIndex = 9;
-            this.YVAO.Text = "ЮВАО";
-            this.YVAO.UseVisualStyleBackColor = true;
-            // 
-            // gb_YVAO
-            // 
-            this.gb_YVAO.Controls.Add(this.rb_Clear_YVAO);
-            this.gb_YVAO.Controls.Add(this.rb_Deffect_YVAO);
-            this.gb_YVAO.Controls.Add(this.rb_Prev_YVAO);
-            this.gb_YVAO.Dock = System.Windows.Forms.DockStyle.Left;
-            this.gb_YVAO.Location = new System.Drawing.Point(3, 560);
-            this.gb_YVAO.Name = "gb_YVAO";
-            this.gb_YVAO.Size = new System.Drawing.Size(268, 109);
-            this.gb_YVAO.TabIndex = 12;
-            this.gb_YVAO.TabStop = false;
-            this.gb_YVAO.Text = "Работа с данными";
-            // 
-            // rb_Clear_YVAO
-            // 
-            this.rb_Clear_YVAO.AutoSize = true;
-            this.rb_Clear_YVAO.Dock = System.Windows.Forms.DockStyle.Top;
-            this.rb_Clear_YVAO.Location = new System.Drawing.Point(3, 50);
-            this.rb_Clear_YVAO.Name = "rb_Clear_YVAO";
-            this.rb_Clear_YVAO.Size = new System.Drawing.Size(262, 17);
-            this.rb_Clear_YVAO.TabIndex = 6;
-            this.rb_Clear_YVAO.TabStop = true;
-            this.rb_Clear_YVAO.Text = "Очистить фильтр";
-            this.rb_Clear_YVAO.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.rb_Clear_YVAO.UseVisualStyleBackColor = true;
-            this.rb_Clear_YVAO.CheckedChanged += new System.EventHandler(this.rb_Clear_YVAO_CheckedChanged);
-            // 
-            // rb_Deffect_YVAO
-            // 
-            this.rb_Deffect_YVAO.AutoSize = true;
-            this.rb_Deffect_YVAO.Dock = System.Windows.Forms.DockStyle.Top;
-            this.rb_Deffect_YVAO.Location = new System.Drawing.Point(3, 33);
-            this.rb_Deffect_YVAO.Name = "rb_Deffect_YVAO";
-            this.rb_Deffect_YVAO.Size = new System.Drawing.Size(262, 17);
-            this.rb_Deffect_YVAO.TabIndex = 1;
-            this.rb_Deffect_YVAO.TabStop = true;
-            this.rb_Deffect_YVAO.Text = "Деффектные участки дорог (>40%)";
-            this.rb_Deffect_YVAO.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.rb_Deffect_YVAO.UseVisualStyleBackColor = true;
-            this.rb_Deffect_YVAO.CheckedChanged += new System.EventHandler(this.rb_Deffect_YVAO_CheckedChanged);
-            // 
-            // rb_Prev_YVAO
-            // 
-            this.rb_Prev_YVAO.AutoSize = true;
-            this.rb_Prev_YVAO.Dock = System.Windows.Forms.DockStyle.Top;
-            this.rb_Prev_YVAO.Location = new System.Drawing.Point(3, 16);
-            this.rb_Prev_YVAO.Name = "rb_Prev_YVAO";
-            this.rb_Prev_YVAO.Size = new System.Drawing.Size(262, 17);
-            this.rb_Prev_YVAO.TabIndex = 0;
-            this.rb_Prev_YVAO.TabStop = true;
-            this.rb_Prev_YVAO.Text = "Превышающие элементы";
-            this.rb_Prev_YVAO.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.rb_Prev_YVAO.UseVisualStyleBackColor = true;
-            this.rb_Prev_YVAO.CheckedChanged += new System.EventHandler(this.rb_Prev_YVAO_CheckedChanged);
-            // 
-            // lbl_Filter_YVAO
-            // 
-            this.lbl_Filter_YVAO.Dock = System.Windows.Forms.DockStyle.Top;
-            this.lbl_Filter_YVAO.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.lbl_Filter_YVAO.Location = new System.Drawing.Point(3, 521);
-            this.lbl_Filter_YVAO.Name = "lbl_Filter_YVAO";
-            this.lbl_Filter_YVAO.Size = new System.Drawing.Size(970, 39);
-            this.lbl_Filter_YVAO.TabIndex = 6;
-            this.lbl_Filter_YVAO.Text = "Фильтр";
-            this.lbl_Filter_YVAO.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // dgv_YVAO
-            // 
-            this.dgv_YVAO.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            dataGridViewCellStyle11.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle11.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle11.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            dataGridViewCellStyle11.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle11.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle11.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle11.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgv_YVAO.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle11;
-            this.dgv_YVAO.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgv_YVAO.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.dataGridViewCheckBoxColumn10,
-            this.dataGridViewTextBoxColumn337,
-            this.dataGridViewTextBoxColumn338,
-            this.dataGridViewTextBoxColumn339,
-            this.dataGridViewTextBoxColumn340,
-            this.dataGridViewTextBoxColumn341,
-            this.dataGridViewTextBoxColumn342,
-            this.dataGridViewTextBoxColumn343,
-            this.dataGridViewTextBoxColumn344,
-            this.dataGridViewTextBoxColumn345,
-            this.dataGridViewTextBoxColumn346,
-            this.dataGridViewTextBoxColumn347,
-            this.dataGridViewTextBoxColumn348,
-            this.dataGridViewTextBoxColumn349,
-            this.dataGridViewTextBoxColumn350,
-            this.dataGridViewTextBoxColumn351,
-            this.dataGridViewTextBoxColumn352,
-            this.dataGridViewTextBoxColumn353,
-            this.dataGridViewTextBoxColumn354,
-            this.dataGridViewTextBoxColumn355,
-            this.dataGridViewTextBoxColumn356,
-            this.dataGridViewTextBoxColumn357,
-            this.dataGridViewTextBoxColumn358,
-            this.dataGridViewTextBoxColumn359,
-            this.dataGridViewTextBoxColumn360,
-            this.dataGridViewTextBoxColumn361,
-            this.dataGridViewTextBoxColumn362,
-            this.dataGridViewTextBoxColumn363,
-            this.dataGridViewTextBoxColumn364,
-            this.dataGridViewTextBoxColumn365,
-            this.dataGridViewTextBoxColumn366,
-            this.dataGridViewTextBoxColumn367,
-            this.dataGridViewTextBoxColumn368,
-            this.dataGridViewTextBoxColumn369,
-            this.dataGridViewTextBoxColumn370,
-            this.dataGridViewTextBoxColumn371,
-            this.dataGridViewTextBoxColumn372,
-            this.dataGridViewTextBoxColumn373,
-            this.dataGridViewTextBoxColumn374,
-            this.dataGridViewTextBoxColumn375,
-            this.dataGridViewTextBoxColumn376,
-            this.dataGridViewTextBoxColumn377,
-            this.dataGridViewTextBoxColumn378});
-            this.dgv_YVAO.Dock = System.Windows.Forms.DockStyle.Top;
-            this.dgv_YVAO.Location = new System.Drawing.Point(3, 3);
-            this.dgv_YVAO.Name = "dgv_YVAO";
-            this.dgv_YVAO.Size = new System.Drawing.Size(970, 518);
-            this.dgv_YVAO.TabIndex = 3;
-            this.dgv_YVAO.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgv_YVAO_CellContentClick);
-            // 
-            // YZAO
-            // 
-            this.YZAO.Controls.Add(this.gb_chart_YZAO);
-            this.YZAO.Controls.Add(this.gb_YZAO);
-            this.YZAO.Controls.Add(this.lbl_Filter_YZAO);
-            this.YZAO.Controls.Add(this.dgv_YZAO);
-            this.YZAO.Location = new System.Drawing.Point(4, 22);
-            this.YZAO.Name = "YZAO";
-            this.YZAO.Padding = new System.Windows.Forms.Padding(3);
-            this.YZAO.Size = new System.Drawing.Size(976, 672);
-            this.YZAO.TabIndex = 10;
-            this.YZAO.Text = "ЮЗАО";
-            this.YZAO.UseVisualStyleBackColor = true;
-            // 
-            // gb_YZAO
-            // 
-            this.gb_YZAO.Controls.Add(this.rb_Clear_YZAO);
-            this.gb_YZAO.Controls.Add(this.rb_Deffect_YZAO);
-            this.gb_YZAO.Controls.Add(this.rb_Prev_YZAO);
-            this.gb_YZAO.Dock = System.Windows.Forms.DockStyle.Left;
-            this.gb_YZAO.Location = new System.Drawing.Point(3, 560);
-            this.gb_YZAO.Name = "gb_YZAO";
-            this.gb_YZAO.Size = new System.Drawing.Size(268, 109);
-            this.gb_YZAO.TabIndex = 12;
-            this.gb_YZAO.TabStop = false;
-            this.gb_YZAO.Text = "Работа с данными";
-            // 
-            // rb_Clear_YZAO
-            // 
-            this.rb_Clear_YZAO.AutoSize = true;
-            this.rb_Clear_YZAO.Dock = System.Windows.Forms.DockStyle.Top;
-            this.rb_Clear_YZAO.Location = new System.Drawing.Point(3, 50);
-            this.rb_Clear_YZAO.Name = "rb_Clear_YZAO";
-            this.rb_Clear_YZAO.Size = new System.Drawing.Size(262, 17);
-            this.rb_Clear_YZAO.TabIndex = 6;
-            this.rb_Clear_YZAO.TabStop = true;
-            this.rb_Clear_YZAO.Text = "Очистить фильтр";
-            this.rb_Clear_YZAO.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.rb_Clear_YZAO.UseVisualStyleBackColor = true;
-            this.rb_Clear_YZAO.CheckedChanged += new System.EventHandler(this.rb_Clear_YZAO_CheckedChanged);
-            // 
-            // rb_Deffect_YZAO
-            // 
-            this.rb_Deffect_YZAO.AutoSize = true;
-            this.rb_Deffect_YZAO.Dock = System.Windows.Forms.DockStyle.Top;
-            this.rb_Deffect_YZAO.Location = new System.Drawing.Point(3, 33);
-            this.rb_Deffect_YZAO.Name = "rb_Deffect_YZAO";
-            this.rb_Deffect_YZAO.Size = new System.Drawing.Size(262, 17);
-            this.rb_Deffect_YZAO.TabIndex = 1;
-            this.rb_Deffect_YZAO.TabStop = true;
-            this.rb_Deffect_YZAO.Text = "Деффектные участки дорог (>40%)";
-            this.rb_Deffect_YZAO.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.rb_Deffect_YZAO.UseVisualStyleBackColor = true;
-            this.rb_Deffect_YZAO.CheckedChanged += new System.EventHandler(this.rb_Deffect_YZAO_CheckedChanged);
-            // 
-            // rb_Prev_YZAO
-            // 
-            this.rb_Prev_YZAO.AutoSize = true;
-            this.rb_Prev_YZAO.Dock = System.Windows.Forms.DockStyle.Top;
-            this.rb_Prev_YZAO.Location = new System.Drawing.Point(3, 16);
-            this.rb_Prev_YZAO.Name = "rb_Prev_YZAO";
-            this.rb_Prev_YZAO.Size = new System.Drawing.Size(262, 17);
-            this.rb_Prev_YZAO.TabIndex = 0;
-            this.rb_Prev_YZAO.TabStop = true;
-            this.rb_Prev_YZAO.Text = "Превышающие элементы";
-            this.rb_Prev_YZAO.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.rb_Prev_YZAO.UseVisualStyleBackColor = true;
-            this.rb_Prev_YZAO.CheckedChanged += new System.EventHandler(this.rb_Prev_YZAO_CheckedChanged);
-            // 
-            // lbl_Filter_YZAO
-            // 
-            this.lbl_Filter_YZAO.Dock = System.Windows.Forms.DockStyle.Top;
-            this.lbl_Filter_YZAO.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.lbl_Filter_YZAO.Location = new System.Drawing.Point(3, 521);
-            this.lbl_Filter_YZAO.Name = "lbl_Filter_YZAO";
-            this.lbl_Filter_YZAO.Size = new System.Drawing.Size(970, 39);
-            this.lbl_Filter_YZAO.TabIndex = 6;
-            this.lbl_Filter_YZAO.Text = "Фильтр";
-            this.lbl_Filter_YZAO.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // dgv_YZAO
-            // 
-            this.dgv_YZAO.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            dataGridViewCellStyle12.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle12.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle12.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            dataGridViewCellStyle12.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle12.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle12.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle12.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgv_YZAO.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle12;
-            this.dgv_YZAO.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgv_YZAO.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.dataGridViewCheckBoxColumn11,
-            this.dataGridViewTextBoxColumn379,
-            this.dataGridViewTextBoxColumn380,
-            this.dataGridViewTextBoxColumn381,
-            this.dataGridViewTextBoxColumn382,
-            this.dataGridViewTextBoxColumn383,
-            this.dataGridViewTextBoxColumn384,
-            this.dataGridViewTextBoxColumn385,
-            this.dataGridViewTextBoxColumn386,
-            this.dataGridViewTextBoxColumn387,
-            this.dataGridViewTextBoxColumn388,
-            this.dataGridViewTextBoxColumn389,
-            this.dataGridViewTextBoxColumn390,
-            this.dataGridViewTextBoxColumn391,
-            this.dataGridViewTextBoxColumn392,
-            this.dataGridViewTextBoxColumn393,
-            this.dataGridViewTextBoxColumn394,
-            this.dataGridViewTextBoxColumn395,
-            this.dataGridViewTextBoxColumn396,
-            this.dataGridViewTextBoxColumn397,
-            this.dataGridViewTextBoxColumn398,
-            this.dataGridViewTextBoxColumn399,
-            this.dataGridViewTextBoxColumn400,
-            this.dataGridViewTextBoxColumn401,
-            this.dataGridViewTextBoxColumn402,
-            this.dataGridViewTextBoxColumn403,
-            this.dataGridViewTextBoxColumn404,
-            this.dataGridViewTextBoxColumn405,
-            this.dataGridViewTextBoxColumn406,
-            this.dataGridViewTextBoxColumn407,
-            this.dataGridViewTextBoxColumn408,
-            this.dataGridViewTextBoxColumn409,
-            this.dataGridViewTextBoxColumn410,
-            this.dataGridViewTextBoxColumn411,
-            this.dataGridViewTextBoxColumn412,
-            this.dataGridViewTextBoxColumn413,
-            this.dataGridViewTextBoxColumn414,
-            this.dataGridViewTextBoxColumn415,
-            this.dataGridViewTextBoxColumn416,
-            this.dataGridViewTextBoxColumn417,
-            this.dataGridViewTextBoxColumn418,
-            this.dataGridViewTextBoxColumn419,
-            this.dataGridViewTextBoxColumn420});
-            this.dgv_YZAO.Dock = System.Windows.Forms.DockStyle.Top;
-            this.dgv_YZAO.Location = new System.Drawing.Point(3, 3);
-            this.dgv_YZAO.Name = "dgv_YZAO";
-            this.dgv_YZAO.Size = new System.Drawing.Size(970, 518);
-            this.dgv_YZAO.TabIndex = 3;
-            this.dgv_YZAO.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgv_YZAO_CellContentClick);
-            // 
-            // menuStrip_Okruga
-            // 
-            this.menuStrip_Okruga.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.Menu_File,
-            this.справкаToolStripMenuItem});
-            this.menuStrip_Okruga.Location = new System.Drawing.Point(0, 0);
-            this.menuStrip_Okruga.Name = "menuStrip_Okruga";
-            this.menuStrip_Okruga.Size = new System.Drawing.Size(984, 24);
-            this.menuStrip_Okruga.TabIndex = 8;
-            this.menuStrip_Okruga.Text = "menuStrip1";
-            // 
-            // Menu_File
-            // 
-            this.Menu_File.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.открытьToolStripMenuItem,
-            this.toolStripMenuItem2,
-            this.toolStripMenuItem1,
-            this.выходToolStripMenuItem});
-            this.Menu_File.Name = "Menu_File";
-            this.Menu_File.Size = new System.Drawing.Size(48, 20);
-            this.Menu_File.Text = "Файл";
-            // 
-            // открытьToolStripMenuItem
-            // 
-            this.открытьToolStripMenuItem.Image = global::SiPPOON_PP.Properties.Resources.Open;
-            this.открытьToolStripMenuItem.Name = "открытьToolStripMenuItem";
-            this.открытьToolStripMenuItem.Size = new System.Drawing.Size(121, 22);
-            this.открытьToolStripMenuItem.Text = "Открыть";
-            this.открытьToolStripMenuItem.Click += new System.EventHandler(this.открытьToolStripMenuItem_Click);
-            // 
-            // toolStripMenuItem2
-            // 
-            this.toolStripMenuItem2.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.toolStripMenuItem3});
-            this.toolStripMenuItem2.Image = global::SiPPOON_PP.Properties.Resources.Export;
-            this.toolStripMenuItem2.Name = "toolStripMenuItem2";
-            this.toolStripMenuItem2.Size = new System.Drawing.Size(121, 22);
-            this.toolStripMenuItem2.Text = "Экспорт";
-            // 
-            // toolStripMenuItem3
-            // 
-            this.toolStripMenuItem3.Enabled = false;
-            this.toolStripMenuItem3.Image = global::SiPPOON_PP.Properties.Resources.Excel;
-            this.toolStripMenuItem3.Name = "toolStripMenuItem3";
-            this.toolStripMenuItem3.Size = new System.Drawing.Size(101, 22);
-            this.toolStripMenuItem3.Text = "Excel";
-            this.toolStripMenuItem3.Click += new System.EventHandler(this.toolStripMenuItem3_Click);
-            // 
-            // toolStripMenuItem1
-            // 
-            this.toolStripMenuItem1.Name = "toolStripMenuItem1";
-            this.toolStripMenuItem1.Size = new System.Drawing.Size(118, 6);
-            // 
-            // выходToolStripMenuItem
-            // 
-            this.выходToolStripMenuItem.Image = global::SiPPOON_PP.Properties.Resources.Exit;
-            this.выходToolStripMenuItem.Name = "выходToolStripMenuItem";
-            this.выходToolStripMenuItem.Size = new System.Drawing.Size(121, 22);
-            this.выходToolStripMenuItem.Text = "Выход";
-            this.выходToolStripMenuItem.Click += new System.EventHandler(this.выходToolStripMenuItem_Click);
-            // 
-            // справкаToolStripMenuItem
-            // 
-            this.справкаToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.информацияОбАвтореToolStripMenuItem,
-            this.информацияОПрограммеToolStripMenuItem});
-            this.справкаToolStripMenuItem.Name = "справкаToolStripMenuItem";
-            this.справкаToolStripMenuItem.Size = new System.Drawing.Size(65, 20);
-            this.справкаToolStripMenuItem.Text = "Справка";
-            // 
-            // информацияОбАвтореToolStripMenuItem
-            // 
-            this.информацияОбАвтореToolStripMenuItem.Image = global::SiPPOON_PP.Properties.Resources.About_Author;
-            this.информацияОбАвтореToolStripMenuItem.Name = "информацияОбАвтореToolStripMenuItem";
-            this.информацияОбАвтореToolStripMenuItem.Size = new System.Drawing.Size(224, 22);
-            this.информацияОбАвтореToolStripMenuItem.Text = "Информация об авторе";
-            // 
-            // информацияОПрограммеToolStripMenuItem
-            // 
-            this.информацияОПрограммеToolStripMenuItem.Image = global::SiPPOON_PP.Properties.Resources.About_Program;
-            this.информацияОПрограммеToolStripMenuItem.Name = "информацияОПрограммеToolStripMenuItem";
-            this.информацияОПрограммеToolStripMenuItem.Size = new System.Drawing.Size(224, 22);
-            this.информацияОПрограммеToolStripMenuItem.Text = "Информация о программе";
-            this.информацияОПрограммеToolStripMenuItem.Click += new System.EventHandler(this.информацияОПрограммеToolStripMenuItem_Click);
-            // 
-            // gb_chart_Okruga
-            // 
-            this.gb_chart_Okruga.Controls.Add(this.chart_Okruga);
-            this.gb_chart_Okruga.Controls.Add(this.clb_Okruga);
-            this.gb_chart_Okruga.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.gb_chart_Okruga.Location = new System.Drawing.Point(271, 560);
-            this.gb_chart_Okruga.Name = "gb_chart_Okruga";
-            this.gb_chart_Okruga.Size = new System.Drawing.Size(702, 109);
-            this.gb_chart_Okruga.TabIndex = 16;
-            this.gb_chart_Okruga.TabStop = false;
-            this.gb_chart_Okruga.Text = "Работа с диаграммой";
-            // 
-            // chart_Okruga
-            // 
-            chartArea1.Name = "ChartArea1";
-            this.chart_Okruga.ChartAreas.Add(chartArea1);
-            this.chart_Okruga.Dock = System.Windows.Forms.DockStyle.Fill;
-            legend1.Name = "Legend1";
-            this.chart_Okruga.Legends.Add(legend1);
-            this.chart_Okruga.Location = new System.Drawing.Point(3, 35);
-            this.chart_Okruga.Name = "chart_Okruga";
-            this.chart_Okruga.Size = new System.Drawing.Size(696, 71);
-            this.chart_Okruga.TabIndex = 1;
-            this.chart_Okruga.Text = "chart7";
-            // 
-            // clb_Okruga
-            // 
-            this.clb_Okruga.CheckOnClick = true;
-            this.clb_Okruga.ColumnWidth = 160;
-            this.clb_Okruga.Dock = System.Windows.Forms.DockStyle.Top;
-            this.clb_Okruga.FormattingEnabled = true;
-            this.clb_Okruga.Items.AddRange(new object[] {
-            "Продольная ровность",
-            "Поперечная ровность",
-            "Плотность трещин",
-            "Плотность ремонтных карт"});
-            this.clb_Okruga.Location = new System.Drawing.Point(3, 16);
-            this.clb_Okruga.MultiColumn = true;
-            this.clb_Okruga.Name = "clb_Okruga";
-            this.clb_Okruga.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.clb_Okruga.Size = new System.Drawing.Size(696, 19);
-            this.clb_Okruga.TabIndex = 0;
-            this.clb_Okruga.SelectedIndexChanged += new System.EventHandler(this.clb_Okruga_SelectedIndexChanged);
-            // 
-            // gb_chart_VAO
-            // 
-            this.gb_chart_VAO.Controls.Add(this.chart_VAO);
-            this.gb_chart_VAO.Controls.Add(this.clb_VAO);
-            this.gb_chart_VAO.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.gb_chart_VAO.Location = new System.Drawing.Point(271, 560);
-            this.gb_chart_VAO.Name = "gb_chart_VAO";
-            this.gb_chart_VAO.Size = new System.Drawing.Size(702, 109);
-            this.gb_chart_VAO.TabIndex = 13;
-            this.gb_chart_VAO.TabStop = false;
-            this.gb_chart_VAO.Text = "Работа с диаграммой";
-            // 
-            // chart_VAO
-            // 
-            chartArea2.Name = "ChartArea1";
-            this.chart_VAO.ChartAreas.Add(chartArea2);
-            this.chart_VAO.Dock = System.Windows.Forms.DockStyle.Fill;
-            legend2.Name = "Legend1";
-            this.chart_VAO.Legends.Add(legend2);
-            this.chart_VAO.Location = new System.Drawing.Point(3, 35);
-            this.chart_VAO.Name = "chart_VAO";
-            this.chart_VAO.Size = new System.Drawing.Size(696, 71);
-            this.chart_VAO.TabIndex = 1;
-            this.chart_VAO.Text = "chart7";
-            // 
-            // clb_VAO
-            // 
-            this.clb_VAO.CheckOnClick = true;
-            this.clb_VAO.ColumnWidth = 160;
-            this.clb_VAO.Dock = System.Windows.Forms.DockStyle.Top;
-            this.clb_VAO.FormattingEnabled = true;
-            this.clb_VAO.Items.AddRange(new object[] {
-            "Продольная ровность",
-            "Поперечная ровность",
-            "Плотность трещин",
-            "Плотность ремонтных карт"});
-            this.clb_VAO.Location = new System.Drawing.Point(3, 16);
-            this.clb_VAO.MultiColumn = true;
-            this.clb_VAO.Name = "clb_VAO";
-            this.clb_VAO.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.clb_VAO.Size = new System.Drawing.Size(696, 19);
-            this.clb_VAO.TabIndex = 0;
-            this.clb_VAO.SelectedIndexChanged += new System.EventHandler(this.clb_VAO_SelectedIndexChanged);
-            // 
-            // gb_chart_ZAO
-            // 
-            this.gb_chart_ZAO.Controls.Add(this.chart_ZAO);
-            this.gb_chart_ZAO.Controls.Add(this.clb_ZAO);
-            this.gb_chart_ZAO.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.gb_chart_ZAO.Location = new System.Drawing.Point(271, 560);
-            this.gb_chart_ZAO.Name = "gb_chart_ZAO";
-            this.gb_chart_ZAO.Size = new System.Drawing.Size(702, 109);
-            this.gb_chart_ZAO.TabIndex = 13;
-            this.gb_chart_ZAO.TabStop = false;
-            this.gb_chart_ZAO.Text = "Работа с диаграммой";
-            // 
-            // chart_ZAO
-            // 
-            chartArea3.Name = "ChartArea1";
-            this.chart_ZAO.ChartAreas.Add(chartArea3);
-            this.chart_ZAO.Dock = System.Windows.Forms.DockStyle.Fill;
-            legend3.Name = "Legend1";
-            this.chart_ZAO.Legends.Add(legend3);
-            this.chart_ZAO.Location = new System.Drawing.Point(3, 35);
-            this.chart_ZAO.Name = "chart_ZAO";
-            this.chart_ZAO.Size = new System.Drawing.Size(696, 71);
-            this.chart_ZAO.TabIndex = 1;
-            this.chart_ZAO.Text = "chart7";
-            // 
-            // clb_ZAO
-            // 
-            this.clb_ZAO.CheckOnClick = true;
-            this.clb_ZAO.ColumnWidth = 160;
-            this.clb_ZAO.Dock = System.Windows.Forms.DockStyle.Top;
-            this.clb_ZAO.FormattingEnabled = true;
-            this.clb_ZAO.Items.AddRange(new object[] {
-            "Продольная ровность",
-            "Поперечная ровность",
-            "Плотность трещин",
-            "Плотность ремонтных карт"});
-            this.clb_ZAO.Location = new System.Drawing.Point(3, 16);
-            this.clb_ZAO.MultiColumn = true;
-            this.clb_ZAO.Name = "clb_ZAO";
-            this.clb_ZAO.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.clb_ZAO.Size = new System.Drawing.Size(696, 19);
-            this.clb_ZAO.TabIndex = 0;
-            this.clb_ZAO.SelectedIndexChanged += new System.EventHandler(this.clb_ZAO_SelectedIndexChanged);
-            // 
-            // gb_chart_ZelAO
-            // 
-            this.gb_chart_ZelAO.Controls.Add(this.chart_ZelAO);
-            this.gb_chart_ZelAO.Controls.Add(this.clb_ZelAO);
-            this.gb_chart_ZelAO.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.gb_chart_ZelAO.Location = new System.Drawing.Point(271, 560);
-            this.gb_chart_ZelAO.Name = "gb_chart_ZelAO";
-            this.gb_chart_ZelAO.Size = new System.Drawing.Size(702, 109);
-            this.gb_chart_ZelAO.TabIndex = 13;
-            this.gb_chart_ZelAO.TabStop = false;
-            this.gb_chart_ZelAO.Text = "Работа с диаграммой";
-            // 
-            // chart_ZelAO
-            // 
-            chartArea4.Name = "ChartArea1";
-            this.chart_ZelAO.ChartAreas.Add(chartArea4);
-            this.chart_ZelAO.Dock = System.Windows.Forms.DockStyle.Fill;
-            legend4.Name = "Legend1";
-            this.chart_ZelAO.Legends.Add(legend4);
-            this.chart_ZelAO.Location = new System.Drawing.Point(3, 35);
-            this.chart_ZelAO.Name = "chart_ZelAO";
-            this.chart_ZelAO.Size = new System.Drawing.Size(696, 71);
-            this.chart_ZelAO.TabIndex = 1;
-            this.chart_ZelAO.Text = "chart7";
-            // 
-            // clb_ZelAO
-            // 
-            this.clb_ZelAO.CheckOnClick = true;
-            this.clb_ZelAO.ColumnWidth = 160;
-            this.clb_ZelAO.Dock = System.Windows.Forms.DockStyle.Top;
-            this.clb_ZelAO.FormattingEnabled = true;
-            this.clb_ZelAO.Items.AddRange(new object[] {
-            "Продольная ровность",
-            "Поперечная ровность",
-            "Плотность трещин",
-            "Плотность ремонтных карт"});
-            this.clb_ZelAO.Location = new System.Drawing.Point(3, 16);
-            this.clb_ZelAO.MultiColumn = true;
-            this.clb_ZelAO.Name = "clb_ZelAO";
-            this.clb_ZelAO.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.clb_ZelAO.Size = new System.Drawing.Size(696, 19);
-            this.clb_ZelAO.TabIndex = 0;
-            this.clb_ZelAO.SelectedIndexChanged += new System.EventHandler(this.clb_ZelAO_SelectedIndexChanged);
-            // 
-            // gb_chart_SAO
-            // 
-            this.gb_chart_SAO.Controls.Add(this.chart_SAO);
-            this.gb_chart_SAO.Controls.Add(this.clb_SAO);
-            this.gb_chart_SAO.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.gb_chart_SAO.Location = new System.Drawing.Point(271, 560);
-            this.gb_chart_SAO.Name = "gb_chart_SAO";
-            this.gb_chart_SAO.Size = new System.Drawing.Size(702, 109);
-            this.gb_chart_SAO.TabIndex = 13;
-            this.gb_chart_SAO.TabStop = false;
-            this.gb_chart_SAO.Text = "Работа с диаграммой";
-            // 
-            // chart_SAO
-            // 
-            chartArea5.Name = "ChartArea1";
-            this.chart_SAO.ChartAreas.Add(chartArea5);
-            this.chart_SAO.Dock = System.Windows.Forms.DockStyle.Fill;
-            legend5.Name = "Legend1";
-            this.chart_SAO.Legends.Add(legend5);
-            this.chart_SAO.Location = new System.Drawing.Point(3, 35);
-            this.chart_SAO.Name = "chart_SAO";
-            this.chart_SAO.Size = new System.Drawing.Size(696, 71);
-            this.chart_SAO.TabIndex = 1;
-            this.chart_SAO.Text = "chart7";
-            // 
-            // clb_SAO
-            // 
-            this.clb_SAO.CheckOnClick = true;
-            this.clb_SAO.ColumnWidth = 160;
-            this.clb_SAO.Dock = System.Windows.Forms.DockStyle.Top;
-            this.clb_SAO.FormattingEnabled = true;
-            this.clb_SAO.Items.AddRange(new object[] {
-            "Продольная ровность",
-            "Поперечная ровность",
-            "Плотность трещин",
-            "Плотность ремонтных карт"});
-            this.clb_SAO.Location = new System.Drawing.Point(3, 16);
-            this.clb_SAO.MultiColumn = true;
-            this.clb_SAO.Name = "clb_SAO";
-            this.clb_SAO.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.clb_SAO.Size = new System.Drawing.Size(696, 19);
-            this.clb_SAO.TabIndex = 0;
-            this.clb_SAO.SelectedIndexChanged += new System.EventHandler(this.clb_SAO_SelectedIndexChanged);
-            // 
-            // gb_chart_SVAO
-            // 
-            this.gb_chart_SVAO.Controls.Add(this.chart_SVAO);
-            this.gb_chart_SVAO.Controls.Add(this.clb_SVAO);
-            this.gb_chart_SVAO.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.gb_chart_SVAO.Location = new System.Drawing.Point(271, 560);
-            this.gb_chart_SVAO.Name = "gb_chart_SVAO";
-            this.gb_chart_SVAO.Size = new System.Drawing.Size(702, 109);
-            this.gb_chart_SVAO.TabIndex = 13;
-            this.gb_chart_SVAO.TabStop = false;
-            this.gb_chart_SVAO.Text = "Работа с диаграммой";
-            // 
-            // chart_SVAO
-            // 
-            chartArea6.Name = "ChartArea1";
-            this.chart_SVAO.ChartAreas.Add(chartArea6);
-            this.chart_SVAO.Dock = System.Windows.Forms.DockStyle.Fill;
-            legend6.Name = "Legend1";
-            this.chart_SVAO.Legends.Add(legend6);
-            this.chart_SVAO.Location = new System.Drawing.Point(3, 35);
-            this.chart_SVAO.Name = "chart_SVAO";
-            this.chart_SVAO.Size = new System.Drawing.Size(696, 71);
-            this.chart_SVAO.TabIndex = 1;
-            this.chart_SVAO.Text = "chart7";
-            // 
-            // clb_SVAO
-            // 
-            this.clb_SVAO.CheckOnClick = true;
-            this.clb_SVAO.ColumnWidth = 160;
-            this.clb_SVAO.Dock = System.Windows.Forms.DockStyle.Top;
-            this.clb_SVAO.FormattingEnabled = true;
-            this.clb_SVAO.Items.AddRange(new object[] {
-            "Продольная ровность",
-            "Поперечная ровность",
-            "Плотность трещин",
-            "Плотность ремонтных карт"});
-            this.clb_SVAO.Location = new System.Drawing.Point(3, 16);
-            this.clb_SVAO.MultiColumn = true;
-            this.clb_SVAO.Name = "clb_SVAO";
-            this.clb_SVAO.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.clb_SVAO.Size = new System.Drawing.Size(696, 19);
-            this.clb_SVAO.TabIndex = 0;
-            this.clb_SVAO.SelectedIndexChanged += new System.EventHandler(this.clb_SVAO_SelectedIndexChanged);
-            // 
-            // gb_chart_SZAO
-            // 
-            this.gb_chart_SZAO.Controls.Add(this.chart_SZAO);
-            this.gb_chart_SZAO.Controls.Add(this.clb_SZAO);
-            this.gb_chart_SZAO.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.gb_chart_SZAO.Location = new System.Drawing.Point(271, 560);
-            this.gb_chart_SZAO.Name = "gb_chart_SZAO";
-            this.gb_chart_SZAO.Size = new System.Drawing.Size(702, 109);
-            this.gb_chart_SZAO.TabIndex = 13;
-            this.gb_chart_SZAO.TabStop = false;
-            this.gb_chart_SZAO.Text = "Работа с диаграммой";
-            // 
-            // chart_SZAO
-            // 
-            chartArea7.Name = "ChartArea1";
-            this.chart_SZAO.ChartAreas.Add(chartArea7);
-            this.chart_SZAO.Dock = System.Windows.Forms.DockStyle.Fill;
-            legend7.Name = "Legend1";
-            this.chart_SZAO.Legends.Add(legend7);
-            this.chart_SZAO.Location = new System.Drawing.Point(3, 35);
-            this.chart_SZAO.Name = "chart_SZAO";
-            this.chart_SZAO.Size = new System.Drawing.Size(696, 71);
-            this.chart_SZAO.TabIndex = 1;
-            this.chart_SZAO.Text = "chart7";
-            // 
-            // clb_SZAO
-            // 
-            this.clb_SZAO.CheckOnClick = true;
-            this.clb_SZAO.ColumnWidth = 160;
-            this.clb_SZAO.Dock = System.Windows.Forms.DockStyle.Top;
-            this.clb_SZAO.FormattingEnabled = true;
-            this.clb_SZAO.Items.AddRange(new object[] {
-            "Продольная ровность",
-            "Поперечная ровность",
-            "Плотность трещин",
-            "Плотность ремонтных карт"});
-            this.clb_SZAO.Location = new System.Drawing.Point(3, 16);
-            this.clb_SZAO.MultiColumn = true;
-            this.clb_SZAO.Name = "clb_SZAO";
-            this.clb_SZAO.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.clb_SZAO.Size = new System.Drawing.Size(696, 19);
-            this.clb_SZAO.TabIndex = 0;
-            this.clb_SZAO.SelectedIndexChanged += new System.EventHandler(this.clb_SZAO_SelectedIndexChanged);
-            // 
-            // gb_chart_TiNAO
-            // 
-            this.gb_chart_TiNAO.Controls.Add(this.chart_TiNAO);
-            this.gb_chart_TiNAO.Controls.Add(this.clb_TiNAO);
-            this.gb_chart_TiNAO.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.gb_chart_TiNAO.Location = new System.Drawing.Point(271, 560);
-            this.gb_chart_TiNAO.Name = "gb_chart_TiNAO";
-            this.gb_chart_TiNAO.Size = new System.Drawing.Size(702, 109);
-            this.gb_chart_TiNAO.TabIndex = 13;
-            this.gb_chart_TiNAO.TabStop = false;
-            this.gb_chart_TiNAO.Text = "Работа с диаграммой";
-            // 
-            // chart_TiNAO
-            // 
-            chartArea8.Name = "ChartArea1";
-            this.chart_TiNAO.ChartAreas.Add(chartArea8);
-            this.chart_TiNAO.Dock = System.Windows.Forms.DockStyle.Fill;
-            legend8.Name = "Legend1";
-            this.chart_TiNAO.Legends.Add(legend8);
-            this.chart_TiNAO.Location = new System.Drawing.Point(3, 35);
-            this.chart_TiNAO.Name = "chart_TiNAO";
-            this.chart_TiNAO.Size = new System.Drawing.Size(696, 71);
-            this.chart_TiNAO.TabIndex = 1;
-            this.chart_TiNAO.Text = "chart7";
-            // 
-            // clb_TiNAO
-            // 
-            this.clb_TiNAO.CheckOnClick = true;
-            this.clb_TiNAO.ColumnWidth = 160;
-            this.clb_TiNAO.Dock = System.Windows.Forms.DockStyle.Top;
-            this.clb_TiNAO.FormattingEnabled = true;
-            this.clb_TiNAO.Items.AddRange(new object[] {
-            "Продольная ровность",
-            "Поперечная ровность",
-            "Плотность трещин",
-            "Плотность ремонтных карт"});
-            this.clb_TiNAO.Location = new System.Drawing.Point(3, 16);
-            this.clb_TiNAO.MultiColumn = true;
-            this.clb_TiNAO.Name = "clb_TiNAO";
-            this.clb_TiNAO.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.clb_TiNAO.Size = new System.Drawing.Size(696, 19);
-            this.clb_TiNAO.TabIndex = 0;
-            this.clb_TiNAO.SelectedIndexChanged += new System.EventHandler(this.clb_TiNAO_SelectedIndexChanged);
-            // 
-            // gb_chart_TSAO
-            // 
-            this.gb_chart_TSAO.Controls.Add(this.chart_TSAO);
-            this.gb_chart_TSAO.Controls.Add(this.clb_TSAO);
-            this.gb_chart_TSAO.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.gb_chart_TSAO.Location = new System.Drawing.Point(271, 560);
-            this.gb_chart_TSAO.Name = "gb_chart_TSAO";
-            this.gb_chart_TSAO.Size = new System.Drawing.Size(702, 109);
-            this.gb_chart_TSAO.TabIndex = 13;
-            this.gb_chart_TSAO.TabStop = false;
-            this.gb_chart_TSAO.Text = "Работа с диаграммой";
-            // 
-            // chart_TSAO
-            // 
-            chartArea9.Name = "ChartArea1";
-            this.chart_TSAO.ChartAreas.Add(chartArea9);
-            this.chart_TSAO.Dock = System.Windows.Forms.DockStyle.Fill;
-            legend9.Name = "Legend1";
-            this.chart_TSAO.Legends.Add(legend9);
-            this.chart_TSAO.Location = new System.Drawing.Point(3, 35);
-            this.chart_TSAO.Name = "chart_TSAO";
-            this.chart_TSAO.Size = new System.Drawing.Size(696, 71);
-            this.chart_TSAO.TabIndex = 1;
-            this.chart_TSAO.Text = "chart7";
-            // 
-            // clb_TSAO
-            // 
-            this.clb_TSAO.CheckOnClick = true;
-            this.clb_TSAO.ColumnWidth = 160;
-            this.clb_TSAO.Dock = System.Windows.Forms.DockStyle.Top;
-            this.clb_TSAO.FormattingEnabled = true;
-            this.clb_TSAO.Items.AddRange(new object[] {
-            "Продольная ровность",
-            "Поперечная ровность",
-            "Плотность трещин",
-            "Плотность ремонтных карт"});
-            this.clb_TSAO.Location = new System.Drawing.Point(3, 16);
-            this.clb_TSAO.MultiColumn = true;
-            this.clb_TSAO.Name = "clb_TSAO";
-            this.clb_TSAO.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.clb_TSAO.Size = new System.Drawing.Size(696, 19);
-            this.clb_TSAO.TabIndex = 0;
-            this.clb_TSAO.SelectedIndexChanged += new System.EventHandler(this.clb_TSAO_SelectedIndexChanged);
-            // 
-            // gb_chart_YAO
-            // 
-            this.gb_chart_YAO.Controls.Add(this.chart_YAO);
-            this.gb_chart_YAO.Controls.Add(this.clb_YAO);
-            this.gb_chart_YAO.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.gb_chart_YAO.Location = new System.Drawing.Point(271, 560);
-            this.gb_chart_YAO.Name = "gb_chart_YAO";
-            this.gb_chart_YAO.Size = new System.Drawing.Size(702, 109);
-            this.gb_chart_YAO.TabIndex = 13;
-            this.gb_chart_YAO.TabStop = false;
-            this.gb_chart_YAO.Text = "Работа с диаграммой";
-            // 
-            // chart_YAO
-            // 
-            chartArea10.Name = "ChartArea1";
-            this.chart_YAO.ChartAreas.Add(chartArea10);
-            this.chart_YAO.Dock = System.Windows.Forms.DockStyle.Fill;
-            legend10.Name = "Legend1";
-            this.chart_YAO.Legends.Add(legend10);
-            this.chart_YAO.Location = new System.Drawing.Point(3, 35);
-            this.chart_YAO.Name = "chart_YAO";
-            this.chart_YAO.Size = new System.Drawing.Size(696, 71);
-            this.chart_YAO.TabIndex = 1;
-            this.chart_YAO.Text = "chart7";
-            // 
-            // clb_YAO
-            // 
-            this.clb_YAO.CheckOnClick = true;
-            this.clb_YAO.ColumnWidth = 160;
-            this.clb_YAO.Dock = System.Windows.Forms.DockStyle.Top;
-            this.clb_YAO.FormattingEnabled = true;
-            this.clb_YAO.Items.AddRange(new object[] {
-            "Продольная ровность",
-            "Поперечная ровность",
-            "Плотность трещин",
-            "Плотность ремонтных карт"});
-            this.clb_YAO.Location = new System.Drawing.Point(3, 16);
-            this.clb_YAO.MultiColumn = true;
-            this.clb_YAO.Name = "clb_YAO";
-            this.clb_YAO.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.clb_YAO.Size = new System.Drawing.Size(696, 19);
-            this.clb_YAO.TabIndex = 0;
-            this.clb_YAO.SelectedIndexChanged += new System.EventHandler(this.clb_YAO_SelectedIndexChanged);
-            // 
-            // gb_chart_YVAO
-            // 
-            this.gb_chart_YVAO.Controls.Add(this.chart_YVAO);
-            this.gb_chart_YVAO.Controls.Add(this.clb_YVAO);
-            this.gb_chart_YVAO.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.gb_chart_YVAO.Location = new System.Drawing.Point(271, 560);
-            this.gb_chart_YVAO.Name = "gb_chart_YVAO";
-            this.gb_chart_YVAO.Size = new System.Drawing.Size(702, 109);
-            this.gb_chart_YVAO.TabIndex = 13;
-            this.gb_chart_YVAO.TabStop = false;
-            this.gb_chart_YVAO.Text = "Работа с диаграммой";
-            // 
-            // chart_YVAO
-            // 
-            chartArea11.Name = "ChartArea1";
-            this.chart_YVAO.ChartAreas.Add(chartArea11);
-            this.chart_YVAO.Dock = System.Windows.Forms.DockStyle.Fill;
-            legend11.Name = "Legend1";
-            this.chart_YVAO.Legends.Add(legend11);
-            this.chart_YVAO.Location = new System.Drawing.Point(3, 35);
-            this.chart_YVAO.Name = "chart_YVAO";
-            this.chart_YVAO.Size = new System.Drawing.Size(696, 71);
-            this.chart_YVAO.TabIndex = 1;
-            this.chart_YVAO.Text = "chart7";
-            // 
-            // clb_YVAO
-            // 
-            this.clb_YVAO.CheckOnClick = true;
-            this.clb_YVAO.ColumnWidth = 160;
-            this.clb_YVAO.Dock = System.Windows.Forms.DockStyle.Top;
-            this.clb_YVAO.FormattingEnabled = true;
-            this.clb_YVAO.Items.AddRange(new object[] {
-            "Продольная ровность",
-            "Поперечная ровность",
-            "Плотность трещин",
-            "Плотность ремонтных карт"});
-            this.clb_YVAO.Location = new System.Drawing.Point(3, 16);
-            this.clb_YVAO.MultiColumn = true;
-            this.clb_YVAO.Name = "clb_YVAO";
-            this.clb_YVAO.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.clb_YVAO.Size = new System.Drawing.Size(696, 19);
-            this.clb_YVAO.TabIndex = 0;
-            this.clb_YVAO.SelectedIndexChanged += new System.EventHandler(this.clb_YVAO_SelectedIndexChanged);
-            // 
-            // gb_chart_YZAO
-            // 
-            this.gb_chart_YZAO.Controls.Add(this.chart_YZAO);
-            this.gb_chart_YZAO.Controls.Add(this.clb_YZAO);
-            this.gb_chart_YZAO.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.gb_chart_YZAO.Location = new System.Drawing.Point(271, 560);
-            this.gb_chart_YZAO.Name = "gb_chart_YZAO";
-            this.gb_chart_YZAO.Size = new System.Drawing.Size(702, 109);
-            this.gb_chart_YZAO.TabIndex = 13;
-            this.gb_chart_YZAO.TabStop = false;
-            this.gb_chart_YZAO.Text = "Работа с диаграммой";
-            // 
-            // chart_YZAO
-            // 
-            chartArea12.Name = "ChartArea1";
-            this.chart_YZAO.ChartAreas.Add(chartArea12);
-            this.chart_YZAO.Dock = System.Windows.Forms.DockStyle.Fill;
-            legend12.Name = "Legend1";
-            this.chart_YZAO.Legends.Add(legend12);
-            this.chart_YZAO.Location = new System.Drawing.Point(3, 35);
-            this.chart_YZAO.Name = "chart_YZAO";
-            this.chart_YZAO.Size = new System.Drawing.Size(696, 71);
-            this.chart_YZAO.TabIndex = 1;
-            this.chart_YZAO.Text = "chart7";
-            // 
-            // clb_YZAO
-            // 
-            this.clb_YZAO.CheckOnClick = true;
-            this.clb_YZAO.ColumnWidth = 160;
-            this.clb_YZAO.Dock = System.Windows.Forms.DockStyle.Top;
-            this.clb_YZAO.FormattingEnabled = true;
-            this.clb_YZAO.Items.AddRange(new object[] {
-            "Продольная ровность",
-            "Поперечная ровность",
-            "Плотность трещин",
-            "Плотность ремонтных карт"});
-            this.clb_YZAO.Location = new System.Drawing.Point(3, 16);
-            this.clb_YZAO.MultiColumn = true;
-            this.clb_YZAO.Name = "clb_YZAO";
-            this.clb_YZAO.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.clb_YZAO.Size = new System.Drawing.Size(696, 19);
-            this.clb_YZAO.TabIndex = 0;
-            this.clb_YZAO.SelectedIndexChanged += new System.EventHandler(this.clb_YZAO_SelectedIndexChanged);
             // 
             // Column1
             // 
@@ -3446,6 +1322,193 @@
             this.dataGridViewTextBoxColumn462.ReadOnly = true;
             this.dataGridViewTextBoxColumn462.Width = 156;
             // 
+            // VAO
+            // 
+            this.VAO.Controls.Add(this.gb_chart_VAO);
+            this.VAO.Controls.Add(this.gb_VAO);
+            this.VAO.Controls.Add(this.lbl_Filter_VAO);
+            this.VAO.Controls.Add(this.dgv_VAO);
+            this.VAO.Location = new System.Drawing.Point(4, 22);
+            this.VAO.Name = "VAO";
+            this.VAO.Padding = new System.Windows.Forms.Padding(3);
+            this.VAO.Size = new System.Drawing.Size(976, 672);
+            this.VAO.TabIndex = 0;
+            this.VAO.Text = "ВАО";
+            this.VAO.UseVisualStyleBackColor = true;
+            // 
+            // gb_chart_VAO
+            // 
+            this.gb_chart_VAO.Controls.Add(this.chart_VAO);
+            this.gb_chart_VAO.Controls.Add(this.clb_VAO);
+            this.gb_chart_VAO.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.gb_chart_VAO.Location = new System.Drawing.Point(271, 560);
+            this.gb_chart_VAO.Name = "gb_chart_VAO";
+            this.gb_chart_VAO.Size = new System.Drawing.Size(702, 109);
+            this.gb_chart_VAO.TabIndex = 13;
+            this.gb_chart_VAO.TabStop = false;
+            this.gb_chart_VAO.Text = "Работа с диаграммой";
+            // 
+            // chart_VAO
+            // 
+            chartArea2.Name = "ChartArea1";
+            this.chart_VAO.ChartAreas.Add(chartArea2);
+            this.chart_VAO.Dock = System.Windows.Forms.DockStyle.Fill;
+            legend2.Name = "Legend1";
+            this.chart_VAO.Legends.Add(legend2);
+            this.chart_VAO.Location = new System.Drawing.Point(3, 35);
+            this.chart_VAO.Name = "chart_VAO";
+            this.chart_VAO.Size = new System.Drawing.Size(696, 71);
+            this.chart_VAO.TabIndex = 1;
+            this.chart_VAO.Text = "chart7";
+            // 
+            // clb_VAO
+            // 
+            this.clb_VAO.CheckOnClick = true;
+            this.clb_VAO.ColumnWidth = 160;
+            this.clb_VAO.Dock = System.Windows.Forms.DockStyle.Top;
+            this.clb_VAO.FormattingEnabled = true;
+            this.clb_VAO.Items.AddRange(new object[] {
+            "Продольная ровность",
+            "Поперечная ровность",
+            "Плотность трещин",
+            "Плотность ремонтных карт"});
+            this.clb_VAO.Location = new System.Drawing.Point(3, 16);
+            this.clb_VAO.MultiColumn = true;
+            this.clb_VAO.Name = "clb_VAO";
+            this.clb_VAO.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.clb_VAO.Size = new System.Drawing.Size(696, 19);
+            this.clb_VAO.TabIndex = 0;
+            this.clb_VAO.SelectedIndexChanged += new System.EventHandler(this.clb_VAO_SelectedIndexChanged);
+            // 
+            // gb_VAO
+            // 
+            this.gb_VAO.Controls.Add(this.rb_Clear_VAO);
+            this.gb_VAO.Controls.Add(this.rb_Deffect_VAO);
+            this.gb_VAO.Controls.Add(this.rb_Prev_VAO);
+            this.gb_VAO.Dock = System.Windows.Forms.DockStyle.Left;
+            this.gb_VAO.Location = new System.Drawing.Point(3, 560);
+            this.gb_VAO.Name = "gb_VAO";
+            this.gb_VAO.Size = new System.Drawing.Size(268, 109);
+            this.gb_VAO.TabIndex = 12;
+            this.gb_VAO.TabStop = false;
+            this.gb_VAO.Text = "Работа с данными";
+            // 
+            // rb_Clear_VAO
+            // 
+            this.rb_Clear_VAO.AutoSize = true;
+            this.rb_Clear_VAO.Dock = System.Windows.Forms.DockStyle.Top;
+            this.rb_Clear_VAO.Location = new System.Drawing.Point(3, 50);
+            this.rb_Clear_VAO.Name = "rb_Clear_VAO";
+            this.rb_Clear_VAO.Size = new System.Drawing.Size(262, 17);
+            this.rb_Clear_VAO.TabIndex = 6;
+            this.rb_Clear_VAO.TabStop = true;
+            this.rb_Clear_VAO.Text = "Очистить фильтр";
+            this.rb_Clear_VAO.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.rb_Clear_VAO.UseVisualStyleBackColor = true;
+            this.rb_Clear_VAO.CheckedChanged += new System.EventHandler(this.rb_Clear_VAO_CheckedChanged);
+            // 
+            // rb_Deffect_VAO
+            // 
+            this.rb_Deffect_VAO.AutoSize = true;
+            this.rb_Deffect_VAO.Dock = System.Windows.Forms.DockStyle.Top;
+            this.rb_Deffect_VAO.Location = new System.Drawing.Point(3, 33);
+            this.rb_Deffect_VAO.Name = "rb_Deffect_VAO";
+            this.rb_Deffect_VAO.Size = new System.Drawing.Size(262, 17);
+            this.rb_Deffect_VAO.TabIndex = 1;
+            this.rb_Deffect_VAO.TabStop = true;
+            this.rb_Deffect_VAO.Text = "Деффектные участки дорог (>40%)";
+            this.rb_Deffect_VAO.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.rb_Deffect_VAO.UseVisualStyleBackColor = true;
+            this.rb_Deffect_VAO.CheckedChanged += new System.EventHandler(this.rb_Deffect_VAO_CheckedChanged);
+            // 
+            // rb_Prev_VAO
+            // 
+            this.rb_Prev_VAO.AutoSize = true;
+            this.rb_Prev_VAO.Dock = System.Windows.Forms.DockStyle.Top;
+            this.rb_Prev_VAO.Location = new System.Drawing.Point(3, 16);
+            this.rb_Prev_VAO.Name = "rb_Prev_VAO";
+            this.rb_Prev_VAO.Size = new System.Drawing.Size(262, 17);
+            this.rb_Prev_VAO.TabIndex = 0;
+            this.rb_Prev_VAO.TabStop = true;
+            this.rb_Prev_VAO.Text = "Превышающие элементы";
+            this.rb_Prev_VAO.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.rb_Prev_VAO.UseVisualStyleBackColor = true;
+            this.rb_Prev_VAO.CheckedChanged += new System.EventHandler(this.rb_Prev_VAO_CheckedChanged);
+            // 
+            // lbl_Filter_VAO
+            // 
+            this.lbl_Filter_VAO.Dock = System.Windows.Forms.DockStyle.Top;
+            this.lbl_Filter_VAO.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.lbl_Filter_VAO.Location = new System.Drawing.Point(3, 521);
+            this.lbl_Filter_VAO.Name = "lbl_Filter_VAO";
+            this.lbl_Filter_VAO.Size = new System.Drawing.Size(970, 39);
+            this.lbl_Filter_VAO.TabIndex = 6;
+            this.lbl_Filter_VAO.Text = "Фильтр";
+            this.lbl_Filter_VAO.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // dgv_VAO
+            // 
+            this.dgv_VAO.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle2.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            dataGridViewCellStyle2.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgv_VAO.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
+            this.dgv_VAO.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgv_VAO.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.dataGridViewCheckBoxColumn1,
+            this.Nomer_PP,
+            this.ID_ODH,
+            this.Naimenovanie_Object,
+            this.Ploshad_Proeszhey_Chasti,
+            this.Prod_Rovn_max,
+            this.Prod_rovn_sr_znach,
+            this.Prod_rovn_sr_defect,
+            this.Prod_rovn_ploshad,
+            this.Prod_rovn_ploshad2,
+            this.Pop_rovn_max,
+            this.Pop_rovnost_sr_znach,
+            this.Pop_rovn_sr_defect,
+            this.Pop_rovn_ploshad,
+            this.Pop_rovn_plosahd2,
+            this.Treshin_max,
+            this.Treshin_sr_znach,
+            this.Treshin_sr_defect,
+            this.Treshin_ploshad,
+            this.Treshin_ploshad2,
+            this.Remont_max,
+            this.Remont_sr_znach,
+            this.Remont_sr_defect,
+            this.Remont_ploshad,
+            this.Remont_ploshad2,
+            this.Ploshad_Odin,
+            this.Ploshad_odin2,
+            this.Ploshad_dva,
+            this.Ploshad_dva2,
+            this.Ploshad_tri,
+            this.Ploshad_tri2,
+            this.Ploshad_chi,
+            this.Plosahd_chi2,
+            this.Ploshad_Treshina,
+            this.Ploshad_treshina2,
+            this.Ploshad_prod,
+            this.Ploshad_prod2,
+            this.Ploshad_Pop,
+            this.Ploshad_pop2,
+            this.Ploshad_prod_pop,
+            this.Ploshad_prod_pop2,
+            this.Obshaya_ploshad,
+            this.Obsh_ploshad2});
+            this.dgv_VAO.Dock = System.Windows.Forms.DockStyle.Top;
+            this.dgv_VAO.Location = new System.Drawing.Point(3, 3);
+            this.dgv_VAO.Name = "dgv_VAO";
+            this.dgv_VAO.Size = new System.Drawing.Size(970, 518);
+            this.dgv_VAO.TabIndex = 1;
+            this.dgv_VAO.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgv_VAO_CellContentClick);
+            // 
             // dataGridViewCheckBoxColumn1
             // 
             this.dataGridViewCheckBoxColumn1.Frozen = true;
@@ -3753,6 +1816,193 @@
             this.Obsh_ploshad2.Name = "Obsh_ploshad2";
             this.Obsh_ploshad2.ReadOnly = true;
             this.Obsh_ploshad2.Width = 156;
+            // 
+            // ZAO
+            // 
+            this.ZAO.Controls.Add(this.gb_chart_ZAO);
+            this.ZAO.Controls.Add(this.gb_ZAO);
+            this.ZAO.Controls.Add(this.lbl_Filter_ZAO);
+            this.ZAO.Controls.Add(this.dgv_ZAO);
+            this.ZAO.Location = new System.Drawing.Point(4, 22);
+            this.ZAO.Name = "ZAO";
+            this.ZAO.Padding = new System.Windows.Forms.Padding(3);
+            this.ZAO.Size = new System.Drawing.Size(976, 672);
+            this.ZAO.TabIndex = 1;
+            this.ZAO.Text = "ЗАО";
+            this.ZAO.UseVisualStyleBackColor = true;
+            // 
+            // gb_chart_ZAO
+            // 
+            this.gb_chart_ZAO.Controls.Add(this.chart_ZAO);
+            this.gb_chart_ZAO.Controls.Add(this.clb_ZAO);
+            this.gb_chart_ZAO.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.gb_chart_ZAO.Location = new System.Drawing.Point(271, 560);
+            this.gb_chart_ZAO.Name = "gb_chart_ZAO";
+            this.gb_chart_ZAO.Size = new System.Drawing.Size(702, 109);
+            this.gb_chart_ZAO.TabIndex = 13;
+            this.gb_chart_ZAO.TabStop = false;
+            this.gb_chart_ZAO.Text = "Работа с диаграммой";
+            // 
+            // chart_ZAO
+            // 
+            chartArea3.Name = "ChartArea1";
+            this.chart_ZAO.ChartAreas.Add(chartArea3);
+            this.chart_ZAO.Dock = System.Windows.Forms.DockStyle.Fill;
+            legend3.Name = "Legend1";
+            this.chart_ZAO.Legends.Add(legend3);
+            this.chart_ZAO.Location = new System.Drawing.Point(3, 35);
+            this.chart_ZAO.Name = "chart_ZAO";
+            this.chart_ZAO.Size = new System.Drawing.Size(696, 71);
+            this.chart_ZAO.TabIndex = 1;
+            this.chart_ZAO.Text = "chart7";
+            // 
+            // clb_ZAO
+            // 
+            this.clb_ZAO.CheckOnClick = true;
+            this.clb_ZAO.ColumnWidth = 160;
+            this.clb_ZAO.Dock = System.Windows.Forms.DockStyle.Top;
+            this.clb_ZAO.FormattingEnabled = true;
+            this.clb_ZAO.Items.AddRange(new object[] {
+            "Продольная ровность",
+            "Поперечная ровность",
+            "Плотность трещин",
+            "Плотность ремонтных карт"});
+            this.clb_ZAO.Location = new System.Drawing.Point(3, 16);
+            this.clb_ZAO.MultiColumn = true;
+            this.clb_ZAO.Name = "clb_ZAO";
+            this.clb_ZAO.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.clb_ZAO.Size = new System.Drawing.Size(696, 19);
+            this.clb_ZAO.TabIndex = 0;
+            this.clb_ZAO.SelectedIndexChanged += new System.EventHandler(this.clb_ZAO_SelectedIndexChanged);
+            // 
+            // gb_ZAO
+            // 
+            this.gb_ZAO.Controls.Add(this.rb_Clear_ZAO);
+            this.gb_ZAO.Controls.Add(this.rb_Deffect_ZAO);
+            this.gb_ZAO.Controls.Add(this.rb_Prev_ZAO);
+            this.gb_ZAO.Dock = System.Windows.Forms.DockStyle.Left;
+            this.gb_ZAO.Location = new System.Drawing.Point(3, 560);
+            this.gb_ZAO.Name = "gb_ZAO";
+            this.gb_ZAO.Size = new System.Drawing.Size(268, 109);
+            this.gb_ZAO.TabIndex = 12;
+            this.gb_ZAO.TabStop = false;
+            this.gb_ZAO.Text = "Работа с данными";
+            // 
+            // rb_Clear_ZAO
+            // 
+            this.rb_Clear_ZAO.AutoSize = true;
+            this.rb_Clear_ZAO.Dock = System.Windows.Forms.DockStyle.Top;
+            this.rb_Clear_ZAO.Location = new System.Drawing.Point(3, 50);
+            this.rb_Clear_ZAO.Name = "rb_Clear_ZAO";
+            this.rb_Clear_ZAO.Size = new System.Drawing.Size(262, 17);
+            this.rb_Clear_ZAO.TabIndex = 6;
+            this.rb_Clear_ZAO.TabStop = true;
+            this.rb_Clear_ZAO.Text = "Очистить фильтр";
+            this.rb_Clear_ZAO.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.rb_Clear_ZAO.UseVisualStyleBackColor = true;
+            this.rb_Clear_ZAO.CheckedChanged += new System.EventHandler(this.rb_Clear_ZAO_CheckedChanged);
+            // 
+            // rb_Deffect_ZAO
+            // 
+            this.rb_Deffect_ZAO.AutoSize = true;
+            this.rb_Deffect_ZAO.Dock = System.Windows.Forms.DockStyle.Top;
+            this.rb_Deffect_ZAO.Location = new System.Drawing.Point(3, 33);
+            this.rb_Deffect_ZAO.Name = "rb_Deffect_ZAO";
+            this.rb_Deffect_ZAO.Size = new System.Drawing.Size(262, 17);
+            this.rb_Deffect_ZAO.TabIndex = 1;
+            this.rb_Deffect_ZAO.TabStop = true;
+            this.rb_Deffect_ZAO.Text = "Деффектные участки дорог (>40%)";
+            this.rb_Deffect_ZAO.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.rb_Deffect_ZAO.UseVisualStyleBackColor = true;
+            this.rb_Deffect_ZAO.CheckedChanged += new System.EventHandler(this.rb_Deffect_ZAO_CheckedChanged);
+            // 
+            // rb_Prev_ZAO
+            // 
+            this.rb_Prev_ZAO.AutoSize = true;
+            this.rb_Prev_ZAO.Dock = System.Windows.Forms.DockStyle.Top;
+            this.rb_Prev_ZAO.Location = new System.Drawing.Point(3, 16);
+            this.rb_Prev_ZAO.Name = "rb_Prev_ZAO";
+            this.rb_Prev_ZAO.Size = new System.Drawing.Size(262, 17);
+            this.rb_Prev_ZAO.TabIndex = 0;
+            this.rb_Prev_ZAO.TabStop = true;
+            this.rb_Prev_ZAO.Text = "Превышающие элементы";
+            this.rb_Prev_ZAO.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.rb_Prev_ZAO.UseVisualStyleBackColor = true;
+            this.rb_Prev_ZAO.CheckedChanged += new System.EventHandler(this.rb_Prev_ZAO_CheckedChanged);
+            // 
+            // lbl_Filter_ZAO
+            // 
+            this.lbl_Filter_ZAO.Dock = System.Windows.Forms.DockStyle.Top;
+            this.lbl_Filter_ZAO.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.lbl_Filter_ZAO.Location = new System.Drawing.Point(3, 521);
+            this.lbl_Filter_ZAO.Name = "lbl_Filter_ZAO";
+            this.lbl_Filter_ZAO.Size = new System.Drawing.Size(970, 39);
+            this.lbl_Filter_ZAO.TabIndex = 6;
+            this.lbl_Filter_ZAO.Text = "Фильтр";
+            this.lbl_Filter_ZAO.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // dgv_ZAO
+            // 
+            this.dgv_ZAO.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle3.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            dataGridViewCellStyle3.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgv_ZAO.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle3;
+            this.dgv_ZAO.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgv_ZAO.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.dataGridViewCheckBoxColumn2,
+            this.dataGridViewTextBoxColumn1,
+            this.dataGridViewTextBoxColumn2,
+            this.dataGridViewTextBoxColumn3,
+            this.dataGridViewTextBoxColumn4,
+            this.dataGridViewTextBoxColumn5,
+            this.dataGridViewTextBoxColumn6,
+            this.dataGridViewTextBoxColumn7,
+            this.dataGridViewTextBoxColumn8,
+            this.dataGridViewTextBoxColumn9,
+            this.dataGridViewTextBoxColumn10,
+            this.dataGridViewTextBoxColumn11,
+            this.dataGridViewTextBoxColumn12,
+            this.dataGridViewTextBoxColumn13,
+            this.dataGridViewTextBoxColumn14,
+            this.dataGridViewTextBoxColumn15,
+            this.dataGridViewTextBoxColumn16,
+            this.dataGridViewTextBoxColumn17,
+            this.dataGridViewTextBoxColumn18,
+            this.dataGridViewTextBoxColumn19,
+            this.dataGridViewTextBoxColumn20,
+            this.dataGridViewTextBoxColumn21,
+            this.dataGridViewTextBoxColumn22,
+            this.dataGridViewTextBoxColumn23,
+            this.dataGridViewTextBoxColumn24,
+            this.dataGridViewTextBoxColumn25,
+            this.dataGridViewTextBoxColumn26,
+            this.dataGridViewTextBoxColumn27,
+            this.dataGridViewTextBoxColumn28,
+            this.dataGridViewTextBoxColumn29,
+            this.dataGridViewTextBoxColumn30,
+            this.dataGridViewTextBoxColumn31,
+            this.dataGridViewTextBoxColumn32,
+            this.dataGridViewTextBoxColumn33,
+            this.dataGridViewTextBoxColumn34,
+            this.dataGridViewTextBoxColumn35,
+            this.dataGridViewTextBoxColumn36,
+            this.dataGridViewTextBoxColumn37,
+            this.dataGridViewTextBoxColumn38,
+            this.dataGridViewTextBoxColumn39,
+            this.dataGridViewTextBoxColumn40,
+            this.dataGridViewTextBoxColumn41,
+            this.dataGridViewTextBoxColumn42});
+            this.dgv_ZAO.Dock = System.Windows.Forms.DockStyle.Top;
+            this.dgv_ZAO.Location = new System.Drawing.Point(3, 3);
+            this.dgv_ZAO.Name = "dgv_ZAO";
+            this.dgv_ZAO.Size = new System.Drawing.Size(970, 518);
+            this.dgv_ZAO.TabIndex = 2;
+            this.dgv_ZAO.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgv_ZAO_CellContentClick);
             // 
             // dataGridViewCheckBoxColumn2
             // 
@@ -4062,6 +2312,193 @@
             this.dataGridViewTextBoxColumn42.ReadOnly = true;
             this.dataGridViewTextBoxColumn42.Width = 156;
             // 
+            // ZelAO
+            // 
+            this.ZelAO.Controls.Add(this.gb_chart_ZelAO);
+            this.ZelAO.Controls.Add(this.gb_ZelAO);
+            this.ZelAO.Controls.Add(this.lbl_Filter_ZelAO);
+            this.ZelAO.Controls.Add(this.dgv_ZelAO);
+            this.ZelAO.Location = new System.Drawing.Point(4, 22);
+            this.ZelAO.Name = "ZelAO";
+            this.ZelAO.Padding = new System.Windows.Forms.Padding(3);
+            this.ZelAO.Size = new System.Drawing.Size(976, 672);
+            this.ZelAO.TabIndex = 2;
+            this.ZelAO.Text = "ЗелАО";
+            this.ZelAO.UseVisualStyleBackColor = true;
+            // 
+            // gb_chart_ZelAO
+            // 
+            this.gb_chart_ZelAO.Controls.Add(this.chart_ZelAO);
+            this.gb_chart_ZelAO.Controls.Add(this.clb_ZelAO);
+            this.gb_chart_ZelAO.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.gb_chart_ZelAO.Location = new System.Drawing.Point(271, 560);
+            this.gb_chart_ZelAO.Name = "gb_chart_ZelAO";
+            this.gb_chart_ZelAO.Size = new System.Drawing.Size(702, 109);
+            this.gb_chart_ZelAO.TabIndex = 13;
+            this.gb_chart_ZelAO.TabStop = false;
+            this.gb_chart_ZelAO.Text = "Работа с диаграммой";
+            // 
+            // chart_ZelAO
+            // 
+            chartArea4.Name = "ChartArea1";
+            this.chart_ZelAO.ChartAreas.Add(chartArea4);
+            this.chart_ZelAO.Dock = System.Windows.Forms.DockStyle.Fill;
+            legend4.Name = "Legend1";
+            this.chart_ZelAO.Legends.Add(legend4);
+            this.chart_ZelAO.Location = new System.Drawing.Point(3, 35);
+            this.chart_ZelAO.Name = "chart_ZelAO";
+            this.chart_ZelAO.Size = new System.Drawing.Size(696, 71);
+            this.chart_ZelAO.TabIndex = 1;
+            this.chart_ZelAO.Text = "chart7";
+            // 
+            // clb_ZelAO
+            // 
+            this.clb_ZelAO.CheckOnClick = true;
+            this.clb_ZelAO.ColumnWidth = 160;
+            this.clb_ZelAO.Dock = System.Windows.Forms.DockStyle.Top;
+            this.clb_ZelAO.FormattingEnabled = true;
+            this.clb_ZelAO.Items.AddRange(new object[] {
+            "Продольная ровность",
+            "Поперечная ровность",
+            "Плотность трещин",
+            "Плотность ремонтных карт"});
+            this.clb_ZelAO.Location = new System.Drawing.Point(3, 16);
+            this.clb_ZelAO.MultiColumn = true;
+            this.clb_ZelAO.Name = "clb_ZelAO";
+            this.clb_ZelAO.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.clb_ZelAO.Size = new System.Drawing.Size(696, 19);
+            this.clb_ZelAO.TabIndex = 0;
+            this.clb_ZelAO.SelectedIndexChanged += new System.EventHandler(this.clb_ZelAO_SelectedIndexChanged);
+            // 
+            // gb_ZelAO
+            // 
+            this.gb_ZelAO.Controls.Add(this.rb_ZelAO);
+            this.gb_ZelAO.Controls.Add(this.rb_Deffect_ZelAO);
+            this.gb_ZelAO.Controls.Add(this.rb_Prev_ZelAO);
+            this.gb_ZelAO.Dock = System.Windows.Forms.DockStyle.Left;
+            this.gb_ZelAO.Location = new System.Drawing.Point(3, 560);
+            this.gb_ZelAO.Name = "gb_ZelAO";
+            this.gb_ZelAO.Size = new System.Drawing.Size(268, 109);
+            this.gb_ZelAO.TabIndex = 12;
+            this.gb_ZelAO.TabStop = false;
+            this.gb_ZelAO.Text = "Работа с данными";
+            // 
+            // rb_ZelAO
+            // 
+            this.rb_ZelAO.AutoSize = true;
+            this.rb_ZelAO.Dock = System.Windows.Forms.DockStyle.Top;
+            this.rb_ZelAO.Location = new System.Drawing.Point(3, 50);
+            this.rb_ZelAO.Name = "rb_ZelAO";
+            this.rb_ZelAO.Size = new System.Drawing.Size(262, 17);
+            this.rb_ZelAO.TabIndex = 6;
+            this.rb_ZelAO.TabStop = true;
+            this.rb_ZelAO.Text = "Очистить фильтр";
+            this.rb_ZelAO.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.rb_ZelAO.UseVisualStyleBackColor = true;
+            this.rb_ZelAO.CheckedChanged += new System.EventHandler(this.rb_ZelAO_CheckedChanged);
+            // 
+            // rb_Deffect_ZelAO
+            // 
+            this.rb_Deffect_ZelAO.AutoSize = true;
+            this.rb_Deffect_ZelAO.Dock = System.Windows.Forms.DockStyle.Top;
+            this.rb_Deffect_ZelAO.Location = new System.Drawing.Point(3, 33);
+            this.rb_Deffect_ZelAO.Name = "rb_Deffect_ZelAO";
+            this.rb_Deffect_ZelAO.Size = new System.Drawing.Size(262, 17);
+            this.rb_Deffect_ZelAO.TabIndex = 1;
+            this.rb_Deffect_ZelAO.TabStop = true;
+            this.rb_Deffect_ZelAO.Text = "Деффектные участки дорог (>40%)";
+            this.rb_Deffect_ZelAO.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.rb_Deffect_ZelAO.UseVisualStyleBackColor = true;
+            this.rb_Deffect_ZelAO.CheckedChanged += new System.EventHandler(this.rb_Deffect_ZelAO_CheckedChanged);
+            // 
+            // rb_Prev_ZelAO
+            // 
+            this.rb_Prev_ZelAO.AutoSize = true;
+            this.rb_Prev_ZelAO.Dock = System.Windows.Forms.DockStyle.Top;
+            this.rb_Prev_ZelAO.Location = new System.Drawing.Point(3, 16);
+            this.rb_Prev_ZelAO.Name = "rb_Prev_ZelAO";
+            this.rb_Prev_ZelAO.Size = new System.Drawing.Size(262, 17);
+            this.rb_Prev_ZelAO.TabIndex = 0;
+            this.rb_Prev_ZelAO.TabStop = true;
+            this.rb_Prev_ZelAO.Text = "Превышающие элементы";
+            this.rb_Prev_ZelAO.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.rb_Prev_ZelAO.UseVisualStyleBackColor = true;
+            this.rb_Prev_ZelAO.CheckedChanged += new System.EventHandler(this.rb_Prev_ZelAO_CheckedChanged);
+            // 
+            // lbl_Filter_ZelAO
+            // 
+            this.lbl_Filter_ZelAO.Dock = System.Windows.Forms.DockStyle.Top;
+            this.lbl_Filter_ZelAO.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.lbl_Filter_ZelAO.Location = new System.Drawing.Point(3, 521);
+            this.lbl_Filter_ZelAO.Name = "lbl_Filter_ZelAO";
+            this.lbl_Filter_ZelAO.Size = new System.Drawing.Size(970, 39);
+            this.lbl_Filter_ZelAO.TabIndex = 6;
+            this.lbl_Filter_ZelAO.Text = "Фильтр";
+            this.lbl_Filter_ZelAO.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // dgv_ZelAO
+            // 
+            this.dgv_ZelAO.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle4.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle4.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            dataGridViewCellStyle4.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle4.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle4.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle4.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgv_ZelAO.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle4;
+            this.dgv_ZelAO.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgv_ZelAO.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.dataGridViewCheckBoxColumn3,
+            this.dataGridViewTextBoxColumn43,
+            this.dataGridViewTextBoxColumn44,
+            this.dataGridViewTextBoxColumn45,
+            this.dataGridViewTextBoxColumn46,
+            this.dataGridViewTextBoxColumn47,
+            this.dataGridViewTextBoxColumn48,
+            this.dataGridViewTextBoxColumn49,
+            this.dataGridViewTextBoxColumn50,
+            this.dataGridViewTextBoxColumn51,
+            this.dataGridViewTextBoxColumn52,
+            this.dataGridViewTextBoxColumn53,
+            this.dataGridViewTextBoxColumn54,
+            this.dataGridViewTextBoxColumn55,
+            this.dataGridViewTextBoxColumn56,
+            this.dataGridViewTextBoxColumn57,
+            this.dataGridViewTextBoxColumn58,
+            this.dataGridViewTextBoxColumn59,
+            this.dataGridViewTextBoxColumn60,
+            this.dataGridViewTextBoxColumn61,
+            this.dataGridViewTextBoxColumn62,
+            this.dataGridViewTextBoxColumn63,
+            this.dataGridViewTextBoxColumn64,
+            this.dataGridViewTextBoxColumn65,
+            this.dataGridViewTextBoxColumn66,
+            this.dataGridViewTextBoxColumn67,
+            this.dataGridViewTextBoxColumn68,
+            this.dataGridViewTextBoxColumn69,
+            this.dataGridViewTextBoxColumn70,
+            this.dataGridViewTextBoxColumn71,
+            this.dataGridViewTextBoxColumn72,
+            this.dataGridViewTextBoxColumn73,
+            this.dataGridViewTextBoxColumn74,
+            this.dataGridViewTextBoxColumn75,
+            this.dataGridViewTextBoxColumn76,
+            this.dataGridViewTextBoxColumn77,
+            this.dataGridViewTextBoxColumn78,
+            this.dataGridViewTextBoxColumn79,
+            this.dataGridViewTextBoxColumn80,
+            this.dataGridViewTextBoxColumn81,
+            this.dataGridViewTextBoxColumn82,
+            this.dataGridViewTextBoxColumn83,
+            this.dataGridViewTextBoxColumn84});
+            this.dgv_ZelAO.Dock = System.Windows.Forms.DockStyle.Top;
+            this.dgv_ZelAO.Location = new System.Drawing.Point(3, 3);
+            this.dgv_ZelAO.Name = "dgv_ZelAO";
+            this.dgv_ZelAO.Size = new System.Drawing.Size(970, 518);
+            this.dgv_ZelAO.TabIndex = 2;
+            this.dgv_ZelAO.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgv_ZelAO_CellContentClick);
+            // 
             // dataGridViewCheckBoxColumn3
             // 
             this.dataGridViewCheckBoxColumn3.Frozen = true;
@@ -4369,6 +2806,193 @@
             this.dataGridViewTextBoxColumn84.Name = "dataGridViewTextBoxColumn84";
             this.dataGridViewTextBoxColumn84.ReadOnly = true;
             this.dataGridViewTextBoxColumn84.Width = 156;
+            // 
+            // SAO
+            // 
+            this.SAO.Controls.Add(this.gb_chart_SAO);
+            this.SAO.Controls.Add(this.gb_SAO);
+            this.SAO.Controls.Add(this.lbl_Filter_SAO);
+            this.SAO.Controls.Add(this.dgv_SAO);
+            this.SAO.Location = new System.Drawing.Point(4, 22);
+            this.SAO.Name = "SAO";
+            this.SAO.Padding = new System.Windows.Forms.Padding(3);
+            this.SAO.Size = new System.Drawing.Size(976, 672);
+            this.SAO.TabIndex = 3;
+            this.SAO.Text = "САО";
+            this.SAO.UseVisualStyleBackColor = true;
+            // 
+            // gb_chart_SAO
+            // 
+            this.gb_chart_SAO.Controls.Add(this.chart_SAO);
+            this.gb_chart_SAO.Controls.Add(this.clb_SAO);
+            this.gb_chart_SAO.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.gb_chart_SAO.Location = new System.Drawing.Point(271, 560);
+            this.gb_chart_SAO.Name = "gb_chart_SAO";
+            this.gb_chart_SAO.Size = new System.Drawing.Size(702, 109);
+            this.gb_chart_SAO.TabIndex = 13;
+            this.gb_chart_SAO.TabStop = false;
+            this.gb_chart_SAO.Text = "Работа с диаграммой";
+            // 
+            // chart_SAO
+            // 
+            chartArea5.Name = "ChartArea1";
+            this.chart_SAO.ChartAreas.Add(chartArea5);
+            this.chart_SAO.Dock = System.Windows.Forms.DockStyle.Fill;
+            legend5.Name = "Legend1";
+            this.chart_SAO.Legends.Add(legend5);
+            this.chart_SAO.Location = new System.Drawing.Point(3, 35);
+            this.chart_SAO.Name = "chart_SAO";
+            this.chart_SAO.Size = new System.Drawing.Size(696, 71);
+            this.chart_SAO.TabIndex = 1;
+            this.chart_SAO.Text = "chart7";
+            // 
+            // clb_SAO
+            // 
+            this.clb_SAO.CheckOnClick = true;
+            this.clb_SAO.ColumnWidth = 160;
+            this.clb_SAO.Dock = System.Windows.Forms.DockStyle.Top;
+            this.clb_SAO.FormattingEnabled = true;
+            this.clb_SAO.Items.AddRange(new object[] {
+            "Продольная ровность",
+            "Поперечная ровность",
+            "Плотность трещин",
+            "Плотность ремонтных карт"});
+            this.clb_SAO.Location = new System.Drawing.Point(3, 16);
+            this.clb_SAO.MultiColumn = true;
+            this.clb_SAO.Name = "clb_SAO";
+            this.clb_SAO.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.clb_SAO.Size = new System.Drawing.Size(696, 19);
+            this.clb_SAO.TabIndex = 0;
+            this.clb_SAO.SelectedIndexChanged += new System.EventHandler(this.clb_SAO_SelectedIndexChanged);
+            // 
+            // gb_SAO
+            // 
+            this.gb_SAO.Controls.Add(this.rb_Clear_SAO);
+            this.gb_SAO.Controls.Add(this.rb_Deffect_SAO);
+            this.gb_SAO.Controls.Add(this.rb_Prev_SAO);
+            this.gb_SAO.Dock = System.Windows.Forms.DockStyle.Left;
+            this.gb_SAO.Location = new System.Drawing.Point(3, 560);
+            this.gb_SAO.Name = "gb_SAO";
+            this.gb_SAO.Size = new System.Drawing.Size(268, 109);
+            this.gb_SAO.TabIndex = 12;
+            this.gb_SAO.TabStop = false;
+            this.gb_SAO.Text = "Работа с данными";
+            // 
+            // rb_Clear_SAO
+            // 
+            this.rb_Clear_SAO.AutoSize = true;
+            this.rb_Clear_SAO.Dock = System.Windows.Forms.DockStyle.Top;
+            this.rb_Clear_SAO.Location = new System.Drawing.Point(3, 50);
+            this.rb_Clear_SAO.Name = "rb_Clear_SAO";
+            this.rb_Clear_SAO.Size = new System.Drawing.Size(262, 17);
+            this.rb_Clear_SAO.TabIndex = 6;
+            this.rb_Clear_SAO.TabStop = true;
+            this.rb_Clear_SAO.Text = "Очистить фильтр";
+            this.rb_Clear_SAO.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.rb_Clear_SAO.UseVisualStyleBackColor = true;
+            this.rb_Clear_SAO.CheckedChanged += new System.EventHandler(this.rb_Clear_SAO_CheckedChanged);
+            // 
+            // rb_Deffect_SAO
+            // 
+            this.rb_Deffect_SAO.AutoSize = true;
+            this.rb_Deffect_SAO.Dock = System.Windows.Forms.DockStyle.Top;
+            this.rb_Deffect_SAO.Location = new System.Drawing.Point(3, 33);
+            this.rb_Deffect_SAO.Name = "rb_Deffect_SAO";
+            this.rb_Deffect_SAO.Size = new System.Drawing.Size(262, 17);
+            this.rb_Deffect_SAO.TabIndex = 1;
+            this.rb_Deffect_SAO.TabStop = true;
+            this.rb_Deffect_SAO.Text = "Деффектные участки дорог (>40%)";
+            this.rb_Deffect_SAO.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.rb_Deffect_SAO.UseVisualStyleBackColor = true;
+            this.rb_Deffect_SAO.CheckedChanged += new System.EventHandler(this.rb_Deffect_SAO_CheckedChanged);
+            // 
+            // rb_Prev_SAO
+            // 
+            this.rb_Prev_SAO.AutoSize = true;
+            this.rb_Prev_SAO.Dock = System.Windows.Forms.DockStyle.Top;
+            this.rb_Prev_SAO.Location = new System.Drawing.Point(3, 16);
+            this.rb_Prev_SAO.Name = "rb_Prev_SAO";
+            this.rb_Prev_SAO.Size = new System.Drawing.Size(262, 17);
+            this.rb_Prev_SAO.TabIndex = 0;
+            this.rb_Prev_SAO.TabStop = true;
+            this.rb_Prev_SAO.Text = "Превышающие элементы";
+            this.rb_Prev_SAO.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.rb_Prev_SAO.UseVisualStyleBackColor = true;
+            this.rb_Prev_SAO.CheckedChanged += new System.EventHandler(this.rb_Prev_SAO_CheckedChanged);
+            // 
+            // lbl_Filter_SAO
+            // 
+            this.lbl_Filter_SAO.Dock = System.Windows.Forms.DockStyle.Top;
+            this.lbl_Filter_SAO.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.lbl_Filter_SAO.Location = new System.Drawing.Point(3, 521);
+            this.lbl_Filter_SAO.Name = "lbl_Filter_SAO";
+            this.lbl_Filter_SAO.Size = new System.Drawing.Size(970, 39);
+            this.lbl_Filter_SAO.TabIndex = 6;
+            this.lbl_Filter_SAO.Text = "Фильтр";
+            this.lbl_Filter_SAO.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // dgv_SAO
+            // 
+            this.dgv_SAO.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle5.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle5.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            dataGridViewCellStyle5.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle5.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle5.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgv_SAO.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle5;
+            this.dgv_SAO.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgv_SAO.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.dataGridViewCheckBoxColumn4,
+            this.dataGridViewTextBoxColumn85,
+            this.dataGridViewTextBoxColumn86,
+            this.dataGridViewTextBoxColumn87,
+            this.dataGridViewTextBoxColumn88,
+            this.dataGridViewTextBoxColumn89,
+            this.dataGridViewTextBoxColumn90,
+            this.dataGridViewTextBoxColumn91,
+            this.dataGridViewTextBoxColumn92,
+            this.dataGridViewTextBoxColumn93,
+            this.dataGridViewTextBoxColumn94,
+            this.dataGridViewTextBoxColumn95,
+            this.dataGridViewTextBoxColumn96,
+            this.dataGridViewTextBoxColumn97,
+            this.dataGridViewTextBoxColumn98,
+            this.dataGridViewTextBoxColumn99,
+            this.dataGridViewTextBoxColumn100,
+            this.dataGridViewTextBoxColumn101,
+            this.dataGridViewTextBoxColumn102,
+            this.dataGridViewTextBoxColumn103,
+            this.dataGridViewTextBoxColumn104,
+            this.dataGridViewTextBoxColumn105,
+            this.dataGridViewTextBoxColumn106,
+            this.dataGridViewTextBoxColumn107,
+            this.dataGridViewTextBoxColumn108,
+            this.dataGridViewTextBoxColumn109,
+            this.dataGridViewTextBoxColumn110,
+            this.dataGridViewTextBoxColumn111,
+            this.dataGridViewTextBoxColumn112,
+            this.dataGridViewTextBoxColumn113,
+            this.dataGridViewTextBoxColumn114,
+            this.dataGridViewTextBoxColumn115,
+            this.dataGridViewTextBoxColumn116,
+            this.dataGridViewTextBoxColumn117,
+            this.dataGridViewTextBoxColumn118,
+            this.dataGridViewTextBoxColumn119,
+            this.dataGridViewTextBoxColumn120,
+            this.dataGridViewTextBoxColumn121,
+            this.dataGridViewTextBoxColumn122,
+            this.dataGridViewTextBoxColumn123,
+            this.dataGridViewTextBoxColumn124,
+            this.dataGridViewTextBoxColumn125,
+            this.dataGridViewTextBoxColumn126});
+            this.dgv_SAO.Dock = System.Windows.Forms.DockStyle.Top;
+            this.dgv_SAO.Location = new System.Drawing.Point(3, 3);
+            this.dgv_SAO.Name = "dgv_SAO";
+            this.dgv_SAO.Size = new System.Drawing.Size(970, 518);
+            this.dgv_SAO.TabIndex = 2;
+            this.dgv_SAO.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgv_SAO_CellContentClick);
             // 
             // dataGridViewCheckBoxColumn4
             // 
@@ -4678,6 +3302,193 @@
             this.dataGridViewTextBoxColumn126.ReadOnly = true;
             this.dataGridViewTextBoxColumn126.Width = 156;
             // 
+            // SVAO
+            // 
+            this.SVAO.Controls.Add(this.gb_chart_SVAO);
+            this.SVAO.Controls.Add(this.gb_SVAO);
+            this.SVAO.Controls.Add(this.lbl_Filter_SVAO);
+            this.SVAO.Controls.Add(this.dgv_SVAO);
+            this.SVAO.Location = new System.Drawing.Point(4, 22);
+            this.SVAO.Name = "SVAO";
+            this.SVAO.Padding = new System.Windows.Forms.Padding(3);
+            this.SVAO.Size = new System.Drawing.Size(976, 672);
+            this.SVAO.TabIndex = 4;
+            this.SVAO.Text = "СВАО";
+            this.SVAO.UseVisualStyleBackColor = true;
+            // 
+            // gb_chart_SVAO
+            // 
+            this.gb_chart_SVAO.Controls.Add(this.chart_SVAO);
+            this.gb_chart_SVAO.Controls.Add(this.clb_SVAO);
+            this.gb_chart_SVAO.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.gb_chart_SVAO.Location = new System.Drawing.Point(271, 560);
+            this.gb_chart_SVAO.Name = "gb_chart_SVAO";
+            this.gb_chart_SVAO.Size = new System.Drawing.Size(702, 109);
+            this.gb_chart_SVAO.TabIndex = 13;
+            this.gb_chart_SVAO.TabStop = false;
+            this.gb_chart_SVAO.Text = "Работа с диаграммой";
+            // 
+            // chart_SVAO
+            // 
+            chartArea6.Name = "ChartArea1";
+            this.chart_SVAO.ChartAreas.Add(chartArea6);
+            this.chart_SVAO.Dock = System.Windows.Forms.DockStyle.Fill;
+            legend6.Name = "Legend1";
+            this.chart_SVAO.Legends.Add(legend6);
+            this.chart_SVAO.Location = new System.Drawing.Point(3, 35);
+            this.chart_SVAO.Name = "chart_SVAO";
+            this.chart_SVAO.Size = new System.Drawing.Size(696, 71);
+            this.chart_SVAO.TabIndex = 1;
+            this.chart_SVAO.Text = "chart7";
+            // 
+            // clb_SVAO
+            // 
+            this.clb_SVAO.CheckOnClick = true;
+            this.clb_SVAO.ColumnWidth = 160;
+            this.clb_SVAO.Dock = System.Windows.Forms.DockStyle.Top;
+            this.clb_SVAO.FormattingEnabled = true;
+            this.clb_SVAO.Items.AddRange(new object[] {
+            "Продольная ровность",
+            "Поперечная ровность",
+            "Плотность трещин",
+            "Плотность ремонтных карт"});
+            this.clb_SVAO.Location = new System.Drawing.Point(3, 16);
+            this.clb_SVAO.MultiColumn = true;
+            this.clb_SVAO.Name = "clb_SVAO";
+            this.clb_SVAO.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.clb_SVAO.Size = new System.Drawing.Size(696, 19);
+            this.clb_SVAO.TabIndex = 0;
+            this.clb_SVAO.SelectedIndexChanged += new System.EventHandler(this.clb_SVAO_SelectedIndexChanged);
+            // 
+            // gb_SVAO
+            // 
+            this.gb_SVAO.Controls.Add(this.rb_Clear_SVAO);
+            this.gb_SVAO.Controls.Add(this.rb_Deffect_SVAO);
+            this.gb_SVAO.Controls.Add(this.rb_Prev_SVAO);
+            this.gb_SVAO.Dock = System.Windows.Forms.DockStyle.Left;
+            this.gb_SVAO.Location = new System.Drawing.Point(3, 560);
+            this.gb_SVAO.Name = "gb_SVAO";
+            this.gb_SVAO.Size = new System.Drawing.Size(268, 109);
+            this.gb_SVAO.TabIndex = 12;
+            this.gb_SVAO.TabStop = false;
+            this.gb_SVAO.Text = "Работа с данными";
+            // 
+            // rb_Clear_SVAO
+            // 
+            this.rb_Clear_SVAO.AutoSize = true;
+            this.rb_Clear_SVAO.Dock = System.Windows.Forms.DockStyle.Top;
+            this.rb_Clear_SVAO.Location = new System.Drawing.Point(3, 50);
+            this.rb_Clear_SVAO.Name = "rb_Clear_SVAO";
+            this.rb_Clear_SVAO.Size = new System.Drawing.Size(262, 17);
+            this.rb_Clear_SVAO.TabIndex = 6;
+            this.rb_Clear_SVAO.TabStop = true;
+            this.rb_Clear_SVAO.Text = "Очистить фильтр";
+            this.rb_Clear_SVAO.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.rb_Clear_SVAO.UseVisualStyleBackColor = true;
+            this.rb_Clear_SVAO.CheckedChanged += new System.EventHandler(this.rb_Clear_SVAO_CheckedChanged);
+            // 
+            // rb_Deffect_SVAO
+            // 
+            this.rb_Deffect_SVAO.AutoSize = true;
+            this.rb_Deffect_SVAO.Dock = System.Windows.Forms.DockStyle.Top;
+            this.rb_Deffect_SVAO.Location = new System.Drawing.Point(3, 33);
+            this.rb_Deffect_SVAO.Name = "rb_Deffect_SVAO";
+            this.rb_Deffect_SVAO.Size = new System.Drawing.Size(262, 17);
+            this.rb_Deffect_SVAO.TabIndex = 1;
+            this.rb_Deffect_SVAO.TabStop = true;
+            this.rb_Deffect_SVAO.Text = "Деффектные участки дорог (>40%)";
+            this.rb_Deffect_SVAO.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.rb_Deffect_SVAO.UseVisualStyleBackColor = true;
+            this.rb_Deffect_SVAO.CheckedChanged += new System.EventHandler(this.rb_Deffect_SVAO_CheckedChanged);
+            // 
+            // rb_Prev_SVAO
+            // 
+            this.rb_Prev_SVAO.AutoSize = true;
+            this.rb_Prev_SVAO.Dock = System.Windows.Forms.DockStyle.Top;
+            this.rb_Prev_SVAO.Location = new System.Drawing.Point(3, 16);
+            this.rb_Prev_SVAO.Name = "rb_Prev_SVAO";
+            this.rb_Prev_SVAO.Size = new System.Drawing.Size(262, 17);
+            this.rb_Prev_SVAO.TabIndex = 0;
+            this.rb_Prev_SVAO.TabStop = true;
+            this.rb_Prev_SVAO.Text = "Превышающие элементы";
+            this.rb_Prev_SVAO.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.rb_Prev_SVAO.UseVisualStyleBackColor = true;
+            this.rb_Prev_SVAO.CheckedChanged += new System.EventHandler(this.rb_Prev_SVAO_CheckedChanged);
+            // 
+            // lbl_Filter_SVAO
+            // 
+            this.lbl_Filter_SVAO.Dock = System.Windows.Forms.DockStyle.Top;
+            this.lbl_Filter_SVAO.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.lbl_Filter_SVAO.Location = new System.Drawing.Point(3, 521);
+            this.lbl_Filter_SVAO.Name = "lbl_Filter_SVAO";
+            this.lbl_Filter_SVAO.Size = new System.Drawing.Size(970, 39);
+            this.lbl_Filter_SVAO.TabIndex = 6;
+            this.lbl_Filter_SVAO.Text = "Фильтр";
+            this.lbl_Filter_SVAO.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // dgv_SVAO
+            // 
+            this.dgv_SVAO.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle6.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle6.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            dataGridViewCellStyle6.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle6.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle6.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle6.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgv_SVAO.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle6;
+            this.dgv_SVAO.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgv_SVAO.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.dataGridViewCheckBoxColumn5,
+            this.dataGridViewTextBoxColumn127,
+            this.dataGridViewTextBoxColumn128,
+            this.dataGridViewTextBoxColumn129,
+            this.dataGridViewTextBoxColumn130,
+            this.dataGridViewTextBoxColumn131,
+            this.dataGridViewTextBoxColumn132,
+            this.dataGridViewTextBoxColumn133,
+            this.dataGridViewTextBoxColumn134,
+            this.dataGridViewTextBoxColumn135,
+            this.dataGridViewTextBoxColumn136,
+            this.dataGridViewTextBoxColumn137,
+            this.dataGridViewTextBoxColumn138,
+            this.dataGridViewTextBoxColumn139,
+            this.dataGridViewTextBoxColumn140,
+            this.dataGridViewTextBoxColumn141,
+            this.dataGridViewTextBoxColumn142,
+            this.dataGridViewTextBoxColumn143,
+            this.dataGridViewTextBoxColumn144,
+            this.dataGridViewTextBoxColumn145,
+            this.dataGridViewTextBoxColumn146,
+            this.dataGridViewTextBoxColumn147,
+            this.dataGridViewTextBoxColumn148,
+            this.dataGridViewTextBoxColumn149,
+            this.dataGridViewTextBoxColumn150,
+            this.dataGridViewTextBoxColumn151,
+            this.dataGridViewTextBoxColumn152,
+            this.dataGridViewTextBoxColumn153,
+            this.dataGridViewTextBoxColumn154,
+            this.dataGridViewTextBoxColumn155,
+            this.dataGridViewTextBoxColumn156,
+            this.dataGridViewTextBoxColumn157,
+            this.dataGridViewTextBoxColumn158,
+            this.dataGridViewTextBoxColumn159,
+            this.dataGridViewTextBoxColumn160,
+            this.dataGridViewTextBoxColumn161,
+            this.dataGridViewTextBoxColumn162,
+            this.dataGridViewTextBoxColumn163,
+            this.dataGridViewTextBoxColumn164,
+            this.dataGridViewTextBoxColumn165,
+            this.dataGridViewTextBoxColumn166,
+            this.dataGridViewTextBoxColumn167,
+            this.dataGridViewTextBoxColumn168});
+            this.dgv_SVAO.Dock = System.Windows.Forms.DockStyle.Top;
+            this.dgv_SVAO.Location = new System.Drawing.Point(3, 3);
+            this.dgv_SVAO.Name = "dgv_SVAO";
+            this.dgv_SVAO.Size = new System.Drawing.Size(970, 518);
+            this.dgv_SVAO.TabIndex = 2;
+            this.dgv_SVAO.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgv_SVAO_CellContentClick);
+            // 
             // dataGridViewCheckBoxColumn5
             // 
             this.dataGridViewCheckBoxColumn5.Frozen = true;
@@ -4985,6 +3796,193 @@
             this.dataGridViewTextBoxColumn168.Name = "dataGridViewTextBoxColumn168";
             this.dataGridViewTextBoxColumn168.ReadOnly = true;
             this.dataGridViewTextBoxColumn168.Width = 156;
+            // 
+            // SZAO
+            // 
+            this.SZAO.Controls.Add(this.gb_chart_SZAO);
+            this.SZAO.Controls.Add(this.gb_SZAO);
+            this.SZAO.Controls.Add(this.lbl_Filter_SZAO);
+            this.SZAO.Controls.Add(this.dgv_SZAO);
+            this.SZAO.Location = new System.Drawing.Point(4, 22);
+            this.SZAO.Name = "SZAO";
+            this.SZAO.Padding = new System.Windows.Forms.Padding(3);
+            this.SZAO.Size = new System.Drawing.Size(976, 672);
+            this.SZAO.TabIndex = 5;
+            this.SZAO.Text = "СЗАО";
+            this.SZAO.UseVisualStyleBackColor = true;
+            // 
+            // gb_chart_SZAO
+            // 
+            this.gb_chart_SZAO.Controls.Add(this.chart_SZAO);
+            this.gb_chart_SZAO.Controls.Add(this.clb_SZAO);
+            this.gb_chart_SZAO.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.gb_chart_SZAO.Location = new System.Drawing.Point(271, 560);
+            this.gb_chart_SZAO.Name = "gb_chart_SZAO";
+            this.gb_chart_SZAO.Size = new System.Drawing.Size(702, 109);
+            this.gb_chart_SZAO.TabIndex = 13;
+            this.gb_chart_SZAO.TabStop = false;
+            this.gb_chart_SZAO.Text = "Работа с диаграммой";
+            // 
+            // chart_SZAO
+            // 
+            chartArea7.Name = "ChartArea1";
+            this.chart_SZAO.ChartAreas.Add(chartArea7);
+            this.chart_SZAO.Dock = System.Windows.Forms.DockStyle.Fill;
+            legend7.Name = "Legend1";
+            this.chart_SZAO.Legends.Add(legend7);
+            this.chart_SZAO.Location = new System.Drawing.Point(3, 35);
+            this.chart_SZAO.Name = "chart_SZAO";
+            this.chart_SZAO.Size = new System.Drawing.Size(696, 71);
+            this.chart_SZAO.TabIndex = 1;
+            this.chart_SZAO.Text = "chart7";
+            // 
+            // clb_SZAO
+            // 
+            this.clb_SZAO.CheckOnClick = true;
+            this.clb_SZAO.ColumnWidth = 160;
+            this.clb_SZAO.Dock = System.Windows.Forms.DockStyle.Top;
+            this.clb_SZAO.FormattingEnabled = true;
+            this.clb_SZAO.Items.AddRange(new object[] {
+            "Продольная ровность",
+            "Поперечная ровность",
+            "Плотность трещин",
+            "Плотность ремонтных карт"});
+            this.clb_SZAO.Location = new System.Drawing.Point(3, 16);
+            this.clb_SZAO.MultiColumn = true;
+            this.clb_SZAO.Name = "clb_SZAO";
+            this.clb_SZAO.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.clb_SZAO.Size = new System.Drawing.Size(696, 19);
+            this.clb_SZAO.TabIndex = 0;
+            this.clb_SZAO.SelectedIndexChanged += new System.EventHandler(this.clb_SZAO_SelectedIndexChanged);
+            // 
+            // gb_SZAO
+            // 
+            this.gb_SZAO.Controls.Add(this.rb_Clear_SZAO);
+            this.gb_SZAO.Controls.Add(this.rb_Deffect_SZAO);
+            this.gb_SZAO.Controls.Add(this.rb_Prev_SZAO);
+            this.gb_SZAO.Dock = System.Windows.Forms.DockStyle.Left;
+            this.gb_SZAO.Location = new System.Drawing.Point(3, 560);
+            this.gb_SZAO.Name = "gb_SZAO";
+            this.gb_SZAO.Size = new System.Drawing.Size(268, 109);
+            this.gb_SZAO.TabIndex = 12;
+            this.gb_SZAO.TabStop = false;
+            this.gb_SZAO.Text = "Работа с данными";
+            // 
+            // rb_Clear_SZAO
+            // 
+            this.rb_Clear_SZAO.AutoSize = true;
+            this.rb_Clear_SZAO.Dock = System.Windows.Forms.DockStyle.Top;
+            this.rb_Clear_SZAO.Location = new System.Drawing.Point(3, 50);
+            this.rb_Clear_SZAO.Name = "rb_Clear_SZAO";
+            this.rb_Clear_SZAO.Size = new System.Drawing.Size(262, 17);
+            this.rb_Clear_SZAO.TabIndex = 6;
+            this.rb_Clear_SZAO.TabStop = true;
+            this.rb_Clear_SZAO.Text = "Очистить фильтр";
+            this.rb_Clear_SZAO.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.rb_Clear_SZAO.UseVisualStyleBackColor = true;
+            this.rb_Clear_SZAO.CheckedChanged += new System.EventHandler(this.rb_Clear_SZAO_CheckedChanged);
+            // 
+            // rb_Deffect_SZAO
+            // 
+            this.rb_Deffect_SZAO.AutoSize = true;
+            this.rb_Deffect_SZAO.Dock = System.Windows.Forms.DockStyle.Top;
+            this.rb_Deffect_SZAO.Location = new System.Drawing.Point(3, 33);
+            this.rb_Deffect_SZAO.Name = "rb_Deffect_SZAO";
+            this.rb_Deffect_SZAO.Size = new System.Drawing.Size(262, 17);
+            this.rb_Deffect_SZAO.TabIndex = 1;
+            this.rb_Deffect_SZAO.TabStop = true;
+            this.rb_Deffect_SZAO.Text = "Деффектные участки дорог (>40%)";
+            this.rb_Deffect_SZAO.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.rb_Deffect_SZAO.UseVisualStyleBackColor = true;
+            this.rb_Deffect_SZAO.CheckedChanged += new System.EventHandler(this.rb_Deffect_SZAO_CheckedChanged);
+            // 
+            // rb_Prev_SZAO
+            // 
+            this.rb_Prev_SZAO.AutoSize = true;
+            this.rb_Prev_SZAO.Dock = System.Windows.Forms.DockStyle.Top;
+            this.rb_Prev_SZAO.Location = new System.Drawing.Point(3, 16);
+            this.rb_Prev_SZAO.Name = "rb_Prev_SZAO";
+            this.rb_Prev_SZAO.Size = new System.Drawing.Size(262, 17);
+            this.rb_Prev_SZAO.TabIndex = 0;
+            this.rb_Prev_SZAO.TabStop = true;
+            this.rb_Prev_SZAO.Text = "Превышающие элементы";
+            this.rb_Prev_SZAO.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.rb_Prev_SZAO.UseVisualStyleBackColor = true;
+            this.rb_Prev_SZAO.CheckedChanged += new System.EventHandler(this.rb_Prev_SZAO_CheckedChanged);
+            // 
+            // lbl_Filter_SZAO
+            // 
+            this.lbl_Filter_SZAO.Dock = System.Windows.Forms.DockStyle.Top;
+            this.lbl_Filter_SZAO.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.lbl_Filter_SZAO.Location = new System.Drawing.Point(3, 521);
+            this.lbl_Filter_SZAO.Name = "lbl_Filter_SZAO";
+            this.lbl_Filter_SZAO.Size = new System.Drawing.Size(970, 39);
+            this.lbl_Filter_SZAO.TabIndex = 6;
+            this.lbl_Filter_SZAO.Text = "Фильтр";
+            this.lbl_Filter_SZAO.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // dgv_SZAO
+            // 
+            this.dgv_SZAO.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            dataGridViewCellStyle7.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle7.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle7.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            dataGridViewCellStyle7.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle7.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle7.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle7.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgv_SZAO.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle7;
+            this.dgv_SZAO.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgv_SZAO.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.dataGridViewCheckBoxColumn6,
+            this.dataGridViewTextBoxColumn169,
+            this.dataGridViewTextBoxColumn170,
+            this.dataGridViewTextBoxColumn171,
+            this.dataGridViewTextBoxColumn172,
+            this.dataGridViewTextBoxColumn173,
+            this.dataGridViewTextBoxColumn174,
+            this.dataGridViewTextBoxColumn175,
+            this.dataGridViewTextBoxColumn176,
+            this.dataGridViewTextBoxColumn177,
+            this.dataGridViewTextBoxColumn178,
+            this.dataGridViewTextBoxColumn179,
+            this.dataGridViewTextBoxColumn180,
+            this.dataGridViewTextBoxColumn181,
+            this.dataGridViewTextBoxColumn182,
+            this.dataGridViewTextBoxColumn183,
+            this.dataGridViewTextBoxColumn184,
+            this.dataGridViewTextBoxColumn185,
+            this.dataGridViewTextBoxColumn186,
+            this.dataGridViewTextBoxColumn187,
+            this.dataGridViewTextBoxColumn188,
+            this.dataGridViewTextBoxColumn189,
+            this.dataGridViewTextBoxColumn190,
+            this.dataGridViewTextBoxColumn191,
+            this.dataGridViewTextBoxColumn192,
+            this.dataGridViewTextBoxColumn193,
+            this.dataGridViewTextBoxColumn194,
+            this.dataGridViewTextBoxColumn195,
+            this.dataGridViewTextBoxColumn196,
+            this.dataGridViewTextBoxColumn197,
+            this.dataGridViewTextBoxColumn198,
+            this.dataGridViewTextBoxColumn199,
+            this.dataGridViewTextBoxColumn200,
+            this.dataGridViewTextBoxColumn201,
+            this.dataGridViewTextBoxColumn202,
+            this.dataGridViewTextBoxColumn203,
+            this.dataGridViewTextBoxColumn204,
+            this.dataGridViewTextBoxColumn205,
+            this.dataGridViewTextBoxColumn206,
+            this.dataGridViewTextBoxColumn207,
+            this.dataGridViewTextBoxColumn208,
+            this.dataGridViewTextBoxColumn209,
+            this.dataGridViewTextBoxColumn210});
+            this.dgv_SZAO.Dock = System.Windows.Forms.DockStyle.Top;
+            this.dgv_SZAO.Location = new System.Drawing.Point(3, 3);
+            this.dgv_SZAO.Name = "dgv_SZAO";
+            this.dgv_SZAO.Size = new System.Drawing.Size(970, 518);
+            this.dgv_SZAO.TabIndex = 2;
+            this.dgv_SZAO.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgv_SZAO_CellContentClick);
             // 
             // dataGridViewCheckBoxColumn6
             // 
@@ -5294,6 +4292,193 @@
             this.dataGridViewTextBoxColumn210.ReadOnly = true;
             this.dataGridViewTextBoxColumn210.Width = 156;
             // 
+            // TiNAO
+            // 
+            this.TiNAO.Controls.Add(this.gb_chart_TiNAO);
+            this.TiNAO.Controls.Add(this.gb_TiNAO);
+            this.TiNAO.Controls.Add(this.lbl_Filter_TiNAO);
+            this.TiNAO.Controls.Add(this.dgv_TiNAO);
+            this.TiNAO.Location = new System.Drawing.Point(4, 22);
+            this.TiNAO.Name = "TiNAO";
+            this.TiNAO.Padding = new System.Windows.Forms.Padding(3);
+            this.TiNAO.Size = new System.Drawing.Size(976, 672);
+            this.TiNAO.TabIndex = 6;
+            this.TiNAO.Text = "ТиНАО";
+            this.TiNAO.UseVisualStyleBackColor = true;
+            // 
+            // gb_chart_TiNAO
+            // 
+            this.gb_chart_TiNAO.Controls.Add(this.chart_TiNAO);
+            this.gb_chart_TiNAO.Controls.Add(this.clb_TiNAO);
+            this.gb_chart_TiNAO.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.gb_chart_TiNAO.Location = new System.Drawing.Point(271, 560);
+            this.gb_chart_TiNAO.Name = "gb_chart_TiNAO";
+            this.gb_chart_TiNAO.Size = new System.Drawing.Size(702, 109);
+            this.gb_chart_TiNAO.TabIndex = 13;
+            this.gb_chart_TiNAO.TabStop = false;
+            this.gb_chart_TiNAO.Text = "Работа с диаграммой";
+            // 
+            // chart_TiNAO
+            // 
+            chartArea8.Name = "ChartArea1";
+            this.chart_TiNAO.ChartAreas.Add(chartArea8);
+            this.chart_TiNAO.Dock = System.Windows.Forms.DockStyle.Fill;
+            legend8.Name = "Legend1";
+            this.chart_TiNAO.Legends.Add(legend8);
+            this.chart_TiNAO.Location = new System.Drawing.Point(3, 35);
+            this.chart_TiNAO.Name = "chart_TiNAO";
+            this.chart_TiNAO.Size = new System.Drawing.Size(696, 71);
+            this.chart_TiNAO.TabIndex = 1;
+            this.chart_TiNAO.Text = "chart7";
+            // 
+            // clb_TiNAO
+            // 
+            this.clb_TiNAO.CheckOnClick = true;
+            this.clb_TiNAO.ColumnWidth = 160;
+            this.clb_TiNAO.Dock = System.Windows.Forms.DockStyle.Top;
+            this.clb_TiNAO.FormattingEnabled = true;
+            this.clb_TiNAO.Items.AddRange(new object[] {
+            "Продольная ровность",
+            "Поперечная ровность",
+            "Плотность трещин",
+            "Плотность ремонтных карт"});
+            this.clb_TiNAO.Location = new System.Drawing.Point(3, 16);
+            this.clb_TiNAO.MultiColumn = true;
+            this.clb_TiNAO.Name = "clb_TiNAO";
+            this.clb_TiNAO.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.clb_TiNAO.Size = new System.Drawing.Size(696, 19);
+            this.clb_TiNAO.TabIndex = 0;
+            this.clb_TiNAO.SelectedIndexChanged += new System.EventHandler(this.clb_TiNAO_SelectedIndexChanged);
+            // 
+            // gb_TiNAO
+            // 
+            this.gb_TiNAO.Controls.Add(this.rb_Clear_TiNAO);
+            this.gb_TiNAO.Controls.Add(this.rb_Deffect_TiNAO);
+            this.gb_TiNAO.Controls.Add(this.rb_Prev_TiNAO);
+            this.gb_TiNAO.Dock = System.Windows.Forms.DockStyle.Left;
+            this.gb_TiNAO.Location = new System.Drawing.Point(3, 560);
+            this.gb_TiNAO.Name = "gb_TiNAO";
+            this.gb_TiNAO.Size = new System.Drawing.Size(268, 109);
+            this.gb_TiNAO.TabIndex = 12;
+            this.gb_TiNAO.TabStop = false;
+            this.gb_TiNAO.Text = "Работа с данными";
+            // 
+            // rb_Clear_TiNAO
+            // 
+            this.rb_Clear_TiNAO.AutoSize = true;
+            this.rb_Clear_TiNAO.Dock = System.Windows.Forms.DockStyle.Top;
+            this.rb_Clear_TiNAO.Location = new System.Drawing.Point(3, 50);
+            this.rb_Clear_TiNAO.Name = "rb_Clear_TiNAO";
+            this.rb_Clear_TiNAO.Size = new System.Drawing.Size(262, 17);
+            this.rb_Clear_TiNAO.TabIndex = 6;
+            this.rb_Clear_TiNAO.TabStop = true;
+            this.rb_Clear_TiNAO.Text = "Очистить фильтр";
+            this.rb_Clear_TiNAO.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.rb_Clear_TiNAO.UseVisualStyleBackColor = true;
+            this.rb_Clear_TiNAO.CheckedChanged += new System.EventHandler(this.rb_Clear_TiNAO_CheckedChanged);
+            // 
+            // rb_Deffect_TiNAO
+            // 
+            this.rb_Deffect_TiNAO.AutoSize = true;
+            this.rb_Deffect_TiNAO.Dock = System.Windows.Forms.DockStyle.Top;
+            this.rb_Deffect_TiNAO.Location = new System.Drawing.Point(3, 33);
+            this.rb_Deffect_TiNAO.Name = "rb_Deffect_TiNAO";
+            this.rb_Deffect_TiNAO.Size = new System.Drawing.Size(262, 17);
+            this.rb_Deffect_TiNAO.TabIndex = 1;
+            this.rb_Deffect_TiNAO.TabStop = true;
+            this.rb_Deffect_TiNAO.Text = "Деффектные участки дорог (>40%)";
+            this.rb_Deffect_TiNAO.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.rb_Deffect_TiNAO.UseVisualStyleBackColor = true;
+            this.rb_Deffect_TiNAO.CheckedChanged += new System.EventHandler(this.rb_Deffect_TiNAO_CheckedChanged);
+            // 
+            // rb_Prev_TiNAO
+            // 
+            this.rb_Prev_TiNAO.AutoSize = true;
+            this.rb_Prev_TiNAO.Dock = System.Windows.Forms.DockStyle.Top;
+            this.rb_Prev_TiNAO.Location = new System.Drawing.Point(3, 16);
+            this.rb_Prev_TiNAO.Name = "rb_Prev_TiNAO";
+            this.rb_Prev_TiNAO.Size = new System.Drawing.Size(262, 17);
+            this.rb_Prev_TiNAO.TabIndex = 0;
+            this.rb_Prev_TiNAO.TabStop = true;
+            this.rb_Prev_TiNAO.Text = "Превышающие элементы";
+            this.rb_Prev_TiNAO.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.rb_Prev_TiNAO.UseVisualStyleBackColor = true;
+            this.rb_Prev_TiNAO.CheckedChanged += new System.EventHandler(this.rb_Prev_TiNAO_CheckedChanged);
+            // 
+            // lbl_Filter_TiNAO
+            // 
+            this.lbl_Filter_TiNAO.Dock = System.Windows.Forms.DockStyle.Top;
+            this.lbl_Filter_TiNAO.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.lbl_Filter_TiNAO.Location = new System.Drawing.Point(3, 521);
+            this.lbl_Filter_TiNAO.Name = "lbl_Filter_TiNAO";
+            this.lbl_Filter_TiNAO.Size = new System.Drawing.Size(970, 39);
+            this.lbl_Filter_TiNAO.TabIndex = 6;
+            this.lbl_Filter_TiNAO.Text = "Фильтр";
+            this.lbl_Filter_TiNAO.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // dgv_TiNAO
+            // 
+            this.dgv_TiNAO.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            dataGridViewCellStyle8.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle8.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle8.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            dataGridViewCellStyle8.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle8.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle8.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle8.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgv_TiNAO.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle8;
+            this.dgv_TiNAO.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgv_TiNAO.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.dataGridViewCheckBoxColumn7,
+            this.dataGridViewTextBoxColumn211,
+            this.dataGridViewTextBoxColumn212,
+            this.dataGridViewTextBoxColumn213,
+            this.dataGridViewTextBoxColumn214,
+            this.dataGridViewTextBoxColumn215,
+            this.dataGridViewTextBoxColumn216,
+            this.dataGridViewTextBoxColumn217,
+            this.dataGridViewTextBoxColumn218,
+            this.dataGridViewTextBoxColumn219,
+            this.dataGridViewTextBoxColumn220,
+            this.dataGridViewTextBoxColumn221,
+            this.dataGridViewTextBoxColumn222,
+            this.dataGridViewTextBoxColumn223,
+            this.dataGridViewTextBoxColumn224,
+            this.dataGridViewTextBoxColumn225,
+            this.dataGridViewTextBoxColumn226,
+            this.dataGridViewTextBoxColumn227,
+            this.dataGridViewTextBoxColumn228,
+            this.dataGridViewTextBoxColumn229,
+            this.dataGridViewTextBoxColumn230,
+            this.dataGridViewTextBoxColumn231,
+            this.dataGridViewTextBoxColumn232,
+            this.dataGridViewTextBoxColumn233,
+            this.dataGridViewTextBoxColumn234,
+            this.dataGridViewTextBoxColumn235,
+            this.dataGridViewTextBoxColumn236,
+            this.dataGridViewTextBoxColumn237,
+            this.dataGridViewTextBoxColumn238,
+            this.dataGridViewTextBoxColumn239,
+            this.dataGridViewTextBoxColumn240,
+            this.dataGridViewTextBoxColumn241,
+            this.dataGridViewTextBoxColumn242,
+            this.dataGridViewTextBoxColumn243,
+            this.dataGridViewTextBoxColumn244,
+            this.dataGridViewTextBoxColumn245,
+            this.dataGridViewTextBoxColumn246,
+            this.dataGridViewTextBoxColumn247,
+            this.dataGridViewTextBoxColumn248,
+            this.dataGridViewTextBoxColumn249,
+            this.dataGridViewTextBoxColumn250,
+            this.dataGridViewTextBoxColumn251,
+            this.dataGridViewTextBoxColumn252});
+            this.dgv_TiNAO.Dock = System.Windows.Forms.DockStyle.Top;
+            this.dgv_TiNAO.Location = new System.Drawing.Point(3, 3);
+            this.dgv_TiNAO.Name = "dgv_TiNAO";
+            this.dgv_TiNAO.Size = new System.Drawing.Size(970, 518);
+            this.dgv_TiNAO.TabIndex = 2;
+            this.dgv_TiNAO.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgv_TiNAO_CellContentClick);
+            // 
             // dataGridViewCheckBoxColumn7
             // 
             this.dataGridViewCheckBoxColumn7.Frozen = true;
@@ -5601,6 +4786,193 @@
             this.dataGridViewTextBoxColumn252.Name = "dataGridViewTextBoxColumn252";
             this.dataGridViewTextBoxColumn252.ReadOnly = true;
             this.dataGridViewTextBoxColumn252.Width = 156;
+            // 
+            // TCAO
+            // 
+            this.TCAO.Controls.Add(this.gb_chart_TSAO);
+            this.TCAO.Controls.Add(this.gb_TSAO);
+            this.TCAO.Controls.Add(this.lbl_Filter_TSAO);
+            this.TCAO.Controls.Add(this.dgv_TSAO);
+            this.TCAO.Location = new System.Drawing.Point(4, 22);
+            this.TCAO.Name = "TCAO";
+            this.TCAO.Padding = new System.Windows.Forms.Padding(3);
+            this.TCAO.Size = new System.Drawing.Size(976, 672);
+            this.TCAO.TabIndex = 7;
+            this.TCAO.Text = "ЦАО";
+            this.TCAO.UseVisualStyleBackColor = true;
+            // 
+            // gb_chart_TSAO
+            // 
+            this.gb_chart_TSAO.Controls.Add(this.chart_TSAO);
+            this.gb_chart_TSAO.Controls.Add(this.clb_TSAO);
+            this.gb_chart_TSAO.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.gb_chart_TSAO.Location = new System.Drawing.Point(271, 560);
+            this.gb_chart_TSAO.Name = "gb_chart_TSAO";
+            this.gb_chart_TSAO.Size = new System.Drawing.Size(702, 109);
+            this.gb_chart_TSAO.TabIndex = 13;
+            this.gb_chart_TSAO.TabStop = false;
+            this.gb_chart_TSAO.Text = "Работа с диаграммой";
+            // 
+            // chart_TSAO
+            // 
+            chartArea9.Name = "ChartArea1";
+            this.chart_TSAO.ChartAreas.Add(chartArea9);
+            this.chart_TSAO.Dock = System.Windows.Forms.DockStyle.Fill;
+            legend9.Name = "Legend1";
+            this.chart_TSAO.Legends.Add(legend9);
+            this.chart_TSAO.Location = new System.Drawing.Point(3, 35);
+            this.chart_TSAO.Name = "chart_TSAO";
+            this.chart_TSAO.Size = new System.Drawing.Size(696, 71);
+            this.chart_TSAO.TabIndex = 1;
+            this.chart_TSAO.Text = "chart7";
+            // 
+            // clb_TSAO
+            // 
+            this.clb_TSAO.CheckOnClick = true;
+            this.clb_TSAO.ColumnWidth = 160;
+            this.clb_TSAO.Dock = System.Windows.Forms.DockStyle.Top;
+            this.clb_TSAO.FormattingEnabled = true;
+            this.clb_TSAO.Items.AddRange(new object[] {
+            "Продольная ровность",
+            "Поперечная ровность",
+            "Плотность трещин",
+            "Плотность ремонтных карт"});
+            this.clb_TSAO.Location = new System.Drawing.Point(3, 16);
+            this.clb_TSAO.MultiColumn = true;
+            this.clb_TSAO.Name = "clb_TSAO";
+            this.clb_TSAO.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.clb_TSAO.Size = new System.Drawing.Size(696, 19);
+            this.clb_TSAO.TabIndex = 0;
+            this.clb_TSAO.SelectedIndexChanged += new System.EventHandler(this.clb_TSAO_SelectedIndexChanged);
+            // 
+            // gb_TSAO
+            // 
+            this.gb_TSAO.Controls.Add(this.rb_Clear_TSAO);
+            this.gb_TSAO.Controls.Add(this.rb_Deffect_TSAO);
+            this.gb_TSAO.Controls.Add(this.rb_Prev_TSAO);
+            this.gb_TSAO.Dock = System.Windows.Forms.DockStyle.Left;
+            this.gb_TSAO.Location = new System.Drawing.Point(3, 560);
+            this.gb_TSAO.Name = "gb_TSAO";
+            this.gb_TSAO.Size = new System.Drawing.Size(268, 109);
+            this.gb_TSAO.TabIndex = 12;
+            this.gb_TSAO.TabStop = false;
+            this.gb_TSAO.Text = "Работа с данными";
+            // 
+            // rb_Clear_TSAO
+            // 
+            this.rb_Clear_TSAO.AutoSize = true;
+            this.rb_Clear_TSAO.Dock = System.Windows.Forms.DockStyle.Top;
+            this.rb_Clear_TSAO.Location = new System.Drawing.Point(3, 50);
+            this.rb_Clear_TSAO.Name = "rb_Clear_TSAO";
+            this.rb_Clear_TSAO.Size = new System.Drawing.Size(262, 17);
+            this.rb_Clear_TSAO.TabIndex = 6;
+            this.rb_Clear_TSAO.TabStop = true;
+            this.rb_Clear_TSAO.Text = "Очистить фильтр";
+            this.rb_Clear_TSAO.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.rb_Clear_TSAO.UseVisualStyleBackColor = true;
+            this.rb_Clear_TSAO.CheckedChanged += new System.EventHandler(this.rb_Clear_TSAO_CheckedChanged);
+            // 
+            // rb_Deffect_TSAO
+            // 
+            this.rb_Deffect_TSAO.AutoSize = true;
+            this.rb_Deffect_TSAO.Dock = System.Windows.Forms.DockStyle.Top;
+            this.rb_Deffect_TSAO.Location = new System.Drawing.Point(3, 33);
+            this.rb_Deffect_TSAO.Name = "rb_Deffect_TSAO";
+            this.rb_Deffect_TSAO.Size = new System.Drawing.Size(262, 17);
+            this.rb_Deffect_TSAO.TabIndex = 1;
+            this.rb_Deffect_TSAO.TabStop = true;
+            this.rb_Deffect_TSAO.Text = "Деффектные участки дорог (>40%)";
+            this.rb_Deffect_TSAO.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.rb_Deffect_TSAO.UseVisualStyleBackColor = true;
+            this.rb_Deffect_TSAO.CheckedChanged += new System.EventHandler(this.rb_Deffect_TSAO_CheckedChanged);
+            // 
+            // rb_Prev_TSAO
+            // 
+            this.rb_Prev_TSAO.AutoSize = true;
+            this.rb_Prev_TSAO.Dock = System.Windows.Forms.DockStyle.Top;
+            this.rb_Prev_TSAO.Location = new System.Drawing.Point(3, 16);
+            this.rb_Prev_TSAO.Name = "rb_Prev_TSAO";
+            this.rb_Prev_TSAO.Size = new System.Drawing.Size(262, 17);
+            this.rb_Prev_TSAO.TabIndex = 0;
+            this.rb_Prev_TSAO.TabStop = true;
+            this.rb_Prev_TSAO.Text = "Превышающие элементы";
+            this.rb_Prev_TSAO.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.rb_Prev_TSAO.UseVisualStyleBackColor = true;
+            this.rb_Prev_TSAO.CheckedChanged += new System.EventHandler(this.rb_Prev_TSAO_CheckedChanged);
+            // 
+            // lbl_Filter_TSAO
+            // 
+            this.lbl_Filter_TSAO.Dock = System.Windows.Forms.DockStyle.Top;
+            this.lbl_Filter_TSAO.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.lbl_Filter_TSAO.Location = new System.Drawing.Point(3, 521);
+            this.lbl_Filter_TSAO.Name = "lbl_Filter_TSAO";
+            this.lbl_Filter_TSAO.Size = new System.Drawing.Size(970, 39);
+            this.lbl_Filter_TSAO.TabIndex = 6;
+            this.lbl_Filter_TSAO.Text = "Фильтр";
+            this.lbl_Filter_TSAO.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // dgv_TSAO
+            // 
+            this.dgv_TSAO.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            dataGridViewCellStyle9.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle9.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle9.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            dataGridViewCellStyle9.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle9.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle9.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle9.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgv_TSAO.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle9;
+            this.dgv_TSAO.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgv_TSAO.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.dataGridViewCheckBoxColumn8,
+            this.dataGridViewTextBoxColumn253,
+            this.dataGridViewTextBoxColumn254,
+            this.dataGridViewTextBoxColumn255,
+            this.dataGridViewTextBoxColumn256,
+            this.dataGridViewTextBoxColumn257,
+            this.dataGridViewTextBoxColumn258,
+            this.dataGridViewTextBoxColumn259,
+            this.dataGridViewTextBoxColumn260,
+            this.dataGridViewTextBoxColumn261,
+            this.dataGridViewTextBoxColumn262,
+            this.dataGridViewTextBoxColumn263,
+            this.dataGridViewTextBoxColumn264,
+            this.dataGridViewTextBoxColumn265,
+            this.dataGridViewTextBoxColumn266,
+            this.dataGridViewTextBoxColumn267,
+            this.dataGridViewTextBoxColumn268,
+            this.dataGridViewTextBoxColumn269,
+            this.dataGridViewTextBoxColumn270,
+            this.dataGridViewTextBoxColumn271,
+            this.dataGridViewTextBoxColumn272,
+            this.dataGridViewTextBoxColumn273,
+            this.dataGridViewTextBoxColumn274,
+            this.dataGridViewTextBoxColumn275,
+            this.dataGridViewTextBoxColumn276,
+            this.dataGridViewTextBoxColumn277,
+            this.dataGridViewTextBoxColumn278,
+            this.dataGridViewTextBoxColumn279,
+            this.dataGridViewTextBoxColumn280,
+            this.dataGridViewTextBoxColumn281,
+            this.dataGridViewTextBoxColumn282,
+            this.dataGridViewTextBoxColumn283,
+            this.dataGridViewTextBoxColumn284,
+            this.dataGridViewTextBoxColumn285,
+            this.dataGridViewTextBoxColumn286,
+            this.dataGridViewTextBoxColumn287,
+            this.dataGridViewTextBoxColumn288,
+            this.dataGridViewTextBoxColumn289,
+            this.dataGridViewTextBoxColumn290,
+            this.dataGridViewTextBoxColumn291,
+            this.dataGridViewTextBoxColumn292,
+            this.dataGridViewTextBoxColumn293,
+            this.dataGridViewTextBoxColumn294});
+            this.dgv_TSAO.Dock = System.Windows.Forms.DockStyle.Top;
+            this.dgv_TSAO.Location = new System.Drawing.Point(3, 3);
+            this.dgv_TSAO.Name = "dgv_TSAO";
+            this.dgv_TSAO.Size = new System.Drawing.Size(970, 518);
+            this.dgv_TSAO.TabIndex = 3;
+            this.dgv_TSAO.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgv_TSAO_CellContentClick);
             // 
             // dataGridViewCheckBoxColumn8
             // 
@@ -5910,6 +5282,193 @@
             this.dataGridViewTextBoxColumn294.ReadOnly = true;
             this.dataGridViewTextBoxColumn294.Width = 156;
             // 
+            // YAO
+            // 
+            this.YAO.Controls.Add(this.gb_chart_YAO);
+            this.YAO.Controls.Add(this.gb_YAO);
+            this.YAO.Controls.Add(this.lbl_Filter_YAO);
+            this.YAO.Controls.Add(this.dgv_YAO);
+            this.YAO.Location = new System.Drawing.Point(4, 22);
+            this.YAO.Name = "YAO";
+            this.YAO.Padding = new System.Windows.Forms.Padding(3);
+            this.YAO.Size = new System.Drawing.Size(976, 672);
+            this.YAO.TabIndex = 8;
+            this.YAO.Text = "ЮАО";
+            this.YAO.UseVisualStyleBackColor = true;
+            // 
+            // gb_chart_YAO
+            // 
+            this.gb_chart_YAO.Controls.Add(this.chart_YAO);
+            this.gb_chart_YAO.Controls.Add(this.clb_YAO);
+            this.gb_chart_YAO.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.gb_chart_YAO.Location = new System.Drawing.Point(271, 560);
+            this.gb_chart_YAO.Name = "gb_chart_YAO";
+            this.gb_chart_YAO.Size = new System.Drawing.Size(702, 109);
+            this.gb_chart_YAO.TabIndex = 13;
+            this.gb_chart_YAO.TabStop = false;
+            this.gb_chart_YAO.Text = "Работа с диаграммой";
+            // 
+            // chart_YAO
+            // 
+            chartArea10.Name = "ChartArea1";
+            this.chart_YAO.ChartAreas.Add(chartArea10);
+            this.chart_YAO.Dock = System.Windows.Forms.DockStyle.Fill;
+            legend10.Name = "Legend1";
+            this.chart_YAO.Legends.Add(legend10);
+            this.chart_YAO.Location = new System.Drawing.Point(3, 35);
+            this.chart_YAO.Name = "chart_YAO";
+            this.chart_YAO.Size = new System.Drawing.Size(696, 71);
+            this.chart_YAO.TabIndex = 1;
+            this.chart_YAO.Text = "chart7";
+            // 
+            // clb_YAO
+            // 
+            this.clb_YAO.CheckOnClick = true;
+            this.clb_YAO.ColumnWidth = 160;
+            this.clb_YAO.Dock = System.Windows.Forms.DockStyle.Top;
+            this.clb_YAO.FormattingEnabled = true;
+            this.clb_YAO.Items.AddRange(new object[] {
+            "Продольная ровность",
+            "Поперечная ровность",
+            "Плотность трещин",
+            "Плотность ремонтных карт"});
+            this.clb_YAO.Location = new System.Drawing.Point(3, 16);
+            this.clb_YAO.MultiColumn = true;
+            this.clb_YAO.Name = "clb_YAO";
+            this.clb_YAO.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.clb_YAO.Size = new System.Drawing.Size(696, 19);
+            this.clb_YAO.TabIndex = 0;
+            this.clb_YAO.SelectedIndexChanged += new System.EventHandler(this.clb_YAO_SelectedIndexChanged);
+            // 
+            // gb_YAO
+            // 
+            this.gb_YAO.Controls.Add(this.rb_Clear_YAO);
+            this.gb_YAO.Controls.Add(this.rb_Deffect_YAO);
+            this.gb_YAO.Controls.Add(this.rb_Prev_YAO);
+            this.gb_YAO.Dock = System.Windows.Forms.DockStyle.Left;
+            this.gb_YAO.Location = new System.Drawing.Point(3, 560);
+            this.gb_YAO.Name = "gb_YAO";
+            this.gb_YAO.Size = new System.Drawing.Size(268, 109);
+            this.gb_YAO.TabIndex = 12;
+            this.gb_YAO.TabStop = false;
+            this.gb_YAO.Text = "Работа с данными";
+            // 
+            // rb_Clear_YAO
+            // 
+            this.rb_Clear_YAO.AutoSize = true;
+            this.rb_Clear_YAO.Dock = System.Windows.Forms.DockStyle.Top;
+            this.rb_Clear_YAO.Location = new System.Drawing.Point(3, 50);
+            this.rb_Clear_YAO.Name = "rb_Clear_YAO";
+            this.rb_Clear_YAO.Size = new System.Drawing.Size(262, 17);
+            this.rb_Clear_YAO.TabIndex = 6;
+            this.rb_Clear_YAO.TabStop = true;
+            this.rb_Clear_YAO.Text = "Очистить фильтр";
+            this.rb_Clear_YAO.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.rb_Clear_YAO.UseVisualStyleBackColor = true;
+            this.rb_Clear_YAO.CheckedChanged += new System.EventHandler(this.rb_Clear_YAO_CheckedChanged);
+            // 
+            // rb_Deffect_YAO
+            // 
+            this.rb_Deffect_YAO.AutoSize = true;
+            this.rb_Deffect_YAO.Dock = System.Windows.Forms.DockStyle.Top;
+            this.rb_Deffect_YAO.Location = new System.Drawing.Point(3, 33);
+            this.rb_Deffect_YAO.Name = "rb_Deffect_YAO";
+            this.rb_Deffect_YAO.Size = new System.Drawing.Size(262, 17);
+            this.rb_Deffect_YAO.TabIndex = 1;
+            this.rb_Deffect_YAO.TabStop = true;
+            this.rb_Deffect_YAO.Text = "Деффектные участки дорог (>40%)";
+            this.rb_Deffect_YAO.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.rb_Deffect_YAO.UseVisualStyleBackColor = true;
+            this.rb_Deffect_YAO.CheckedChanged += new System.EventHandler(this.rb_Deffect_YAO_CheckedChanged);
+            // 
+            // rb_Prev_YAO
+            // 
+            this.rb_Prev_YAO.AutoSize = true;
+            this.rb_Prev_YAO.Dock = System.Windows.Forms.DockStyle.Top;
+            this.rb_Prev_YAO.Location = new System.Drawing.Point(3, 16);
+            this.rb_Prev_YAO.Name = "rb_Prev_YAO";
+            this.rb_Prev_YAO.Size = new System.Drawing.Size(262, 17);
+            this.rb_Prev_YAO.TabIndex = 0;
+            this.rb_Prev_YAO.TabStop = true;
+            this.rb_Prev_YAO.Text = "Превышающие элементы";
+            this.rb_Prev_YAO.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.rb_Prev_YAO.UseVisualStyleBackColor = true;
+            this.rb_Prev_YAO.CheckedChanged += new System.EventHandler(this.rb_Prev_YAO_CheckedChanged);
+            // 
+            // lbl_Filter_YAO
+            // 
+            this.lbl_Filter_YAO.Dock = System.Windows.Forms.DockStyle.Top;
+            this.lbl_Filter_YAO.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.lbl_Filter_YAO.Location = new System.Drawing.Point(3, 521);
+            this.lbl_Filter_YAO.Name = "lbl_Filter_YAO";
+            this.lbl_Filter_YAO.Size = new System.Drawing.Size(970, 39);
+            this.lbl_Filter_YAO.TabIndex = 6;
+            this.lbl_Filter_YAO.Text = "Фильтр";
+            this.lbl_Filter_YAO.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // dgv_YAO
+            // 
+            this.dgv_YAO.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            dataGridViewCellStyle10.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle10.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle10.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            dataGridViewCellStyle10.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle10.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle10.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle10.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgv_YAO.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle10;
+            this.dgv_YAO.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgv_YAO.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.dataGridViewCheckBoxColumn9,
+            this.dataGridViewTextBoxColumn295,
+            this.dataGridViewTextBoxColumn296,
+            this.dataGridViewTextBoxColumn297,
+            this.dataGridViewTextBoxColumn298,
+            this.dataGridViewTextBoxColumn299,
+            this.dataGridViewTextBoxColumn300,
+            this.dataGridViewTextBoxColumn301,
+            this.dataGridViewTextBoxColumn302,
+            this.dataGridViewTextBoxColumn303,
+            this.dataGridViewTextBoxColumn304,
+            this.dataGridViewTextBoxColumn305,
+            this.dataGridViewTextBoxColumn306,
+            this.dataGridViewTextBoxColumn307,
+            this.dataGridViewTextBoxColumn308,
+            this.dataGridViewTextBoxColumn309,
+            this.dataGridViewTextBoxColumn310,
+            this.dataGridViewTextBoxColumn311,
+            this.dataGridViewTextBoxColumn312,
+            this.dataGridViewTextBoxColumn313,
+            this.dataGridViewTextBoxColumn314,
+            this.dataGridViewTextBoxColumn315,
+            this.dataGridViewTextBoxColumn316,
+            this.dataGridViewTextBoxColumn317,
+            this.dataGridViewTextBoxColumn318,
+            this.dataGridViewTextBoxColumn319,
+            this.dataGridViewTextBoxColumn320,
+            this.dataGridViewTextBoxColumn321,
+            this.dataGridViewTextBoxColumn322,
+            this.dataGridViewTextBoxColumn323,
+            this.dataGridViewTextBoxColumn324,
+            this.dataGridViewTextBoxColumn325,
+            this.dataGridViewTextBoxColumn326,
+            this.dataGridViewTextBoxColumn327,
+            this.dataGridViewTextBoxColumn328,
+            this.dataGridViewTextBoxColumn329,
+            this.dataGridViewTextBoxColumn330,
+            this.dataGridViewTextBoxColumn331,
+            this.dataGridViewTextBoxColumn332,
+            this.dataGridViewTextBoxColumn333,
+            this.dataGridViewTextBoxColumn334,
+            this.dataGridViewTextBoxColumn335,
+            this.dataGridViewTextBoxColumn336});
+            this.dgv_YAO.Dock = System.Windows.Forms.DockStyle.Top;
+            this.dgv_YAO.Location = new System.Drawing.Point(3, 3);
+            this.dgv_YAO.Name = "dgv_YAO";
+            this.dgv_YAO.Size = new System.Drawing.Size(970, 518);
+            this.dgv_YAO.TabIndex = 3;
+            this.dgv_YAO.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgv_YAO_CellContentClick);
+            // 
             // dataGridViewCheckBoxColumn9
             // 
             this.dataGridViewCheckBoxColumn9.Frozen = true;
@@ -6217,6 +5776,193 @@
             this.dataGridViewTextBoxColumn336.Name = "dataGridViewTextBoxColumn336";
             this.dataGridViewTextBoxColumn336.ReadOnly = true;
             this.dataGridViewTextBoxColumn336.Width = 156;
+            // 
+            // YVAO
+            // 
+            this.YVAO.Controls.Add(this.gb_chart_YVAO);
+            this.YVAO.Controls.Add(this.gb_YVAO);
+            this.YVAO.Controls.Add(this.lbl_Filter_YVAO);
+            this.YVAO.Controls.Add(this.dgv_YVAO);
+            this.YVAO.Location = new System.Drawing.Point(4, 22);
+            this.YVAO.Name = "YVAO";
+            this.YVAO.Padding = new System.Windows.Forms.Padding(3);
+            this.YVAO.Size = new System.Drawing.Size(976, 672);
+            this.YVAO.TabIndex = 9;
+            this.YVAO.Text = "ЮВАО";
+            this.YVAO.UseVisualStyleBackColor = true;
+            // 
+            // gb_chart_YVAO
+            // 
+            this.gb_chart_YVAO.Controls.Add(this.chart_YVAO);
+            this.gb_chart_YVAO.Controls.Add(this.clb_YVAO);
+            this.gb_chart_YVAO.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.gb_chart_YVAO.Location = new System.Drawing.Point(271, 560);
+            this.gb_chart_YVAO.Name = "gb_chart_YVAO";
+            this.gb_chart_YVAO.Size = new System.Drawing.Size(702, 109);
+            this.gb_chart_YVAO.TabIndex = 13;
+            this.gb_chart_YVAO.TabStop = false;
+            this.gb_chart_YVAO.Text = "Работа с диаграммой";
+            // 
+            // chart_YVAO
+            // 
+            chartArea11.Name = "ChartArea1";
+            this.chart_YVAO.ChartAreas.Add(chartArea11);
+            this.chart_YVAO.Dock = System.Windows.Forms.DockStyle.Fill;
+            legend11.Name = "Legend1";
+            this.chart_YVAO.Legends.Add(legend11);
+            this.chart_YVAO.Location = new System.Drawing.Point(3, 35);
+            this.chart_YVAO.Name = "chart_YVAO";
+            this.chart_YVAO.Size = new System.Drawing.Size(696, 71);
+            this.chart_YVAO.TabIndex = 1;
+            this.chart_YVAO.Text = "chart7";
+            // 
+            // clb_YVAO
+            // 
+            this.clb_YVAO.CheckOnClick = true;
+            this.clb_YVAO.ColumnWidth = 160;
+            this.clb_YVAO.Dock = System.Windows.Forms.DockStyle.Top;
+            this.clb_YVAO.FormattingEnabled = true;
+            this.clb_YVAO.Items.AddRange(new object[] {
+            "Продольная ровность",
+            "Поперечная ровность",
+            "Плотность трещин",
+            "Плотность ремонтных карт"});
+            this.clb_YVAO.Location = new System.Drawing.Point(3, 16);
+            this.clb_YVAO.MultiColumn = true;
+            this.clb_YVAO.Name = "clb_YVAO";
+            this.clb_YVAO.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.clb_YVAO.Size = new System.Drawing.Size(696, 19);
+            this.clb_YVAO.TabIndex = 0;
+            this.clb_YVAO.SelectedIndexChanged += new System.EventHandler(this.clb_YVAO_SelectedIndexChanged);
+            // 
+            // gb_YVAO
+            // 
+            this.gb_YVAO.Controls.Add(this.rb_Clear_YVAO);
+            this.gb_YVAO.Controls.Add(this.rb_Deffect_YVAO);
+            this.gb_YVAO.Controls.Add(this.rb_Prev_YVAO);
+            this.gb_YVAO.Dock = System.Windows.Forms.DockStyle.Left;
+            this.gb_YVAO.Location = new System.Drawing.Point(3, 560);
+            this.gb_YVAO.Name = "gb_YVAO";
+            this.gb_YVAO.Size = new System.Drawing.Size(268, 109);
+            this.gb_YVAO.TabIndex = 12;
+            this.gb_YVAO.TabStop = false;
+            this.gb_YVAO.Text = "Работа с данными";
+            // 
+            // rb_Clear_YVAO
+            // 
+            this.rb_Clear_YVAO.AutoSize = true;
+            this.rb_Clear_YVAO.Dock = System.Windows.Forms.DockStyle.Top;
+            this.rb_Clear_YVAO.Location = new System.Drawing.Point(3, 50);
+            this.rb_Clear_YVAO.Name = "rb_Clear_YVAO";
+            this.rb_Clear_YVAO.Size = new System.Drawing.Size(262, 17);
+            this.rb_Clear_YVAO.TabIndex = 6;
+            this.rb_Clear_YVAO.TabStop = true;
+            this.rb_Clear_YVAO.Text = "Очистить фильтр";
+            this.rb_Clear_YVAO.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.rb_Clear_YVAO.UseVisualStyleBackColor = true;
+            this.rb_Clear_YVAO.CheckedChanged += new System.EventHandler(this.rb_Clear_YVAO_CheckedChanged);
+            // 
+            // rb_Deffect_YVAO
+            // 
+            this.rb_Deffect_YVAO.AutoSize = true;
+            this.rb_Deffect_YVAO.Dock = System.Windows.Forms.DockStyle.Top;
+            this.rb_Deffect_YVAO.Location = new System.Drawing.Point(3, 33);
+            this.rb_Deffect_YVAO.Name = "rb_Deffect_YVAO";
+            this.rb_Deffect_YVAO.Size = new System.Drawing.Size(262, 17);
+            this.rb_Deffect_YVAO.TabIndex = 1;
+            this.rb_Deffect_YVAO.TabStop = true;
+            this.rb_Deffect_YVAO.Text = "Деффектные участки дорог (>40%)";
+            this.rb_Deffect_YVAO.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.rb_Deffect_YVAO.UseVisualStyleBackColor = true;
+            this.rb_Deffect_YVAO.CheckedChanged += new System.EventHandler(this.rb_Deffect_YVAO_CheckedChanged);
+            // 
+            // rb_Prev_YVAO
+            // 
+            this.rb_Prev_YVAO.AutoSize = true;
+            this.rb_Prev_YVAO.Dock = System.Windows.Forms.DockStyle.Top;
+            this.rb_Prev_YVAO.Location = new System.Drawing.Point(3, 16);
+            this.rb_Prev_YVAO.Name = "rb_Prev_YVAO";
+            this.rb_Prev_YVAO.Size = new System.Drawing.Size(262, 17);
+            this.rb_Prev_YVAO.TabIndex = 0;
+            this.rb_Prev_YVAO.TabStop = true;
+            this.rb_Prev_YVAO.Text = "Превышающие элементы";
+            this.rb_Prev_YVAO.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.rb_Prev_YVAO.UseVisualStyleBackColor = true;
+            this.rb_Prev_YVAO.CheckedChanged += new System.EventHandler(this.rb_Prev_YVAO_CheckedChanged);
+            // 
+            // lbl_Filter_YVAO
+            // 
+            this.lbl_Filter_YVAO.Dock = System.Windows.Forms.DockStyle.Top;
+            this.lbl_Filter_YVAO.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.lbl_Filter_YVAO.Location = new System.Drawing.Point(3, 521);
+            this.lbl_Filter_YVAO.Name = "lbl_Filter_YVAO";
+            this.lbl_Filter_YVAO.Size = new System.Drawing.Size(970, 39);
+            this.lbl_Filter_YVAO.TabIndex = 6;
+            this.lbl_Filter_YVAO.Text = "Фильтр";
+            this.lbl_Filter_YVAO.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // dgv_YVAO
+            // 
+            this.dgv_YVAO.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            dataGridViewCellStyle11.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle11.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle11.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            dataGridViewCellStyle11.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle11.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle11.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle11.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgv_YVAO.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle11;
+            this.dgv_YVAO.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgv_YVAO.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.dataGridViewCheckBoxColumn10,
+            this.dataGridViewTextBoxColumn337,
+            this.dataGridViewTextBoxColumn338,
+            this.dataGridViewTextBoxColumn339,
+            this.dataGridViewTextBoxColumn340,
+            this.dataGridViewTextBoxColumn341,
+            this.dataGridViewTextBoxColumn342,
+            this.dataGridViewTextBoxColumn343,
+            this.dataGridViewTextBoxColumn344,
+            this.dataGridViewTextBoxColumn345,
+            this.dataGridViewTextBoxColumn346,
+            this.dataGridViewTextBoxColumn347,
+            this.dataGridViewTextBoxColumn348,
+            this.dataGridViewTextBoxColumn349,
+            this.dataGridViewTextBoxColumn350,
+            this.dataGridViewTextBoxColumn351,
+            this.dataGridViewTextBoxColumn352,
+            this.dataGridViewTextBoxColumn353,
+            this.dataGridViewTextBoxColumn354,
+            this.dataGridViewTextBoxColumn355,
+            this.dataGridViewTextBoxColumn356,
+            this.dataGridViewTextBoxColumn357,
+            this.dataGridViewTextBoxColumn358,
+            this.dataGridViewTextBoxColumn359,
+            this.dataGridViewTextBoxColumn360,
+            this.dataGridViewTextBoxColumn361,
+            this.dataGridViewTextBoxColumn362,
+            this.dataGridViewTextBoxColumn363,
+            this.dataGridViewTextBoxColumn364,
+            this.dataGridViewTextBoxColumn365,
+            this.dataGridViewTextBoxColumn366,
+            this.dataGridViewTextBoxColumn367,
+            this.dataGridViewTextBoxColumn368,
+            this.dataGridViewTextBoxColumn369,
+            this.dataGridViewTextBoxColumn370,
+            this.dataGridViewTextBoxColumn371,
+            this.dataGridViewTextBoxColumn372,
+            this.dataGridViewTextBoxColumn373,
+            this.dataGridViewTextBoxColumn374,
+            this.dataGridViewTextBoxColumn375,
+            this.dataGridViewTextBoxColumn376,
+            this.dataGridViewTextBoxColumn377,
+            this.dataGridViewTextBoxColumn378});
+            this.dgv_YVAO.Dock = System.Windows.Forms.DockStyle.Top;
+            this.dgv_YVAO.Location = new System.Drawing.Point(3, 3);
+            this.dgv_YVAO.Name = "dgv_YVAO";
+            this.dgv_YVAO.Size = new System.Drawing.Size(970, 518);
+            this.dgv_YVAO.TabIndex = 3;
+            this.dgv_YVAO.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgv_YVAO_CellContentClick);
             // 
             // dataGridViewCheckBoxColumn10
             // 
@@ -6526,6 +6272,193 @@
             this.dataGridViewTextBoxColumn378.ReadOnly = true;
             this.dataGridViewTextBoxColumn378.Width = 156;
             // 
+            // YZAO
+            // 
+            this.YZAO.Controls.Add(this.gb_chart_YZAO);
+            this.YZAO.Controls.Add(this.gb_YZAO);
+            this.YZAO.Controls.Add(this.lbl_Filter_YZAO);
+            this.YZAO.Controls.Add(this.dgv_YZAO);
+            this.YZAO.Location = new System.Drawing.Point(4, 22);
+            this.YZAO.Name = "YZAO";
+            this.YZAO.Padding = new System.Windows.Forms.Padding(3);
+            this.YZAO.Size = new System.Drawing.Size(976, 672);
+            this.YZAO.TabIndex = 10;
+            this.YZAO.Text = "ЮЗАО";
+            this.YZAO.UseVisualStyleBackColor = true;
+            // 
+            // gb_chart_YZAO
+            // 
+            this.gb_chart_YZAO.Controls.Add(this.chart_YZAO);
+            this.gb_chart_YZAO.Controls.Add(this.clb_YZAO);
+            this.gb_chart_YZAO.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.gb_chart_YZAO.Location = new System.Drawing.Point(271, 560);
+            this.gb_chart_YZAO.Name = "gb_chart_YZAO";
+            this.gb_chart_YZAO.Size = new System.Drawing.Size(702, 109);
+            this.gb_chart_YZAO.TabIndex = 13;
+            this.gb_chart_YZAO.TabStop = false;
+            this.gb_chart_YZAO.Text = "Работа с диаграммой";
+            // 
+            // chart_YZAO
+            // 
+            chartArea12.Name = "ChartArea1";
+            this.chart_YZAO.ChartAreas.Add(chartArea12);
+            this.chart_YZAO.Dock = System.Windows.Forms.DockStyle.Fill;
+            legend12.Name = "Legend1";
+            this.chart_YZAO.Legends.Add(legend12);
+            this.chart_YZAO.Location = new System.Drawing.Point(3, 35);
+            this.chart_YZAO.Name = "chart_YZAO";
+            this.chart_YZAO.Size = new System.Drawing.Size(696, 71);
+            this.chart_YZAO.TabIndex = 1;
+            this.chart_YZAO.Text = "chart7";
+            // 
+            // clb_YZAO
+            // 
+            this.clb_YZAO.CheckOnClick = true;
+            this.clb_YZAO.ColumnWidth = 160;
+            this.clb_YZAO.Dock = System.Windows.Forms.DockStyle.Top;
+            this.clb_YZAO.FormattingEnabled = true;
+            this.clb_YZAO.Items.AddRange(new object[] {
+            "Продольная ровность",
+            "Поперечная ровность",
+            "Плотность трещин",
+            "Плотность ремонтных карт"});
+            this.clb_YZAO.Location = new System.Drawing.Point(3, 16);
+            this.clb_YZAO.MultiColumn = true;
+            this.clb_YZAO.Name = "clb_YZAO";
+            this.clb_YZAO.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.clb_YZAO.Size = new System.Drawing.Size(696, 19);
+            this.clb_YZAO.TabIndex = 0;
+            this.clb_YZAO.SelectedIndexChanged += new System.EventHandler(this.clb_YZAO_SelectedIndexChanged);
+            // 
+            // gb_YZAO
+            // 
+            this.gb_YZAO.Controls.Add(this.rb_Clear_YZAO);
+            this.gb_YZAO.Controls.Add(this.rb_Deffect_YZAO);
+            this.gb_YZAO.Controls.Add(this.rb_Prev_YZAO);
+            this.gb_YZAO.Dock = System.Windows.Forms.DockStyle.Left;
+            this.gb_YZAO.Location = new System.Drawing.Point(3, 560);
+            this.gb_YZAO.Name = "gb_YZAO";
+            this.gb_YZAO.Size = new System.Drawing.Size(268, 109);
+            this.gb_YZAO.TabIndex = 12;
+            this.gb_YZAO.TabStop = false;
+            this.gb_YZAO.Text = "Работа с данными";
+            // 
+            // rb_Clear_YZAO
+            // 
+            this.rb_Clear_YZAO.AutoSize = true;
+            this.rb_Clear_YZAO.Dock = System.Windows.Forms.DockStyle.Top;
+            this.rb_Clear_YZAO.Location = new System.Drawing.Point(3, 50);
+            this.rb_Clear_YZAO.Name = "rb_Clear_YZAO";
+            this.rb_Clear_YZAO.Size = new System.Drawing.Size(262, 17);
+            this.rb_Clear_YZAO.TabIndex = 6;
+            this.rb_Clear_YZAO.TabStop = true;
+            this.rb_Clear_YZAO.Text = "Очистить фильтр";
+            this.rb_Clear_YZAO.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.rb_Clear_YZAO.UseVisualStyleBackColor = true;
+            this.rb_Clear_YZAO.CheckedChanged += new System.EventHandler(this.rb_Clear_YZAO_CheckedChanged);
+            // 
+            // rb_Deffect_YZAO
+            // 
+            this.rb_Deffect_YZAO.AutoSize = true;
+            this.rb_Deffect_YZAO.Dock = System.Windows.Forms.DockStyle.Top;
+            this.rb_Deffect_YZAO.Location = new System.Drawing.Point(3, 33);
+            this.rb_Deffect_YZAO.Name = "rb_Deffect_YZAO";
+            this.rb_Deffect_YZAO.Size = new System.Drawing.Size(262, 17);
+            this.rb_Deffect_YZAO.TabIndex = 1;
+            this.rb_Deffect_YZAO.TabStop = true;
+            this.rb_Deffect_YZAO.Text = "Деффектные участки дорог (>40%)";
+            this.rb_Deffect_YZAO.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.rb_Deffect_YZAO.UseVisualStyleBackColor = true;
+            this.rb_Deffect_YZAO.CheckedChanged += new System.EventHandler(this.rb_Deffect_YZAO_CheckedChanged);
+            // 
+            // rb_Prev_YZAO
+            // 
+            this.rb_Prev_YZAO.AutoSize = true;
+            this.rb_Prev_YZAO.Dock = System.Windows.Forms.DockStyle.Top;
+            this.rb_Prev_YZAO.Location = new System.Drawing.Point(3, 16);
+            this.rb_Prev_YZAO.Name = "rb_Prev_YZAO";
+            this.rb_Prev_YZAO.Size = new System.Drawing.Size(262, 17);
+            this.rb_Prev_YZAO.TabIndex = 0;
+            this.rb_Prev_YZAO.TabStop = true;
+            this.rb_Prev_YZAO.Text = "Превышающие элементы";
+            this.rb_Prev_YZAO.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.rb_Prev_YZAO.UseVisualStyleBackColor = true;
+            this.rb_Prev_YZAO.CheckedChanged += new System.EventHandler(this.rb_Prev_YZAO_CheckedChanged);
+            // 
+            // lbl_Filter_YZAO
+            // 
+            this.lbl_Filter_YZAO.Dock = System.Windows.Forms.DockStyle.Top;
+            this.lbl_Filter_YZAO.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.lbl_Filter_YZAO.Location = new System.Drawing.Point(3, 521);
+            this.lbl_Filter_YZAO.Name = "lbl_Filter_YZAO";
+            this.lbl_Filter_YZAO.Size = new System.Drawing.Size(970, 39);
+            this.lbl_Filter_YZAO.TabIndex = 6;
+            this.lbl_Filter_YZAO.Text = "Фильтр";
+            this.lbl_Filter_YZAO.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // dgv_YZAO
+            // 
+            this.dgv_YZAO.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            dataGridViewCellStyle12.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle12.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle12.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            dataGridViewCellStyle12.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle12.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle12.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle12.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgv_YZAO.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle12;
+            this.dgv_YZAO.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgv_YZAO.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.dataGridViewCheckBoxColumn11,
+            this.dataGridViewTextBoxColumn379,
+            this.dataGridViewTextBoxColumn380,
+            this.dataGridViewTextBoxColumn381,
+            this.dataGridViewTextBoxColumn382,
+            this.dataGridViewTextBoxColumn383,
+            this.dataGridViewTextBoxColumn384,
+            this.dataGridViewTextBoxColumn385,
+            this.dataGridViewTextBoxColumn386,
+            this.dataGridViewTextBoxColumn387,
+            this.dataGridViewTextBoxColumn388,
+            this.dataGridViewTextBoxColumn389,
+            this.dataGridViewTextBoxColumn390,
+            this.dataGridViewTextBoxColumn391,
+            this.dataGridViewTextBoxColumn392,
+            this.dataGridViewTextBoxColumn393,
+            this.dataGridViewTextBoxColumn394,
+            this.dataGridViewTextBoxColumn395,
+            this.dataGridViewTextBoxColumn396,
+            this.dataGridViewTextBoxColumn397,
+            this.dataGridViewTextBoxColumn398,
+            this.dataGridViewTextBoxColumn399,
+            this.dataGridViewTextBoxColumn400,
+            this.dataGridViewTextBoxColumn401,
+            this.dataGridViewTextBoxColumn402,
+            this.dataGridViewTextBoxColumn403,
+            this.dataGridViewTextBoxColumn404,
+            this.dataGridViewTextBoxColumn405,
+            this.dataGridViewTextBoxColumn406,
+            this.dataGridViewTextBoxColumn407,
+            this.dataGridViewTextBoxColumn408,
+            this.dataGridViewTextBoxColumn409,
+            this.dataGridViewTextBoxColumn410,
+            this.dataGridViewTextBoxColumn411,
+            this.dataGridViewTextBoxColumn412,
+            this.dataGridViewTextBoxColumn413,
+            this.dataGridViewTextBoxColumn414,
+            this.dataGridViewTextBoxColumn415,
+            this.dataGridViewTextBoxColumn416,
+            this.dataGridViewTextBoxColumn417,
+            this.dataGridViewTextBoxColumn418,
+            this.dataGridViewTextBoxColumn419,
+            this.dataGridViewTextBoxColumn420});
+            this.dgv_YZAO.Dock = System.Windows.Forms.DockStyle.Top;
+            this.dgv_YZAO.Location = new System.Drawing.Point(3, 3);
+            this.dgv_YZAO.Name = "dgv_YZAO";
+            this.dgv_YZAO.Size = new System.Drawing.Size(970, 518);
+            this.dgv_YZAO.TabIndex = 3;
+            this.dgv_YZAO.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgv_YZAO_CellContentClick);
+            // 
             // dataGridViewCheckBoxColumn11
             // 
             this.dataGridViewCheckBoxColumn11.Frozen = true;
@@ -6834,6 +6767,216 @@
             this.dataGridViewTextBoxColumn420.ReadOnly = true;
             this.dataGridViewTextBoxColumn420.Width = 156;
             // 
+            // menuStrip_Okruga
+            // 
+            this.menuStrip_Okruga.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.файлToolStripMenuItem2});
+            this.menuStrip_Okruga.Location = new System.Drawing.Point(0, 0);
+            this.menuStrip_Okruga.Name = "menuStrip_Okruga";
+            this.menuStrip_Okruga.Size = new System.Drawing.Size(984, 24);
+            this.menuStrip_Okruga.TabIndex = 8;
+            this.menuStrip_Okruga.Text = "menuStrip1";
+            // 
+            // файлToolStripMenuItem2
+            // 
+            this.файлToolStripMenuItem2.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.открытьToolStripMenuItem3,
+            this.печатьToolStripMenuItem2,
+            this.toolStripMenuItem6,
+            this.выходToolStripMenuItem3});
+            this.файлToolStripMenuItem2.Name = "файлToolStripMenuItem2";
+            this.файлToolStripMenuItem2.Size = new System.Drawing.Size(48, 20);
+            this.файлToolStripMenuItem2.Text = "Файл";
+            // 
+            // открытьToolStripMenuItem3
+            // 
+            this.открытьToolStripMenuItem3.Image = global::SiPPOON_PP.Properties.Resources.Open;
+            this.открытьToolStripMenuItem3.Name = "открытьToolStripMenuItem3";
+            this.открытьToolStripMenuItem3.Size = new System.Drawing.Size(180, 22);
+            this.открытьToolStripMenuItem3.Text = "Открыть";
+            this.открытьToolStripMenuItem3.Click += new System.EventHandler(this.открытьToolStripMenuItem_Click);
+            // 
+            // печатьToolStripMenuItem2
+            // 
+            this.печатьToolStripMenuItem2.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.excelToolStripMenuItem2});
+            this.печатьToolStripMenuItem2.Image = global::SiPPOON_PP.Properties.Resources.Export;
+            this.печатьToolStripMenuItem2.Name = "печатьToolStripMenuItem2";
+            this.печатьToolStripMenuItem2.Size = new System.Drawing.Size(180, 22);
+            this.печатьToolStripMenuItem2.Text = "Печать";
+            // 
+            // Menu_File
+            // 
+            this.Menu_File.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.открытьToolStripMenuItem,
+            this.toolStripMenuItem2,
+            this.toolStripMenuItem1,
+            this.выходToolStripMenuItem});
+            this.Menu_File.Name = "Menu_File";
+            this.Menu_File.Size = new System.Drawing.Size(48, 20);
+            this.Menu_File.Text = "Файл";
+            // 
+            // открытьToolStripMenuItem
+            // 
+            this.открытьToolStripMenuItem.Image = global::SiPPOON_PP.Properties.Resources.Open;
+            this.открытьToolStripMenuItem.Name = "открытьToolStripMenuItem";
+            this.открытьToolStripMenuItem.Size = new System.Drawing.Size(121, 22);
+            this.открытьToolStripMenuItem.Text = "Открыть";
+            this.открытьToolStripMenuItem.Click += new System.EventHandler(this.открытьToolStripMenuItem_Click);
+            // 
+            // toolStripMenuItem2
+            // 
+            this.toolStripMenuItem2.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.toolStripMenuItem3});
+            this.toolStripMenuItem2.Image = global::SiPPOON_PP.Properties.Resources.Export;
+            this.toolStripMenuItem2.Name = "toolStripMenuItem2";
+            this.toolStripMenuItem2.Size = new System.Drawing.Size(121, 22);
+            this.toolStripMenuItem2.Text = "Экспорт";
+            // 
+            // toolStripMenuItem3
+            // 
+            this.toolStripMenuItem3.Enabled = false;
+            this.toolStripMenuItem3.Image = global::SiPPOON_PP.Properties.Resources.Excel;
+            this.toolStripMenuItem3.Name = "toolStripMenuItem3";
+            this.toolStripMenuItem3.Size = new System.Drawing.Size(101, 22);
+            this.toolStripMenuItem3.Text = "Excel";
+            this.toolStripMenuItem3.Click += new System.EventHandler(this.toolStripMenuItem3_Click);
+            // 
+            // toolStripMenuItem1
+            // 
+            this.toolStripMenuItem1.Name = "toolStripMenuItem1";
+            this.toolStripMenuItem1.Size = new System.Drawing.Size(118, 6);
+            // 
+            // выходToolStripMenuItem
+            // 
+            this.выходToolStripMenuItem.Image = global::SiPPOON_PP.Properties.Resources.Exit;
+            this.выходToolStripMenuItem.Name = "выходToolStripMenuItem";
+            this.выходToolStripMenuItem.Size = new System.Drawing.Size(121, 22);
+            this.выходToolStripMenuItem.Text = "Выход";
+            this.выходToolStripMenuItem.Click += new System.EventHandler(this.выходToolStripMenuItem_Click);
+            // 
+            // справкаToolStripMenuItem
+            // 
+            this.справкаToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.информацияОбАвтореToolStripMenuItem,
+            this.информацияОПрограммеToolStripMenuItem});
+            this.справкаToolStripMenuItem.Name = "справкаToolStripMenuItem";
+            this.справкаToolStripMenuItem.Size = new System.Drawing.Size(65, 20);
+            this.справкаToolStripMenuItem.Text = "Справка";
+            // 
+            // информацияОбАвтореToolStripMenuItem
+            // 
+            this.информацияОбАвтореToolStripMenuItem.Image = global::SiPPOON_PP.Properties.Resources.About_Author;
+            this.информацияОбАвтореToolStripMenuItem.Name = "информацияОбАвтореToolStripMenuItem";
+            this.информацияОбАвтореToolStripMenuItem.Size = new System.Drawing.Size(224, 22);
+            this.информацияОбАвтореToolStripMenuItem.Text = "Информация об авторе";
+            // 
+            // информацияОПрограммеToolStripMenuItem
+            // 
+            this.информацияОПрограммеToolStripMenuItem.Image = global::SiPPOON_PP.Properties.Resources.About_Program;
+            this.информацияОПрограммеToolStripMenuItem.Name = "информацияОПрограммеToolStripMenuItem";
+            this.информацияОПрограммеToolStripMenuItem.Size = new System.Drawing.Size(224, 22);
+            this.информацияОПрограммеToolStripMenuItem.Text = "Информация о программе";
+            this.информацияОПрограммеToolStripMenuItem.Click += new System.EventHandler(this.информацияОПрограммеToolStripMenuItem_Click);
+            // 
+            // файлToolStripMenuItem
+            // 
+            this.файлToolStripMenuItem.Name = "файлToolStripMenuItem";
+            this.файлToolStripMenuItem.Size = new System.Drawing.Size(48, 20);
+            this.файлToolStripMenuItem.Text = "Файл";
+            // 
+            // открытьToolStripMenuItem1
+            // 
+            this.открытьToolStripMenuItem1.Image = global::SiPPOON_PP.Properties.Resources.Open;
+            this.открытьToolStripMenuItem1.Name = "открытьToolStripMenuItem1";
+            this.открытьToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
+            this.открытьToolStripMenuItem1.Text = "Открыть";
+            this.открытьToolStripMenuItem1.Click += new System.EventHandler(this.открытьToolStripMenuItem_Click);
+            // 
+            // печатьToolStripMenuItem
+            // 
+            this.печатьToolStripMenuItem.Image = global::SiPPOON_PP.Properties.Resources.Export;
+            this.печатьToolStripMenuItem.Name = "печатьToolStripMenuItem";
+            this.печатьToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.печатьToolStripMenuItem.Text = "Печать";
+            // 
+            // toolStripMenuItem4
+            // 
+            this.toolStripMenuItem4.Name = "toolStripMenuItem4";
+            this.toolStripMenuItem4.Size = new System.Drawing.Size(177, 6);
+            // 
+            // выходToolStripMenuItem1
+            // 
+            this.выходToolStripMenuItem1.Image = global::SiPPOON_PP.Properties.Resources.Exit;
+            this.выходToolStripMenuItem1.Name = "выходToolStripMenuItem1";
+            this.выходToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
+            this.выходToolStripMenuItem1.Text = "Выход";
+            this.выходToolStripMenuItem1.Click += new System.EventHandler(this.выходToolStripMenuItem_Click);
+            // 
+            // excelToolStripMenuItem
+            // 
+            this.excelToolStripMenuItem.Image = global::SiPPOON_PP.Properties.Resources.Excel;
+            this.excelToolStripMenuItem.Name = "excelToolStripMenuItem";
+            this.excelToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.excelToolStripMenuItem.Text = "Excel";
+            this.excelToolStripMenuItem.Click += new System.EventHandler(this.toolStripMenuItem3_Click);
+            // 
+            // файлToolStripMenuItem1
+            // 
+            this.файлToolStripMenuItem1.Name = "файлToolStripMenuItem1";
+            this.файлToolStripMenuItem1.Size = new System.Drawing.Size(48, 20);
+            this.файлToolStripMenuItem1.Text = "Файл";
+            // 
+            // открытьToolStripMenuItem2
+            // 
+            this.открытьToolStripMenuItem2.Name = "открытьToolStripMenuItem2";
+            this.открытьToolStripMenuItem2.Size = new System.Drawing.Size(180, 22);
+            this.открытьToolStripMenuItem2.Text = "Открыть";
+            // 
+            // печатьToolStripMenuItem1
+            // 
+            this.печатьToolStripMenuItem1.Name = "печатьToolStripMenuItem1";
+            this.печатьToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
+            this.печатьToolStripMenuItem1.Text = "Печать";
+            // 
+            // toolStripMenuItem5
+            // 
+            this.toolStripMenuItem5.Name = "toolStripMenuItem5";
+            this.toolStripMenuItem5.Size = new System.Drawing.Size(177, 6);
+            // 
+            // выходToolStripMenuItem2
+            // 
+            this.выходToolStripMenuItem2.Name = "выходToolStripMenuItem2";
+            this.выходToolStripMenuItem2.Size = new System.Drawing.Size(180, 22);
+            this.выходToolStripMenuItem2.Text = "Выход";
+            // 
+            // excelToolStripMenuItem1
+            // 
+            this.excelToolStripMenuItem1.Name = "excelToolStripMenuItem1";
+            this.excelToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
+            this.excelToolStripMenuItem1.Text = "Excel";
+            // 
+            // toolStripMenuItem6
+            // 
+            this.toolStripMenuItem6.Name = "toolStripMenuItem6";
+            this.toolStripMenuItem6.Size = new System.Drawing.Size(177, 6);
+            // 
+            // выходToolStripMenuItem3
+            // 
+            this.выходToolStripMenuItem3.Image = global::SiPPOON_PP.Properties.Resources.Exit;
+            this.выходToolStripMenuItem3.Name = "выходToolStripMenuItem3";
+            this.выходToolStripMenuItem3.Size = new System.Drawing.Size(180, 22);
+            this.выходToolStripMenuItem3.Text = "Выход";
+            this.выходToolStripMenuItem3.Click += new System.EventHandler(this.выходToolStripMenuItem_Click);
+            // 
+            // excelToolStripMenuItem2
+            // 
+            this.excelToolStripMenuItem2.Image = global::SiPPOON_PP.Properties.Resources.Excel;
+            this.excelToolStripMenuItem2.Name = "excelToolStripMenuItem2";
+            this.excelToolStripMenuItem2.Size = new System.Drawing.Size(180, 22);
+            this.excelToolStripMenuItem2.Text = "Excel";
+            this.excelToolStripMenuItem2.Click += new System.EventHandler(this.toolStripMenuItem3_Click);
+            // 
             // Form_Okruga
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -6849,79 +6992,79 @@
             this.Text = "Результаты по округам";
             this.tc_Okruga.ResumeLayout(false);
             this.Okruga.ResumeLayout(false);
+            this.gb_chart_Okruga.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.chart_Okruga)).EndInit();
             this.gb_Rabota_Okruga.ResumeLayout(false);
             this.gb_Rabota_Okruga.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgv_Okruga)).EndInit();
             this.VAO.ResumeLayout(false);
+            this.gb_chart_VAO.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.chart_VAO)).EndInit();
             this.gb_VAO.ResumeLayout(false);
             this.gb_VAO.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgv_VAO)).EndInit();
             this.ZAO.ResumeLayout(false);
+            this.gb_chart_ZAO.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.chart_ZAO)).EndInit();
             this.gb_ZAO.ResumeLayout(false);
             this.gb_ZAO.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgv_ZAO)).EndInit();
             this.ZelAO.ResumeLayout(false);
+            this.gb_chart_ZelAO.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.chart_ZelAO)).EndInit();
             this.gb_ZelAO.ResumeLayout(false);
             this.gb_ZelAO.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgv_ZelAO)).EndInit();
             this.SAO.ResumeLayout(false);
+            this.gb_chart_SAO.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.chart_SAO)).EndInit();
             this.gb_SAO.ResumeLayout(false);
             this.gb_SAO.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgv_SAO)).EndInit();
             this.SVAO.ResumeLayout(false);
+            this.gb_chart_SVAO.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.chart_SVAO)).EndInit();
             this.gb_SVAO.ResumeLayout(false);
             this.gb_SVAO.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgv_SVAO)).EndInit();
             this.SZAO.ResumeLayout(false);
+            this.gb_chart_SZAO.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.chart_SZAO)).EndInit();
             this.gb_SZAO.ResumeLayout(false);
             this.gb_SZAO.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgv_SZAO)).EndInit();
             this.TiNAO.ResumeLayout(false);
+            this.gb_chart_TiNAO.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.chart_TiNAO)).EndInit();
             this.gb_TiNAO.ResumeLayout(false);
             this.gb_TiNAO.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgv_TiNAO)).EndInit();
             this.TCAO.ResumeLayout(false);
+            this.gb_chart_TSAO.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.chart_TSAO)).EndInit();
             this.gb_TSAO.ResumeLayout(false);
             this.gb_TSAO.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgv_TSAO)).EndInit();
             this.YAO.ResumeLayout(false);
+            this.gb_chart_YAO.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.chart_YAO)).EndInit();
             this.gb_YAO.ResumeLayout(false);
             this.gb_YAO.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgv_YAO)).EndInit();
             this.YVAO.ResumeLayout(false);
+            this.gb_chart_YVAO.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.chart_YVAO)).EndInit();
             this.gb_YVAO.ResumeLayout(false);
             this.gb_YVAO.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgv_YVAO)).EndInit();
             this.YZAO.ResumeLayout(false);
+            this.gb_chart_YZAO.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.chart_YZAO)).EndInit();
             this.gb_YZAO.ResumeLayout(false);
             this.gb_YZAO.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgv_YZAO)).EndInit();
             this.menuStrip_Okruga.ResumeLayout(false);
             this.menuStrip_Okruga.PerformLayout();
-            this.gb_chart_Okruga.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.chart_Okruga)).EndInit();
-            this.gb_chart_VAO.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.chart_VAO)).EndInit();
-            this.gb_chart_ZAO.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.chart_ZAO)).EndInit();
-            this.gb_chart_ZelAO.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.chart_ZelAO)).EndInit();
-            this.gb_chart_SAO.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.chart_SAO)).EndInit();
-            this.gb_chart_SVAO.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.chart_SVAO)).EndInit();
-            this.gb_chart_SZAO.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.chart_SZAO)).EndInit();
-            this.gb_chart_TiNAO.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.chart_TiNAO)).EndInit();
-            this.gb_chart_TSAO.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.chart_TSAO)).EndInit();
-            this.gb_chart_YAO.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.chart_YAO)).EndInit();
-            this.gb_chart_YVAO.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.chart_YVAO)).EndInit();
-            this.gb_chart_YZAO.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.chart_YZAO)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -7576,6 +7719,24 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn418;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn419;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn420;
+        private System.Windows.Forms.ToolStripMenuItem файлToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem открытьToolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem печатьToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem excelToolStripMenuItem;
+        private System.Windows.Forms.ToolStripSeparator toolStripMenuItem4;
+        private System.Windows.Forms.ToolStripMenuItem выходToolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem файлToolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem открытьToolStripMenuItem2;
+        private System.Windows.Forms.ToolStripMenuItem печатьToolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem excelToolStripMenuItem1;
+        private System.Windows.Forms.ToolStripSeparator toolStripMenuItem5;
+        private System.Windows.Forms.ToolStripMenuItem выходToolStripMenuItem2;
+        private System.Windows.Forms.ToolStripMenuItem файлToolStripMenuItem2;
+        private System.Windows.Forms.ToolStripMenuItem открытьToolStripMenuItem3;
+        private System.Windows.Forms.ToolStripMenuItem печатьToolStripMenuItem2;
+        private System.Windows.Forms.ToolStripSeparator toolStripMenuItem6;
+        private System.Windows.Forms.ToolStripMenuItem выходToolStripMenuItem3;
+        private System.Windows.Forms.ToolStripMenuItem excelToolStripMenuItem2;
     }
 }
 

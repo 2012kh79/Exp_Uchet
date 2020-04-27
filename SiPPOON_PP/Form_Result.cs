@@ -10,7 +10,7 @@ namespace SiPPOON_PP
         {
             InitializeComponent();
             this.DoubleBuffered = true;
-            this.BackgroundImage = new Bitmap(Properties.Resources.BackGroungImage);
+            this.BackgroundImage = new Bitmap(Properties.Resources.BackGroundImage);
         }
 
         private void Pb_Kategorii_MouseMove(object sender, MouseEventArgs e)

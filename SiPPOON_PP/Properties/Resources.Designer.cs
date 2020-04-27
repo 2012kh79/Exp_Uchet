@@ -93,9 +93,9 @@ namespace SiPPOON_PP.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap BackGroungImage {
+        internal static System.Drawing.Bitmap BackGroundImage {
             get {
-                object obj = ResourceManager.GetObject("BackGroungImage", resourceCulture);
+                object obj = ResourceManager.GetObject("BackGroundImage", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -133,9 +133,9 @@ namespace SiPPOON_PP.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap gal {
+        internal static System.Drawing.Bitmap Galochka {
             get {
-                object obj = ResourceManager.GetObject("gal", resourceCulture);
+                object obj = ResourceManager.GetObject("Galochka", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -143,29 +143,29 @@ namespace SiPPOON_PP.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap glaz {
+        internal static System.Drawing.Bitmap Glaz {
             get {
-                object obj = ResourceManager.GetObject("glaz", resourceCulture);
+                object obj = ResourceManager.GetObject("Glaz", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Icon, аналогичного (Значок).
+        /// </summary>
+        internal static System.Drawing.Icon Icon {
+            get {
+                object obj = ResourceManager.GetObject("Icon", resourceCulture);
+                return ((System.Drawing.Icon)(obj));
             }
         }
         
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap glaz1 {
+        internal static System.Drawing.Bitmap Krest {
             get {
-                object obj = ResourceManager.GetObject("glaz1", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap krest {
-            get {
-                object obj = ResourceManager.GetObject("krest", resourceCulture);
+                object obj = ResourceManager.GetObject("Krest", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -233,9 +233,9 @@ namespace SiPPOON_PP.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap star_disable {
+        internal static System.Drawing.Bitmap Star_disable {
             get {
-                object obj = ResourceManager.GetObject("star_disable", resourceCulture);
+                object obj = ResourceManager.GetObject("Star_disable", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -243,9 +243,19 @@ namespace SiPPOON_PP.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap star_enable {
+        internal static System.Drawing.Bitmap Star_enable {
             get {
-                object obj = ResourceManager.GetObject("star_enable", resourceCulture);
+                object obj = ResourceManager.GetObject("Star_enable", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Zastavka {
+            get {
+                object obj = ResourceManager.GetObject("Zastavka", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

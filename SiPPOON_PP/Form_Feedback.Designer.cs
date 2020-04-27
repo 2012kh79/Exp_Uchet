@@ -30,6 +30,8 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form_Feedback));
             this.gb_Feedback = new System.Windows.Forms.GroupBox();
+            this.tb_Password = new System.Windows.Forms.TextBox();
+            this.lbl_Password = new System.Windows.Forms.Label();
             this.tb_Mail = new System.Windows.Forms.TextBox();
             this.lbl_Mail = new System.Windows.Forms.Label();
             this.btn_Send = new System.Windows.Forms.Button();
@@ -42,8 +44,6 @@
             this.pb3 = new System.Windows.Forms.PictureBox();
             this.pb2 = new System.Windows.Forms.PictureBox();
             this.pb1 = new System.Windows.Forms.PictureBox();
-            this.tb_Password = new System.Windows.Forms.TextBox();
-            this.lbl_Password = new System.Windows.Forms.Label();
             this.gb_Feedback.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pb5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pb4)).BeginInit();
@@ -69,6 +69,23 @@
             this.gb_Feedback.TabIndex = 1;
             this.gb_Feedback.TabStop = false;
             this.gb_Feedback.Text = "Данные письма";
+            // 
+            // tb_Password
+            // 
+            this.tb_Password.Location = new System.Drawing.Point(57, 47);
+            this.tb_Password.Name = "tb_Password";
+            this.tb_Password.Size = new System.Drawing.Size(207, 20);
+            this.tb_Password.TabIndex = 11;
+            this.tb_Password.UseSystemPasswordChar = true;
+            // 
+            // lbl_Password
+            // 
+            this.lbl_Password.AutoSize = true;
+            this.lbl_Password.Location = new System.Drawing.Point(7, 50);
+            this.lbl_Password.Name = "lbl_Password";
+            this.lbl_Password.Size = new System.Drawing.Size(48, 13);
+            this.lbl_Password.TabIndex = 10;
+            this.lbl_Password.Text = "Пароль:";
             // 
             // tb_Mail
             // 
@@ -185,23 +202,6 @@
             this.pb1.TabIndex = 8;
             this.pb1.TabStop = false;
             this.pb1.Click += new System.EventHandler(this.pb1_Click);
-            // 
-            // tb_Password
-            // 
-            this.tb_Password.Location = new System.Drawing.Point(57, 47);
-            this.tb_Password.Name = "tb_Password";
-            this.tb_Password.Size = new System.Drawing.Size(207, 20);
-            this.tb_Password.TabIndex = 11;
-            this.tb_Password.UseSystemPasswordChar = true;
-            // 
-            // lbl_Password
-            // 
-            this.lbl_Password.AutoSize = true;
-            this.lbl_Password.Location = new System.Drawing.Point(7, 50);
-            this.lbl_Password.Name = "lbl_Password";
-            this.lbl_Password.Size = new System.Drawing.Size(48, 13);
-            this.lbl_Password.TabIndex = 10;
-            this.lbl_Password.Text = "Пароль:";
             // 
             // Form_Feedback
             // 

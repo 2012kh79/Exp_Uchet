@@ -489,6 +489,23 @@
             this.справкаToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.ФормаОбратнойСвязиToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.информацияОПрограммеToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.файлToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.открытьToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.печатьToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripMenuItem4 = new System.Windows.Forms.ToolStripSeparator();
+            this.выходToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.excelToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.файлToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.открытьToolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
+            this.печатьToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripMenuItem5 = new System.Windows.Forms.ToolStripSeparator();
+            this.выходToolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
+            this.файлToolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
+            this.открытьToolStripMenuItem3 = new System.Windows.Forms.ToolStripMenuItem();
+            this.печатьToolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripMenuItem6 = new System.Windows.Forms.ToolStripSeparator();
+            this.выходToolStripMenuItem3 = new System.Windows.Forms.ToolStripMenuItem();
+            this.excelToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.tc_Kategorii.SuspendLayout();
             this.Kategorii.SuspendLayout();
             this.gb_Chart_Kategorii.SuspendLayout();
@@ -4525,8 +4542,7 @@
             // menuStrip_Kategoriya
             // 
             this.menuStrip_Kategoriya.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.Menu_File,
-            this.справкаToolStripMenuItem});
+            this.файлToolStripMenuItem2});
             this.menuStrip_Kategoriya.Location = new System.Drawing.Point(0, 0);
             this.menuStrip_Kategoriya.Name = "menuStrip_Kategoriya";
             this.menuStrip_Kategoriya.Size = new System.Drawing.Size(984, 24);
@@ -4607,6 +4623,126 @@
             this.информацияОПрограммеToolStripMenuItem.Size = new System.Drawing.Size(224, 22);
             this.информацияОПрограммеToolStripMenuItem.Text = "Информация о программе";
             this.информацияОПрограммеToolStripMenuItem.Click += new System.EventHandler(this.информацияОПрограммеToolStripMenuItem_Click);
+            // 
+            // файлToolStripMenuItem
+            // 
+            this.файлToolStripMenuItem.Name = "файлToolStripMenuItem";
+            this.файлToolStripMenuItem.Size = new System.Drawing.Size(48, 20);
+            this.файлToolStripMenuItem.Text = "Файл";
+            // 
+            // открытьToolStripMenuItem1
+            // 
+            this.открытьToolStripMenuItem1.Image = global::SiPPOON_PP.Properties.Resources.Open;
+            this.открытьToolStripMenuItem1.Name = "открытьToolStripMenuItem1";
+            this.открытьToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
+            this.открытьToolStripMenuItem1.Text = "Открыть";
+            this.открытьToolStripMenuItem1.Click += new System.EventHandler(this.открытьToolStripMenuItem_Click);
+            // 
+            // печатьToolStripMenuItem
+            // 
+            this.печатьToolStripMenuItem.Image = global::SiPPOON_PP.Properties.Resources.Export;
+            this.печатьToolStripMenuItem.Name = "печатьToolStripMenuItem";
+            this.печатьToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.печатьToolStripMenuItem.Text = "Печать";
+            // 
+            // toolStripMenuItem4
+            // 
+            this.toolStripMenuItem4.Name = "toolStripMenuItem4";
+            this.toolStripMenuItem4.Size = new System.Drawing.Size(177, 6);
+            // 
+            // выходToolStripMenuItem1
+            // 
+            this.выходToolStripMenuItem1.Image = global::SiPPOON_PP.Properties.Resources.Exit;
+            this.выходToolStripMenuItem1.Name = "выходToolStripMenuItem1";
+            this.выходToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
+            this.выходToolStripMenuItem1.Text = "Выход";
+            this.выходToolStripMenuItem1.Click += new System.EventHandler(this.выходToolStripMenuItem_Click);
+            // 
+            // excelToolStripMenuItem
+            // 
+            this.excelToolStripMenuItem.Image = global::SiPPOON_PP.Properties.Resources.Excel;
+            this.excelToolStripMenuItem.Name = "excelToolStripMenuItem";
+            this.excelToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.excelToolStripMenuItem.Text = "Excel";
+            this.excelToolStripMenuItem.Click += new System.EventHandler(this.toolStripMenuItem3_Click);
+            // 
+            // файлToolStripMenuItem1
+            // 
+            this.файлToolStripMenuItem1.Name = "файлToolStripMenuItem1";
+            this.файлToolStripMenuItem1.Size = new System.Drawing.Size(48, 20);
+            this.файлToolStripMenuItem1.Text = "Файл";
+            // 
+            // открытьToolStripMenuItem2
+            // 
+            this.открытьToolStripMenuItem2.Name = "открытьToolStripMenuItem2";
+            this.открытьToolStripMenuItem2.Size = new System.Drawing.Size(180, 22);
+            this.открытьToolStripMenuItem2.Text = "Открыть";
+            // 
+            // печатьToolStripMenuItem1
+            // 
+            this.печатьToolStripMenuItem1.Name = "печатьToolStripMenuItem1";
+            this.печатьToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
+            this.печатьToolStripMenuItem1.Text = "Печать";
+            // 
+            // toolStripMenuItem5
+            // 
+            this.toolStripMenuItem5.Name = "toolStripMenuItem5";
+            this.toolStripMenuItem5.Size = new System.Drawing.Size(177, 6);
+            // 
+            // выходToolStripMenuItem2
+            // 
+            this.выходToolStripMenuItem2.Name = "выходToolStripMenuItem2";
+            this.выходToolStripMenuItem2.Size = new System.Drawing.Size(180, 22);
+            this.выходToolStripMenuItem2.Text = "Выход";
+            // 
+            // файлToolStripMenuItem2
+            // 
+            this.файлToolStripMenuItem2.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.открытьToolStripMenuItem3,
+            this.печатьToolStripMenuItem2,
+            this.toolStripMenuItem6,
+            this.выходToolStripMenuItem3});
+            this.файлToolStripMenuItem2.Name = "файлToolStripMenuItem2";
+            this.файлToolStripMenuItem2.Size = new System.Drawing.Size(48, 20);
+            this.файлToolStripMenuItem2.Text = "Файл";
+            // 
+            // открытьToolStripMenuItem3
+            // 
+            this.открытьToolStripMenuItem3.Image = global::SiPPOON_PP.Properties.Resources.Open;
+            this.открытьToolStripMenuItem3.Name = "открытьToolStripMenuItem3";
+            this.открытьToolStripMenuItem3.Size = new System.Drawing.Size(180, 22);
+            this.открытьToolStripMenuItem3.Text = "Открыть";
+            this.открытьToolStripMenuItem3.Click += new System.EventHandler(this.открытьToolStripMenuItem_Click);
+            // 
+            // печатьToolStripMenuItem2
+            // 
+            this.печатьToolStripMenuItem2.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.excelToolStripMenuItem1});
+            this.печатьToolStripMenuItem2.Image = global::SiPPOON_PP.Properties.Resources.Export;
+            this.печатьToolStripMenuItem2.Name = "печатьToolStripMenuItem2";
+            this.печатьToolStripMenuItem2.Size = new System.Drawing.Size(180, 22);
+            this.печатьToolStripMenuItem2.Text = "Печать";
+            // 
+            // toolStripMenuItem6
+            // 
+            this.toolStripMenuItem6.Name = "toolStripMenuItem6";
+            this.toolStripMenuItem6.Size = new System.Drawing.Size(177, 6);
+            // 
+            // выходToolStripMenuItem3
+            // 
+            this.выходToolStripMenuItem3.Image = global::SiPPOON_PP.Properties.Resources.Exit;
+            this.выходToolStripMenuItem3.Name = "выходToolStripMenuItem3";
+            this.выходToolStripMenuItem3.Size = new System.Drawing.Size(180, 22);
+            this.выходToolStripMenuItem3.Text = "Выход";
+            this.выходToolStripMenuItem3.Click += new System.EventHandler(this.выходToolStripMenuItem_Click);
+            // 
+            // excelToolStripMenuItem1
+            // 
+            this.excelToolStripMenuItem1.Image = global::SiPPOON_PP.Properties.Resources.Excel;
+            this.excelToolStripMenuItem1.Name = "excelToolStripMenuItem1";
+            this.excelToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
+            this.excelToolStripMenuItem1.Text = "Excel";
+            this.excelToolStripMenuItem1.Click += new System.EventHandler(this.toolStripMenuItem3_Click);
             // 
             // Form_Kategorii
             // 
@@ -5115,6 +5251,23 @@
         private System.Windows.Forms.GroupBox gb_chart_VKO;
         private System.Windows.Forms.DataVisualization.Charting.Chart chart_VKO;
         private System.Windows.Forms.CheckedListBox clb_VKO;
+        private System.Windows.Forms.ToolStripMenuItem файлToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem открытьToolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem печатьToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem excelToolStripMenuItem;
+        private System.Windows.Forms.ToolStripSeparator toolStripMenuItem4;
+        private System.Windows.Forms.ToolStripMenuItem выходToolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem файлToolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem открытьToolStripMenuItem2;
+        private System.Windows.Forms.ToolStripMenuItem печатьToolStripMenuItem1;
+        private System.Windows.Forms.ToolStripSeparator toolStripMenuItem5;
+        private System.Windows.Forms.ToolStripMenuItem выходToolStripMenuItem2;
+        private System.Windows.Forms.ToolStripMenuItem файлToolStripMenuItem2;
+        private System.Windows.Forms.ToolStripMenuItem открытьToolStripMenuItem3;
+        private System.Windows.Forms.ToolStripMenuItem печатьToolStripMenuItem2;
+        private System.Windows.Forms.ToolStripMenuItem excelToolStripMenuItem1;
+        private System.Windows.Forms.ToolStripSeparator toolStripMenuItem6;
+        private System.Windows.Forms.ToolStripMenuItem выходToolStripMenuItem3;
     }
 }
 

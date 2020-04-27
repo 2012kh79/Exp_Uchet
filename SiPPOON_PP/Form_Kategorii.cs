@@ -3,13 +3,16 @@ using System.Data;
 using System.Windows.Forms;
 using System.Data.OleDb;
 using System.Threading;
+using System.Collections.Generic;
 
 namespace SiPPOON_PP
 {
     public partial class Form_Kategorii : Form
     {
-        string constr;
+        public static string constr;
         DataGridView dgv_Excel;
+        List<string> objectList = new List<string>();
+
         public Form_Kategorii()
         {
             InitializeComponent();
@@ -20,20 +23,14 @@ namespace SiPPOON_PP
         {
             Fill_Table table = new Fill_Table();
             Filter_Table filter = new Filter_Table();
-            DataTable data = new DataTable();
             Action action = () =>
             {
                 try
                 {
-                    OleDbConnection Con = new OleDbConnection(constr);
-                    OleDbCommand OleConnection = new OleDbCommand("SELECT * FROM [Категории$A9:AP5339]", Con);
-                    Con.Open();
-                    OleDbDataAdapter sda = new OleDbDataAdapter(OleConnection);
-                    sda.Fill(data);
-                    table.Table(dgv_Kategorii, data);
+                    table.dtKategoriiFill();
+                    table.Table(dgv_Kategorii,table.dtKategorii);
                     filter.Sort_Table(dgv_Kategorii);
-                    dgv_Kategoriya1.ReadOnly = true;
-                    Con.Close();
+                    dgv_Kategorii.ReadOnly = true;
                 }
                 catch
                 {
@@ -46,19 +43,13 @@ namespace SiPPOON_PP
         public void dgv_Kategoriya_1_Fill()
         {
             Fill_Table table = new Fill_Table();
-            DataTable data = new DataTable();
             Action action = () =>
             {
                 try
                 {
-                    OleDbConnection Con = new OleDbConnection(constr);
-                    OleDbCommand OleConnection = new OleDbCommand("SELECT * FROM [Категории$A9:AP223]", Con);
-                    Con.Open();
-                    OleDbDataAdapter sda = new OleDbDataAdapter(OleConnection);
-                    sda.Fill(data);
-                    table.Table(dgv_Kategoriya1,data);
+                    table.dtKategoriya_1Fill();
+                    table.Table(dgv_Kategoriya1, table.dtKategoriya_1);
                     dgv_Kategoriya1.ReadOnly = true;
-                    Con.Close();
                 }
                 catch
                 {
@@ -71,19 +62,13 @@ namespace SiPPOON_PP
         public void dgv_Kategoriya_2_Fill()
         {
             Fill_Table table = new Fill_Table();
-            DataTable data = new DataTable();
             Action action = () =>
             {
                 try
                 {
-                    OleDbConnection Con = new OleDbConnection(constr);
-                    OleDbCommand OleConnection = new OleDbCommand("SELECT * FROM [Категории$A224:AP691]", Con);
-                    Con.Open();
-                    OleDbDataAdapter sda = new OleDbDataAdapter(OleConnection);
-                    sda.Fill(data);
-                    table.Table(dgv_Kategoriya2, data);
+                    table.dtKategoriya_2Fill();
+                    table.Table(dgv_Kategoriya2, table.dtKategoriya_2);
                     dgv_Kategoriya2.ReadOnly = true;
-                    Con.Close();
                 }
                 catch
                 {
@@ -96,19 +81,13 @@ namespace SiPPOON_PP
         public void dgv_Kategoriya_3_Fill()
         {
             Fill_Table table = new Fill_Table();
-            DataTable data = new DataTable();
             Action action = () =>
             {
                 try
                 {
-                    OleDbConnection Con = new OleDbConnection(constr);
-                    OleDbCommand OleConnection = new OleDbCommand("SELECT * FROM [Категории$A692:AP3719]", Con);
-                    Con.Open();
-                    OleDbDataAdapter sda = new OleDbDataAdapter(OleConnection);
-                    sda.Fill(data);
-                    table.Table(dgv_Kategoriya3, data);
+                    table.dtKategoriya_3Fill();
+                    table.Table(dgv_Kategoriya3, table.dtKategoriya_3);
                     dgv_Kategoriya3.ReadOnly = true;
-                    Con.Close();
                 }
                 catch
                 {
@@ -121,19 +100,13 @@ namespace SiPPOON_PP
         public void dgv_Kategoriya_4_Fill()
         {
             Fill_Table table = new Fill_Table();
-            DataTable data = new DataTable();
             Action action = () =>
             {
                 try
                 {
-                    OleDbConnection Con = new OleDbConnection(constr);
-                    OleDbCommand OleConnection = new OleDbCommand("SELECT * FROM [Категории$A3720:AP4241]", Con);
-                    Con.Open();
-                    OleDbDataAdapter sda = new OleDbDataAdapter(OleConnection);
-                    sda.Fill(data);
-                    table.Table(dgv_Kategoriya4, data);
+                    table.dtKategoriya_4Fill();
+                    table.Table(dgv_Kategoriya4, table.dtKategoriya_4);
                     dgv_Kategoriya4.ReadOnly = true;
-                    Con.Close();
                 }
                 catch
                 {
@@ -146,19 +119,13 @@ namespace SiPPOON_PP
         public void dgv_Kategoriya_5_Fill()
         {
             Fill_Table table = new Fill_Table();
-            DataTable data = new DataTable();
             Action action = () =>
             {
                 try
                 {
-                    OleDbConnection Con = new OleDbConnection(constr);
-                    OleDbCommand OleConnection = new OleDbCommand("SELECT * FROM [Категории$A4242:AP4592]", Con);
-                    Con.Open();
-                    OleDbDataAdapter sda = new OleDbDataAdapter(OleConnection);
-                    sda.Fill(data);
-                    table.Table(dgv_Kategoriya5, data);
+                    table.dtKategoriya_5Fill();
+                    table.Table(dgv_Kategoriya5, table.dtKategoriya_5);
                     dgv_Kategoriya5.ReadOnly = true;
-                    Con.Close();
                 }
                 catch
                 {
@@ -171,19 +138,13 @@ namespace SiPPOON_PP
         public void dgv_Kategoriya_6_Fill()
         {
             Fill_Table table = new Fill_Table();
-            DataTable data = new DataTable();
             Action action = () =>
             {
                 try
                 {
-                    OleDbConnection Con = new OleDbConnection(constr);
-                    OleDbCommand OleConnection = new OleDbCommand("SELECT * FROM [Категории$A4593:AP4779]", Con);
-                    Con.Open();
-                    OleDbDataAdapter sda = new OleDbDataAdapter(OleConnection);
-                    sda.Fill(data);
-                    table.Table(dgv_Kategoriya6, data);
+                    table.dtKategoriya_6Fill();
+                    table.Table(dgv_Kategoriya6, table.dtKategoriya_6);
                     dgv_Kategoriya6.ReadOnly = true;
-                    Con.Close();
                 }
                 catch
                 {
@@ -196,19 +157,13 @@ namespace SiPPOON_PP
         public void dgv_VKO_Fill()
         {
             Fill_Table table = new Fill_Table();
-            DataTable data = new DataTable();
             Action action = () =>
             {
                 try
                 {
-                    OleDbConnection Con = new OleDbConnection(constr);
-                    OleDbCommand OleConnection = new OleDbCommand("SELECT * FROM [Категории$A4780:AP5337]", Con);
-                    Con.Open();
-                    OleDbDataAdapter sda = new OleDbDataAdapter(OleConnection);
-                    sda.Fill(data);
-                    table.Table(dgv_VKO, data);
+                    table.dtVKOFill();
+                    table.Table(dgv_VKO, table.dtVKO);
                     dgv_VKO.ReadOnly = true;
-                    Con.Close();
                 }
                 catch
                 {
@@ -492,7 +447,7 @@ namespace SiPPOON_PP
         private void dgv_Kategorii_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
             Filter_Table filter = new Filter_Table();
-            filter.Chart_Export(chart_Kategorii, dgv_Kategorii, clb_Kategorii);
+            filter.Chart_Export(chart_Kategorii, dgv_Kategorii, clb_Kategorii, objectList);
         }
 
         private void clb_Kategorii_SelectedIndexChanged(object sender, EventArgs e)
@@ -504,7 +459,7 @@ namespace SiPPOON_PP
         private void dgv_Kategoriya1_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
             Filter_Table filter = new Filter_Table();
-            filter.Chart_Export(chart_Kategoriya1, dgv_Kategoriya1, clb_Kategoriya1);
+            filter.Chart_Export(chart_Kategoriya1, dgv_Kategoriya1, clb_Kategoriya1, objectList);
         }
 
         private void clb_Kategoriya1_SelectedIndexChanged(object sender, EventArgs e)
@@ -516,7 +471,7 @@ namespace SiPPOON_PP
         private void dgv_Kategoriya2_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
             Filter_Table filter = new Filter_Table();
-            filter.Chart_Export(chart_Kategoriya2, dgv_Kategoriya2, clb_Kategoriya2);
+            filter.Chart_Export(chart_Kategoriya2, dgv_Kategoriya2, clb_Kategoriya2, objectList);
         }
 
         private void clb_Kategoriya2_SelectedIndexChanged(object sender, EventArgs e)
@@ -528,7 +483,7 @@ namespace SiPPOON_PP
         private void dgv_Kategoriya3_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
             Filter_Table filter = new Filter_Table();
-            filter.Chart_Export(chart_Kategoriya3, dgv_Kategoriya3, clb_Kategoriya3);
+            filter.Chart_Export(chart_Kategoriya3, dgv_Kategoriya3, clb_Kategoriya3, objectList);
         }
 
         private void clb_Kategoriya3_SelectedIndexChanged(object sender, EventArgs e)
@@ -540,7 +495,7 @@ namespace SiPPOON_PP
         private void dgv_Kategoriya4_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
             Filter_Table filter = new Filter_Table();
-            filter.Chart_Export(chart_Kategoriya4, dgv_Kategoriya4, clb_Kategoriya4);
+            filter.Chart_Export(chart_Kategoriya4, dgv_Kategoriya4, clb_Kategoriya4, objectList);
         }
 
         private void clb_Kategoriya4_SelectedIndexChanged(object sender, EventArgs e)
@@ -552,7 +507,7 @@ namespace SiPPOON_PP
         private void dgv_Kategoriya5_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
             Filter_Table filter = new Filter_Table();
-            filter.Chart_Export(chart_Kategoriya5, dgv_Kategoriya5, clb_Kategoriya5);
+            filter.Chart_Export(chart_Kategoriya5, dgv_Kategoriya5, clb_Kategoriya5, objectList);
         }
 
         private void checkedListBox5_SelectedIndexChanged(object sender, EventArgs e)
@@ -564,7 +519,7 @@ namespace SiPPOON_PP
         private void dgv_Kategoriya6_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
             Filter_Table filter = new Filter_Table();
-            filter.Chart_Export(chart_Kategoriya6, dgv_Kategoriya6, clb_Kategoriya6);
+            filter.Chart_Export(chart_Kategoriya6, dgv_Kategoriya6, clb_Kategoriya6, objectList);
         }
 
         private void clb_Kategoriya6_SelectedIndexChanged(object sender, EventArgs e)
@@ -576,7 +531,7 @@ namespace SiPPOON_PP
         private void dgv_VKO_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
             Filter_Table filter = new Filter_Table();
-            filter.Chart_Export(chart_VKO, dgv_VKO, clb_VKO);
+            filter.Chart_Export(chart_VKO, dgv_VKO, clb_VKO, objectList);
         }
 
         private void clb_VKO_SelectedIndexChanged(object sender, EventArgs e)
