@@ -22,7 +22,7 @@ namespace SiPPOON_PP
             MailAddress from = new MailAddress("2012kh79@gmail.com", "Администратор БД");
             try
             {
-                MailAddress to = new MailAddress(mail1, "Рубен");
+                MailAddress to = new MailAddress(mail1, "Ильназ");
                 SmtpClient smtp = new SmtpClient("smtp.gmail.com", 587);
                 smtp.DeliveryMethod = SmtpDeliveryMethod.Network;
                 smtp.Credentials = new NetworkCredential(from.Address, "12082000");

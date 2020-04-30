@@ -42,7 +42,7 @@ namespace SiPPOON_PP
                             DataTable table = new DataTable();
                             dataAdapter.Fill(table);
                             if (table.Rows.Count == 0)
-                                MessageBox.Show("Данный почтовый ящик не был зарегистрирован", "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                                MessageBox.Show("Данный почтовый ящик не был зарегистрирован", "Сообщение", MessageBoxButtons.OK, MessageBoxIcon.Error);
                             else
                             {
                                 if (tb_Ot.Text != "")
@@ -51,15 +51,15 @@ namespace SiPPOON_PP
                                     sendMail.MySendMail();
                                 }
                                 else
-                                    MessageBox.Show("Заполните поле \"Имя\"", "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                                    MessageBox.Show("Заполните поле \"Имя\"", "Сообщение", MessageBoxButtons.OK, MessageBoxIcon.Information);
                             }
                         }
                     }
                     else
-                        MessageBox.Show("Заполните поле \"Пароль\"", "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        MessageBox.Show("Заполните поле \"Пароль\"", "Сообщение", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 }
                 else
-                    MessageBox.Show("Заполните поле \"Mail\"", "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    MessageBox.Show("Заполните поле \"Mail\"", "Сообщение", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
             catch
             {

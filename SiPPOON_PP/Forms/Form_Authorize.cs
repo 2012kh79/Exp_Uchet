@@ -69,20 +69,20 @@ namespace SiPPOON_PP
             role = Get_Role(tbLogin.Text, Form_Registration.Hash(tbPass.Text));
             if (role == Role.Failed)
             {
-                MessageBox.Show("Неверный логин или пароль", "Ошибка авторизации");
+                MessageBox.Show("Неверный логин или пароль", "Сообщение", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
             else
             {
                 if (role == Role.Otdel_Kachestva)
                 {
-                    MessageBox.Show("Вы авторизовались, как \"Начальник отдела по управлению качеством\"");
+                    MessageBox.Show("Вы авторизовались, как \"Начальник отдела по управлению качеством\"", "Сообщение", MessageBoxButtons.OK, MessageBoxIcon.Information);
                     this.Hide();
                     Form_Result main = new Form_Result();
                     main.Show();
                 }
                 else if (role == Role.Admin)
                 {
-                    MessageBox.Show("Вы авторизовались, как \"Админ\"");
+                    MessageBox.Show("Вы авторизовались, как \"Админ\"", "Сообщение", MessageBoxButtons.OK, MessageBoxIcon.Information);
                     this.Hide();
                     Form_Admin admin = new Form_Admin();
                     admin.Show();

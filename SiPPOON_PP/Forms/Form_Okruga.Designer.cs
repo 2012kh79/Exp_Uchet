@@ -707,6 +707,9 @@
             this.файлToolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
             this.открытьToolStripMenuItem3 = new System.Windows.Forms.ToolStripMenuItem();
             this.печатьToolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
+            this.excelToolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripMenuItem6 = new System.Windows.Forms.ToolStripSeparator();
+            this.выходToolStripMenuItem3 = new System.Windows.Forms.ToolStripMenuItem();
             this.Menu_File = new System.Windows.Forms.ToolStripMenuItem();
             this.открытьToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
@@ -728,9 +731,6 @@
             this.toolStripMenuItem5 = new System.Windows.Forms.ToolStripSeparator();
             this.выходToolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
             this.excelToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripMenuItem6 = new System.Windows.Forms.ToolStripSeparator();
-            this.выходToolStripMenuItem3 = new System.Windows.Forms.ToolStripMenuItem();
-            this.excelToolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
             this.tc_Okruga.SuspendLayout();
             this.Okruga.SuspendLayout();
             this.gb_chart_Okruga.SuspendLayout();
@@ -6805,6 +6805,27 @@
             this.печатьToolStripMenuItem2.Size = new System.Drawing.Size(180, 22);
             this.печатьToolStripMenuItem2.Text = "Печать";
             // 
+            // excelToolStripMenuItem2
+            // 
+            this.excelToolStripMenuItem2.Image = global::SiPPOON_PP.Properties.Resources.Excel;
+            this.excelToolStripMenuItem2.Name = "excelToolStripMenuItem2";
+            this.excelToolStripMenuItem2.Size = new System.Drawing.Size(101, 22);
+            this.excelToolStripMenuItem2.Text = "Excel";
+            this.excelToolStripMenuItem2.Click += new System.EventHandler(this.toolStripMenuItem3_Click);
+            // 
+            // toolStripMenuItem6
+            // 
+            this.toolStripMenuItem6.Name = "toolStripMenuItem6";
+            this.toolStripMenuItem6.Size = new System.Drawing.Size(177, 6);
+            // 
+            // выходToolStripMenuItem3
+            // 
+            this.выходToolStripMenuItem3.Image = global::SiPPOON_PP.Properties.Resources.Exit;
+            this.выходToolStripMenuItem3.Name = "выходToolStripMenuItem3";
+            this.выходToolStripMenuItem3.Size = new System.Drawing.Size(180, 22);
+            this.выходToolStripMenuItem3.Text = "Выход";
+            this.выходToolStripMenuItem3.Click += new System.EventHandler(this.выходToolStripMenuItem_Click);
+            // 
             // Menu_File
             // 
             this.Menu_File.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
@@ -6955,27 +6976,6 @@
             this.excelToolStripMenuItem1.Name = "excelToolStripMenuItem1";
             this.excelToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
             this.excelToolStripMenuItem1.Text = "Excel";
-            // 
-            // toolStripMenuItem6
-            // 
-            this.toolStripMenuItem6.Name = "toolStripMenuItem6";
-            this.toolStripMenuItem6.Size = new System.Drawing.Size(177, 6);
-            // 
-            // выходToolStripMenuItem3
-            // 
-            this.выходToolStripMenuItem3.Image = global::SiPPOON_PP.Properties.Resources.Exit;
-            this.выходToolStripMenuItem3.Name = "выходToolStripMenuItem3";
-            this.выходToolStripMenuItem3.Size = new System.Drawing.Size(180, 22);
-            this.выходToolStripMenuItem3.Text = "Выход";
-            this.выходToolStripMenuItem3.Click += new System.EventHandler(this.выходToolStripMenuItem_Click);
-            // 
-            // excelToolStripMenuItem2
-            // 
-            this.excelToolStripMenuItem2.Image = global::SiPPOON_PP.Properties.Resources.Excel;
-            this.excelToolStripMenuItem2.Name = "excelToolStripMenuItem2";
-            this.excelToolStripMenuItem2.Size = new System.Drawing.Size(180, 22);
-            this.excelToolStripMenuItem2.Text = "Excel";
-            this.excelToolStripMenuItem2.Click += new System.EventHandler(this.toolStripMenuItem3_Click);
             // 
             // Form_Okruga
             // 
@@ -7154,7 +7154,6 @@
         private System.Windows.Forms.RadioButton rb_Deffect_Okruga;
         private System.Windows.Forms.RadioButton rb_Prev_Okruga;
         private System.Windows.Forms.Label lbl_Filter_Okruga;
-        private System.Windows.Forms.DataGridView dgv_Okruga;
         private System.Windows.Forms.RadioButton rb_Clear_Okruga;
         private System.Windows.Forms.RadioButton rb_Clear_VAO;
         private System.Windows.Forms.RadioButton rb_Clear_ZAO;
@@ -7203,49 +7202,6 @@
         private System.Windows.Forms.GroupBox gb_chart_YZAO;
         private System.Windows.Forms.DataVisualization.Charting.Chart chart_YZAO;
         private System.Windows.Forms.CheckedListBox clb_YZAO;
-        private System.Windows.Forms.DataGridViewCheckBoxColumn Column1;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn421;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn422;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn423;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn424;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn425;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn426;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn427;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn428;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn429;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn430;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn431;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn432;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn433;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn434;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn435;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn436;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn437;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn438;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn439;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn440;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn441;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn442;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn443;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn444;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn445;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn446;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn447;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn448;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn449;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn450;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn451;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn452;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn453;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn454;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn455;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn456;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn457;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn458;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn459;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn460;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn461;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn462;
         private System.Windows.Forms.DataGridViewCheckBoxColumn dataGridViewCheckBoxColumn1;
         private System.Windows.Forms.DataGridViewTextBoxColumn Nomer_PP;
         private System.Windows.Forms.DataGridViewTextBoxColumn ID_ODH;
@@ -7737,6 +7693,50 @@
         private System.Windows.Forms.ToolStripSeparator toolStripMenuItem6;
         private System.Windows.Forms.ToolStripMenuItem выходToolStripMenuItem3;
         private System.Windows.Forms.ToolStripMenuItem excelToolStripMenuItem2;
+        private System.Windows.Forms.DataGridView dgv_Okruga;
+        private System.Windows.Forms.DataGridViewCheckBoxColumn Column1;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn421;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn422;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn423;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn424;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn425;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn426;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn427;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn428;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn429;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn430;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn431;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn432;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn433;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn434;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn435;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn436;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn437;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn438;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn439;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn440;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn441;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn442;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn443;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn444;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn445;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn446;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn447;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn448;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn449;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn450;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn451;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn452;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn453;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn454;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn455;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn456;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn457;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn458;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn459;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn460;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn461;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn462;
     }
 }
 

@@ -1,10 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Drawing;
-using System.Linq;
 using System.Reflection;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace SiPPOON_PP
@@ -15,7 +10,6 @@ namespace SiPPOON_PP
         {
             InitializeComponent();
             this.logoPictureBox.Image = Properties.Resources.About;
-            logoPictureBox.Image.RotateFlip(RotateFlipType.Rotate270FlipNone);
             this.Text = String.Format("О программе {0}",": ГКУ \"Экспертавтодор\"");
             this.labelProductName.Text = "Название продукта: " + "ГКУ \"Экспертавтодор\"";
             this.labelVersion.Text = String.Format("Версия {0}", AssemblyVersion);

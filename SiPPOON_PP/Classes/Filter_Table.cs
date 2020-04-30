@@ -4,6 +4,7 @@ using System.Drawing;
 using System.Windows.Forms.DataVisualization.Charting;
 using System.Collections.Generic;
 
+
 namespace SiPPOON_PP
 {
     class Filter_Table
@@ -41,12 +42,10 @@ namespace SiPPOON_PP
 
         public void Check_Prev(DataGridView data, RadioButton radio)
         {
-            Fill_Table table = new Fill_Table();
-            table.dataGrid = data;
             switch (radio.Checked)
             {
                 case true:
-                    foreach (DataGridViewRow row in table.dataGrid.Rows)
+                    foreach (DataGridViewRow row in data.Rows)
                     {
                         for (int i = 5; i <= 7; i++)
                         {
@@ -91,7 +90,7 @@ namespace SiPPOON_PP
                     }
                     break;
                 case false:
-                    foreach (DataGridViewRow row in table.dataGrid.Rows)
+                    foreach (DataGridViewRow row in data.Rows)
                     {
                         for (int i = 5; i <= 7; i++)
                         {
@@ -132,12 +131,10 @@ namespace SiPPOON_PP
 
         public void Clear_Filter(DataGridView data, RadioButton radio)
         {
-            Fill_Table table = new Fill_Table();
-            table.dataGrid = data;
             switch (radio.Checked)
             {
                 case true:
-                    foreach (DataGridViewRow row in table.dataGrid.Rows)
+                    foreach (DataGridViewRow row in data.Rows)
                     {
                         for (int i = 5; i <= 7; i++)
                         {
@@ -168,18 +165,16 @@ namespace SiPPOON_PP
             }
         }
 
-        public void Chart_Import(Chart chart, DataGridView data, CheckedListBox listBox)
+        public void Chart_Import(Chart chart, DataGridView data, CheckedListBox listBox, List<string> objectList)
         {
-            Fill_Table table = new Fill_Table();
-            table.dataGrid = data;
-            int i = listBox.Items.Count;
             try
             {
+                objectList.Clear();
                 chart.Series.Clear();
+                foreach (DataGridViewRow dgv in data.Rows)
+                    dgv.Cells[0].Value = false;
                 foreach (string s in listBox.CheckedItems)
                     chart.Series.Add(s);
-                //for (int j = 0; j < data.Rows.Count; j++)
-                //    data.Rows[j].Cells[0].Value = false;
             }
             catch (Exception ex)
             {
@@ -192,7 +187,7 @@ namespace SiPPOON_PP
             int k = data.SelectedCells[0].RowIndex;
             try
             {
-                switch ((Boolean)data.Rows[k].Cells[0].Value)
+                switch (data.Rows[k].Cells[0].Value)
                 {
                     case true:
                         data.Rows[k].Cells[0].Value = false;

@@ -17,7 +17,6 @@ namespace SiPPOON_PP
             InitializeComponent();
             this.DoubleBuffered = true;
             tb_Mail.Text = "ivan.ivanov@mail.ru";
-            //this.BackgroundImage = Properties.Resources.BackGroundImage;
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -33,7 +32,7 @@ namespace SiPPOON_PP
                         dataAdapter.Fill(table);
                         if (table.Rows.Count == 0)
                         {
-                            MessageBox.Show("Данный почтовый ящик не был зарегистрирован", "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                            MessageBox.Show("Данный почтовый ящик не был зарегистрирован", "Сообщение", MessageBoxButtons.OK, MessageBoxIcon.Error);
                         }
                         else
                         {
@@ -55,7 +54,7 @@ namespace SiPPOON_PP
                         Form_Forget_Fill();
                     }
                     else
-                        MessageBox.Show("Введите корректный код подтверждения!", "Некорректный код");
+                        MessageBox.Show("Введите корректный код подтверждения!", "Сообщение", MessageBoxButtons.OK, MessageBoxIcon.Error);
                     break;
             }
         }
@@ -160,7 +159,7 @@ namespace SiPPOON_PP
                     dataAdapter.Fill(table);
                     procedures.spAccount_Update(Convert.ToString(table.Rows[0][0]), Form_Registration.Hash(tb_Password.Text), table.Rows[0][2].ToString(), Convert.ToInt32(table.Rows[0][3].ToString()), Convert.ToInt32(table.Rows[0][4].ToString()));
                 }
-                DialogResult result = MessageBox.Show("Пароль успешно изменен!", "Изменение пароля");
+                DialogResult result = MessageBox.Show("Пароль успешно изменен!", "Сообщение", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 if (result == DialogResult.OK)
                 {
                     this.Hide();
@@ -170,7 +169,7 @@ namespace SiPPOON_PP
             }
             catch
             {
-                MessageBox.Show("Ошибка изменения пароля! Повторите попытку", "Ошибка");
+                MessageBox.Show("Ошибка изменения пароля! Повторите попытку", "Сообщение", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
 
@@ -189,7 +188,7 @@ namespace SiPPOON_PP
             }
             else
             {
-                MessageBox.Show("Пароли не совпадают!");
+                MessageBox.Show("Пароли не совпадают!", "Сообщение", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 pb_Check.Image = Properties.Resources.Krest;
             }
             if (Enable == 1)

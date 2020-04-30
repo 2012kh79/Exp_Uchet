@@ -130,11 +130,11 @@ namespace SiPPOON_PP
                 }
                 catch
                 {
-                    MessageBox.Show("Ошибка добавления");
+                    MessageBox.Show("Ошибка добавления", "Сообщение", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
             }
             else
-                MessageBox.Show("Заполните поля данных", "Ошибка вводимых данных", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("Заполните поля данных", "Сообщение", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
 
         private void btn_Update_Click(object sender, EventArgs e)
@@ -152,11 +152,11 @@ namespace SiPPOON_PP
                 }
                 catch
                 {
-                    MessageBox.Show("Ошибка изменения", "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    MessageBox.Show("Ошибка изменения", "Сообщение", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
             }
             else
-                MessageBox.Show("Заполните поля данных", "Ошибка вводимых данных", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("Заполните поля данных", "Сообщение", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
 
         private void btn_Delete_Click(object sender, EventArgs e)
@@ -211,11 +211,11 @@ namespace SiPPOON_PP
                 }
                 catch
                 {
-                    MessageBox.Show("Ошибка добавления");
+                    MessageBox.Show("Ошибка добавления", "Сообщение", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
             }
             else
-                MessageBox.Show("Заполните поля данных", "Ошибка вводимых данных", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("Заполните поля данных", "Сообщение", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
 
         private void btn_Update_Sotrudnik_Click(object sender, EventArgs e)
@@ -233,11 +233,11 @@ namespace SiPPOON_PP
                 }
                 catch
                 {
-                    MessageBox.Show("Ошибка изменения", "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    MessageBox.Show("Ошибка изменения", "Сообщение", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
             }
             else
-                MessageBox.Show("Заполните поля данных", "Ошибка вводимых данных", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("Заполните поля данных", "Сообщение", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
 
         private void btn_Delete_Sotrudnik_Click(object sender, EventArgs e)

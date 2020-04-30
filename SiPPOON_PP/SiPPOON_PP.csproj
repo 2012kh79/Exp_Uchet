@@ -54,117 +54,117 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="About_Form.cs">
+    <Compile Include="Forms\About_Form.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="About_Form.Designer.cs">
+    <Compile Include="Forms\About_Form.Designer.cs">
       <DependentUpon>About_Form.cs</DependentUpon>
     </Compile>
-    <Compile Include="DB_Procedures.cs" />
-    <Compile Include="Excel_Document.cs" />
-    <Compile Include="Fill_Table.cs" />
-    <Compile Include="Filter_Table.cs" />
-    <Compile Include="Forget_Password.cs" />
-    <Compile Include="Form_Admin.cs">
+    <Compile Include="Classes\DB_Procedures.cs" />
+    <Compile Include="Classes\Excel_Document.cs" />
+    <Compile Include="Classes\Fill_Table.cs" />
+    <Compile Include="Classes\Filter_Table.cs" />
+    <Compile Include="Classes\Forget_Password.cs" />
+    <Compile Include="Forms\Form_Admin.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form_Admin.Designer.cs">
+    <Compile Include="Forms\Form_Admin.Designer.cs">
       <DependentUpon>Form_Admin.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form_Authorize.cs">
+    <Compile Include="Forms\Form_Authorize.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form_Authorize.Designer.cs">
+    <Compile Include="Forms\Form_Authorize.Designer.cs">
       <DependentUpon>Form_Authorize.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form_Configuration.cs">
+    <Compile Include="Forms\Form_Configuration.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form_Configuration.Designer.cs">
+    <Compile Include="Forms\Form_Configuration.Designer.cs">
       <DependentUpon>Form_Configuration.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form_Forget.cs">
+    <Compile Include="Forms\Form_Forget.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form_Forget.Designer.cs">
+    <Compile Include="Forms\Form_Forget.Designer.cs">
       <DependentUpon>Form_Forget.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form_Feedback.cs">
+    <Compile Include="Forms\Form_Feedback.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form_Feedback.Designer.cs">
+    <Compile Include="Forms\Form_Feedback.Designer.cs">
       <DependentUpon>Form_Feedback.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form_Okruga.cs">
+    <Compile Include="Forms\Form_Okruga.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form_Okruga.Designer.cs">
+    <Compile Include="Forms\Form_Okruga.Designer.cs">
       <DependentUpon>Form_Okruga.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form_Kategorii.cs">
+    <Compile Include="Forms\Form_Kategorii.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form_Kategorii.Designer.cs">
+    <Compile Include="Forms\Form_Kategorii.Designer.cs">
       <DependentUpon>Form_Kategorii.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form_Registration.cs">
+    <Compile Include="Forms\Form_Registration.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form_Registration.Designer.cs">
+    <Compile Include="Forms\Form_Registration.Designer.cs">
       <DependentUpon>Form_Registration.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form_Result.cs">
+    <Compile Include="Forms\Form_Result.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form_Result.Designer.cs">
+    <Compile Include="Forms\Form_Result.Designer.cs">
       <DependentUpon>Form_Result.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form_Zastavka.cs">
+    <Compile Include="Forms\Form_Zastavka.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form_Zastavka.Designer.cs">
+    <Compile Include="Forms\Form_Zastavka.Designer.cs">
       <DependentUpon>Form_Zastavka.cs</DependentUpon>
     </Compile>
-    <Compile Include="Program.cs" />
+    <Compile Include="Classes\Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <Compile Include="Registry_Class.cs" />
-    <Compile Include="Send_Mail.cs" />
-    <EmbeddedResource Include="About_Form.resx">
+    <Compile Include="Classes\Registry_Class.cs" />
+    <Compile Include="Classes\Send_Mail.cs" />
+    <EmbeddedResource Include="Forms\About_Form.resx">
       <DependentUpon>About_Form.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form_Admin.resx">
+    <EmbeddedResource Include="Forms\Form_Admin.resx">
       <DependentUpon>Form_Admin.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form_Authorize.resx">
+    <EmbeddedResource Include="Forms\Form_Authorize.resx">
       <DependentUpon>Form_Authorize.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form_Configuration.resx">
+    <EmbeddedResource Include="Forms\Form_Configuration.resx">
       <DependentUpon>Form_Configuration.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form_Forget.resx">
+    <EmbeddedResource Include="Forms\Form_Forget.resx">
       <DependentUpon>Form_Forget.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form_Feedback.resx">
+    <EmbeddedResource Include="Forms\Form_Feedback.resx">
       <DependentUpon>Form_Feedback.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form_Okruga.resx">
+    <EmbeddedResource Include="Forms\Form_Okruga.resx">
       <DependentUpon>Form_Okruga.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form_Kategorii.resx">
+    <EmbeddedResource Include="Forms\Form_Kategorii.resx">
       <DependentUpon>Form_Kategorii.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form_Registration.resx">
+    <EmbeddedResource Include="Forms\Form_Registration.resx">
       <DependentUpon>Form_Registration.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form_Result.resx">
+    <EmbeddedResource Include="Forms\Form_Result.resx">
       <DependentUpon>Form_Result.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form_Zastavka.resx">
+    <EmbeddedResource Include="Forms\Form_Zastavka.resx">
       <DependentUpon>Form_Zastavka.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
@@ -198,7 +198,7 @@
     <None Include="Properties\Result_Okruga.png" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Icon_for_program.ico" />
+    <None Include="Resources\About.png" />
     <Content Include="Иконка.ico" />
     <None Include="Resources\Иконка.ico" />
     <None Include="Resources\Zastavka.png" />
@@ -213,7 +213,6 @@
     <None Include="Resources\Exit.png" />
     <None Include="Resources\Excel.png" />
     <None Include="Resources\Open.png" />
-    <None Include="Resources\About.png" />
     <None Include="Resources\glaz.png" />
   </ItemGroup>
   <ItemGroup>

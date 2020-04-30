@@ -9,8 +9,8 @@ namespace SiPPOON_PP
 {
     class Fill_Table
     {
-        public DataGridView dataGrid;
-        public OleDbConnection conOle = new OleDbConnection(Form_Kategorii.constr);
+        public static string connectionString;
+        public OleDbConnection conOle = new OleDbConnection(connectionString);
         public SqlCommand commandSQL = new SqlCommand("", Registry_Class.sql);
         public SqlDependency dependency = new SqlDependency();
 
@@ -108,7 +108,7 @@ namespace SiPPOON_PP
             }
         }
 
-        private void dtFill_Ole (DataTable table, string query)
+        public void dtFill_Ole (DataTable table, string query)
         {
             try
             {

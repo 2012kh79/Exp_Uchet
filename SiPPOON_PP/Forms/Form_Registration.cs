@@ -33,9 +33,7 @@ namespace SiPPOON_PP
                 var sb = new StringBuilder(hash.Length * 2);
 
                 foreach (byte b in hash)
-                {
                     sb.Append(b.ToString("x2"));
-                }
                 return sb.ToString();
             }
         }
@@ -53,7 +51,7 @@ namespace SiPPOON_PP
                 dataAdapter.Fill(table);
                 procedure.spAccount_Insert(tbLogin.Text, Hash(tbPass.Text), tb_Pochta.Text, 2, Convert.ToInt32(table.Rows[0][0].ToString()));
             }
-            DialogResult result = MessageBox.Show("Регистрация прошла успешно", "Регистрация");
+            DialogResult result = MessageBox.Show("Регистрация прошла успешно", "Сообщение", MessageBoxButtons.OK, MessageBoxIcon.Information);
             if (result == DialogResult.OK)
             {
                 this.Hide();
@@ -105,7 +103,7 @@ namespace SiPPOON_PP
             }
             else
             {
-                MessageBox.Show("Пароли не совпадают!");
+                MessageBox.Show("Пароли не совпадают!", "Сообщение", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 pictureBox3.Image = Properties.Resources.Krest;
             }
             if (Enable == 5)

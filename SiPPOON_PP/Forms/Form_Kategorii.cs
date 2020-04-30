@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Data;
 using System.Windows.Forms;
-using System.Data.OleDb;
 using System.Threading;
 using System.Collections.Generic;
 
@@ -11,7 +10,14 @@ namespace SiPPOON_PP
     {
         public static string constr;
         DataGridView dgv_Excel;
-        List<string> objectList = new List<string>();
+        List<string> List_Kategorii = new List<string>();
+        List<string> List_Kategoriya1 = new List<string>();
+        List<string> List_Kategoriya2 = new List<string>();
+        List<string> List_Kategoriya3 = new List<string>();
+        List<string> List_Kategoriya4 = new List<string>();
+        List<string> List_Kategoriya5 = new List<string>();
+        List<string> List_Kategoriya6 = new List<string>();
+        List<string> List_VKO = new List<string>();
 
         public Form_Kategorii()
         {
@@ -28,13 +34,13 @@ namespace SiPPOON_PP
                 try
                 {
                     table.dtKategoriiFill();
-                    table.Table(dgv_Kategorii,table.dtKategorii);
+                    table.Table(dgv_Kategorii, table.dtKategorii);
                     filter.Sort_Table(dgv_Kategorii);
                     dgv_Kategorii.ReadOnly = true;
                 }
-                catch
+                catch (Exception ex)
                 {
-
+                    MessageBox.Show(ex.ToString(), "Сообщение", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
             };
             Invoke(action);
@@ -51,9 +57,9 @@ namespace SiPPOON_PP
                     table.Table(dgv_Kategoriya1, table.dtKategoriya_1);
                     dgv_Kategoriya1.ReadOnly = true;
                 }
-                catch
+                catch (Exception ex)
                 {
-
+                    MessageBox.Show(ex.ToString(), "Сообщение", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
             };
             Invoke(action);
@@ -70,9 +76,9 @@ namespace SiPPOON_PP
                     table.Table(dgv_Kategoriya2, table.dtKategoriya_2);
                     dgv_Kategoriya2.ReadOnly = true;
                 }
-                catch
+                catch (Exception ex)
                 {
-
+                    MessageBox.Show(ex.ToString(), "Сообщение", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
             };
             Invoke(action);
@@ -89,9 +95,9 @@ namespace SiPPOON_PP
                     table.Table(dgv_Kategoriya3, table.dtKategoriya_3);
                     dgv_Kategoriya3.ReadOnly = true;
                 }
-                catch
+                catch (Exception ex)
                 {
-
+                    MessageBox.Show(ex.ToString(), "Сообщение", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
             };
             Invoke(action);
@@ -108,9 +114,9 @@ namespace SiPPOON_PP
                     table.Table(dgv_Kategoriya4, table.dtKategoriya_4);
                     dgv_Kategoriya4.ReadOnly = true;
                 }
-                catch
+                catch (Exception ex)
                 {
-
+                    MessageBox.Show(ex.ToString(), "Сообщение", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
             };
             Invoke(action);
@@ -127,9 +133,9 @@ namespace SiPPOON_PP
                     table.Table(dgv_Kategoriya5, table.dtKategoriya_5);
                     dgv_Kategoriya5.ReadOnly = true;
                 }
-                catch
+                catch (Exception ex)
                 {
-
+                    MessageBox.Show(ex.ToString(), "Сообщение", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
             };
             Invoke(action);
@@ -146,9 +152,9 @@ namespace SiPPOON_PP
                     table.Table(dgv_Kategoriya6, table.dtKategoriya_6);
                     dgv_Kategoriya6.ReadOnly = true;
                 }
-                catch
+                catch (Exception ex)
                 {
-
+                    MessageBox.Show(ex.ToString(), "Сообщение", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
             };
             Invoke(action);
@@ -165,9 +171,9 @@ namespace SiPPOON_PP
                     table.Table(dgv_VKO, table.dtVKO);
                     dgv_VKO.ReadOnly = true;
                 }
-                catch
+                catch (Exception ex)
                 {
-
+                    MessageBox.Show(ex.ToString(), "Сообщение", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
             };
             Invoke(action);
@@ -177,12 +183,12 @@ namespace SiPPOON_PP
         {
             try
             {
-                DataGridViewRow row = new DataGridViewRow();
                 OpenFileDialog dlg_im = new OpenFileDialog();
                 dlg_im.Filter = "Excel File|*.xls;*.xlsx;*.xlsm";
                 if (dlg_im.ShowDialog() == DialogResult.OK)
                 {
                     constr = "Provider=Microsoft.ACE.OLEDB.12.0;Data Source=" + dlg_im.FileName + ";Extended Properties='Excel 12.0 XML;HDR=YES;';";
+                    Fill_Table.connectionString = constr;
                     Thread thread_Kategorii = new Thread(dgv_Kategorii_Fill);
                     thread_Kategorii.Start();
                     Thread thread_Kategoriya_1 = new Thread(dgv_Kategoriya_1_Fill);
@@ -199,12 +205,12 @@ namespace SiPPOON_PP
                     thread_Kategoriya_6.Start();
                     Thread thread_VKO = new Thread(dgv_VKO_Fill);
                     thread_VKO.Start();
-                    MessageBox.Show("Данные успешно загружены!", "Сообщение");
+                    MessageBox.Show("Данные успешно загружены!", "Сообщение", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 }
             }
-            catch
+            catch (Exception ex)
             {
-
+                MessageBox.Show(ex.ToString(), "Сообщение", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
 
@@ -252,15 +258,13 @@ namespace SiPPOON_PP
                 }
                 configForm.ShowDialog();
                 if (Form_Configuration.document_default_path == "")
-                {
-                    MessageBox.Show("Форма сохранения отчёта была закрыта, так как не был выбран путь!", "Сообщение");
-                }
+                    MessageBox.Show("Форма сохранения отчёта была закрыта, так как не был выбран путь!", "Сообщение", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 else
                 {
                     document.dtShet = dt;
                     document.Deffect_Create();
                     toolStripMenuItem3.Enabled = false;
-                    MessageBox.Show("Экспорт данных произошел успешно!", "Экспорт");
+                    MessageBox.Show("Экспорт данных произошел успешно!", "Сообщение", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 }
             }
             catch (Exception ex)
@@ -272,6 +276,7 @@ namespace SiPPOON_PP
         private void rb_Prev_Kategoriya1_CheckedChanged(object sender, EventArgs e)
         {
             Filter_Table filter = new Filter_Table();
+            Fill_Table table = new Fill_Table();
             filter.Check_Prev(dgv_Kategoriya1, rb_Prev_Kategoriya1);
             toolStripMenuItem3.Enabled = false;
         }
@@ -447,97 +452,97 @@ namespace SiPPOON_PP
         private void dgv_Kategorii_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
             Filter_Table filter = new Filter_Table();
-            filter.Chart_Export(chart_Kategorii, dgv_Kategorii, clb_Kategorii, objectList);
+            filter.Chart_Export(chart_Kategorii, dgv_Kategorii, clb_Kategorii, List_Kategorii);
         }
 
         private void clb_Kategorii_SelectedIndexChanged(object sender, EventArgs e)
         {
             Filter_Table filter = new Filter_Table();
-            filter.Chart_Import(chart_Kategorii, dgv_Kategorii, clb_Kategorii);
+            filter.Chart_Import(chart_Kategorii, dgv_Kategorii, clb_Kategorii, List_Kategorii);
         }
 
         private void dgv_Kategoriya1_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
             Filter_Table filter = new Filter_Table();
-            filter.Chart_Export(chart_Kategoriya1, dgv_Kategoriya1, clb_Kategoriya1, objectList);
+            filter.Chart_Export(chart_Kategoriya1, dgv_Kategoriya1, clb_Kategoriya1, List_Kategoriya1);
         }
 
         private void clb_Kategoriya1_SelectedIndexChanged(object sender, EventArgs e)
         {
             Filter_Table filter = new Filter_Table();
-            filter.Chart_Import(chart_Kategoriya1, dgv_Kategoriya1, clb_Kategoriya1);
+            filter.Chart_Import(chart_Kategoriya1, dgv_Kategoriya1, clb_Kategoriya1, List_Kategoriya1);
         }
 
         private void dgv_Kategoriya2_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
             Filter_Table filter = new Filter_Table();
-            filter.Chart_Export(chart_Kategoriya2, dgv_Kategoriya2, clb_Kategoriya2, objectList);
+            filter.Chart_Export(chart_Kategoriya2, dgv_Kategoriya2, clb_Kategoriya2, List_Kategoriya2);
         }
 
         private void clb_Kategoriya2_SelectedIndexChanged(object sender, EventArgs e)
         {
             Filter_Table filter = new Filter_Table();
-            filter.Chart_Import(chart_Kategoriya2, dgv_Kategoriya2, clb_Kategoriya2);
+            filter.Chart_Import(chart_Kategoriya2, dgv_Kategoriya2, clb_Kategoriya2, List_Kategoriya2);
         }
 
         private void dgv_Kategoriya3_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
             Filter_Table filter = new Filter_Table();
-            filter.Chart_Export(chart_Kategoriya3, dgv_Kategoriya3, clb_Kategoriya3, objectList);
+            filter.Chart_Export(chart_Kategoriya3, dgv_Kategoriya3, clb_Kategoriya3, List_Kategoriya3);
         }
 
         private void clb_Kategoriya3_SelectedIndexChanged(object sender, EventArgs e)
         {
             Filter_Table filter = new Filter_Table();
-            filter.Chart_Import(chart_Kategoriya3, dgv_Kategoriya3, clb_Kategoriya3);
+            filter.Chart_Import(chart_Kategoriya3, dgv_Kategoriya3, clb_Kategoriya3, List_Kategoriya3);
         }
 
         private void dgv_Kategoriya4_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
             Filter_Table filter = new Filter_Table();
-            filter.Chart_Export(chart_Kategoriya4, dgv_Kategoriya4, clb_Kategoriya4, objectList);
+            filter.Chart_Export(chart_Kategoriya4, dgv_Kategoriya4, clb_Kategoriya4, List_Kategoriya4);
         }
 
         private void clb_Kategoriya4_SelectedIndexChanged(object sender, EventArgs e)
         {
             Filter_Table filter = new Filter_Table();
-            filter.Chart_Import(chart_Kategoriya4, dgv_Kategoriya4, clb_Kategoriya4);
+            filter.Chart_Import(chart_Kategoriya4, dgv_Kategoriya4, clb_Kategoriya4, List_Kategoriya4);
         }
 
         private void dgv_Kategoriya5_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
             Filter_Table filter = new Filter_Table();
-            filter.Chart_Export(chart_Kategoriya5, dgv_Kategoriya5, clb_Kategoriya5, objectList);
+            filter.Chart_Export(chart_Kategoriya5, dgv_Kategoriya5, clb_Kategoriya5, List_Kategoriya5);
         }
 
         private void checkedListBox5_SelectedIndexChanged(object sender, EventArgs e)
         {
             Filter_Table filter = new Filter_Table();
-            filter.Chart_Import(chart_Kategoriya5, dgv_Kategoriya5, clb_Kategoriya5);
+            filter.Chart_Import(chart_Kategoriya5, dgv_Kategoriya5, clb_Kategoriya5, List_Kategoriya5);
         }
 
         private void dgv_Kategoriya6_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
             Filter_Table filter = new Filter_Table();
-            filter.Chart_Export(chart_Kategoriya6, dgv_Kategoriya6, clb_Kategoriya6, objectList);
+            filter.Chart_Export(chart_Kategoriya6, dgv_Kategoriya6, clb_Kategoriya6, List_Kategoriya6);
         }
 
         private void clb_Kategoriya6_SelectedIndexChanged(object sender, EventArgs e)
         {
             Filter_Table filter = new Filter_Table();
-            filter.Chart_Import(chart_Kategoriya6, dgv_Kategoriya6, clb_Kategoriya6);
+            filter.Chart_Import(chart_Kategoriya6, dgv_Kategoriya6, clb_Kategoriya6, List_Kategoriya6);
         }
 
         private void dgv_VKO_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
             Filter_Table filter = new Filter_Table();
-            filter.Chart_Export(chart_VKO, dgv_VKO, clb_VKO, objectList);
+            filter.Chart_Export(chart_VKO, dgv_VKO, clb_VKO, List_VKO);
         }
 
         private void clb_VKO_SelectedIndexChanged(object sender, EventArgs e)
         {
             Filter_Table filter = new Filter_Table();
-            filter.Chart_Import(chart_VKO, dgv_VKO, clb_VKO);
+            filter.Chart_Import(chart_VKO, dgv_VKO, clb_VKO, List_VKO);
         }
 
         private void ФормаОбратнойСвязиToolStripMenuItem_Click(object sender, EventArgs e)

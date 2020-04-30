@@ -8,9 +8,21 @@ namespace SiPPOON_PP
 {
     public partial class Form_Okruga : Form
     {
-        string constr;
+        public static string constr;
         DataGridView dgv_Excel;
-        List<string> objectList = new List<string>();
+        List<string> List_Okruga = new List<string>();
+        List<string> List_VAO = new List<string>();
+        List<string> List_ZAO = new List<string>();
+        List<string> List_ZelAO = new List<string>();
+        List<string> List_SAO = new List<string>();
+        List<string> List_SVAO = new List<string>();
+        List<string> List_SZAO = new List<string>();
+        List<string> List_TiNAO = new List<string>();
+        List<string> List_TSAO = new List<string>();
+        List<string> List_YAO = new List<string>();
+        List<string> List_YZAO = new List<string>();
+        List<string> List_YVAO = new List<string>();
+
 
         public Form_Okruga()
         {
@@ -28,11 +40,12 @@ namespace SiPPOON_PP
                 {
                     table.dtOkrugaFill();
                     table.Table(dgv_Okruga, table.dtOkruga);
+                    filter.Sort_Table(dgv_Okruga);
                     dgv_Okruga.ReadOnly = true;
                 }
-                catch
+                catch (Exception ex)
                 {
-
+                    MessageBox.Show(ex.ToString(), "Сообщение", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
             };
             Invoke(action);
@@ -49,9 +62,9 @@ namespace SiPPOON_PP
                     table.Table(dgv_VAO, table.dtVAO);
                     dgv_VAO.ReadOnly = true;
                 }
-                catch
+                catch (Exception ex)
                 {
-
+                    MessageBox.Show(ex.ToString(), "Сообщение", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
             };
             Invoke(action);
@@ -68,9 +81,9 @@ namespace SiPPOON_PP
                     table.Table(dgv_ZAO, table.dtZAO);
                     dgv_ZAO.ReadOnly = true;
                 }
-                catch
+                catch (Exception ex)
                 {
-
+                    MessageBox.Show(ex.ToString(), "Сообщение", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
             };
             Invoke(action);
@@ -87,9 +100,9 @@ namespace SiPPOON_PP
                     table.Table(dgv_ZelAO, table.dtZelAO);
                     dgv_ZelAO.ReadOnly = true;
                 }
-                catch
+                catch (Exception ex)
                 {
-
+                    MessageBox.Show(ex.ToString(), "Сообщение", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
             };
             Invoke(action);
@@ -106,9 +119,9 @@ namespace SiPPOON_PP
                     table.Table(dgv_SAO, table.dtSAO);
                     dgv_SAO.ReadOnly = true;
                 }
-                catch
+                catch (Exception ex)
                 {
-
+                    MessageBox.Show(ex.ToString(), "Сообщение", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
             };
             Invoke(action);
@@ -121,13 +134,13 @@ namespace SiPPOON_PP
             {
                 try
                 {
-                    table.dtKategoriya_1Fill();
+                    table.dtSVAOFill();
                     table.Table(dgv_SVAO, table.dtSVAO);
                     dgv_SVAO.ReadOnly = true;
                 }
-                catch
+                catch (Exception ex)
                 {
-
+                    MessageBox.Show(ex.ToString(), "Сообщение", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
             };
             Invoke(action);
@@ -144,9 +157,9 @@ namespace SiPPOON_PP
                     table.Table(dgv_SZAO, table.dtSZAO);
                     dgv_SZAO.ReadOnly = true;
                 }
-                catch
+                catch (Exception ex)
                 {
-
+                    MessageBox.Show(ex.ToString(), "Сообщение", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
             };
             Invoke(action);
@@ -163,9 +176,9 @@ namespace SiPPOON_PP
                     table.Table(dgv_TiNAO, table.dtTiNAO);
                     dgv_TiNAO.ReadOnly = true;
                 }
-                catch
+                catch (Exception ex)
                 {
-
+                    MessageBox.Show(ex.ToString(), "Сообщение", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
             };
             Invoke(action);
@@ -182,9 +195,9 @@ namespace SiPPOON_PP
                     table.Table(dgv_TSAO, table.dtTSAO);
                     dgv_TSAO.ReadOnly = true;
                 }
-                catch
+                catch (Exception ex)
                 {
-
+                    MessageBox.Show(ex.ToString(), "Сообщение", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
             };
             Invoke(action);
@@ -201,9 +214,9 @@ namespace SiPPOON_PP
                     table.Table(dgv_YAO, table.dtYAO);
                     dgv_YAO.ReadOnly = true;
                 }
-                catch
+                catch (Exception ex)
                 {
-
+                    MessageBox.Show(ex.ToString(), "Сообщение", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
             };
             Invoke(action);
@@ -220,9 +233,9 @@ namespace SiPPOON_PP
                     table.Table(dgv_YVAO, table.dtYVAO);
                     dgv_YVAO.ReadOnly = true;
                 }
-                catch
+                catch (Exception ex)
                 {
-
+                    MessageBox.Show(ex.ToString(), "Сообщение", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
             };
             Invoke(action);
@@ -239,9 +252,9 @@ namespace SiPPOON_PP
                     table.Table(dgv_YZAO, table.dtYZAO);
                     dgv_YZAO.ReadOnly = true;
                 }
-                catch
+                catch (Exception ex)
                 {
-
+                    MessageBox.Show(ex.ToString(), "Сообщение", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
             };
             Invoke(action);
@@ -256,6 +269,7 @@ namespace SiPPOON_PP
                 if (dlg_im.ShowDialog() == DialogResult.OK)
                 {
                     constr = "Provider=Microsoft.ACE.OLEDB.12.0;Data Source=" + dlg_im.FileName + ";Extended Properties='Excel 12.0 XML;HDR=YES;';";
+                    Fill_Table.connectionString = constr;
                     Thread thread_Okruga = new Thread(dgv_Okruga_Fill);
                     thread_Okruga.Start();
                     Thread thread_VAO = new Thread(dgv_VAO_Fill);
@@ -280,12 +294,12 @@ namespace SiPPOON_PP
                     thread_YVAO.Start();
                     Thread thread_YZAO = new Thread(dgv_YZAO_Fill);
                     thread_YZAO.Start();
-                    MessageBox.Show("Данные успешно загружены!", "Сообщение");
+                    MessageBox.Show("Данные успешно загружены!", "Сообщение", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 }
             }
-            catch
+            catch (Exception ex)
             {
-
+                MessageBox.Show(ex.ToString(), "Сообщение", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
 
@@ -505,15 +519,13 @@ namespace SiPPOON_PP
                 }
                 configForm.ShowDialog();
                 if (Form_Configuration.document_default_path == "")
-                {
-                    MessageBox.Show("Форма сохранения отчёта была закрыта, так как не был выбран путь!", "Сообщение");
-                }
+                    MessageBox.Show("Форма сохранения отчёта была закрыта, так как не был выбран путь!", "Сообщение", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 else
                 {
                     document.dtShet = dt;
                     document.Deffect_Create();
                     toolStripMenuItem3.Enabled = false;
-                    MessageBox.Show("Экспорт данных произошел успешно!", "Экспорт");
+                    MessageBox.Show("Экспорт данных произошел успешно!", "Сообщение", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 }
             }
             catch (Exception ex)
@@ -617,145 +629,145 @@ namespace SiPPOON_PP
         private void dgv_Okruga_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
             Filter_Table filter = new Filter_Table();
-            filter.Chart_Export(chart_Okruga, dgv_Okruga, clb_Okruga, objectList);
+            filter.Chart_Export(chart_Okruga, dgv_Okruga, clb_Okruga, List_Okruga);
         }
 
         private void clb_Okruga_SelectedIndexChanged(object sender, EventArgs e)
         {
             Filter_Table filter = new Filter_Table();
-            filter.Chart_Import(chart_Okruga, dgv_Okruga, clb_Okruga);
+            filter.Chart_Import(chart_Okruga, dgv_Okruga, clb_Okruga, List_Okruga);
         }
 
         private void dgv_VAO_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
             Filter_Table filter = new Filter_Table();
-            filter.Chart_Export(chart_VAO, dgv_VAO, clb_VAO, objectList);
+            filter.Chart_Export(chart_VAO, dgv_VAO, clb_VAO, List_VAO);
         }
 
         private void clb_VAO_SelectedIndexChanged(object sender, EventArgs e)
         {
             Filter_Table filter = new Filter_Table();
-            filter.Chart_Import(chart_VAO, dgv_VAO, clb_VAO);
+            filter.Chart_Import(chart_VAO, dgv_VAO, clb_VAO, List_VAO);
         }
 
         private void dgv_ZAO_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
             Filter_Table filter = new Filter_Table();
-            filter.Chart_Export(chart_ZAO, dgv_ZAO, clb_ZAO, objectList);
+            filter.Chart_Export(chart_ZAO, dgv_ZAO, clb_ZAO, List_ZAO);
         }
 
         private void clb_ZAO_SelectedIndexChanged(object sender, EventArgs e)
         {
             Filter_Table filter = new Filter_Table();
-            filter.Chart_Import(chart_ZAO, dgv_ZAO, clb_ZAO);
+            filter.Chart_Import(chart_ZAO, dgv_ZAO, clb_ZAO, List_ZAO);
         }
 
         private void dgv_ZelAO_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
             Filter_Table filter = new Filter_Table();
-            filter.Chart_Export(chart_ZelAO, dgv_ZelAO, clb_ZelAO, objectList);
+            filter.Chart_Export(chart_ZelAO, dgv_ZelAO, clb_ZelAO, List_ZelAO);
         }
 
         private void clb_ZelAO_SelectedIndexChanged(object sender, EventArgs e)
         {
             Filter_Table filter = new Filter_Table();
-            filter.Chart_Import(chart_ZelAO, dgv_ZelAO, clb_ZelAO);
+            filter.Chart_Import(chart_ZelAO, dgv_ZelAO, clb_ZelAO, List_ZelAO);
         }
 
         private void dgv_SAO_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
             Filter_Table filter = new Filter_Table();
-            filter.Chart_Export(chart_SAO, dgv_SAO, clb_SAO, objectList);
+            filter.Chart_Export(chart_SAO, dgv_SAO, clb_SAO, List_SAO);
         }
 
         private void clb_SAO_SelectedIndexChanged(object sender, EventArgs e)
         {
             Filter_Table filter = new Filter_Table();
-            filter.Chart_Import(chart_SAO, dgv_SAO, clb_SAO);
+            filter.Chart_Import(chart_SAO, dgv_SAO, clb_SAO, List_SAO);
         }
 
         private void dgv_SVAO_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
             Filter_Table filter = new Filter_Table();
-            filter.Chart_Export(chart_SVAO, dgv_SVAO, clb_SVAO, objectList);
+            filter.Chart_Export(chart_SVAO, dgv_SVAO, clb_SVAO, List_SVAO);
         }
 
         private void clb_SVAO_SelectedIndexChanged(object sender, EventArgs e)
         {
             Filter_Table filter = new Filter_Table();
-            filter.Chart_Import(chart_SVAO, dgv_SVAO, clb_SVAO);
+            filter.Chart_Import(chart_SVAO, dgv_SVAO, clb_SVAO, List_SVAO);
         }
 
         private void dgv_SZAO_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
             Filter_Table filter = new Filter_Table();
-            filter.Chart_Export(chart_SZAO, dgv_SZAO, clb_SZAO, objectList);
+            filter.Chart_Export(chart_SZAO, dgv_SZAO, clb_SZAO, List_SZAO);
         }
 
         private void clb_SZAO_SelectedIndexChanged(object sender, EventArgs e)
         {
             Filter_Table filter = new Filter_Table();
-            filter.Chart_Import(chart_SZAO, dgv_SZAO, clb_SZAO);
+            filter.Chart_Import(chart_SZAO, dgv_SZAO, clb_SZAO, List_SZAO);
         }
 
         private void dgv_TiNAO_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
             Filter_Table filter = new Filter_Table();
-            filter.Chart_Export(chart_TiNAO, dgv_TiNAO, clb_TiNAO, objectList);
+            filter.Chart_Export(chart_TiNAO, dgv_TiNAO, clb_TiNAO, List_TiNAO);
         }
 
         private void clb_TiNAO_SelectedIndexChanged(object sender, EventArgs e)
         {
             Filter_Table filter = new Filter_Table();
-            filter.Chart_Import(chart_TiNAO, dgv_TiNAO, clb_TiNAO);
+            filter.Chart_Import(chart_TiNAO, dgv_TiNAO, clb_TiNAO, List_TiNAO);
         }
 
         private void dgv_TSAO_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
             Filter_Table filter = new Filter_Table();
-            filter.Chart_Export(chart_TSAO, dgv_TSAO, clb_TSAO, objectList);
+            filter.Chart_Export(chart_TSAO, dgv_TSAO, clb_TSAO, List_TSAO);
         }
 
         private void clb_TSAO_SelectedIndexChanged(object sender, EventArgs e)
         {
             Filter_Table filter = new Filter_Table();
-            filter.Chart_Import(chart_TSAO, dgv_TSAO, clb_TSAO);
+            filter.Chart_Import(chart_TSAO, dgv_TSAO, clb_TSAO, List_TSAO);
         }
 
         private void dgv_YAO_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
             Filter_Table filter = new Filter_Table();
-            filter.Chart_Export(chart_YAO, dgv_YAO, clb_YAO, objectList);
+            filter.Chart_Export(chart_YAO, dgv_YAO, clb_YAO, List_YAO);
         }
 
         private void clb_YAO_SelectedIndexChanged(object sender, EventArgs e)
         {
             Filter_Table filter = new Filter_Table();
-            filter.Chart_Import(chart_YAO, dgv_YAO, clb_YAO);
+            filter.Chart_Import(chart_YAO, dgv_YAO, clb_YAO, List_YAO);
         }
 
         private void dgv_YVAO_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
             Filter_Table filter = new Filter_Table();
-            filter.Chart_Export(chart_YVAO, dgv_YVAO, clb_YVAO, objectList);
+            filter.Chart_Export(chart_YVAO, dgv_YVAO, clb_YVAO, List_YVAO);
         }
 
         private void clb_YVAO_SelectedIndexChanged(object sender, EventArgs e)
         {
             Filter_Table filter = new Filter_Table();
-            filter.Chart_Import(chart_YVAO, dgv_YVAO, clb_YVAO);
+            filter.Chart_Import(chart_YVAO, dgv_YVAO, clb_YVAO, List_YVAO);
         }
 
         private void dgv_YZAO_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
             Filter_Table filter = new Filter_Table();
-            filter.Chart_Export(chart_YZAO, dgv_YZAO, clb_YZAO, objectList);
+            filter.Chart_Export(chart_YZAO, dgv_YZAO, clb_YZAO, List_YZAO);
         }
 
         private void clb_YZAO_SelectedIndexChanged(object sender, EventArgs e)
         {
             Filter_Table filter = new Filter_Table();
-            filter.Chart_Import(chart_YZAO, dgv_YZAO, clb_YZAO);
+            filter.Chart_Import(chart_YZAO, dgv_YZAO, clb_YZAO, List_YZAO);
         }
     }
 }

@@ -381,7 +381,7 @@
             this.MaximizeBox = false;
             this.Name = "Form_Admin";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Админ";
+            this.Text = "Панель администратора";
             this.Load += new System.EventHandler(this.Form_Admin_Load);
             this.tc_Admin.ResumeLayout(false);
             this.tp_Users.ResumeLayout(false);
