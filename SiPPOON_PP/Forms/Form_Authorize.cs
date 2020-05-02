@@ -77,7 +77,7 @@ namespace SiPPOON_PP
                 {
                     MessageBox.Show("Вы авторизовались, как \"Начальник отдела по управлению качеством\"", "Сообщение", MessageBoxButtons.OK, MessageBoxIcon.Information);
                     this.Hide();
-                    Form_Result main = new Form_Result();
+                    Form_Main main = new Form_Main();
                     main.Show();
                 }
                 else if (role == Role.Admin)

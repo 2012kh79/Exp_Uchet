@@ -6792,7 +6792,7 @@
             // 
             this.открытьToolStripMenuItem3.Image = global::SiPPOON_PP.Properties.Resources.Open;
             this.открытьToolStripMenuItem3.Name = "открытьToolStripMenuItem3";
-            this.открытьToolStripMenuItem3.Size = new System.Drawing.Size(180, 22);
+            this.открытьToolStripMenuItem3.Size = new System.Drawing.Size(121, 22);
             this.открытьToolStripMenuItem3.Text = "Открыть";
             this.открытьToolStripMenuItem3.Click += new System.EventHandler(this.открытьToolStripMenuItem_Click);
             // 
@@ -6802,7 +6802,7 @@
             this.excelToolStripMenuItem2});
             this.печатьToolStripMenuItem2.Image = global::SiPPOON_PP.Properties.Resources.Export;
             this.печатьToolStripMenuItem2.Name = "печатьToolStripMenuItem2";
-            this.печатьToolStripMenuItem2.Size = new System.Drawing.Size(180, 22);
+            this.печатьToolStripMenuItem2.Size = new System.Drawing.Size(121, 22);
             this.печатьToolStripMenuItem2.Text = "Печать";
             // 
             // excelToolStripMenuItem2
@@ -6816,13 +6816,13 @@
             // toolStripMenuItem6
             // 
             this.toolStripMenuItem6.Name = "toolStripMenuItem6";
-            this.toolStripMenuItem6.Size = new System.Drawing.Size(177, 6);
+            this.toolStripMenuItem6.Size = new System.Drawing.Size(118, 6);
             // 
             // выходToolStripMenuItem3
             // 
             this.выходToolStripMenuItem3.Image = global::SiPPOON_PP.Properties.Resources.Exit;
             this.выходToolStripMenuItem3.Name = "выходToolStripMenuItem3";
-            this.выходToolStripMenuItem3.Size = new System.Drawing.Size(180, 22);
+            this.выходToolStripMenuItem3.Size = new System.Drawing.Size(121, 22);
             this.выходToolStripMenuItem3.Text = "Выход";
             this.выходToolStripMenuItem3.Click += new System.EventHandler(this.выходToolStripMenuItem_Click);
             // 
@@ -6887,18 +6887,13 @@
             // 
             // информацияОбАвтореToolStripMenuItem
             // 
-            this.информацияОбАвтореToolStripMenuItem.Image = global::SiPPOON_PP.Properties.Resources.About_Author;
             this.информацияОбАвтореToolStripMenuItem.Name = "информацияОбАвтореToolStripMenuItem";
-            this.информацияОбАвтореToolStripMenuItem.Size = new System.Drawing.Size(224, 22);
-            this.информацияОбАвтореToolStripMenuItem.Text = "Информация об авторе";
+            this.информацияОбАвтореToolStripMenuItem.Size = new System.Drawing.Size(67, 22);
             // 
             // информацияОПрограммеToolStripMenuItem
             // 
-            this.информацияОПрограммеToolStripMenuItem.Image = global::SiPPOON_PP.Properties.Resources.About_Program;
             this.информацияОПрограммеToolStripMenuItem.Name = "информацияОПрограммеToolStripMenuItem";
-            this.информацияОПрограммеToolStripMenuItem.Size = new System.Drawing.Size(224, 22);
-            this.информацияОПрограммеToolStripMenuItem.Text = "Информация о программе";
-            this.информацияОПрограммеToolStripMenuItem.Click += new System.EventHandler(this.информацияОПрограммеToolStripMenuItem_Click);
+            this.информацияОПрограммеToolStripMenuItem.Size = new System.Drawing.Size(67, 22);
             // 
             // файлToolStripMenuItem
             // 
@@ -6990,6 +6985,7 @@
             this.Name = "Form_Okruga";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Результаты по округам";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Form_Okruga_FormClosing);
             this.tc_Okruga.ResumeLayout(false);
             this.Okruga.ResumeLayout(false);
             this.gb_chart_Okruga.ResumeLayout(false);

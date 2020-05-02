@@ -13,7 +13,7 @@ namespace SiPPOON_PP
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form_Zastavka());
+            Application.Run(new Form_Main());
         }
     }
 }

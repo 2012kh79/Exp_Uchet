@@ -54,6 +54,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Classes\CallBack.cs" />
     <Compile Include="Forms\About_Form.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -113,11 +114,11 @@
     <Compile Include="Forms\Form_Registration.Designer.cs">
       <DependentUpon>Form_Registration.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\Form_Result.cs">
+    <Compile Include="Forms\Form_Main.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\Form_Result.Designer.cs">
-      <DependentUpon>Form_Result.cs</DependentUpon>
+    <Compile Include="Forms\Form_Main.Designer.cs">
+      <DependentUpon>Form_Main.cs</DependentUpon>
     </Compile>
     <Compile Include="Forms\Form_Zastavka.cs">
       <SubType>Form</SubType>
@@ -126,12 +127,13 @@
       <DependentUpon>Form_Zastavka.cs</DependentUpon>
     </Compile>
     <Compile Include="Classes\Program.cs" />
-    <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Properties\Resources.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>Resources.resx</DependentUpon>
+    <Compile Include="Forms\Form_Change.cs">
+      <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Forms\Form_Change.Designer.cs">
+      <DependentUpon>Form_Change.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Classes\Registry_Class.cs" />
     <Compile Include="Classes\Send_Mail.cs" />
     <EmbeddedResource Include="Forms\About_Form.resx">
@@ -142,6 +144,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\Form_Authorize.resx">
       <DependentUpon>Form_Authorize.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Form_Change.resx">
+      <DependentUpon>Form_Change.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\Form_Configuration.resx">
       <DependentUpon>Form_Configuration.cs</DependentUpon>
@@ -161,8 +166,8 @@
     <EmbeddedResource Include="Forms\Form_Registration.resx">
       <DependentUpon>Form_Registration.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\Form_Result.resx">
-      <DependentUpon>Form_Result.cs</DependentUpon>
+    <EmbeddedResource Include="Forms\Form_Main.resx">
+      <DependentUpon>Form_Main.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\Form_Zastavka.resx">
       <DependentUpon>Form_Zastavka.cs</DependentUpon>
@@ -176,6 +181,11 @@
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
     </None>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\Settings.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Settings.settings</DependentUpon>
@@ -186,19 +196,13 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Properties\Result_Kat.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Properties\Result_Okr.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Properties\Result_Kategorii.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Properties\Result_Okruga.png" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Resources\About.png" />
+    <None Include="Resources\Main_Kabinet.png" />
+    <None Include="Resources\Main_FeedBack.png" />
+    <None Include="Resources\Main_About.png" />
+    <None Include="Resources\Main_Propusk.png" />
+    <None Include="Resources\Main_Result.png" />
+    <None Include="Resources\Main_Settings.png" />
     <Content Include="Иконка.ico" />
     <None Include="Resources\Иконка.ico" />
     <None Include="Resources\Zastavka.png" />
@@ -207,8 +211,6 @@
     <None Include="Resources\krest.png" />
     <None Include="Resources\gal.png" />
     <None Include="Resources\Mail.png" />
-    <None Include="Resources\About_Program.png" />
-    <None Include="Resources\About_Author.png" />
     <None Include="Resources\Export.png" />
     <None Include="Resources\Exit.png" />
     <None Include="Resources\Excel.png" />

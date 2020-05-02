@@ -769,5 +769,10 @@ namespace SiPPOON_PP
             Filter_Table filter = new Filter_Table();
             filter.Chart_Import(chart_YZAO, dgv_YZAO, clb_YZAO, List_YZAO);
         }
+
+        private void Form_Okruga_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            Classes.CallBack.callbackEventHandler("Enable_Okruga");
+        }
     }
 }

@@ -4659,19 +4659,13 @@
             // 
             // ФормаОбратнойСвязиToolStripMenuItem
             // 
-            this.ФормаОбратнойСвязиToolStripMenuItem.Image = global::SiPPOON_PP.Properties.Resources.About_Author;
             this.ФормаОбратнойСвязиToolStripMenuItem.Name = "ФормаОбратнойСвязиToolStripMenuItem";
-            this.ФормаОбратнойСвязиToolStripMenuItem.Size = new System.Drawing.Size(224, 22);
-            this.ФормаОбратнойСвязиToolStripMenuItem.Text = "Форма обратной связи";
-            this.ФормаОбратнойСвязиToolStripMenuItem.Click += new System.EventHandler(this.ФормаОбратнойСвязиToolStripMenuItem_Click);
+            this.ФормаОбратнойСвязиToolStripMenuItem.Size = new System.Drawing.Size(67, 22);
             // 
             // информацияОПрограммеToolStripMenuItem
             // 
-            this.информацияОПрограммеToolStripMenuItem.Image = global::SiPPOON_PP.Properties.Resources.About_Program;
             this.информацияОПрограммеToolStripMenuItem.Name = "информацияОПрограммеToolStripMenuItem";
-            this.информацияОПрограммеToolStripMenuItem.Size = new System.Drawing.Size(224, 22);
-            this.информацияОПрограммеToolStripMenuItem.Text = "Информация о программе";
-            this.информацияОПрограммеToolStripMenuItem.Click += new System.EventHandler(this.информацияОПрограммеToolStripMenuItem_Click);
+            this.информацияОПрограммеToolStripMenuItem.Size = new System.Drawing.Size(67, 22);
             // 
             // файлToolStripMenuItem
             // 
@@ -4758,6 +4752,7 @@
             this.Name = "Form_Kategorii";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Результаты по категориям";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Form_Kategorii_FormClosing);
             this.tc_Kategorii.ResumeLayout(false);
             this.Kategorii.ResumeLayout(false);
             this.gb_Chart_Kategorii.ResumeLayout(false);

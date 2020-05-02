@@ -219,12 +219,6 @@ namespace SiPPOON_PP
             Application.Exit();
         }
 
-        private void информацияОПрограммеToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            About_Form about = new About_Form();
-            about.Show();
-        }
-
         private void toolStripMenuItem3_Click(object sender, EventArgs e)
         {
             try
@@ -545,10 +539,9 @@ namespace SiPPOON_PP
             filter.Chart_Import(chart_VKO, dgv_VKO, clb_VKO, List_VKO);
         }
 
-        private void ФормаОбратнойСвязиToolStripMenuItem_Click(object sender, EventArgs e)
+        private void Form_Kategorii_FormClosing(object sender, FormClosingEventArgs e)
         {
-            Form_Feedback form_Feedback = new Form_Feedback();
-            form_Feedback.Show();
+            Classes.CallBack.callbackEventHandler("Enable_Kategorii");
         }
     }
 }
