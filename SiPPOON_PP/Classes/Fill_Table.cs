@@ -42,7 +42,7 @@ namespace SiPPOON_PP
 
         public string qrRole = "select [ID_Role],[Role_name] from [Role]",
         qrAccount = "select [Login_Account],[Parol_Account],[Mail],[Role_name],[Employee_ID] from [Account] inner join [Role] on [Role].[ID_Role] = [Account].[Role_ID] inner join [Employee] on [Employee].[ID_Employee] = [Account].[Employee_ID]",
-        qrEmployee = "select [ID_Employee],[Fam_Employee],[Imya_Employee] from [Employee]",
+        qrEmployee = "select [ID_Employee],[Fam_Employee],[Imya_Employee],[Photo_Employee] from [Employee]",
 
         qrKategorii = "SELECT * FROM [Категории$A9:AP5339]",
         qrKategoriya_1 = "SELECT * FROM [Категории$A9:AP223]",

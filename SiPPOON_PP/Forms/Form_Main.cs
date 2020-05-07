@@ -109,18 +109,19 @@ namespace SiPPOON_PP
         private void btn_FeedBack_Click(object sender, EventArgs e)
         {
             Form_Feedback form_Feedback = new Form_Feedback();
-            form_Feedback.Show();
+            form_Feedback.ShowDialog();
         }
 
         private void btn_About_Click(object sender, EventArgs e)
         {
             About_Form about_Form = new About_Form();
-            about_Form.Show();
+            about_Form.ShowDialog();
         }
 
         private void btn_Kabinet_Click(object sender, EventArgs e)
         {
-
+            Form_Kabinet form_Kabinet = new Form_Kabinet();
+            form_Kabinet.ShowDialog();
         }
 
         private void btn_Settings_Click(object sender, EventArgs e)

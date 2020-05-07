@@ -44,7 +44,7 @@ namespace SiPPOON_PP
             Registry_Class reg = new Registry_Class();
             reg.Registry_Get();
             DB_Procedures procedure = new DB_Procedures();
-            procedure.spEmployee_Insert(tb_Fam.Text, tbImya.Text);
+            procedure.spEmployee_Insert(tb_Fam.Text, tbImya.Text, "");
             using (SqlDataAdapter dataAdapter = new SqlDataAdapter(mySelectQuery, Registry_Class.sql))
             {
                 DataTable table = new DataTable();
@@ -53,11 +53,7 @@ namespace SiPPOON_PP
             }
             DialogResult result = MessageBox.Show("Регистрация прошла успешно", "Сообщение", MessageBoxButtons.OK, MessageBoxIcon.Information);
             if (result == DialogResult.OK)
-            {
-                this.Hide();
-                Form_Authorize Form_authoriz = new Form_Authorize();
-                Form_authoriz.Show();
-            }
+                this.Close();
         }
 
         private void btProv_Click(object sender, EventArgs e)
@@ -128,16 +124,12 @@ namespace SiPPOON_PP
         {
             char l = e.KeyChar;
             if ((l < 'А' || l > 'я') && l != '\b' && l != '.')
-            {
                 e.Handled = true;
-            }
         }
 
         private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            this.Hide();
-            Form_Authorize Form_authoriz = new Form_Authorize();
-            Form_authoriz.Show();
+            this.Close();
         }
     }
 }

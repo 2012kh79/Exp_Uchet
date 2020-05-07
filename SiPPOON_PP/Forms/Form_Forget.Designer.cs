@@ -83,7 +83,6 @@
             this.Name = "Form_Forget";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Восстановление пароля";
-            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Form_Forget_FormClosing);
             this.ResumeLayout(false);
             this.PerformLayout();
 

@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Data;
 using System.Data.SqlClient;
+using System.Windows.Forms;
 
 namespace SiPPOON_PP
 {
@@ -27,9 +28,9 @@ namespace SiPPOON_PP
                 cmd.ExecuteNonQuery();
                 cmd.Parameters.Clear();
             }
-            catch 
+            catch (Exception ex)
             {
-
+                MessageBox.Show(ex.ToString(), "Сообщение", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
             finally
             {
@@ -51,8 +52,9 @@ namespace SiPPOON_PP
                 cmd.ExecuteNonQuery();
                 cmd.Parameters.Clear();
             }
-            catch 
+            catch (Exception ex)
             {
+                MessageBox.Show(ex.ToString(), "Сообщение", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
             finally
             {
@@ -70,8 +72,9 @@ namespace SiPPOON_PP
                 cmd.ExecuteNonQuery();
                 cmd.Parameters.Clear();
             }
-            catch 
+            catch (Exception ex)
             {
+                MessageBox.Show(ex.ToString(), "Сообщение", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
             finally
             {
@@ -79,20 +82,21 @@ namespace SiPPOON_PP
             }
         }
 
-        public void spEmployee_Insert(string Fam_Employee, string Imya_Employee)
+        public void spEmployee_Insert(string Fam_Employee, string Imya_Employee, string Photo_Employee)
         {
             spConfiguration("Employee_Insert");
             try
             {
                 cmd.Parameters.AddWithValue("@Fam_Employee", Fam_Employee);
                 cmd.Parameters.AddWithValue("@Imya_Employee", Imya_Employee);
+                cmd.Parameters.AddWithValue("@Photo_Employee", Photo_Employee);
                 Registry_Class.sql.Open();
                 cmd.ExecuteNonQuery();
                 cmd.Parameters.Clear();
             }
-            catch 
+            catch (Exception ex)
             {
-
+                MessageBox.Show(ex.ToString(), "Сообщение", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
             finally
             {
@@ -100,7 +104,7 @@ namespace SiPPOON_PP
             }
         }
 
-        public void spEmployee_Update(Int32 ID_Employee, string Fam_Employee, string Imya_Employee)
+        public void spEmployee_Update(Int32 ID_Employee, string Fam_Employee, string Imya_Employee, string Photo_Employee)
         {
             spConfiguration("Employee_Update");
             try
@@ -108,12 +112,14 @@ namespace SiPPOON_PP
                 cmd.Parameters.AddWithValue("@ID_Employee", ID_Employee);
                 cmd.Parameters.AddWithValue("@Fam_Employee", Fam_Employee);
                 cmd.Parameters.AddWithValue("@Imya_Employee", Imya_Employee);
+                cmd.Parameters.AddWithValue("@Photo_Employee", Photo_Employee);
                 Registry_Class.sql.Open();
                 cmd.ExecuteNonQuery();
                 cmd.Parameters.Clear();
             }
-            catch 
+            catch (Exception ex)
             {
+                MessageBox.Show(ex.ToString(), "Сообщение", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
             finally
             {
@@ -131,8 +137,9 @@ namespace SiPPOON_PP
                 cmd.ExecuteNonQuery();
                 cmd.Parameters.Clear();
             }
-            catch 
+            catch (Exception ex)
             {
+                MessageBox.Show(ex.ToString(), "Сообщение", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
             finally
             {

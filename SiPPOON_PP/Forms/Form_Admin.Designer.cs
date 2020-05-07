@@ -49,6 +49,11 @@
             this.dgv_Users = new System.Windows.Forms.DataGridView();
             this.tp_Employee = new System.Windows.Forms.TabPage();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.btn_DeletePhoto = new System.Windows.Forms.Button();
+            this.lv_Photo = new System.Windows.Forms.ListView();
+            this.tb_Path = new System.Windows.Forms.TextBox();
+            this.lbl_Path = new System.Windows.Forms.Label();
+            this.btn_InsertPhoto = new System.Windows.Forms.Button();
             this.pb_Exit_Sotr = new System.Windows.Forms.PictureBox();
             this.tb_Imya = new System.Windows.Forms.TextBox();
             this.lbl_Imya = new System.Windows.Forms.Label();
@@ -267,6 +272,11 @@
             // 
             // groupBox1
             // 
+            this.groupBox1.Controls.Add(this.btn_DeletePhoto);
+            this.groupBox1.Controls.Add(this.lv_Photo);
+            this.groupBox1.Controls.Add(this.tb_Path);
+            this.groupBox1.Controls.Add(this.lbl_Path);
+            this.groupBox1.Controls.Add(this.btn_InsertPhoto);
             this.groupBox1.Controls.Add(this.pb_Exit_Sotr);
             this.groupBox1.Controls.Add(this.tb_Imya);
             this.groupBox1.Controls.Add(this.lbl_Imya);
@@ -282,6 +292,55 @@
             this.groupBox1.TabIndex = 5;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Работа с данными";
+            // 
+            // btn_DeletePhoto
+            // 
+            this.btn_DeletePhoto.Enabled = false;
+            this.btn_DeletePhoto.Location = new System.Drawing.Point(430, 101);
+            this.btn_DeletePhoto.Name = "btn_DeletePhoto";
+            this.btn_DeletePhoto.Size = new System.Drawing.Size(100, 25);
+            this.btn_DeletePhoto.TabIndex = 17;
+            this.btn_DeletePhoto.Text = "Удалить";
+            this.btn_DeletePhoto.UseVisualStyleBackColor = true;
+            this.btn_DeletePhoto.Click += new System.EventHandler(this.btn_DeletePhoto_Click);
+            // 
+            // lv_Photo
+            // 
+            this.lv_Photo.HideSelection = false;
+            this.lv_Photo.Location = new System.Drawing.Point(315, 13);
+            this.lv_Photo.Name = "lv_Photo";
+            this.lv_Photo.Size = new System.Drawing.Size(224, 78);
+            this.lv_Photo.TabIndex = 16;
+            this.lv_Photo.UseCompatibleStateImageBehavior = false;
+            this.lv_Photo.View = System.Windows.Forms.View.SmallIcon;
+            this.lv_Photo.SelectedIndexChanged += new System.EventHandler(this.lv_Photo_SelectedIndexChanged);
+            // 
+            // tb_Path
+            // 
+            this.tb_Path.Enabled = false;
+            this.tb_Path.Location = new System.Drawing.Point(75, 71);
+            this.tb_Path.Name = "tb_Path";
+            this.tb_Path.Size = new System.Drawing.Size(215, 20);
+            this.tb_Path.TabIndex = 14;
+            // 
+            // lbl_Path
+            // 
+            this.lbl_Path.AutoSize = true;
+            this.lbl_Path.Location = new System.Drawing.Point(36, 74);
+            this.lbl_Path.Name = "lbl_Path";
+            this.lbl_Path.Size = new System.Drawing.Size(34, 13);
+            this.lbl_Path.TabIndex = 15;
+            this.lbl_Path.Text = "Путь:";
+            // 
+            // btn_InsertPhoto
+            // 
+            this.btn_InsertPhoto.Location = new System.Drawing.Point(324, 101);
+            this.btn_InsertPhoto.Name = "btn_InsertPhoto";
+            this.btn_InsertPhoto.Size = new System.Drawing.Size(100, 25);
+            this.btn_InsertPhoto.TabIndex = 13;
+            this.btn_InsertPhoto.Text = "Добавить";
+            this.btn_InsertPhoto.UseVisualStyleBackColor = true;
+            this.btn_InsertPhoto.Click += new System.EventHandler(this.btn_InsertPhoto_Click);
             // 
             // pb_Exit_Sotr
             // 
@@ -323,7 +382,7 @@
             // 
             this.btn_Delete_Sotrudnik.Location = new System.Drawing.Point(215, 101);
             this.btn_Delete_Sotrudnik.Name = "btn_Delete_Sotrudnik";
-            this.btn_Delete_Sotrudnik.Size = new System.Drawing.Size(75, 23);
+            this.btn_Delete_Sotrudnik.Size = new System.Drawing.Size(75, 25);
             this.btn_Delete_Sotrudnik.TabIndex = 6;
             this.btn_Delete_Sotrudnik.Text = "Удалить";
             this.btn_Delete_Sotrudnik.UseVisualStyleBackColor = true;
@@ -333,7 +392,7 @@
             // 
             this.btn_Update_Sotrudnik.Location = new System.Drawing.Point(122, 101);
             this.btn_Update_Sotrudnik.Name = "btn_Update_Sotrudnik";
-            this.btn_Update_Sotrudnik.Size = new System.Drawing.Size(75, 23);
+            this.btn_Update_Sotrudnik.Size = new System.Drawing.Size(75, 25);
             this.btn_Update_Sotrudnik.TabIndex = 5;
             this.btn_Update_Sotrudnik.Text = "Изменить";
             this.btn_Update_Sotrudnik.UseVisualStyleBackColor = true;
@@ -350,7 +409,7 @@
             // 
             this.btn_Insert_Sotrudnik.Location = new System.Drawing.Point(31, 101);
             this.btn_Insert_Sotrudnik.Name = "btn_Insert_Sotrudnik";
-            this.btn_Insert_Sotrudnik.Size = new System.Drawing.Size(75, 23);
+            this.btn_Insert_Sotrudnik.Size = new System.Drawing.Size(75, 25);
             this.btn_Insert_Sotrudnik.TabIndex = 4;
             this.btn_Insert_Sotrudnik.Text = "Добавить";
             this.btn_Insert_Sotrudnik.UseVisualStyleBackColor = true;
@@ -382,6 +441,7 @@
             this.Name = "Form_Admin";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Панель администратора";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Form_Admin_FormClosing);
             this.Load += new System.EventHandler(this.Form_Admin_Load);
             this.tc_Admin.ResumeLayout(false);
             this.tp_Users.ResumeLayout(false);
@@ -429,5 +489,10 @@
         private System.Windows.Forms.DataGridView dgv_Employee;
         private System.Windows.Forms.TextBox tb_Mail;
         private System.Windows.Forms.Label lb_Mail;
+        private System.Windows.Forms.Button btn_InsertPhoto;
+        private System.Windows.Forms.TextBox tb_Path;
+        private System.Windows.Forms.Label lbl_Path;
+        private System.Windows.Forms.ListView lv_Photo;
+        private System.Windows.Forms.Button btn_DeletePhoto;
     }
 }

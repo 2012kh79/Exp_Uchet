@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Net;
 using System.Net.Mail;
-using System.Net.Mime;
 using System.Windows.Forms;
 
 namespace SiPPOON_PP
@@ -34,12 +33,12 @@ namespace SiPPOON_PP
                 mail.IsBodyHtml = true;
                 mail.Subject = "Код подтверждения";
                 smtp.Send(mail);
-                MessageBox.Show("На Ваш почтовый ящик был выслан код подтверждения", "Уведомление", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                MessageBox.Show("На Ваш почтовый ящик был выслан код подтверждения", "Сообщение", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
 
             catch
             {
-                MessageBox.Show("Неправильный логин или пароль!", "Ошибка отправки", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("Неправильный логин или пароль!", "Сообщение", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
     }

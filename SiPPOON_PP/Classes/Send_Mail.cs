@@ -37,12 +37,12 @@ namespace SiPPOON_PP
                 mail.IsBodyHtml = true;
                 mail.Subject = subject;
                 smtp.Send(mail);
-                MessageBox.Show("Сообщение доставлено!", "Информационное письмо", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                MessageBox.Show("Сообщение доставлено!", "Сообщение", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
 
             catch 
             {
-                MessageBox.Show("Неправильный логин или пароль!", "Ошибка отправки", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("Неправильный логин или пароль!", "Сообщение", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
     }

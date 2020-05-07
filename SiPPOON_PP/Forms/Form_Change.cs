@@ -28,10 +28,15 @@ namespace SiPPOON_PP
 
         private void Reload(string param)
         {
-            if (param == "Enable_Kategorii")
-                btn_Kategorii.Enabled = true;
-            if (param == "Enable_Okruga")
-                btn_Okruga.Enabled = true;
+            switch (param)
+            {
+                case "Enable_Kategorii":
+                    btn_Kategorii.Enabled = true;
+                    break;
+                case "Enable_Okruga":
+                    btn_Okruga.Enabled = true;
+                    break;
+            }
         }
     }
 }

@@ -77,13 +77,6 @@ namespace SiPPOON_PP
             }
         }
 
-        private void Form_Forget_FormClosing(object sender, FormClosingEventArgs e)
-        {
-            this.Hide();
-            Form_Authorize form_Authorize = new Form_Authorize();
-            form_Authorize.Show();
-        }
-
         TextBox tb_Password = new TextBox();
         TextBox tb_Repeat_Password = new TextBox();
         Button btn_Glaz = new Button();
@@ -161,11 +154,7 @@ namespace SiPPOON_PP
                 }
                 DialogResult result = MessageBox.Show("Пароль успешно изменен!", "Сообщение", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 if (result == DialogResult.OK)
-                {
-                    this.Hide();
-                    Form_Authorize Form_authoriz = new Form_Authorize();
-                    Form_authoriz.Show();
-                }
+                    this.Close();
             }
             catch
             {

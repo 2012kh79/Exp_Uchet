@@ -68,24 +68,23 @@ namespace SiPPOON_PP
         {
             role = Get_Role(tbLogin.Text, Form_Registration.Hash(tbPass.Text));
             if (role == Role.Failed)
-            {
                 MessageBox.Show("Неверный логин или пароль", "Сообщение", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
             else
             {
                 if (role == Role.Otdel_Kachestva)
                 {
-                    MessageBox.Show("Вы авторизовались, как \"Начальник отдела по управлению качеством\"", "Сообщение", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                    this.Hide();
+                    Login = tbLogin.Text;
+                    MessageBox.Show("Вы авторизовались, как \"Начальник отдела по контролю качества\".", "Сообщение", MessageBoxButtons.OK, MessageBoxIcon.Information);
                     Form_Main main = new Form_Main();
                     main.Show();
+                    this.Close();
                 }
-                else if (role == Role.Admin)
+                if (role == Role.Admin)
                 {
-                    MessageBox.Show("Вы авторизовались, как \"Админ\"", "Сообщение", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                    this.Hide();
+                    MessageBox.Show("Вы авторизовались, как \"Администратор\".", "Сообщение", MessageBoxButtons.OK, MessageBoxIcon.Information);
                     Form_Admin admin = new Form_Admin();
                     admin.Show();
+                    this.Close();
                 }
             }
         }
@@ -103,15 +102,13 @@ namespace SiPPOON_PP
         private void ll_Password_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
             Form_Forget forget = new Form_Forget();
-            forget.Show();
-            this.Close();
+            forget.ShowDialog();
         }
 
         private void ll_NoAccount_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            this.Hide();
             Form_Registration form_Registration = new Form_Registration();
-            form_Registration.Show();
+            form_Registration.ShowDialog();
         }
     }
 }

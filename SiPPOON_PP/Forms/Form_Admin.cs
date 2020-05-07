@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Windows.Forms;
 using System.Threading;
+using SiPPOON_PP.Classes;
 
 namespace SiPPOON_PP
 {
@@ -54,6 +55,7 @@ namespace SiPPOON_PP
                     dgv_Employee.Columns[0].HeaderText = "Номер сотрудника";
                     dgv_Employee.Columns[1].HeaderText = "Фамилия сотрудника";
                     dgv_Employee.Columns[2].HeaderText = "Имя сотрудника";
+                    dgv_Employee.Columns[3].HeaderText = "Путь к изображению";
                 }
                 catch
                 {
@@ -73,6 +75,8 @@ namespace SiPPOON_PP
             threadEmployee.Start();
             cmbID_RoleFill();
             cmbID_EmployeeFill();
+            FTP_Server FTP_Server = new FTP_Server();
+            FTP_Server.Get_Files(lv_Photo);
         }
 
         private void cmbID_RoleFill()
@@ -185,8 +189,6 @@ namespace SiPPOON_PP
 
         private void pb_Exit_Click(object sender, EventArgs e)
         {
-            Form_Authorize form_authorize = new Form_Authorize();
-            form_authorize.Show();
             this.Close();
         }
 
@@ -194,6 +196,7 @@ namespace SiPPOON_PP
         {
             tb_Fam.Text = dgv_Employee.CurrentRow.Cells[1].Value.ToString();
             tb_Imya.Text = dgv_Employee.CurrentRow.Cells[2].Value.ToString();
+            tb_Path.Text = dgv_Employee.CurrentRow.Cells[3].Value.ToString();
         }
 
         private void btn_Insert_Sotrudnik_Click(object sender, EventArgs e)
@@ -203,9 +206,10 @@ namespace SiPPOON_PP
             {
                 try
                 {
-                    procedures.spEmployee_Insert(tb_Fam.Text, tb_Imya.Text);
+                    procedures.spEmployee_Insert(tb_Fam.Text, tb_Imya.Text, tb_Path.Text);
                     tb_Fam.Clear();
                     tb_Imya.Clear();
+                    tb_Path.Clear();
                     dgvEmployeeFill();
                     cmbID_EmployeeFill();
                 }
@@ -225,9 +229,10 @@ namespace SiPPOON_PP
             {
                 try
                 {
-                    procedures.spEmployee_Update(Convert.ToInt32(dgv_Employee.CurrentRow.Cells[0].Value.ToString()),tb_Fam.Text, tb_Imya.Text);
+                    procedures.spEmployee_Update(Convert.ToInt32(dgv_Employee.CurrentRow.Cells[0].Value.ToString()),tb_Fam.Text, tb_Imya.Text, tb_Path.Text);
                     tb_Fam.Clear();
                     tb_Imya.Clear();
+                    tb_Path.Clear();
                     dgvEmployeeFill();
                     cmbID_EmployeeFill();
                 }
@@ -254,6 +259,31 @@ namespace SiPPOON_PP
                 case DialogResult.No:
                     break;
             }
+        }
+
+        private void Form_Admin_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            Form_Authorize form_authorize = new Form_Authorize();
+            form_authorize.Show();
+        }
+
+        private void btn_InsertPhoto_Click(object sender, EventArgs e)
+        {
+            FTP_Server FTP_Server = new FTP_Server();
+            FTP_Server.Set_Files();
+            FTP_Server.Get_Files(lv_Photo);
+        }
+
+        private void lv_Photo_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            btn_DeletePhoto.Enabled = true;
+            tb_Path.Text = string.Format("{0}/{1}", "ftp://127.0.0.1", lv_Photo.FocusedItem.Text);
+        }
+
+        private void btn_DeletePhoto_Click(object sender, EventArgs e)
+        {
+            FTP_Server FTP_Server = new FTP_Server();
+            FTP_Server.Delete_Files(lv_Photo);
         }
     }
 }
