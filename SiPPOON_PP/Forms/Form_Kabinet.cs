@@ -1,11 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
 using System.Data;
 using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Data.SqlClient;
 using SiPPOON_PP.Classes;
@@ -35,11 +30,9 @@ namespace SiPPOON_PP
             string mySelectQuery = "select * from [Account] inner join [Employee] on [Account].[Employee_ID] = [Employee].[ID_Employee] where [Login_Account] = '" + Form_Authorize.Login + "'";
             using (SqlDataAdapter dataAdapter = new SqlDataAdapter(mySelectQuery, Registry_Class.sql))
             {
-                Registry_Class.sql.Open();
                 dataAdapter.Fill(path);
                 string datalocation = path.Rows[0]["Photo_Employee"].ToString();
                 location += datalocation.Replace("ftp://127.0.0.1/", "");
-                Registry_Class.sql.Close();
                 if (path.Rows[0]["Photo_Employee"].ToString() == "")
                     pb_Sotrudnik.BackgroundImage = pb_Sotrudnik.ErrorImage;
                 else

@@ -6,13 +6,14 @@ namespace SiPPOON_PP
 {
     class Send_Mail
     {
-        private string bodyMail;
-        private string nameAuthor;
-        private string Mail;
-        private string password;
-        private string subject = "";
+        private string bodyMail;//Хранит сообщение
+        private string nameAuthor;//Хранит данные о владельце почты
+        private string Mail;//Хранит адрес почты
+        private string password;//Хранит пароль для подключения к почте
+        private string subject = "";//Хранит данные о теме сообщения
+        public DialogResult dialogResult { get; set; }
 
-        public Send_Mail(string bodyMail, string subject, string nameAuthor, string mail, string password)
+        public Send_Mail(string bodyMail, string subject, string nameAuthor, string mail, string password)//Метод для записи данных, необходимых для подключения к SMTP-клиенту
         {
             this.bodyMail = bodyMail;
             this.nameAuthor = nameAuthor;
@@ -21,7 +22,7 @@ namespace SiPPOON_PP
             this.password = password;
         }
 
-        public void MySendMail()
+        public void MySendMail()//Метод для отправки письма
         {
             MailAddress from = new MailAddress(Mail, nameAuthor);
             try
@@ -37,12 +38,11 @@ namespace SiPPOON_PP
                 mail.IsBodyHtml = true;
                 mail.Subject = subject;
                 smtp.Send(mail);
-                MessageBox.Show("Сообщение доставлено!", "Сообщение", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                dialogResult = MessageBox.Show("Сообщение доставлено!", "Сообщение", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
-
             catch 
             {
-                MessageBox.Show("Неправильный логин или пароль!", "Сообщение", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("Неверный пароль!", "Сообщение", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
     }

@@ -121,6 +121,12 @@
     <Compile Include="Forms\Form_Main.Designer.cs">
       <DependentUpon>Form_Main.cs</DependentUpon>
     </Compile>
+    <Compile Include="Forms\Form_Uchet.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Form_Uchet.Designer.cs">
+      <DependentUpon>Form_Uchet.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forms\Form_Zastavka.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -178,6 +184,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\Form_Main.resx">
       <DependentUpon>Form_Main.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Form_Uchet.resx">
+      <DependentUpon>Form_Uchet.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\Form_Zastavka.resx">
       <DependentUpon>Form_Zastavka.cs</DependentUpon>

@@ -7,12 +7,12 @@ namespace SiPPOON_PP
     class Excel_Document
     {
         public DataTable dtShet = new DataTable();
-        public void Deffect_Create()
+        public void Deffect_Create()//Метод для заполнения документа Excel данными из таблицы "Категории" или "Округа"
         {
-            excel.Application application = new excel.Application();
-            excel.Workbook workbook = application.Workbooks.Add();
-            excel.Worksheet worksheet = (excel.Worksheet)workbook.ActiveSheet;
-            string file_name = Form_Configuration.document_default_path + "\\Деффектные участки (" + DateTime.Now.ToString("dd.MM.yyyy)") + ".xlsx";
+            excel.Application application = new excel.Application();//Переменная для создания приложения Excel
+            excel.Workbook workbook = application.Workbooks.Add();//Переменная для создания книги Excel
+            excel.Worksheet worksheet = (excel.Worksheet)workbook.ActiveSheet;//Переменная для создания листа Excel
+            string file_name = Form_Configuration.document_default_path + "\\Деффектные участки (" + DateTime.Now.ToString("dd.MM.yyyy)") + ".xlsx";//Путь, по котрому будет храниться выходной документ
             try
             {
                 worksheet.Name = "Деффектные участки";
@@ -24,7 +24,7 @@ namespace SiPPOON_PP
                 worksheet.Cells[1, 6] = "ПЛОЩАДЬ ПРОЕЗЖЕЙ ЧАСТИ С ВЫЯВЛЕННЫМИ НАРУШЕНИЯМИ. по 3 показателям (%)";
                 worksheet.Cells[1, 7] = "ПЛОЩАДЬ ПРОЕЗЖЕЙ ЧАСТИ С ВЫЯВЛЕННЫМИ НАРУШЕНИЯМИ. по 4 показателям (%)";
 
-                for (int i = 0; i < dtShet.Rows.Count; i++)
+                for (int i = 0; i < dtShet.Rows.Count; i++)//Заполнение таблицы Excel данными из DataGridView
                 {
                     worksheet.Cells[i + 2, 1] = dtShet.Rows[i][0].ToString();
                     worksheet.Cells[i + 2, 2] = dtShet.Rows[i][1].ToString();
@@ -33,7 +33,7 @@ namespace SiPPOON_PP
                     worksheet.Cells[i + 2, 5] = dtShet.Rows[i][4].ToString().Replace(',', '.');
                     worksheet.Cells[i + 2, 6] = dtShet.Rows[i][5].ToString().Replace(',', '.');
                     worksheet.Cells[i + 2, 7] = dtShet.Rows[i][6].ToString().Replace(',', '.');
-                    for (int format = 1; format <= 7; format++)
+                    for (int format = 1; format <= 7; format++)//Форматирование таблицы Excel
                     {
                         worksheet.Rows[i+1].Columns[format].Font.Name = "Times New Roman";
                         worksheet.Rows[i + 1].Columns[format].Font.Size = 12;

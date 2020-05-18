@@ -1,23 +1,18 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using System.Net;
 using System.IO;
-using System.Text.RegularExpressions;
 using System.Windows.Forms;
 using System.Data;
-using System.Drawing;
-using SiPPOON_PP.Properties;
 
 namespace SiPPOON_PP.Classes
 {
     class FTP_Server
     {
-        FtpWebRequest request;
-        public FileInfo info { get; set; }
-        public string location { get; set; }
-        public void Set_Files()
+        FtpWebRequest request;//Переменная для работы с FTP-клиентом
+        public FileInfo info { get; set; }//Переменная для хранения имени файла
+        public string location { get; set; }//Переменная для хранения пути к файлу
+        public void Set_Files()//Метод для загрузки файлов на FTP-сервер
         {
             try
             {
@@ -51,7 +46,7 @@ namespace SiPPOON_PP.Classes
             }
         }
 
-        public string[] Get_Files(ListView listView)
+        public string[] Get_Files(ListView listView)//Метод для получения списка файлов, которые находятся на FTP-сервере
         {
             listView.Items.Clear();
             var list = listView;
@@ -74,7 +69,7 @@ namespace SiPPOON_PP.Classes
             return l.ToArray();
         }
 
-        public string[] Delete_Files(ListView listView)
+        public string[] Delete_Files(ListView listView)//Метод для удаления файлов, которые находятся на FTP-сервере
         {
             var list = listView;
             request = (FtpWebRequest)WebRequest.Create("ftp://127.0.0.1/" + list.FocusedItem.Text);
@@ -96,7 +91,7 @@ namespace SiPPOON_PP.Classes
             return l.ToArray();
         }
 
-        public void Get_Image(DataTable dataTable)
+        public void Get_Image(DataTable dataTable)//Метод, который используется для выгрузки изображений в PictureBox
         {
             try
             {

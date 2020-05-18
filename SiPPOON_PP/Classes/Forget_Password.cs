@@ -7,15 +7,15 @@ namespace SiPPOON_PP
 {
     class Forget_Password
     {
-        private string mail1;
-        public  static int kod;
+        private string mail1;//Переменная для хранения адреса почты
+        public  static int kod;//Переменная для хранения кода доступа
 
-        public Forget_Password(string mail1)
+        public Forget_Password(string mail1)//Метод для передачи адреса почты
         {
             this.mail1 = mail1;
         }
 
-        public void MyForget_Password()
+        public void MyForget_Password()//Метод для осуществления подключения к SMTP-клиенту
         {
             Random random = new Random();
             MailAddress from = new MailAddress("2012kh79@gmail.com", "Администратор БД");

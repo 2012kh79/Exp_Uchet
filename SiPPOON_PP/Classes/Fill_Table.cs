@@ -10,15 +10,15 @@ namespace SiPPOON_PP
     class Fill_Table
     {
         public static string connectionString;
-        public OleDbConnection conOle = new OleDbConnection(connectionString);
-        public SqlCommand commandSQL = new SqlCommand("", Registry_Class.sql);
+        public OleDbConnection conOle = new OleDbConnection(connectionString);//Осуществление подключения к Excel
+        public SqlCommand commandSQL = new SqlCommand("", Registry_Class.sql);//Запрос SQL
         public SqlDependency dependency = new SqlDependency();
 
-        public DataTable dtRole = new DataTable("Role");
+        public DataTable dtRole = new DataTable("Role");//Создание таблицы для работы с SQL
         public DataTable dtAccount = new DataTable("Account");
         public DataTable dtEmployee = new DataTable("Employee");
         
-        public DataTable dtKategorii = new DataTable("Kategorii");
+        public DataTable dtKategorii = new DataTable("Kategorii");//Создание таблицы для работы с категориями
         public DataTable dtKategoriya_1 = new DataTable("Kategoriya_1");
         public DataTable dtKategoriya_2 = new DataTable("Kategoriya_2");
         public DataTable dtKategoriya_3 = new DataTable("Kategoriya_3");
@@ -27,7 +27,7 @@ namespace SiPPOON_PP
         public DataTable dtKategoriya_6 = new DataTable("Kategoriya_6");
         public DataTable dtVKO = new DataTable("VKO");
         
-        public DataTable dtOkruga = new DataTable("Okruga");
+        public DataTable dtOkruga = new DataTable("Okruga");//Создание таблицы для работы с округами
         public DataTable dtVAO = new DataTable("VAO");
         public DataTable dtZAO = new DataTable("ZAO");
         public DataTable dtZelAO = new DataTable("ZelAO");
@@ -40,7 +40,7 @@ namespace SiPPOON_PP
         public DataTable dtYVAO = new DataTable("YVAO");
         public DataTable dtYZAO = new DataTable("YZAO");
 
-        public string qrRole = "select [ID_Role],[Role_name] from [Role]",
+        public string qrRole = "select [ID_Role],[Role_name] from [Role]",//Переменная, которая хранит в себе запрос на выборку данных из таблицы
         qrAccount = "select [Login_Account],[Parol_Account],[Mail],[Role_name],[Employee_ID] from [Account] inner join [Role] on [Role].[ID_Role] = [Account].[Role_ID] inner join [Employee] on [Employee].[ID_Employee] = [Account].[Employee_ID]",
         qrEmployee = "select [ID_Employee],[Fam_Employee],[Imya_Employee],[Photo_Employee] from [Employee]",
 
@@ -66,7 +66,7 @@ namespace SiPPOON_PP
         qrYVAO = "SELECT * FROM [Округа$A4532:AP5048]",
         qrYZAO = "SELECT * FROM [Округа$A5049:AP5347]";
 
-        public void Table(DataGridView dgv, DataTable data)
+        public void Table(DataGridView dgv, DataTable data)//Метод для заполнения таблицы DataGridView данными из DataTable
         {
             int i = 0;
             dgv.Rows.Clear();
@@ -85,7 +85,7 @@ namespace SiPPOON_PP
                 dgv.Rows[i-1].Cells[3].Value = "Итог:";
         }
 
-        private void dtFill_SQL (DataTable table, string query)
+        private void dtFill_SQL (DataTable table, string query)//Метод для заполнения таблиц DataTable данными из SQL-запроса
         {
             try
             {
@@ -108,7 +108,7 @@ namespace SiPPOON_PP
             }
         }
 
-        public void dtFill_Ole (DataTable table, string query)
+        public void dtFill_Ole (DataTable table, string query)//Метод для заполнения таблиц DataTable данными из OLE-запроса
         {
             try
             {
@@ -128,117 +128,117 @@ namespace SiPPOON_PP
             }
         }
 
-        public void dtRoleFill()//Метод для заполнения ролей
+        public void dtRoleFill()//Метод для заполнения Ролей
         {
             dtFill_SQL(dtRole, qrRole);
         }
 
-        public void dtAccountFill()
+        public void dtAccountFill()//Метод для заполнения Аккаунта
         {
             dtFill_SQL(dtAccount, qrAccount);
         }
 
-        public void dtEmployeeFill()
+        public void dtEmployeeFill()//Метод для заполнения Сотрудника
         {
             dtFill_SQL(dtEmployee, qrEmployee);
         }
 
-        public void dtKategoriiFill()
+        public void dtKategoriiFill()//Метод для заполнения справочника "Категории"
         {
             dtFill_Ole(dtKategorii, qrKategorii);
         }
 
-        public void dtKategoriya_1Fill()
+        public void dtKategoriya_1Fill()//Метод для заполнения справочника "Категории1"
         {
             dtFill_Ole(dtKategoriya_1, qrKategoriya_1);
         }
 
-        public void dtKategoriya_2Fill()
+        public void dtKategoriya_2Fill()//Метод для заполнения справочника "Категории2"
         {
             dtFill_Ole(dtKategoriya_2, qrKategoriya_2);
         }
 
-        public void dtKategoriya_3Fill()
+        public void dtKategoriya_3Fill()//Метод для заполнения справочника "Категории3"
         {
             dtFill_Ole(dtKategoriya_3, qrKategoriya_3);
         }
 
-        public void dtKategoriya_4Fill()
+        public void dtKategoriya_4Fill()//Метод для заполнения справочника "Категории4"
         {
             dtFill_Ole(dtKategoriya_4, qrKategoriya_4);
         }
 
-        public void dtKategoriya_5Fill()
+        public void dtKategoriya_5Fill()//Метод для заполнения справочника "Категории5"
         {
             dtFill_Ole(dtKategoriya_5, qrKategoriya_5);
         }
 
-        public void dtKategoriya_6Fill()
+        public void dtKategoriya_6Fill()//Метод для заполнения справочника "Категории6"
         {
             dtFill_Ole(dtKategoriya_6, qrKategoriya_6);
         }
 
-        public void dtVKOFill()
+        public void dtVKOFill()//Метод для заполнения справочника "ВКО"
         {
             dtFill_Ole(dtVKO, qrVKO);
         }
 
-        public void dtOkrugaFill()
+        public void dtOkrugaFill()//Метод для заполнения справочника "Округа"
         {
             dtFill_Ole(dtOkruga, qrOkruga);
         }
 
-        public void dtVAOFill()
+        public void dtVAOFill()//Метод для заполнения справочника "ВАО"
         {
             dtFill_Ole(dtVAO, qrVAO);
         }
 
-        public void dtZAOFill()
+        public void dtZAOFill()//Метод для заполнения справочника "ЗАО"
         {
             dtFill_Ole(dtZAO, qrZAO);
         }
 
-        public void dtZelAoFill()
+        public void dtZelAoFill()//Метод для заполнения справочника "ЗелАО"
         {
             dtFill_Ole(dtZelAO, qrZelAO);
         }
 
-        public void dtSVAOFill()
+        public void dtSVAOFill()//Метод для заполнения справочника "СВАО"
         {
             dtFill_Ole(dtSVAO, qrSVAO);
         }
 
-        public void dtSAOFill()
+        public void dtSAOFill()//Метод для заполнения справочника "САО"
         {
             dtFill_Ole(dtSAO, qrSAO);
         }
 
-        public void dtSZAOFill()
+        public void dtSZAOFill()//Метод для заполнения справочника "СЗАО"
         {
             dtFill_Ole(dtSZAO, qrSZAO);
         }
 
-        public void dtTiNAOFill()
+        public void dtTiNAOFill()//Метод для заполнения справочника "ТиНАО"
         {
             dtFill_Ole(dtTiNAO, qrTiNAO);
         }
 
-        public void dtTSAOFill()
+        public void dtTSAOFill()//Метод для заполнения справочника "ЦАО"
         {
             dtFill_Ole(dtTSAO, qrTSAO);
         }
 
-        public void dtYAOFill()
+        public void dtYAOFill()//Метод для заполнения справочника "ЮАО"
         {
             dtFill_Ole(dtYAO, qrYAO);
         }
 
-        public void dtYVAOFill()
+        public void dtYVAOFill()//Метод для заполнения справочника "ЮВАО"
         {
             dtFill_Ole(dtYVAO, qrYVAO);
         }
 
-        public void dtYZAOFill()
+        public void dtYZAOFill()//Метод для заполнения справочника "ЮЗАО"
         {
             dtFill_Ole(dtYZAO, qrYZAO);
         }

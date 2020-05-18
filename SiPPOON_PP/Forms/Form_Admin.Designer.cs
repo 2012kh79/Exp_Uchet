@@ -211,7 +211,7 @@
             // 
             this.btn_Delete.Location = new System.Drawing.Point(215, 101);
             this.btn_Delete.Name = "btn_Delete";
-            this.btn_Delete.Size = new System.Drawing.Size(75, 23);
+            this.btn_Delete.Size = new System.Drawing.Size(75, 25);
             this.btn_Delete.TabIndex = 8;
             this.btn_Delete.Text = "Удалить";
             this.btn_Delete.UseVisualStyleBackColor = true;
@@ -221,7 +221,7 @@
             // 
             this.btn_Update.Location = new System.Drawing.Point(122, 101);
             this.btn_Update.Name = "btn_Update";
-            this.btn_Update.Size = new System.Drawing.Size(75, 23);
+            this.btn_Update.Size = new System.Drawing.Size(75, 25);
             this.btn_Update.TabIndex = 7;
             this.btn_Update.Text = "Изменить";
             this.btn_Update.UseVisualStyleBackColor = true;
@@ -238,7 +238,7 @@
             // 
             this.btn_Insert.Location = new System.Drawing.Point(31, 101);
             this.btn_Insert.Name = "btn_Insert";
-            this.btn_Insert.Size = new System.Drawing.Size(75, 23);
+            this.btn_Insert.Size = new System.Drawing.Size(75, 25);
             this.btn_Insert.TabIndex = 6;
             this.btn_Insert.Text = "Добавить";
             this.btn_Insert.UseVisualStyleBackColor = true;
@@ -254,6 +254,7 @@
             this.dgv_Users.Dock = System.Windows.Forms.DockStyle.Top;
             this.dgv_Users.Location = new System.Drawing.Point(3, 3);
             this.dgv_Users.Name = "dgv_Users";
+            this.dgv_Users.ReadOnly = true;
             this.dgv_Users.Size = new System.Drawing.Size(770, 249);
             this.dgv_Users.TabIndex = 0;
             this.dgv_Users.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgv_Users_CellContentClick);
@@ -425,6 +426,7 @@
             this.dgv_Employee.Dock = System.Windows.Forms.DockStyle.Top;
             this.dgv_Employee.Location = new System.Drawing.Point(3, 3);
             this.dgv_Employee.Name = "dgv_Employee";
+            this.dgv_Employee.ReadOnly = true;
             this.dgv_Employee.Size = new System.Drawing.Size(770, 249);
             this.dgv_Employee.TabIndex = 4;
             this.dgv_Employee.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgv_Employee_CellContentClick);

@@ -29,192 +29,93 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form_Feedback));
-            this.gb_Feedback = new System.Windows.Forms.GroupBox();
-            this.tb_Password = new System.Windows.Forms.TextBox();
-            this.lbl_Password = new System.Windows.Forms.Label();
-            this.tb_Mail = new System.Windows.Forms.TextBox();
-            this.lbl_Mail = new System.Windows.Forms.Label();
+            this.gb_Mail = new System.Windows.Forms.GroupBox();
+            this.tb_Name = new System.Windows.Forms.TextBox();
+            this.lbl_Name = new System.Windows.Forms.Label();
+            this.tb_PassMail = new System.Windows.Forms.TextBox();
+            this.lbl_PassMail = new System.Windows.Forms.Label();
+            this.tb_Body = new System.Windows.Forms.TextBox();
             this.btn_Send = new System.Windows.Forms.Button();
-            this.tb_Pole = new System.Windows.Forms.TextBox();
-            this.tb_Ot = new System.Windows.Forms.TextBox();
-            this.lbl_Ot = new System.Windows.Forms.Label();
-            this.lbl_FeedBack = new System.Windows.Forms.Label();
-            this.pb5 = new System.Windows.Forms.PictureBox();
-            this.pb4 = new System.Windows.Forms.PictureBox();
-            this.pb3 = new System.Windows.Forms.PictureBox();
-            this.pb2 = new System.Windows.Forms.PictureBox();
-            this.pb1 = new System.Windows.Forms.PictureBox();
-            this.gb_Feedback.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pb5)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pb4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pb3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pb2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pb1)).BeginInit();
+            this.gb_Mail.SuspendLayout();
             this.SuspendLayout();
             // 
-            // gb_Feedback
+            // gb_Mail
             // 
-            this.gb_Feedback.Controls.Add(this.tb_Password);
-            this.gb_Feedback.Controls.Add(this.lbl_Password);
-            this.gb_Feedback.Controls.Add(this.tb_Mail);
-            this.gb_Feedback.Controls.Add(this.lbl_Mail);
-            this.gb_Feedback.Controls.Add(this.btn_Send);
-            this.gb_Feedback.Controls.Add(this.tb_Pole);
-            this.gb_Feedback.Controls.Add(this.tb_Ot);
-            this.gb_Feedback.Controls.Add(this.lbl_Ot);
-            this.gb_Feedback.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.gb_Feedback.Location = new System.Drawing.Point(0, 84);
-            this.gb_Feedback.Name = "gb_Feedback";
-            this.gb_Feedback.Size = new System.Drawing.Size(275, 310);
-            this.gb_Feedback.TabIndex = 1;
-            this.gb_Feedback.TabStop = false;
-            this.gb_Feedback.Text = "Данные письма";
+            this.gb_Mail.Controls.Add(this.tb_Name);
+            this.gb_Mail.Controls.Add(this.lbl_Name);
+            this.gb_Mail.Controls.Add(this.tb_PassMail);
+            this.gb_Mail.Controls.Add(this.lbl_PassMail);
+            this.gb_Mail.Dock = System.Windows.Forms.DockStyle.Top;
+            this.gb_Mail.Location = new System.Drawing.Point(0, 0);
+            this.gb_Mail.Name = "gb_Mail";
+            this.gb_Mail.Size = new System.Drawing.Size(384, 81);
+            this.gb_Mail.TabIndex = 0;
+            this.gb_Mail.TabStop = false;
+            this.gb_Mail.Text = "Данные аккаунта от почты:";
             // 
-            // tb_Password
+            // tb_Name
             // 
-            this.tb_Password.Location = new System.Drawing.Point(57, 47);
-            this.tb_Password.Name = "tb_Password";
-            this.tb_Password.Size = new System.Drawing.Size(207, 20);
-            this.tb_Password.TabIndex = 11;
-            this.tb_Password.UseSystemPasswordChar = true;
+            this.tb_Name.Location = new System.Drawing.Point(113, 50);
+            this.tb_Name.Name = "tb_Name";
+            this.tb_Name.Size = new System.Drawing.Size(259, 20);
+            this.tb_Name.TabIndex = 3;
             // 
-            // lbl_Password
+            // lbl_Name
             // 
-            this.lbl_Password.AutoSize = true;
-            this.lbl_Password.Location = new System.Drawing.Point(7, 50);
-            this.lbl_Password.Name = "lbl_Password";
-            this.lbl_Password.Size = new System.Drawing.Size(48, 13);
-            this.lbl_Password.TabIndex = 10;
-            this.lbl_Password.Text = "Пароль:";
+            this.lbl_Name.AutoSize = true;
+            this.lbl_Name.Location = new System.Drawing.Point(47, 53);
+            this.lbl_Name.Name = "lbl_Name";
+            this.lbl_Name.Size = new System.Drawing.Size(60, 13);
+            this.lbl_Name.TabIndex = 2;
+            this.lbl_Name.Text = "Ваше имя:";
             // 
-            // tb_Mail
+            // tb_PassMail
             // 
-            this.tb_Mail.Location = new System.Drawing.Point(57, 19);
-            this.tb_Mail.Name = "tb_Mail";
-            this.tb_Mail.Size = new System.Drawing.Size(207, 20);
-            this.tb_Mail.TabIndex = 9;
+            this.tb_PassMail.Location = new System.Drawing.Point(113, 20);
+            this.tb_PassMail.Name = "tb_PassMail";
+            this.tb_PassMail.Size = new System.Drawing.Size(259, 20);
+            this.tb_PassMail.TabIndex = 1;
             // 
-            // lbl_Mail
+            // lbl_PassMail
             // 
-            this.lbl_Mail.AutoSize = true;
-            this.lbl_Mail.Location = new System.Drawing.Point(26, 22);
-            this.lbl_Mail.Name = "lbl_Mail";
-            this.lbl_Mail.Size = new System.Drawing.Size(29, 13);
-            this.lbl_Mail.TabIndex = 8;
-            this.lbl_Mail.Text = "Mail:";
+            this.lbl_PassMail.AutoSize = true;
+            this.lbl_PassMail.Location = new System.Drawing.Point(12, 23);
+            this.lbl_PassMail.Name = "lbl_PassMail";
+            this.lbl_PassMail.Size = new System.Drawing.Size(95, 13);
+            this.lbl_PassMail.TabIndex = 0;
+            this.lbl_PassMail.Text = "Пароль от почты:";
+            // 
+            // tb_Body
+            // 
+            this.tb_Body.Dock = System.Windows.Forms.DockStyle.Top;
+            this.tb_Body.Location = new System.Drawing.Point(0, 81);
+            this.tb_Body.Multiline = true;
+            this.tb_Body.Name = "tb_Body";
+            this.tb_Body.Size = new System.Drawing.Size(384, 140);
+            this.tb_Body.TabIndex = 3;
+            this.tb_Body.Enter += new System.EventHandler(this.tb_Body_Enter);
+            this.tb_Body.Leave += new System.EventHandler(this.tb_Body_Leave);
             // 
             // btn_Send
             // 
+            this.btn_Send.BackgroundImage = global::SiPPOON_PP.Properties.Resources.Mail;
             this.btn_Send.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.btn_Send.Location = new System.Drawing.Point(10, 255);
+            this.btn_Send.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btn_Send.Location = new System.Drawing.Point(0, 221);
             this.btn_Send.Name = "btn_Send";
-            this.btn_Send.Size = new System.Drawing.Size(254, 50);
-            this.btn_Send.TabIndex = 7;
+            this.btn_Send.Size = new System.Drawing.Size(384, 40);
+            this.btn_Send.TabIndex = 4;
             this.btn_Send.UseVisualStyleBackColor = true;
-            this.btn_Send.Click += new System.EventHandler(this.btn_Mail_Click);
-            // 
-            // tb_Pole
-            // 
-            this.tb_Pole.Location = new System.Drawing.Point(10, 99);
-            this.tb_Pole.Multiline = true;
-            this.tb_Pole.Name = "tb_Pole";
-            this.tb_Pole.Size = new System.Drawing.Size(254, 150);
-            this.tb_Pole.TabIndex = 6;
-            // 
-            // tb_Ot
-            // 
-            this.tb_Ot.Location = new System.Drawing.Point(57, 73);
-            this.tb_Ot.Name = "tb_Ot";
-            this.tb_Ot.Size = new System.Drawing.Size(207, 20);
-            this.tb_Ot.TabIndex = 4;
-            // 
-            // lbl_Ot
-            // 
-            this.lbl_Ot.AutoSize = true;
-            this.lbl_Ot.Location = new System.Drawing.Point(6, 76);
-            this.lbl_Ot.Name = "lbl_Ot";
-            this.lbl_Ot.Size = new System.Drawing.Size(49, 13);
-            this.lbl_Ot.TabIndex = 1;
-            this.lbl_Ot.Text = "От кого:";
-            // 
-            // lbl_FeedBack
-            // 
-            this.lbl_FeedBack.Dock = System.Windows.Forms.DockStyle.Top;
-            this.lbl_FeedBack.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.lbl_FeedBack.Location = new System.Drawing.Point(0, 0);
-            this.lbl_FeedBack.Name = "lbl_FeedBack";
-            this.lbl_FeedBack.Size = new System.Drawing.Size(275, 19);
-            this.lbl_FeedBack.TabIndex = 9;
-            this.lbl_FeedBack.Text = "Оставьте отзыв о нашей программе";
-            this.lbl_FeedBack.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // pb5
-            // 
-            this.pb5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.pb5.Location = new System.Drawing.Point(225, 22);
-            this.pb5.Name = "pb5";
-            this.pb5.Size = new System.Drawing.Size(50, 50);
-            this.pb5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pb5.TabIndex = 13;
-            this.pb5.TabStop = false;
-            this.pb5.Click += new System.EventHandler(this.pb5_Click);
-            // 
-            // pb4
-            // 
-            this.pb4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.pb4.Location = new System.Drawing.Point(169, 22);
-            this.pb4.Name = "pb4";
-            this.pb4.Size = new System.Drawing.Size(50, 50);
-            this.pb4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pb4.TabIndex = 12;
-            this.pb4.TabStop = false;
-            this.pb4.Click += new System.EventHandler(this.pb4_Click);
-            // 
-            // pb3
-            // 
-            this.pb3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.pb3.Location = new System.Drawing.Point(113, 22);
-            this.pb3.Name = "pb3";
-            this.pb3.Size = new System.Drawing.Size(50, 50);
-            this.pb3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pb3.TabIndex = 11;
-            this.pb3.TabStop = false;
-            this.pb3.Click += new System.EventHandler(this.pb3_Click);
-            // 
-            // pb2
-            // 
-            this.pb2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.pb2.Location = new System.Drawing.Point(57, 22);
-            this.pb2.Name = "pb2";
-            this.pb2.Size = new System.Drawing.Size(50, 50);
-            this.pb2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pb2.TabIndex = 10;
-            this.pb2.TabStop = false;
-            this.pb2.Click += new System.EventHandler(this.pb2_Click);
-            // 
-            // pb1
-            // 
-            this.pb1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.pb1.Location = new System.Drawing.Point(0, 22);
-            this.pb1.Name = "pb1";
-            this.pb1.Size = new System.Drawing.Size(50, 50);
-            this.pb1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pb1.TabIndex = 8;
-            this.pb1.TabStop = false;
-            this.pb1.Click += new System.EventHandler(this.pb1_Click);
+            this.btn_Send.Click += new System.EventHandler(this.btn_Send_Click);
             // 
             // Form_Feedback
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(275, 394);
-            this.Controls.Add(this.pb5);
-            this.Controls.Add(this.pb4);
-            this.Controls.Add(this.pb3);
-            this.Controls.Add(this.pb2);
-            this.Controls.Add(this.lbl_FeedBack);
-            this.Controls.Add(this.pb1);
-            this.Controls.Add(this.gb_Feedback);
+            this.ClientSize = new System.Drawing.Size(384, 261);
+            this.Controls.Add(this.btn_Send);
+            this.Controls.Add(this.tb_Body);
+            this.Controls.Add(this.gb_Mail);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
@@ -222,32 +123,21 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Форма обратной связи";
             this.Load += new System.EventHandler(this.Form_Mail_Load);
-            this.gb_Feedback.ResumeLayout(false);
-            this.gb_Feedback.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pb5)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pb4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pb3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pb2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pb1)).EndInit();
+            this.gb_Mail.ResumeLayout(false);
+            this.gb_Mail.PerformLayout();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
         #endregion
-        private System.Windows.Forms.GroupBox gb_Feedback;
-        private System.Windows.Forms.TextBox tb_Pole;
-        private System.Windows.Forms.TextBox tb_Ot;
-        private System.Windows.Forms.Label lbl_Ot;
+
+        private System.Windows.Forms.GroupBox gb_Mail;
+        private System.Windows.Forms.Label lbl_Name;
+        private System.Windows.Forms.TextBox tb_PassMail;
+        private System.Windows.Forms.Label lbl_PassMail;
+        private System.Windows.Forms.TextBox tb_Name;
+        private System.Windows.Forms.TextBox tb_Body;
         private System.Windows.Forms.Button btn_Send;
-        private System.Windows.Forms.PictureBox pb1;
-        private System.Windows.Forms.Label lbl_FeedBack;
-        private System.Windows.Forms.PictureBox pb2;
-        private System.Windows.Forms.PictureBox pb3;
-        private System.Windows.Forms.PictureBox pb4;
-        private System.Windows.Forms.PictureBox pb5;
-        private System.Windows.Forms.TextBox tb_Mail;
-        private System.Windows.Forms.Label lbl_Mail;
-        private System.Windows.Forms.TextBox tb_Password;
-        private System.Windows.Forms.Label lbl_Password;
     }
 }

@@ -68,7 +68,7 @@
             // 
             this.btnCancel.Location = new System.Drawing.Point(194, 53);
             this.btnCancel.Name = "btnCancel";
-            this.btnCancel.Size = new System.Drawing.Size(102, 23);
+            this.btnCancel.Size = new System.Drawing.Size(102, 25);
             this.btnCancel.TabIndex = 13;
             this.btnCancel.Text = "Отмена";
             this.btnCancel.UseVisualStyleBackColor = true;
@@ -78,7 +78,7 @@
             // 
             this.btnConfirm.Location = new System.Drawing.Point(86, 53);
             this.btnConfirm.Name = "btnConfirm";
-            this.btnConfirm.Size = new System.Drawing.Size(102, 23);
+            this.btnConfirm.Size = new System.Drawing.Size(102, 25);
             this.btnConfirm.TabIndex = 12;
             this.btnConfirm.Text = "Применить";
             this.btnConfirm.UseVisualStyleBackColor = true;

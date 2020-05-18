@@ -41,7 +41,6 @@ namespace SiPPOON_PP
                     table.dtOkrugaFill();
                     table.Table(dgv_Okruga, table.dtOkruga);
                     filter.Sort_Table(dgv_Okruga);
-                    dgv_Okruga.ReadOnly = true;
                 }
                 catch (Exception ex)
                 {
@@ -60,7 +59,6 @@ namespace SiPPOON_PP
                 {
                     table.dtVAOFill();
                     table.Table(dgv_VAO, table.dtVAO);
-                    dgv_VAO.ReadOnly = true;
                 }
                 catch (Exception ex)
                 {
@@ -79,7 +77,6 @@ namespace SiPPOON_PP
                 {
                     table.dtZAOFill();
                     table.Table(dgv_ZAO, table.dtZAO);
-                    dgv_ZAO.ReadOnly = true;
                 }
                 catch (Exception ex)
                 {
@@ -98,7 +95,6 @@ namespace SiPPOON_PP
                 {
                     table.dtZelAoFill();
                     table.Table(dgv_ZelAO, table.dtZelAO);
-                    dgv_ZelAO.ReadOnly = true;
                 }
                 catch (Exception ex)
                 {
@@ -117,7 +113,6 @@ namespace SiPPOON_PP
                 {
                     table.dtSAOFill();
                     table.Table(dgv_SAO, table.dtSAO);
-                    dgv_SAO.ReadOnly = true;
                 }
                 catch (Exception ex)
                 {
@@ -136,7 +131,6 @@ namespace SiPPOON_PP
                 {
                     table.dtSVAOFill();
                     table.Table(dgv_SVAO, table.dtSVAO);
-                    dgv_SVAO.ReadOnly = true;
                 }
                 catch (Exception ex)
                 {
@@ -155,7 +149,6 @@ namespace SiPPOON_PP
                 {
                     table.dtSZAOFill();
                     table.Table(dgv_SZAO, table.dtSZAO);
-                    dgv_SZAO.ReadOnly = true;
                 }
                 catch (Exception ex)
                 {
@@ -174,7 +167,6 @@ namespace SiPPOON_PP
                 {
                     table.dtTiNAOFill();
                     table.Table(dgv_TiNAO, table.dtTiNAO);
-                    dgv_TiNAO.ReadOnly = true;
                 }
                 catch (Exception ex)
                 {
@@ -193,7 +185,6 @@ namespace SiPPOON_PP
                 {
                     table.dtTSAOFill();
                     table.Table(dgv_TSAO, table.dtTSAO);
-                    dgv_TSAO.ReadOnly = true;
                 }
                 catch (Exception ex)
                 {
@@ -212,7 +203,6 @@ namespace SiPPOON_PP
                 {
                     table.dtYAOFill();
                     table.Table(dgv_YAO, table.dtYAO);
-                    dgv_YAO.ReadOnly = true;
                 }
                 catch (Exception ex)
                 {
@@ -231,7 +221,6 @@ namespace SiPPOON_PP
                 {
                     table.dtYVAOFill();
                     table.Table(dgv_YVAO, table.dtYVAO);
-                    dgv_YVAO.ReadOnly = true;
                 }
                 catch (Exception ex)
                 {
@@ -250,7 +239,6 @@ namespace SiPPOON_PP
                 {
                     table.dtYZAOFill();
                     table.Table(dgv_YZAO, table.dtYZAO);
-                    dgv_YZAO.ReadOnly = true;
                 }
                 catch (Exception ex)
                 {
@@ -318,7 +306,7 @@ namespace SiPPOON_PP
         {
             Filter_Table filter = new Filter_Table();
             filter.Check_Prev(dgv_VAO, rb_Prev_VAO);
-            toolStripMenuItem3.Enabled = false;
+            excelToolStripMenuItem2.Enabled = false;
         }
 
         private void rb_Deffect_VAO_CheckedChanged(object sender, EventArgs e)
@@ -326,14 +314,14 @@ namespace SiPPOON_PP
             dgv_Excel = dgv_VAO;
             Filter_Table filter = new Filter_Table();
             filter.Check_Deffect(dgv_VAO, rb_Deffect_VAO);
-            toolStripMenuItem3.Enabled = true;
+            excelToolStripMenuItem2.Enabled = true;
         }
 
         private void rb_Prev_ZAO_CheckedChanged(object sender, EventArgs e)
         {
             Filter_Table filter = new Filter_Table();
             filter.Check_Prev(dgv_ZAO, rb_Prev_ZAO);
-            toolStripMenuItem3.Enabled = false;
+            excelToolStripMenuItem2.Enabled = false;
         }
 
         private void rb_Deffect_ZAO_CheckedChanged(object sender, EventArgs e)
@@ -341,14 +329,14 @@ namespace SiPPOON_PP
             dgv_Excel = dgv_ZAO;
             Filter_Table filter = new Filter_Table();
             filter.Check_Deffect(dgv_ZAO, rb_Deffect_ZAO);
-            toolStripMenuItem3.Enabled = true;
+            excelToolStripMenuItem2.Enabled = true;
         }
 
         private void rb_Prev_ZelAO_CheckedChanged(object sender, EventArgs e)
         {
             Filter_Table filter = new Filter_Table();
             filter.Check_Prev(dgv_ZelAO, rb_Prev_ZelAO);
-            toolStripMenuItem3.Enabled = false;
+            excelToolStripMenuItem2.Enabled = false;
         }
 
         private void rb_Deffect_ZelAO_CheckedChanged(object sender, EventArgs e)
@@ -356,14 +344,14 @@ namespace SiPPOON_PP
             dgv_Excel = dgv_ZelAO;
             Filter_Table filter = new Filter_Table();
             filter.Check_Deffect(dgv_ZelAO, rb_Deffect_ZelAO);
-            toolStripMenuItem3.Enabled = true;
+            excelToolStripMenuItem2.Enabled = true;
         }
 
         private void rb_Prev_SAO_CheckedChanged(object sender, EventArgs e)
         {
             Filter_Table filter = new Filter_Table();
             filter.Check_Prev(dgv_SAO, rb_Prev_SAO);
-            toolStripMenuItem3.Enabled = false;
+            excelToolStripMenuItem2.Enabled = false;
         }
 
         private void rb_Deffect_SAO_CheckedChanged(object sender, EventArgs e)
@@ -371,14 +359,14 @@ namespace SiPPOON_PP
             dgv_Excel = dgv_SAO;
             Filter_Table filter = new Filter_Table();
             filter.Check_Deffect(dgv_SAO, rb_Deffect_SAO);
-            toolStripMenuItem3.Enabled = true;
+            excelToolStripMenuItem2.Enabled = true;
         }
 
         private void rb_Prev_SVAO_CheckedChanged(object sender, EventArgs e)
         {
             Filter_Table filter = new Filter_Table();
             filter.Check_Prev(dgv_SVAO, rb_Prev_SVAO);
-            toolStripMenuItem3.Enabled = false;
+            excelToolStripMenuItem2.Enabled = false;
         }
 
         private void rb_Deffect_SVAO_CheckedChanged(object sender, EventArgs e)
@@ -386,14 +374,14 @@ namespace SiPPOON_PP
             dgv_Excel = dgv_SVAO;
             Filter_Table filter = new Filter_Table();
             filter.Check_Deffect(dgv_SVAO, rb_Deffect_SVAO);
-            toolStripMenuItem3.Enabled = true;
+            excelToolStripMenuItem2.Enabled = true;
         }
 
         private void rb_Prev_SZAO_CheckedChanged(object sender, EventArgs e)
         {
             Filter_Table filter = new Filter_Table();
             filter.Check_Prev(dgv_SZAO, rb_Prev_SZAO);
-            toolStripMenuItem3.Enabled = false;
+            excelToolStripMenuItem2.Enabled = false;
         }
 
         private void rb_Deffect_SZAO_CheckedChanged(object sender, EventArgs e)
@@ -401,14 +389,14 @@ namespace SiPPOON_PP
             dgv_Excel = dgv_SZAO;
             Filter_Table filter = new Filter_Table();
             filter.Check_Deffect(dgv_SZAO, rb_Deffect_SZAO);
-            toolStripMenuItem3.Enabled = true;
+            excelToolStripMenuItem2.Enabled = true;
         }
 
         private void rb_Prev_TiNAO_CheckedChanged(object sender, EventArgs e)
         {
             Filter_Table filter = new Filter_Table();
             filter.Check_Prev(dgv_TiNAO, rb_Prev_TiNAO);
-            toolStripMenuItem3.Enabled = false;
+            excelToolStripMenuItem2.Enabled = false;
         }
 
         private void rb_Deffect_TiNAO_CheckedChanged(object sender, EventArgs e)
@@ -416,14 +404,14 @@ namespace SiPPOON_PP
             dgv_Excel = dgv_TiNAO;
             Filter_Table filter = new Filter_Table();
             filter.Check_Deffect(dgv_TiNAO, rb_Deffect_TiNAO);
-            toolStripMenuItem3.Enabled = true;
+            excelToolStripMenuItem2.Enabled = true;
         }
 
         private void rb_Prev_TSAO_CheckedChanged(object sender, EventArgs e)
         {
             Filter_Table filter = new Filter_Table();
             filter.Check_Prev(dgv_TSAO, rb_Prev_TSAO);
-            toolStripMenuItem3.Enabled = false;
+            excelToolStripMenuItem2.Enabled = false;
         }
 
         private void rb_Deffect_TSAO_CheckedChanged(object sender, EventArgs e)
@@ -431,14 +419,14 @@ namespace SiPPOON_PP
             dgv_Excel = dgv_TSAO;
             Filter_Table filter = new Filter_Table();
             filter.Check_Deffect(dgv_TSAO, rb_Deffect_TSAO);
-            toolStripMenuItem3.Enabled = true;
+            excelToolStripMenuItem2.Enabled = true;
         }
 
         private void rb_Prev_YAO_CheckedChanged(object sender, EventArgs e)
         {
             Filter_Table filter = new Filter_Table();
             filter.Check_Prev(dgv_YAO, rb_Prev_YAO);
-            toolStripMenuItem3.Enabled = false;
+            excelToolStripMenuItem2.Enabled = false;
         }
 
         private void rb_Deffect_YAO_CheckedChanged(object sender, EventArgs e)
@@ -446,14 +434,14 @@ namespace SiPPOON_PP
             dgv_Excel = dgv_YAO;
             Filter_Table filter = new Filter_Table();
             filter.Check_Deffect(dgv_YAO, rb_Deffect_YAO);
-            toolStripMenuItem3.Enabled = true;
+            excelToolStripMenuItem2.Enabled = true;
         }
 
         private void rb_Prev_YVAO_CheckedChanged(object sender, EventArgs e)
         {
             Filter_Table filter = new Filter_Table();
             filter.Check_Prev(dgv_YVAO, rb_Prev_YVAO);
-            toolStripMenuItem3.Enabled = false;
+            excelToolStripMenuItem2.Enabled = false;
         }
 
         private void rb_Deffect_YVAO_CheckedChanged(object sender, EventArgs e)
@@ -461,14 +449,14 @@ namespace SiPPOON_PP
             dgv_Excel = dgv_YVAO;
             Filter_Table filter = new Filter_Table();
             filter.Check_Deffect(dgv_YVAO, rb_Deffect_YVAO);
-            toolStripMenuItem3.Enabled = true;
+            excelToolStripMenuItem2.Enabled = true;
         }
 
         private void rb_Prev_YZAO_CheckedChanged(object sender, EventArgs e)
         {
             Filter_Table filter = new Filter_Table();
             filter.Check_Prev(dgv_YZAO, rb_Prev_YZAO);
-            toolStripMenuItem3.Enabled = false;
+            excelToolStripMenuItem2.Enabled = false;
         }
 
         private void rb_Deffect_YZAO_CheckedChanged(object sender, EventArgs e)
@@ -476,14 +464,14 @@ namespace SiPPOON_PP
             dgv_Excel = dgv_YZAO;
             Filter_Table filter = new Filter_Table();
             filter.Check_Deffect(dgv_YZAO, rb_Deffect_YZAO);
-            toolStripMenuItem3.Enabled = true;
+            excelToolStripMenuItem2.Enabled = true;
         }
 
         private void rb_Prev_Okruga_CheckedChanged(object sender, EventArgs e)
         {
             Filter_Table filter = new Filter_Table();
             filter.Check_Prev(dgv_Okruga, rb_Prev_Okruga);
-            toolStripMenuItem3.Enabled = false;
+            excelToolStripMenuItem2.Enabled = false;
         }
 
         private void toolStripMenuItem3_Click(object sender, EventArgs e)
@@ -539,91 +527,91 @@ namespace SiPPOON_PP
             dgv_Excel = dgv_Okruga;
             Filter_Table filter = new Filter_Table();
             filter.Check_Deffect(dgv_Okruga, rb_Deffect_Okruga);
-            toolStripMenuItem3.Enabled = true;
+            excelToolStripMenuItem2.Enabled = true;
         }
 
         private void rb_Clear_Okruga_CheckedChanged(object sender, EventArgs e)
         {
             Filter_Table filter = new Filter_Table();
             filter.Clear_Filter(dgv_Okruga, rb_Clear_Okruga);
-            toolStripMenuItem3.Enabled = false;
+            excelToolStripMenuItem2.Enabled = false;
         }
 
         private void rb_Clear_VAO_CheckedChanged(object sender, EventArgs e)
         {
             Filter_Table filter = new Filter_Table();
             filter.Clear_Filter(dgv_Okruga, rb_Clear_Okruga);
-            toolStripMenuItem3.Enabled = false;
+            excelToolStripMenuItem2.Enabled = false;
         }
 
         private void rb_Clear_ZAO_CheckedChanged(object sender, EventArgs e)
         {
             Filter_Table filter = new Filter_Table();
             filter.Clear_Filter(dgv_ZAO, rb_Clear_ZAO);
-            toolStripMenuItem3.Enabled = false;
+            excelToolStripMenuItem2.Enabled = false;
         }
 
         private void rb_ZelAO_CheckedChanged(object sender, EventArgs e)
         {
             Filter_Table filter = new Filter_Table();
             filter.Clear_Filter(dgv_ZelAO, rb_ZelAO);
-            toolStripMenuItem3.Enabled = false;
+            excelToolStripMenuItem2.Enabled = false;
         }
 
         private void rb_Clear_SAO_CheckedChanged(object sender, EventArgs e)
         {
             Filter_Table filter = new Filter_Table();
             filter.Clear_Filter(dgv_SAO, rb_Clear_SAO);
-            toolStripMenuItem3.Enabled = false;
+            excelToolStripMenuItem2.Enabled = false;
         }
 
         private void rb_Clear_SVAO_CheckedChanged(object sender, EventArgs e)
         {
             Filter_Table filter = new Filter_Table();
             filter.Clear_Filter(dgv_SVAO, rb_Clear_SVAO);
-            toolStripMenuItem3.Enabled = false;
+            excelToolStripMenuItem2.Enabled = false;
         }
 
         private void rb_Clear_SZAO_CheckedChanged(object sender, EventArgs e)
         {
             Filter_Table filter = new Filter_Table();
             filter.Clear_Filter(dgv_SZAO, rb_Clear_SZAO);
-            toolStripMenuItem3.Enabled = false;
+            excelToolStripMenuItem2.Enabled = false;
         }
 
         private void rb_Clear_TiNAO_CheckedChanged(object sender, EventArgs e)
         {
             Filter_Table filter = new Filter_Table();
             filter.Clear_Filter(dgv_TiNAO, rb_Clear_TiNAO);
-            toolStripMenuItem3.Enabled = false;
+            excelToolStripMenuItem2.Enabled = false;
         }
 
         private void rb_Clear_TSAO_CheckedChanged(object sender, EventArgs e)
         {
             Filter_Table filter = new Filter_Table();
             filter.Clear_Filter(dgv_TSAO, rb_Clear_TSAO);
-            toolStripMenuItem3.Enabled = false;
+            excelToolStripMenuItem2.Enabled = false;
         }
 
         private void rb_Clear_YAO_CheckedChanged(object sender, EventArgs e)
         {
             Filter_Table filter = new Filter_Table();
             filter.Clear_Filter(dgv_YAO, rb_Clear_YAO);
-            toolStripMenuItem3.Enabled = false;
+            excelToolStripMenuItem2.Enabled = false;
         }
 
         private void rb_Clear_YVAO_CheckedChanged(object sender, EventArgs e)
         {
             Filter_Table filter = new Filter_Table();
             filter.Clear_Filter(dgv_YVAO, rb_Clear_YVAO);
-            toolStripMenuItem3.Enabled = false;
+            excelToolStripMenuItem2.Enabled = false;
         }
 
         private void rb_Clear_YZAO_CheckedChanged(object sender, EventArgs e)
         {
             Filter_Table filter = new Filter_Table();
             filter.Clear_Filter(dgv_YZAO, rb_Clear_YZAO);
-            toolStripMenuItem3.Enabled = false;
+            excelToolStripMenuItem2.Enabled = false;
         }
 
         private void dgv_Okruga_CellContentClick(object sender, DataGridViewCellEventArgs e)

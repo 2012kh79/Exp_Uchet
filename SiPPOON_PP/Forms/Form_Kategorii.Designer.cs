@@ -762,6 +762,7 @@
             this.dgv_Kategorii.Dock = System.Windows.Forms.DockStyle.Top;
             this.dgv_Kategorii.Location = new System.Drawing.Point(3, 3);
             this.dgv_Kategorii.Name = "dgv_Kategorii";
+            this.dgv_Kategorii.ReadOnly = true;
             this.dgv_Kategorii.Size = new System.Drawing.Size(970, 518);
             this.dgv_Kategorii.TabIndex = 14;
             this.dgv_Kategorii.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgv_Kategorii_CellContentClick);
@@ -771,6 +772,7 @@
             this.dataGridViewCheckBoxColumn2.Frozen = true;
             this.dataGridViewCheckBoxColumn2.HeaderText = "";
             this.dataGridViewCheckBoxColumn2.Name = "dataGridViewCheckBoxColumn2";
+            this.dataGridViewCheckBoxColumn2.ReadOnly = true;
             this.dataGridViewCheckBoxColumn2.Width = 30;
             // 
             // dataGridViewTextBoxColumn421
@@ -1257,6 +1259,7 @@
             this.dgv_Kategoriya1.Dock = System.Windows.Forms.DockStyle.Top;
             this.dgv_Kategoriya1.Location = new System.Drawing.Point(3, 3);
             this.dgv_Kategoriya1.Name = "dgv_Kategoriya1";
+            this.dgv_Kategoriya1.ReadOnly = true;
             this.dgv_Kategoriya1.Size = new System.Drawing.Size(970, 518);
             this.dgv_Kategoriya1.TabIndex = 15;
             this.dgv_Kategoriya1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgv_Kategoriya1_CellContentClick);
@@ -1266,6 +1269,7 @@
             this.dataGridViewCheckBoxColumn1.Frozen = true;
             this.dataGridViewCheckBoxColumn1.HeaderText = "";
             this.dataGridViewCheckBoxColumn1.Name = "dataGridViewCheckBoxColumn1";
+            this.dataGridViewCheckBoxColumn1.ReadOnly = true;
             this.dataGridViewCheckBoxColumn1.Width = 30;
             // 
             // dataGridViewTextBoxColumn1
@@ -1752,6 +1756,7 @@
             this.dgv_Kategoriya2.Dock = System.Windows.Forms.DockStyle.Top;
             this.dgv_Kategoriya2.Location = new System.Drawing.Point(3, 3);
             this.dgv_Kategoriya2.Name = "dgv_Kategoriya2";
+            this.dgv_Kategoriya2.ReadOnly = true;
             this.dgv_Kategoriya2.Size = new System.Drawing.Size(970, 518);
             this.dgv_Kategoriya2.TabIndex = 15;
             this.dgv_Kategoriya2.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgv_Kategoriya2_CellContentClick);
@@ -1761,6 +1766,7 @@
             this.dataGridViewCheckBoxColumn3.Frozen = true;
             this.dataGridViewCheckBoxColumn3.HeaderText = "";
             this.dataGridViewCheckBoxColumn3.Name = "dataGridViewCheckBoxColumn3";
+            this.dataGridViewCheckBoxColumn3.ReadOnly = true;
             this.dataGridViewCheckBoxColumn3.Width = 30;
             // 
             // dataGridViewTextBoxColumn43
@@ -2247,6 +2253,7 @@
             this.dgv_Kategoriya3.Dock = System.Windows.Forms.DockStyle.Top;
             this.dgv_Kategoriya3.Location = new System.Drawing.Point(3, 3);
             this.dgv_Kategoriya3.Name = "dgv_Kategoriya3";
+            this.dgv_Kategoriya3.ReadOnly = true;
             this.dgv_Kategoriya3.Size = new System.Drawing.Size(970, 518);
             this.dgv_Kategoriya3.TabIndex = 16;
             this.dgv_Kategoriya3.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgv_Kategoriya3_CellContentClick);
@@ -2256,6 +2263,7 @@
             this.dataGridViewCheckBoxColumn4.Frozen = true;
             this.dataGridViewCheckBoxColumn4.HeaderText = "";
             this.dataGridViewCheckBoxColumn4.Name = "dataGridViewCheckBoxColumn4";
+            this.dataGridViewCheckBoxColumn4.ReadOnly = true;
             this.dataGridViewCheckBoxColumn4.Width = 30;
             // 
             // dataGridViewTextBoxColumn85
@@ -2742,6 +2750,7 @@
             this.dgv_Kategoriya4.Dock = System.Windows.Forms.DockStyle.Top;
             this.dgv_Kategoriya4.Location = new System.Drawing.Point(3, 3);
             this.dgv_Kategoriya4.Name = "dgv_Kategoriya4";
+            this.dgv_Kategoriya4.ReadOnly = true;
             this.dgv_Kategoriya4.Size = new System.Drawing.Size(970, 518);
             this.dgv_Kategoriya4.TabIndex = 17;
             this.dgv_Kategoriya4.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgv_Kategoriya4_CellContentClick);
@@ -2751,6 +2760,7 @@
             this.dataGridViewCheckBoxColumn5.Frozen = true;
             this.dataGridViewCheckBoxColumn5.HeaderText = "";
             this.dataGridViewCheckBoxColumn5.Name = "dataGridViewCheckBoxColumn5";
+            this.dataGridViewCheckBoxColumn5.ReadOnly = true;
             this.dataGridViewCheckBoxColumn5.Width = 30;
             // 
             // dataGridViewTextBoxColumn127
@@ -3237,6 +3247,7 @@
             this.dgv_Kategoriya5.Dock = System.Windows.Forms.DockStyle.Top;
             this.dgv_Kategoriya5.Location = new System.Drawing.Point(3, 3);
             this.dgv_Kategoriya5.Name = "dgv_Kategoriya5";
+            this.dgv_Kategoriya5.ReadOnly = true;
             this.dgv_Kategoriya5.Size = new System.Drawing.Size(970, 518);
             this.dgv_Kategoriya5.TabIndex = 18;
             this.dgv_Kategoriya5.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgv_Kategoriya5_CellContentClick);
@@ -3246,6 +3257,7 @@
             this.dataGridViewCheckBoxColumn6.Frozen = true;
             this.dataGridViewCheckBoxColumn6.HeaderText = "";
             this.dataGridViewCheckBoxColumn6.Name = "dataGridViewCheckBoxColumn6";
+            this.dataGridViewCheckBoxColumn6.ReadOnly = true;
             this.dataGridViewCheckBoxColumn6.Width = 30;
             // 
             // dataGridViewTextBoxColumn169
@@ -3732,6 +3744,7 @@
             this.dgv_Kategoriya6.Dock = System.Windows.Forms.DockStyle.Top;
             this.dgv_Kategoriya6.Location = new System.Drawing.Point(3, 3);
             this.dgv_Kategoriya6.Name = "dgv_Kategoriya6";
+            this.dgv_Kategoriya6.ReadOnly = true;
             this.dgv_Kategoriya6.Size = new System.Drawing.Size(970, 518);
             this.dgv_Kategoriya6.TabIndex = 19;
             this.dgv_Kategoriya6.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgv_Kategoriya6_CellContentClick);
@@ -3741,6 +3754,7 @@
             this.dataGridViewCheckBoxColumn7.Frozen = true;
             this.dataGridViewCheckBoxColumn7.HeaderText = "";
             this.dataGridViewCheckBoxColumn7.Name = "dataGridViewCheckBoxColumn7";
+            this.dataGridViewCheckBoxColumn7.ReadOnly = true;
             this.dataGridViewCheckBoxColumn7.Width = 30;
             // 
             // dataGridViewTextBoxColumn211
@@ -4227,6 +4241,7 @@
             this.dgv_VKO.Dock = System.Windows.Forms.DockStyle.Top;
             this.dgv_VKO.Location = new System.Drawing.Point(3, 3);
             this.dgv_VKO.Name = "dgv_VKO";
+            this.dgv_VKO.ReadOnly = true;
             this.dgv_VKO.Size = new System.Drawing.Size(970, 518);
             this.dgv_VKO.TabIndex = 20;
             this.dgv_VKO.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgv_VKO_CellContentClick);
@@ -4236,6 +4251,7 @@
             this.dataGridViewCheckBoxColumn8.Frozen = true;
             this.dataGridViewCheckBoxColumn8.HeaderText = "";
             this.dataGridViewCheckBoxColumn8.Name = "dataGridViewCheckBoxColumn8";
+            this.dataGridViewCheckBoxColumn8.ReadOnly = true;
             this.dataGridViewCheckBoxColumn8.Width = 30;
             // 
             // dataGridViewTextBoxColumn253
@@ -4564,7 +4580,7 @@
             // 
             this.открытьToolStripMenuItem3.Image = global::SiPPOON_PP.Properties.Resources.Open;
             this.открытьToolStripMenuItem3.Name = "открытьToolStripMenuItem3";
-            this.открытьToolStripMenuItem3.Size = new System.Drawing.Size(121, 22);
+            this.открытьToolStripMenuItem3.Size = new System.Drawing.Size(180, 22);
             this.открытьToolStripMenuItem3.Text = "Открыть";
             this.открытьToolStripMenuItem3.Click += new System.EventHandler(this.открытьToolStripMenuItem_Click);
             // 
@@ -4574,27 +4590,28 @@
             this.excelToolStripMenuItem1});
             this.печатьToolStripMenuItem2.Image = global::SiPPOON_PP.Properties.Resources.Export;
             this.печатьToolStripMenuItem2.Name = "печатьToolStripMenuItem2";
-            this.печатьToolStripMenuItem2.Size = new System.Drawing.Size(121, 22);
+            this.печатьToolStripMenuItem2.Size = new System.Drawing.Size(180, 22);
             this.печатьToolStripMenuItem2.Text = "Печать";
             // 
             // excelToolStripMenuItem1
             // 
+            this.excelToolStripMenuItem1.Enabled = false;
             this.excelToolStripMenuItem1.Image = global::SiPPOON_PP.Properties.Resources.Excel;
             this.excelToolStripMenuItem1.Name = "excelToolStripMenuItem1";
-            this.excelToolStripMenuItem1.Size = new System.Drawing.Size(101, 22);
+            this.excelToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
             this.excelToolStripMenuItem1.Text = "Excel";
             this.excelToolStripMenuItem1.Click += new System.EventHandler(this.toolStripMenuItem3_Click);
             // 
             // toolStripMenuItem6
             // 
             this.toolStripMenuItem6.Name = "toolStripMenuItem6";
-            this.toolStripMenuItem6.Size = new System.Drawing.Size(118, 6);
+            this.toolStripMenuItem6.Size = new System.Drawing.Size(177, 6);
             // 
             // выходToolStripMenuItem3
             // 
             this.выходToolStripMenuItem3.Image = global::SiPPOON_PP.Properties.Resources.Exit;
             this.выходToolStripMenuItem3.Name = "выходToolStripMenuItem3";
-            this.выходToolStripMenuItem3.Size = new System.Drawing.Size(121, 22);
+            this.выходToolStripMenuItem3.Size = new System.Drawing.Size(180, 22);
             this.выходToolStripMenuItem3.Text = "Выход";
             this.выходToolStripMenuItem3.Click += new System.EventHandler(this.выходToolStripMenuItem_Click);
             // 

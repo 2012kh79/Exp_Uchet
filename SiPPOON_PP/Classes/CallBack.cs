@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace SiPPOON_PP.Classes
+﻿namespace SiPPOON_PP.Classes
 {
     public static class CallBack
     {

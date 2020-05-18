@@ -36,7 +36,6 @@ namespace SiPPOON_PP
                     table.dtKategoriiFill();
                     table.Table(dgv_Kategorii, table.dtKategorii);
                     filter.Sort_Table(dgv_Kategorii);
-                    dgv_Kategorii.ReadOnly = true;
                 }
                 catch (Exception ex)
                 {
@@ -55,7 +54,6 @@ namespace SiPPOON_PP
                 {
                     table.dtKategoriya_1Fill();
                     table.Table(dgv_Kategoriya1, table.dtKategoriya_1);
-                    dgv_Kategoriya1.ReadOnly = true;
                 }
                 catch (Exception ex)
                 {
@@ -74,7 +72,6 @@ namespace SiPPOON_PP
                 {
                     table.dtKategoriya_2Fill();
                     table.Table(dgv_Kategoriya2, table.dtKategoriya_2);
-                    dgv_Kategoriya2.ReadOnly = true;
                 }
                 catch (Exception ex)
                 {
@@ -93,7 +90,6 @@ namespace SiPPOON_PP
                 {
                     table.dtKategoriya_3Fill();
                     table.Table(dgv_Kategoriya3, table.dtKategoriya_3);
-                    dgv_Kategoriya3.ReadOnly = true;
                 }
                 catch (Exception ex)
                 {
@@ -112,7 +108,6 @@ namespace SiPPOON_PP
                 {
                     table.dtKategoriya_4Fill();
                     table.Table(dgv_Kategoriya4, table.dtKategoriya_4);
-                    dgv_Kategoriya4.ReadOnly = true;
                 }
                 catch (Exception ex)
                 {
@@ -131,7 +126,6 @@ namespace SiPPOON_PP
                 {
                     table.dtKategoriya_5Fill();
                     table.Table(dgv_Kategoriya5, table.dtKategoriya_5);
-                    dgv_Kategoriya5.ReadOnly = true;
                 }
                 catch (Exception ex)
                 {
@@ -150,7 +144,6 @@ namespace SiPPOON_PP
                 {
                     table.dtKategoriya_6Fill();
                     table.Table(dgv_Kategoriya6, table.dtKategoriya_6);
-                    dgv_Kategoriya6.ReadOnly = true;
                 }
                 catch (Exception ex)
                 {
@@ -169,7 +162,6 @@ namespace SiPPOON_PP
                 {
                     table.dtVKOFill();
                     table.Table(dgv_VKO, table.dtVKO);
-                    dgv_VKO.ReadOnly = true;
                 }
                 catch (Exception ex)
                 {
@@ -272,7 +264,7 @@ namespace SiPPOON_PP
             Filter_Table filter = new Filter_Table();
             Fill_Table table = new Fill_Table();
             filter.Check_Prev(dgv_Kategoriya1, rb_Prev_Kategoriya1);
-            toolStripMenuItem3.Enabled = false;
+            excelToolStripMenuItem1.Enabled = false;
         }
 
         private void rb_Deffect_Kategoriya1_CheckedChanged(object sender, EventArgs e)
@@ -280,13 +272,13 @@ namespace SiPPOON_PP
             dgv_Excel = dgv_Kategoriya1;
             Filter_Table filter = new Filter_Table();
             filter.Check_Deffect(dgv_Kategoriya1, rb_Deffect_Kategoriya1);
-            toolStripMenuItem3.Enabled = true;
+            excelToolStripMenuItem1.Enabled = true;
         }
         private void rb_Prev_Kategoriya2_CheckedChanged(object sender, EventArgs e)
         {
             Filter_Table filter = new Filter_Table();
             filter.Check_Prev(dgv_Kategoriya2, rb_Prev_Kategoriya2);
-            toolStripMenuItem3.Enabled = false;
+            excelToolStripMenuItem1.Enabled = false;
         }
 
         private void rb_Deffect_Kategoriya2_CheckedChanged(object sender, EventArgs e)
@@ -294,14 +286,14 @@ namespace SiPPOON_PP
             dgv_Excel = dgv_Kategoriya2;
             Filter_Table filter = new Filter_Table();
             filter.Check_Deffect(dgv_Kategoriya2, rb_Deffect_Kategoriya2);
-            toolStripMenuItem3.Enabled = true;
+            excelToolStripMenuItem1.Enabled = true;
         }
 
         private void rb_Prev_Kategoriya3_CheckedChanged(object sender, EventArgs e)
         {
             Filter_Table filter = new Filter_Table();
             filter.Check_Prev(dgv_Kategoriya3, rb_Prev_Kategoriya3);
-            toolStripMenuItem3.Enabled = false;
+            excelToolStripMenuItem1.Enabled = false;
         }
 
         private void rb_Deffect_Kategoriya3_CheckedChanged(object sender, EventArgs e)
@@ -309,14 +301,14 @@ namespace SiPPOON_PP
             dgv_Excel = dgv_Kategoriya3;
             Filter_Table filter = new Filter_Table();
             filter.Check_Deffect(dgv_Kategoriya3, rb_Deffect_Kategoriya3);
-            toolStripMenuItem3.Enabled = true;
+            excelToolStripMenuItem1.Enabled = true;
         }
 
         private void rb_Prev_Kategoriya4_CheckedChanged(object sender, EventArgs e)
         {
             Filter_Table filter = new Filter_Table();
             filter.Check_Prev(dgv_Kategoriya4, rb_Prev_Kategoriya4);
-            toolStripMenuItem3.Enabled = false;
+            excelToolStripMenuItem1.Enabled = false;
         }
 
         private void rb_Deffect_Kategoriya4_CheckedChanged(object sender, EventArgs e)
@@ -324,14 +316,14 @@ namespace SiPPOON_PP
             dgv_Excel = dgv_Kategoriya4;
             Filter_Table filter = new Filter_Table();
             filter.Check_Deffect(dgv_Kategoriya4, rb_Deffect_Kategoriya4);
-            toolStripMenuItem3.Enabled = true;
+            excelToolStripMenuItem1.Enabled = true;
         }
 
         private void rb_Prev_Kategoriya5_CheckedChanged(object sender, EventArgs e)
         {
             Filter_Table filter = new Filter_Table();
             filter.Check_Prev(dgv_Kategoriya5, rb_Prev_Kategoriya5);
-            toolStripMenuItem3.Enabled = false;
+            excelToolStripMenuItem1.Enabled = false;
         }
 
         private void rb_Deffect_Kategoriya5_CheckedChanged(object sender, EventArgs e)
@@ -339,14 +331,14 @@ namespace SiPPOON_PP
             dgv_Excel = dgv_Kategoriya5;
             Filter_Table filter = new Filter_Table();
             filter.Check_Deffect(dgv_Kategoriya5, rb_Deffect_Kategoriya5);
-            toolStripMenuItem3.Enabled = true;
+            excelToolStripMenuItem1.Enabled = true;
         }
 
         private void rb_Prev_Kategoriya6_CheckedChanged(object sender, EventArgs e)
         {
             Filter_Table filter = new Filter_Table();
             filter.Check_Prev(dgv_Kategoriya6, rb_Prev_Kategoriya6);
-            toolStripMenuItem3.Enabled = false;
+            excelToolStripMenuItem1.Enabled = false;
         }
 
         private void rb_Deffect_Kategoriya6_CheckedChanged(object sender, EventArgs e)
@@ -354,14 +346,14 @@ namespace SiPPOON_PP
             dgv_Excel = dgv_Kategoriya6;
             Filter_Table filter = new Filter_Table();
             filter.Check_Deffect(dgv_Kategoriya6, rb_Deffect_Kategoriya6);
-            toolStripMenuItem3.Enabled = true;
+            excelToolStripMenuItem1.Enabled = true;
         }
 
         private void rb_Prev_VKO_CheckedChanged(object sender, EventArgs e)
         {
             Filter_Table filter = new Filter_Table();
             filter.Check_Prev(dgv_VKO, rb_Prev_VKO);
-            toolStripMenuItem3.Enabled = false;
+            excelToolStripMenuItem1.Enabled = false;
         }
 
         private void rb_Deffect_VKO_CheckedChanged(object sender, EventArgs e)
@@ -369,14 +361,14 @@ namespace SiPPOON_PP
             dgv_Excel = dgv_VKO;
             Filter_Table filter = new Filter_Table();
             filter.Check_Deffect(dgv_VKO, rb_Deffect_VKO);
-            toolStripMenuItem3.Enabled = true;
+            excelToolStripMenuItem1.Enabled = true;
         }
 
         private void rb_Prev_Kategorii_CheckedChanged(object sender, EventArgs e)
         {
             Filter_Table filter = new Filter_Table();
             filter.Check_Prev(dgv_Kategorii, rb_Prev_Kategorii);
-            toolStripMenuItem3.Enabled = false;
+            excelToolStripMenuItem1.Enabled = false;
         }
 
         private void rb_Deffect_Kategorii_CheckedChanged(object sender, EventArgs e)
@@ -384,63 +376,63 @@ namespace SiPPOON_PP
             dgv_Excel = dgv_Kategorii;
             Filter_Table filter = new Filter_Table();
             filter.Check_Deffect(dgv_Kategorii, rb_Deffect_Kategorii);
-            toolStripMenuItem3.Enabled = true;
+            excelToolStripMenuItem1.Enabled = true;
         }
 
         private void rb_Clear_Kategorii_CheckedChanged(object sender, EventArgs e)
         {
             Filter_Table filter = new Filter_Table();
             filter.Clear_Filter(dgv_Kategorii, rb_Clear_Kategorii);
-            toolStripMenuItem3.Enabled = false;
+            excelToolStripMenuItem1.Enabled = false;
         }
 
         private void rb_Clear_Kategoriya1_CheckedChanged(object sender, EventArgs e)
         {
             Filter_Table filter = new Filter_Table();
             filter.Clear_Filter(dgv_Kategoriya1, rb_Clear_Kategoriya1);
-            toolStripMenuItem3.Enabled = false;
+            excelToolStripMenuItem1.Enabled = false;
         }
 
         private void rb_Clear_Kategoriya2_CheckedChanged(object sender, EventArgs e)
         {
             Filter_Table filter = new Filter_Table();
             filter.Clear_Filter(dgv_Kategoriya2, rb_Clear_Kategoriya2);
-            toolStripMenuItem3.Enabled = false;
+            excelToolStripMenuItem1.Enabled = false;
         }
 
         private void rb_Clear_Kategoriya3_CheckedChanged(object sender, EventArgs e)
         {
             Filter_Table filter = new Filter_Table();
             filter.Clear_Filter(dgv_Kategoriya3, rb_Clear_Kategoriya3);
-            toolStripMenuItem3.Enabled = false;
+            excelToolStripMenuItem1.Enabled = false;
         }
 
         private void rb_Clear_Kategoriya4_CheckedChanged(object sender, EventArgs e)
         {
             Filter_Table filter = new Filter_Table();
             filter.Clear_Filter(dgv_Kategoriya4, rb_Clear_Kategoriya4);
-            toolStripMenuItem3.Enabled = false;
+            excelToolStripMenuItem1.Enabled = false;
         }
 
         private void rb_Clear_Kategoriya5_CheckedChanged(object sender, EventArgs e)
         {
             Filter_Table filter = new Filter_Table();
             filter.Clear_Filter(dgv_Kategoriya5, rb_Clear_Kategoriya5);
-            toolStripMenuItem3.Enabled = false;
+            excelToolStripMenuItem1.Enabled = false;
         }
 
         private void rb_Clear_Kategoriya6_CheckedChanged(object sender, EventArgs e)
         {
             Filter_Table filter = new Filter_Table();
             filter.Clear_Filter(dgv_Kategoriya6, rb_Clear_Kategoriya6);
-            toolStripMenuItem3.Enabled = false;
+            excelToolStripMenuItem1.Enabled = false;
         }
 
         private void rb_Clear_VKO_CheckedChanged(object sender, EventArgs e)
         {
             Filter_Table filter = new Filter_Table();
             filter.Clear_Filter(dgv_VKO, rb_Clear_VKO);
-            toolStripMenuItem3.Enabled = false;
+            excelToolStripMenuItem1.Enabled = false;
         }
 
         private void dgv_Kategorii_CellContentClick(object sender, DataGridViewCellEventArgs e)

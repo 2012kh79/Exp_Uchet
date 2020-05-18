@@ -12,7 +12,7 @@ namespace SiPPOON_PP
             InitializeComponent();
         }
 
-        public void dgvUsersFill()
+        public void dgvUsersFill()//Метод для заполнения данных о Пользователях
         {
             Fill_Table tables = new Fill_Table();
             Action action = () =>
@@ -20,9 +20,7 @@ namespace SiPPOON_PP
                 try
                 {
                     while (dgv_Users.Rows.Count != 0)
-                    {
                         dgv_Users.Rows.Remove(dgv_Users.Rows[dgv_Users.Rows.Count - 1]);
-                    }
                     tables.dtAccountFill();
                     dgv_Users.DataSource = tables.dtAccount;
                     dgv_Users.Columns[0].HeaderText = "Логин";
@@ -39,7 +37,7 @@ namespace SiPPOON_PP
             Invoke(action);
         }
 
-        public void dgvEmployeeFill()
+        public void dgvEmployeeFill()//Метод для заполнения данных о Сотрудниках
         {
             Fill_Table tables = new Fill_Table();
             Action action = () =>
@@ -47,9 +45,7 @@ namespace SiPPOON_PP
                 try
                 {
                     while (dgv_Employee.Rows.Count != 0)
-                    {
                         dgv_Employee.Rows.Remove(dgv_Employee.Rows[dgv_Employee.Rows.Count - 1]);
-                    }
                     tables.dtEmployeeFill();
                     dgv_Employee.DataSource = tables.dtEmployee;
                     dgv_Employee.Columns[0].HeaderText = "Номер сотрудника";
@@ -69,17 +65,17 @@ namespace SiPPOON_PP
         {
             pb_Exit.BackgroundImage = Properties.Resources.Exit;
             pb_Exit_Sotr.BackgroundImage = Properties.Resources.Exit;
-            Thread threadPost = new Thread(dgvUsersFill);
+            Thread threadPost = new Thread(dgvUsersFill);//Создание переменной, которая будет осуществлять операцию в виде потока, которая содержит метод для заполнения данных о пользователях
             threadPost.Start();
-            Thread threadEmployee = new Thread(dgvEmployeeFill);
+            Thread threadEmployee = new Thread(dgvEmployeeFill);//Создание переменной, которая будет осуществлять операцию в виде потока, которая содержит метод для заполнения данных о сотрудниках
             threadEmployee.Start();
             cmbID_RoleFill();
             cmbID_EmployeeFill();
-            FTP_Server FTP_Server = new FTP_Server();
+            FTP_Server FTP_Server = new FTP_Server();//Создание переменной для обращения к классу, которая необходима для подключения к FTP-серверу
             FTP_Server.Get_Files(lv_Photo);
         }
 
-        private void cmbID_RoleFill()
+        private void cmbID_RoleFill()//Метод для заполнения ComboBox "Роли" данными из таблицы SQL 
         {
             Action action = () =>
             {
@@ -99,7 +95,7 @@ namespace SiPPOON_PP
             Invoke(action);
         }
 
-        private void cmbID_EmployeeFill()
+        private void cmbID_EmployeeFill()//Метод для заполнения ComboBox "Сотрудники" данными из таблицы SQL 
         {
             Action action = () =>
             {
@@ -119,7 +115,7 @@ namespace SiPPOON_PP
             Invoke(action);
         }
 
-        private void btn_Insert_Click(object sender, EventArgs e)
+        private void btn_Insert_Click(object sender, EventArgs e)//Событие для обработки процедуры добавления Аккаунта
         {
             DB_Procedures procedures = new DB_Procedures();
             if (tb_Login.Text != "" & tb_Password.Text != "" & tb_Mail.Text != "")
@@ -141,7 +137,7 @@ namespace SiPPOON_PP
                 MessageBox.Show("Заполните поля данных", "Сообщение", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
 
-        private void btn_Update_Click(object sender, EventArgs e)
+        private void btn_Update_Click(object sender, EventArgs e)//Событие для обработки процедуры изменения данных Аккаунта
         {
             DB_Procedures procedures = new DB_Procedures();
             if (tb_Login.Text != "" & tb_Password.Text != "" & tb_Mail.Text != "")
@@ -163,7 +159,7 @@ namespace SiPPOON_PP
                 MessageBox.Show("Заполните поля данных", "Сообщение", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
 
-        private void btn_Delete_Click(object sender, EventArgs e)
+        private void btn_Delete_Click(object sender, EventArgs e)//Событие для обработки процедуры удаления Аккаунта
         {
             DB_Procedures procedures = new DB_Procedures();
             switch (MessageBox.Show("Удалить аккаунт " + tb_Login.Text + "?", "Удаление аккаунта", MessageBoxButtons.YesNo,
@@ -178,7 +174,7 @@ namespace SiPPOON_PP
             }
         }
 
-        private void dgv_Users_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        private void dgv_Users_CellContentClick(object sender, DataGridViewCellEventArgs e)//Передача значений в элементы управления по клику в DataGridView
         {
             tb_Login.Text = dgv_Users.CurrentRow.Cells[0].Value.ToString();
             tb_Password.Text = dgv_Users.CurrentRow.Cells[1].Value.ToString();
@@ -199,7 +195,7 @@ namespace SiPPOON_PP
             tb_Path.Text = dgv_Employee.CurrentRow.Cells[3].Value.ToString();
         }
 
-        private void btn_Insert_Sotrudnik_Click(object sender, EventArgs e)
+        private void btn_Insert_Sotrudnik_Click(object sender, EventArgs e)//Событие для обработки процедуры добавления Сотрудника
         {
             DB_Procedures procedures = new DB_Procedures();
             if (tb_Fam.Text != "" & tb_Imya.Text != "")
@@ -222,7 +218,7 @@ namespace SiPPOON_PP
                 MessageBox.Show("Заполните поля данных", "Сообщение", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
 
-        private void btn_Update_Sotrudnik_Click(object sender, EventArgs e)
+        private void btn_Update_Sotrudnik_Click(object sender, EventArgs e)//Событие для обработки процедуры изменения данных Сотрудника
         {
             DB_Procedures procedures = new DB_Procedures();
             if (tb_Fam.Text != "" & tb_Imya.Text != "")
@@ -245,7 +241,7 @@ namespace SiPPOON_PP
                 MessageBox.Show("Заполните поля данных", "Сообщение", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
 
-        private void btn_Delete_Sotrudnik_Click(object sender, EventArgs e)
+        private void btn_Delete_Sotrudnik_Click(object sender, EventArgs e)//Событие для обработки процедуры удаления Сотрудника
         {
             DB_Procedures procedures = new DB_Procedures();
             switch (MessageBox.Show("Удалить сотрудника " + tb_Fam.Text + " " + tb_Imya.Text + "?", "Удаление сотрудника", MessageBoxButtons.YesNo,

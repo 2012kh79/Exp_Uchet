@@ -10,7 +10,7 @@ namespace SiPPOON_PP
     public partial class Form_Forget : Form
     {
         string mail;
-        string patPassword = @"(?=^.{8,}$)((?=.*\d)|(?=.*\W+))(?![.\n])(?=.*[A-Z])(?=.*[a-z]).*$";
+        string patPassword = @"(?=^.{8,}$)((?=.*\d)|(?=.*\W+))(?![.\n])(?=.*[A-Z])(?=.*[a-z]).*$";//Регулярное выражение
         int Enable;
         public Form_Forget()
         {
@@ -23,7 +23,7 @@ namespace SiPPOON_PP
         {
             switch (btn_Next.Text)
             {
-                case "Проверить":
+                case "Проверить"://Если кнопка "Проверить", то выполняем следующие действия
                     mail = tb_Mail.Text;
                     string mySelectQuery = "SELECT [Mail] FROM [dbo].[Account] WHERE [Mail] = '" + mail + "'";
                     using (SqlDataAdapter dataAdapter = new SqlDataAdapter(mySelectQuery, Registry_Class.sql))
@@ -31,9 +31,7 @@ namespace SiPPOON_PP
                         DataTable table = new DataTable();
                         dataAdapter.Fill(table);
                         if (table.Rows.Count == 0)
-                        {
                             MessageBox.Show("Данный почтовый ящик не был зарегистрирован", "Сообщение", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                        }
                         else
                         {
                             Forget_Password forget_Password = new Forget_Password(mail);
@@ -42,12 +40,12 @@ namespace SiPPOON_PP
                         }
                     }
                     break;
-                case "Далее":
+                case "Далее"://Если кнопка "Далее", то выполняем следующие действия
                     tb_Mail.Text = "";
                     lbl_Mail.Text = "Введите код подтверждения";
                     btn_Next.Text = "Сбросить пароль";
                     break;
-                case "Сбросить пароль":
+                case "Сбросить пароль"://Если кнопка "Сбросить пароль", то выполняем следующие действия
                     if (tb_Mail.Text == Forget_Password.kod.ToString())
                     {
                         this.Controls.Remove(tb_Mail);
@@ -83,7 +81,7 @@ namespace SiPPOON_PP
         Button btn_Check = new Button();
         Label lbl_Repeat_Password = new Label();
         PictureBox pb_Check = new PictureBox();
-        private void Form_Forget_Fill ()
+        private void Form_Forget_Fill ()//Метод для динамического создания объектов
         {
             tb_Repeat_Password.Font = new Font("Microsoft Sans Serif", 12);
             tb_Repeat_Password.Size = new Size(250, 26);
@@ -140,7 +138,7 @@ namespace SiPPOON_PP
             this.Height += 50;
             this.Width += 70;
         }
-        protected void btn_Next_Click(object sender, EventArgs e)
+        protected void btn_Next_Click(object sender, EventArgs e)//Событие при нажатии на кнопку "Next"
         {
             try
             {
@@ -162,7 +160,7 @@ namespace SiPPOON_PP
             }
         }
 
-        protected void btn_Check_Click(object sender, EventArgs e)
+        protected void btn_Check_Click(object sender, EventArgs e)//Событие при нажатии на кнопку "Check"
         {
             Enable = 0;
             if (tb_Password.Text.Equals(tb_Repeat_Password.Text))
@@ -186,13 +184,13 @@ namespace SiPPOON_PP
                 btn_Next.Enabled = false;
         }
 
-        protected void btn_Glaz_MouseDown(object sender, MouseEventArgs e)
+        protected void btn_Glaz_MouseDown(object sender, MouseEventArgs e)//Показать пароль
         {
             tb_Password.UseSystemPasswordChar = false;
             tb_Repeat_Password.UseSystemPasswordChar = false;
         }
 
-        protected void btn_Glaz_MouseUp(object sender, MouseEventArgs e)
+        protected void btn_Glaz_MouseUp(object sender, MouseEventArgs e)//Скрыть пароль
         {
             tb_Password.UseSystemPasswordChar = true;
             tb_Repeat_Password.UseSystemPasswordChar = true;

@@ -8,12 +8,10 @@ namespace SiPPOON_PP
 {
     public partial class Form_Authorize : Form
     {
-        public static SQLCon con = new SQLCon();
-        public static byte Role_ID;
-        public static SqlCommand command = new SqlCommand("", Registry_Class.sql);
-        public enum Role {Failed, Admin, Otdel_Kachestva};
+        public static SQLCon con = new SQLCon();//Переменная для хранения соединения с SQL
+        public enum Role {Failed, Admin, Otdel_Kachestva};//Хранит перечисление ролей
         public static Role role;
-        public static string Login;
+        public static string Login;//Хранит логин
         public Form_Authorize()
         {
             InitializeComponent();
@@ -30,7 +28,7 @@ namespace SiPPOON_PP
         private void Form_Authorize_Load(object sender, EventArgs e)
         {
             Registry_Class reg = new Registry_Class();
-            reg.Registry_Set(con.DS, con.DSSN, con.IC, con.ID, con.PSWRD);
+            reg.Registry_Set(con.DS, con.DSSN, con.IC, con.ID, con.PSWRD);//Осуществление подключения к SQL
         }
 
         private void tbPass_KeyPress(object sender, KeyPressEventArgs e)
@@ -40,7 +38,7 @@ namespace SiPPOON_PP
             e.Handled = true;
         }
 
-        public static Role Get_Role(string login, string password)
+        public static Role Get_Role(string login, string password)//Метод для получения роли, исходя из записи в таблице SQL
         {
             Registry_Class reg = new Registry_Class();
             Role role = Role.Failed;
@@ -64,7 +62,7 @@ namespace SiPPOON_PP
             return role;
         }
 
-        private void Get_Authorize()
+        private void Get_Authorize()//Метод для входа в систему под определенной ролью
         {
             role = Get_Role(tbLogin.Text, Form_Registration.Hash(tbPass.Text));
             if (role == Role.Failed)

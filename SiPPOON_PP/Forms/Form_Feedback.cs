@@ -2,168 +2,72 @@
 using System.Data;
 using System.Windows.Forms;
 using System.Data.SqlClient;
+using System.Drawing;
 
 namespace SiPPOON_PP
 {
     public partial class Form_Feedback : Form
     {
-        bool picture1 = true;
-        bool picture2 = true;
-        bool picture3 = true;
-        bool picture4 = true;
-        bool picture5 = true;
-        string zvezda;
+        string mySelectQuery1;
+        readonly DataTable table = new DataTable();
         public Form_Feedback()
         {
             InitializeComponent();
+            tb_Body.Text = "Опишите проблему, которая возникла в ходе эксплуатации программного продукта";
+            tb_Body.ForeColor = Color.Gray;
+            tb_PassMail.UseSystemPasswordChar = true;
         }
 
-        private void Form_Mail_Load(object sender, EventArgs e)
+        private void Form_Mail_Load(object sender, EventArgs e)//Выгрузка в DataTable информации об аккаунте Сотрудника
         {
-            btn_Send.BackgroundImage = Properties.Resources.Mail;
-            pb1.BackgroundImage = Properties.Resources.Star_disable;
-            pb2.BackgroundImage = Properties.Resources.Star_disable;
-            pb3.BackgroundImage = Properties.Resources.Star_disable;
-            pb4.BackgroundImage = Properties.Resources.Star_disable;
-            pb5.BackgroundImage = Properties.Resources.Star_disable;
+            mySelectQuery1 = "select * from [Account] inner join [Employee] on [Account].[Employee_ID] = [Employee].[ID_Employee] where [Login_Account] = '" + Form_Authorize.Login + "'";
+            using (SqlDataAdapter dataAdapter = new SqlDataAdapter(mySelectQuery1, Registry_Class.sql))
+            {
+                dataAdapter.Fill(table);
+                tb_Name.Text = table.Rows[0]["Imya_Employee"].ToString();
+            }
         }
 
-        private void btn_Mail_Click(object sender, EventArgs e)
+        private void btn_Send_Click(object sender, EventArgs e)//Отправка данных по почте, с использованием метода из класса для подключения к SMTP-серверу
         {
             try
             {
-                if (tb_Mail.Text != "")
+                if (tb_PassMail.Text != "")
                 {
-                    if (tb_Password.Text != "")
+                    if (tb_Name.Text != "")
                     {
-                        string mySelectQuery1 = "SELECT * FROM [dbo].[Account] WHERE [Mail] = '" + tb_Mail.Text + "'";
-                        using (SqlDataAdapter dataAdapter = new SqlDataAdapter(mySelectQuery1, Registry_Class.sql))
-                        {
-                            DataTable table = new DataTable();
-                            dataAdapter.Fill(table);
-                            if (table.Rows.Count == 0)
-                                MessageBox.Show("Данный почтовый ящик не был зарегистрирован", "Сообщение", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                            else
-                            {
-                                if (tb_Ot.Text != "")
-                                {
-                                    Send_Mail sendMail = new Send_Mail(tb_Pole.Text, "Звезды: " + zvezda, tb_Ot.Text, tb_Mail.Text, tb_Password.Text);
-                                    sendMail.MySendMail();
-                                }
-                                else
-                                    MessageBox.Show("Заполните поле \"Имя\"", "Сообщение", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                            }
-                        }
+                        Send_Mail sendMail = new Send_Mail(tb_Body.Text, "ГКУ \"Экспертавтодор\"", table.Rows[0]["Imya_Employee"].ToString(), table.Rows[0]["Mail"].ToString(), tb_PassMail.Text);
+                        sendMail.MySendMail();
+                        if (sendMail.dialogResult == DialogResult.OK)
+                            this.Close();
                     }
                     else
-                        MessageBox.Show("Заполните поле \"Пароль\"", "Сообщение", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                        MessageBox.Show("Заполните поле \"Ваше имя\"", "Сообщение", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 }
                 else
-                    MessageBox.Show("Заполните поле \"Mail\"", "Сообщение", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    MessageBox.Show("Заполните поле \"Пароль от почты\"", "Сообщение", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
-            catch
+            catch (Exception ex)
             {
-
-            }
-        }
-
-        private void pb1_Click(object sender, EventArgs e)
-        {
-            zvezda = "★";
-            switch (picture1)
-            {
-                case true:
-                    pb1.BackgroundImage = Properties.Resources.Star_enable;
-                    picture1 = false;
-                    break;
-                case false:
-                    pb1.BackgroundImage = Properties.Resources.Star_disable;
-                    picture1 = true;
-                    break;
+                MessageBox.Show(ex.ToString(), "Сообщение", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
 
-        private void pb2_Click(object sender, EventArgs e)
+        private void tb_Body_Enter(object sender, EventArgs e)//Если сделать активным элемент управления TextBox
         {
-            zvezda = "★★";
-            switch (picture2)
+            if (tb_Body.Text == "Опишите проблему, которая возникла в ходе эксплуатации программного продукта")
             {
-                case true:
-                    pb1.BackgroundImage = Properties.Resources.Star_enable;
-                    pb2.BackgroundImage = Properties.Resources.Star_enable;
-                    picture2 = false;
-                    break;
-                case false:
-                    pb1.BackgroundImage = Properties.Resources.Star_disable;
-                    pb2.BackgroundImage = Properties.Resources.Star_disable;
-                    picture2 = true;
-                    break;
+                tb_Body.Clear();
+                tb_Body.ForeColor = Color.Black;
             }
         }
 
-        private void pb3_Click(object sender, EventArgs e)
+        private void tb_Body_Leave(object sender, EventArgs e)//Если сделать неактивным элемент управления TextBox
         {
-            zvezda = "★★★";
-            switch (picture3)
+            if (tb_Body.Text == "")
             {
-                case true:
-                    pb1.BackgroundImage = Properties.Resources.Star_enable;
-                    pb2.BackgroundImage = Properties.Resources.Star_enable;
-                    pb3.BackgroundImage = Properties.Resources.Star_enable;
-                    picture3 = false;
-                    break;
-                case false:
-                    pb1.BackgroundImage = Properties.Resources.Star_disable;
-                    pb2.BackgroundImage = Properties.Resources.Star_disable;
-                    pb3.BackgroundImage = Properties.Resources.Star_disable;
-                    picture3 = true;
-                    break;
-            }
-        }
-
-        private void pb4_Click(object sender, EventArgs e)
-        {
-            zvezda = "★★★★";
-            switch (picture4)
-            {
-                case true:
-                    pb1.BackgroundImage = Properties.Resources.Star_enable;
-                    pb2.BackgroundImage = Properties.Resources.Star_enable;
-                    pb3.BackgroundImage = Properties.Resources.Star_enable;
-                    pb4.BackgroundImage = Properties.Resources.Star_enable;
-                    picture4 = false;
-                    break;
-                case false:
-                    pb1.BackgroundImage = Properties.Resources.Star_disable;
-                    pb2.BackgroundImage = Properties.Resources.Star_disable;
-                    pb3.BackgroundImage = Properties.Resources.Star_disable;
-                    pb4.BackgroundImage = Properties.Resources.Star_disable;
-                    picture4 = true;
-                    break;
-            }
-        }
-
-        private void pb5_Click(object sender, EventArgs e)
-        {
-            zvezda = "★★★★★";
-            switch (picture5)
-            {
-                case true:
-                    pb1.BackgroundImage = Properties.Resources.Star_enable;
-                    pb2.BackgroundImage = Properties.Resources.Star_enable;
-                    pb3.BackgroundImage = Properties.Resources.Star_enable;
-                    pb4.BackgroundImage = Properties.Resources.Star_enable;
-                    pb5.BackgroundImage = Properties.Resources.Star_enable;
-                    picture5 = false;
-                    break;
-                case false:
-                    pb1.BackgroundImage = Properties.Resources.Star_disable;
-                    pb2.BackgroundImage = Properties.Resources.Star_disable;
-                    pb3.BackgroundImage = Properties.Resources.Star_disable;
-                    pb4.BackgroundImage = Properties.Resources.Star_disable;
-                    pb5.BackgroundImage = Properties.Resources.Star_disable;
-                    picture5 = true;
-                    break;
+                tb_Body.Text = "Опишите проблему, которая возникла в ходе эксплуатации программного продукта";
+                tb_Body.ForeColor = Color.Gray;
             }
         }
     }

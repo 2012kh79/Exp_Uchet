@@ -6,7 +6,7 @@ namespace SiPPOON_PP
 {
     partial class About_Form : Form
     {
-        public About_Form()
+        public About_Form()//Класс, содержащий данные о программном продукте
         {
             InitializeComponent();
             this.logoPictureBox.Image = Properties.Resources.About;

@@ -1010,6 +1010,7 @@
             this.dgv_Okruga.Dock = System.Windows.Forms.DockStyle.Top;
             this.dgv_Okruga.Location = new System.Drawing.Point(3, 3);
             this.dgv_Okruga.Name = "dgv_Okruga";
+            this.dgv_Okruga.ReadOnly = true;
             this.dgv_Okruga.Size = new System.Drawing.Size(970, 518);
             this.dgv_Okruga.TabIndex = 13;
             this.dgv_Okruga.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgv_Okruga_CellContentClick);
@@ -1019,6 +1020,7 @@
             this.Column1.Frozen = true;
             this.Column1.HeaderText = "";
             this.Column1.Name = "Column1";
+            this.Column1.ReadOnly = true;
             this.Column1.Width = 30;
             // 
             // dataGridViewTextBoxColumn421
@@ -1505,6 +1507,7 @@
             this.dgv_VAO.Dock = System.Windows.Forms.DockStyle.Top;
             this.dgv_VAO.Location = new System.Drawing.Point(3, 3);
             this.dgv_VAO.Name = "dgv_VAO";
+            this.dgv_VAO.ReadOnly = true;
             this.dgv_VAO.Size = new System.Drawing.Size(970, 518);
             this.dgv_VAO.TabIndex = 1;
             this.dgv_VAO.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgv_VAO_CellContentClick);
@@ -1514,6 +1517,7 @@
             this.dataGridViewCheckBoxColumn1.Frozen = true;
             this.dataGridViewCheckBoxColumn1.HeaderText = "";
             this.dataGridViewCheckBoxColumn1.Name = "dataGridViewCheckBoxColumn1";
+            this.dataGridViewCheckBoxColumn1.ReadOnly = true;
             this.dataGridViewCheckBoxColumn1.Width = 30;
             // 
             // Nomer_PP
@@ -2000,6 +2004,7 @@
             this.dgv_ZAO.Dock = System.Windows.Forms.DockStyle.Top;
             this.dgv_ZAO.Location = new System.Drawing.Point(3, 3);
             this.dgv_ZAO.Name = "dgv_ZAO";
+            this.dgv_ZAO.ReadOnly = true;
             this.dgv_ZAO.Size = new System.Drawing.Size(970, 518);
             this.dgv_ZAO.TabIndex = 2;
             this.dgv_ZAO.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgv_ZAO_CellContentClick);
@@ -2009,6 +2014,7 @@
             this.dataGridViewCheckBoxColumn2.Frozen = true;
             this.dataGridViewCheckBoxColumn2.HeaderText = "";
             this.dataGridViewCheckBoxColumn2.Name = "dataGridViewCheckBoxColumn2";
+            this.dataGridViewCheckBoxColumn2.ReadOnly = true;
             this.dataGridViewCheckBoxColumn2.Width = 30;
             // 
             // dataGridViewTextBoxColumn1
@@ -2495,6 +2501,7 @@
             this.dgv_ZelAO.Dock = System.Windows.Forms.DockStyle.Top;
             this.dgv_ZelAO.Location = new System.Drawing.Point(3, 3);
             this.dgv_ZelAO.Name = "dgv_ZelAO";
+            this.dgv_ZelAO.ReadOnly = true;
             this.dgv_ZelAO.Size = new System.Drawing.Size(970, 518);
             this.dgv_ZelAO.TabIndex = 2;
             this.dgv_ZelAO.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgv_ZelAO_CellContentClick);
@@ -2504,6 +2511,7 @@
             this.dataGridViewCheckBoxColumn3.Frozen = true;
             this.dataGridViewCheckBoxColumn3.HeaderText = "";
             this.dataGridViewCheckBoxColumn3.Name = "dataGridViewCheckBoxColumn3";
+            this.dataGridViewCheckBoxColumn3.ReadOnly = true;
             this.dataGridViewCheckBoxColumn3.Width = 30;
             // 
             // dataGridViewTextBoxColumn43
@@ -2990,6 +2998,7 @@
             this.dgv_SAO.Dock = System.Windows.Forms.DockStyle.Top;
             this.dgv_SAO.Location = new System.Drawing.Point(3, 3);
             this.dgv_SAO.Name = "dgv_SAO";
+            this.dgv_SAO.ReadOnly = true;
             this.dgv_SAO.Size = new System.Drawing.Size(970, 518);
             this.dgv_SAO.TabIndex = 2;
             this.dgv_SAO.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgv_SAO_CellContentClick);
@@ -2999,6 +3008,7 @@
             this.dataGridViewCheckBoxColumn4.Frozen = true;
             this.dataGridViewCheckBoxColumn4.HeaderText = "";
             this.dataGridViewCheckBoxColumn4.Name = "dataGridViewCheckBoxColumn4";
+            this.dataGridViewCheckBoxColumn4.ReadOnly = true;
             this.dataGridViewCheckBoxColumn4.Width = 30;
             // 
             // dataGridViewTextBoxColumn85
@@ -3485,6 +3495,7 @@
             this.dgv_SVAO.Dock = System.Windows.Forms.DockStyle.Top;
             this.dgv_SVAO.Location = new System.Drawing.Point(3, 3);
             this.dgv_SVAO.Name = "dgv_SVAO";
+            this.dgv_SVAO.ReadOnly = true;
             this.dgv_SVAO.Size = new System.Drawing.Size(970, 518);
             this.dgv_SVAO.TabIndex = 2;
             this.dgv_SVAO.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgv_SVAO_CellContentClick);
@@ -3494,6 +3505,7 @@
             this.dataGridViewCheckBoxColumn5.Frozen = true;
             this.dataGridViewCheckBoxColumn5.HeaderText = "";
             this.dataGridViewCheckBoxColumn5.Name = "dataGridViewCheckBoxColumn5";
+            this.dataGridViewCheckBoxColumn5.ReadOnly = true;
             this.dataGridViewCheckBoxColumn5.Width = 30;
             // 
             // dataGridViewTextBoxColumn127
@@ -3980,6 +3992,7 @@
             this.dgv_SZAO.Dock = System.Windows.Forms.DockStyle.Top;
             this.dgv_SZAO.Location = new System.Drawing.Point(3, 3);
             this.dgv_SZAO.Name = "dgv_SZAO";
+            this.dgv_SZAO.ReadOnly = true;
             this.dgv_SZAO.Size = new System.Drawing.Size(970, 518);
             this.dgv_SZAO.TabIndex = 2;
             this.dgv_SZAO.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgv_SZAO_CellContentClick);
@@ -3989,6 +4002,7 @@
             this.dataGridViewCheckBoxColumn6.Frozen = true;
             this.dataGridViewCheckBoxColumn6.HeaderText = "";
             this.dataGridViewCheckBoxColumn6.Name = "dataGridViewCheckBoxColumn6";
+            this.dataGridViewCheckBoxColumn6.ReadOnly = true;
             this.dataGridViewCheckBoxColumn6.Width = 30;
             // 
             // dataGridViewTextBoxColumn169
@@ -4475,6 +4489,7 @@
             this.dgv_TiNAO.Dock = System.Windows.Forms.DockStyle.Top;
             this.dgv_TiNAO.Location = new System.Drawing.Point(3, 3);
             this.dgv_TiNAO.Name = "dgv_TiNAO";
+            this.dgv_TiNAO.ReadOnly = true;
             this.dgv_TiNAO.Size = new System.Drawing.Size(970, 518);
             this.dgv_TiNAO.TabIndex = 2;
             this.dgv_TiNAO.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgv_TiNAO_CellContentClick);
@@ -4484,6 +4499,7 @@
             this.dataGridViewCheckBoxColumn7.Frozen = true;
             this.dataGridViewCheckBoxColumn7.HeaderText = "";
             this.dataGridViewCheckBoxColumn7.Name = "dataGridViewCheckBoxColumn7";
+            this.dataGridViewCheckBoxColumn7.ReadOnly = true;
             this.dataGridViewCheckBoxColumn7.Width = 30;
             // 
             // dataGridViewTextBoxColumn211
@@ -4970,6 +4986,7 @@
             this.dgv_TSAO.Dock = System.Windows.Forms.DockStyle.Top;
             this.dgv_TSAO.Location = new System.Drawing.Point(3, 3);
             this.dgv_TSAO.Name = "dgv_TSAO";
+            this.dgv_TSAO.ReadOnly = true;
             this.dgv_TSAO.Size = new System.Drawing.Size(970, 518);
             this.dgv_TSAO.TabIndex = 3;
             this.dgv_TSAO.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgv_TSAO_CellContentClick);
@@ -4979,6 +4996,7 @@
             this.dataGridViewCheckBoxColumn8.Frozen = true;
             this.dataGridViewCheckBoxColumn8.HeaderText = "";
             this.dataGridViewCheckBoxColumn8.Name = "dataGridViewCheckBoxColumn8";
+            this.dataGridViewCheckBoxColumn8.ReadOnly = true;
             this.dataGridViewCheckBoxColumn8.Width = 30;
             // 
             // dataGridViewTextBoxColumn253
@@ -5465,6 +5483,7 @@
             this.dgv_YAO.Dock = System.Windows.Forms.DockStyle.Top;
             this.dgv_YAO.Location = new System.Drawing.Point(3, 3);
             this.dgv_YAO.Name = "dgv_YAO";
+            this.dgv_YAO.ReadOnly = true;
             this.dgv_YAO.Size = new System.Drawing.Size(970, 518);
             this.dgv_YAO.TabIndex = 3;
             this.dgv_YAO.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgv_YAO_CellContentClick);
@@ -5474,6 +5493,7 @@
             this.dataGridViewCheckBoxColumn9.Frozen = true;
             this.dataGridViewCheckBoxColumn9.HeaderText = "";
             this.dataGridViewCheckBoxColumn9.Name = "dataGridViewCheckBoxColumn9";
+            this.dataGridViewCheckBoxColumn9.ReadOnly = true;
             this.dataGridViewCheckBoxColumn9.Width = 30;
             // 
             // dataGridViewTextBoxColumn295
@@ -5960,6 +5980,7 @@
             this.dgv_YVAO.Dock = System.Windows.Forms.DockStyle.Top;
             this.dgv_YVAO.Location = new System.Drawing.Point(3, 3);
             this.dgv_YVAO.Name = "dgv_YVAO";
+            this.dgv_YVAO.ReadOnly = true;
             this.dgv_YVAO.Size = new System.Drawing.Size(970, 518);
             this.dgv_YVAO.TabIndex = 3;
             this.dgv_YVAO.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgv_YVAO_CellContentClick);
@@ -5969,6 +5990,7 @@
             this.dataGridViewCheckBoxColumn10.Frozen = true;
             this.dataGridViewCheckBoxColumn10.HeaderText = "";
             this.dataGridViewCheckBoxColumn10.Name = "dataGridViewCheckBoxColumn10";
+            this.dataGridViewCheckBoxColumn10.ReadOnly = true;
             this.dataGridViewCheckBoxColumn10.Width = 30;
             // 
             // dataGridViewTextBoxColumn337
@@ -6455,6 +6477,7 @@
             this.dgv_YZAO.Dock = System.Windows.Forms.DockStyle.Top;
             this.dgv_YZAO.Location = new System.Drawing.Point(3, 3);
             this.dgv_YZAO.Name = "dgv_YZAO";
+            this.dgv_YZAO.ReadOnly = true;
             this.dgv_YZAO.Size = new System.Drawing.Size(970, 518);
             this.dgv_YZAO.TabIndex = 3;
             this.dgv_YZAO.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgv_YZAO_CellContentClick);
@@ -6464,6 +6487,7 @@
             this.dataGridViewCheckBoxColumn11.Frozen = true;
             this.dataGridViewCheckBoxColumn11.HeaderText = "";
             this.dataGridViewCheckBoxColumn11.Name = "dataGridViewCheckBoxColumn11";
+            this.dataGridViewCheckBoxColumn11.ReadOnly = true;
             this.dataGridViewCheckBoxColumn11.Width = 30;
             // 
             // dataGridViewTextBoxColumn379
@@ -6792,7 +6816,7 @@
             // 
             this.открытьToolStripMenuItem3.Image = global::SiPPOON_PP.Properties.Resources.Open;
             this.открытьToolStripMenuItem3.Name = "открытьToolStripMenuItem3";
-            this.открытьToolStripMenuItem3.Size = new System.Drawing.Size(121, 22);
+            this.открытьToolStripMenuItem3.Size = new System.Drawing.Size(180, 22);
             this.открытьToolStripMenuItem3.Text = "Открыть";
             this.открытьToolStripMenuItem3.Click += new System.EventHandler(this.открытьToolStripMenuItem_Click);
             // 
@@ -6802,27 +6826,28 @@
             this.excelToolStripMenuItem2});
             this.печатьToolStripMenuItem2.Image = global::SiPPOON_PP.Properties.Resources.Export;
             this.печатьToolStripMenuItem2.Name = "печатьToolStripMenuItem2";
-            this.печатьToolStripMenuItem2.Size = new System.Drawing.Size(121, 22);
+            this.печатьToolStripMenuItem2.Size = new System.Drawing.Size(180, 22);
             this.печатьToolStripMenuItem2.Text = "Печать";
             // 
             // excelToolStripMenuItem2
             // 
+            this.excelToolStripMenuItem2.Enabled = false;
             this.excelToolStripMenuItem2.Image = global::SiPPOON_PP.Properties.Resources.Excel;
             this.excelToolStripMenuItem2.Name = "excelToolStripMenuItem2";
-            this.excelToolStripMenuItem2.Size = new System.Drawing.Size(101, 22);
+            this.excelToolStripMenuItem2.Size = new System.Drawing.Size(180, 22);
             this.excelToolStripMenuItem2.Text = "Excel";
             this.excelToolStripMenuItem2.Click += new System.EventHandler(this.toolStripMenuItem3_Click);
             // 
             // toolStripMenuItem6
             // 
             this.toolStripMenuItem6.Name = "toolStripMenuItem6";
-            this.toolStripMenuItem6.Size = new System.Drawing.Size(118, 6);
+            this.toolStripMenuItem6.Size = new System.Drawing.Size(177, 6);
             // 
             // выходToolStripMenuItem3
             // 
             this.выходToolStripMenuItem3.Image = global::SiPPOON_PP.Properties.Resources.Exit;
             this.выходToolStripMenuItem3.Name = "выходToolStripMenuItem3";
-            this.выходToolStripMenuItem3.Size = new System.Drawing.Size(121, 22);
+            this.выходToolStripMenuItem3.Size = new System.Drawing.Size(180, 22);
             this.выходToolStripMenuItem3.Text = "Выход";
             this.выходToolStripMenuItem3.Click += new System.EventHandler(this.выходToolStripMenuItem_Click);
             // 

@@ -9,7 +9,7 @@ namespace SiPPOON_PP
 {
     class Filter_Table
     {
-        public void Check_Deffect(DataGridView data, RadioButton radio)
+        public void Check_Deffect(DataGridView data, RadioButton radio)//Метод для выгрузки данных, которые содержат деффектые участки дорог
         {
             switch (radio.Checked)
             {
@@ -40,7 +40,7 @@ namespace SiPPOON_PP
             }
         }
 
-        public void Check_Prev(DataGridView data, RadioButton radio)
+        public void Check_Prev(DataGridView data, RadioButton radio)//Метод для выгрузки данных, которые содержат превышающие значения участков дорог
         {
             switch (radio.Checked)
             {
@@ -113,7 +113,7 @@ namespace SiPPOON_PP
             }
         }
 
-        public void Sort_Table(DataGridView dgv)
+        public void Sort_Table(DataGridView dgv)//Метод для сортировки данныхв таблицах
         {
             int i = 0;
             for (int row = dgv.Rows.Count - 2; row >= i; row--)
@@ -129,7 +129,7 @@ namespace SiPPOON_PP
             dgv.Refresh();
         }
 
-        public void Clear_Filter(DataGridView data, RadioButton radio)
+        public void Clear_Filter(DataGridView data, RadioButton radio)//Метод для очистки фильтров, примененных к таблицам
         {
             switch (radio.Checked)
             {
@@ -165,7 +165,7 @@ namespace SiPPOON_PP
             }
         }
 
-        public void Chart_Import(Chart chart, DataGridView data, CheckedListBox listBox, List<string> objectList)
+        public void Chart_Import(Chart chart, DataGridView data, CheckedListBox listBox, List<string> objectList)//Метод для импорта данных в объект Chart
         {
             try
             {
@@ -182,7 +182,7 @@ namespace SiPPOON_PP
             }
         }
 
-        public void Chart_Export(Chart chart, DataGridView data, CheckedListBox listBox, List<string> objectList)
+        public void Chart_Export(Chart chart, DataGridView data, CheckedListBox listBox, List<string> objectList)//Метод для экспорта данных в объект Chart
         {
             int k = data.SelectedCells[0].RowIndex;
             try

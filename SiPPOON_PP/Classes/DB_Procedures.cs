@@ -9,12 +9,12 @@ namespace SiPPOON_PP
     {
         public SqlCommand cmd = new SqlCommand("Empty", Registry_Class.sql);
 
-        public void spConfiguration(string spName)
+        public void spConfiguration(string spName)//CommandType = Процедуры
         {
             cmd.CommandText = spName;
             cmd.CommandType = CommandType.StoredProcedure;
         }
-        public void spAccount_Insert(string Login_Account, string Parol_Account, string Mail, Int32 Role_ID, Int32 Employee_ID)
+        public void spAccount_Insert(string Login_Account, string Parol_Account, string Mail, Int32 Role_ID, Int32 Employee_ID)//Метод для добавления Аккаунта
         {
             spConfiguration("Account_New_User");
             try
@@ -38,7 +38,7 @@ namespace SiPPOON_PP
             }
         }
 
-        public void spAccount_Update(string Login_Account, string Parol_Account, string Mail, Int32 Role_ID, Int32 Employee_ID)
+        public void spAccount_Update(string Login_Account, string Parol_Account, string Mail, Int32 Role_ID, Int32 Employee_ID)//Метод для изменения данных Аккаунта
         {
             spConfiguration("Account_Update_User");
             try
@@ -62,7 +62,7 @@ namespace SiPPOON_PP
             }
         }
 
-        public void spAccount_Delete(string Login_Account)
+        public void spAccount_Delete(string Login_Account)//Метод для удаления Аккаунта
         {
             spConfiguration("Account_Delete_User");
             try
@@ -82,7 +82,7 @@ namespace SiPPOON_PP
             }
         }
 
-        public void spEmployee_Insert(string Fam_Employee, string Imya_Employee, string Photo_Employee)
+        public void spEmployee_Insert(string Fam_Employee, string Imya_Employee, string Photo_Employee)//Метод для добавления Сотрудника
         {
             spConfiguration("Employee_Insert");
             try
@@ -104,7 +104,7 @@ namespace SiPPOON_PP
             }
         }
 
-        public void spEmployee_Update(Int32 ID_Employee, string Fam_Employee, string Imya_Employee, string Photo_Employee)
+        public void spEmployee_Update(Int32 ID_Employee, string Fam_Employee, string Imya_Employee, string Photo_Employee)//Метод для изменения данных Сотрудника
         {
             spConfiguration("Employee_Update");
             try
@@ -127,7 +127,7 @@ namespace SiPPOON_PP
             }
         }
 
-        public void spEmployee_Delete(Int32 ID_Employee)
+        public void spEmployee_Delete(Int32 ID_Employee)//Метод для удаления Сотрудника
         {
             spConfiguration("Employee_Delete");
             try

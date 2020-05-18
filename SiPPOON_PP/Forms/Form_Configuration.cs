@@ -6,7 +6,7 @@ namespace SiPPOON_PP
 {
     public partial class Form_Configuration : Form
     {
-        public static string document_default_path;
+        public static string document_default_path;//Хранит путь по умолчанию
         public Form_Configuration()
         {
             InitializeComponent();
@@ -20,11 +20,11 @@ namespace SiPPOON_PP
 
         private void btnCancel_Click(object sender, EventArgs e)
         {
-            document_default_path = tbPut.Text;
+            document_default_path = tbPut.Text;//Присвоение переменной значения из TextBox
             Close();
         }
 
-        private void DocumentSave()
+        private void DocumentSave()//Метод для хранения файла в определенной директории
         {
             document_default_path = tbPut.Text;
             if (!Directory.Exists(document_default_path))

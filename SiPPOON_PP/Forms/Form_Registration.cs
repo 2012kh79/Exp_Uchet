@@ -11,9 +11,9 @@ namespace SiPPOON_PP
 {
     public partial class Form_Registration : Form
     {
-        string patLogin = @"^[a-zA-Z][a-zA-Z0-9-_\.]{1,20}$";
-        string patEmail = @"^[-\w.]+@([A-z0-9][-A-z0-9]+\.)+[A-z]{2,4}$";
-        string patPassword = @"(?=^.{8,}$)((?=.*\d)|(?=.*\W+))(?![.\n])(?=.*[A-Z])(?=.*[a-z]).*$";
+        string patLogin = @"^[a-zA-Z][a-zA-Z0-9-_\.]{1,20}$";//Регулярное выражение для проверки Логина
+        string patEmail = @"^[-\w.]+@([A-z0-9][-A-z0-9]+\.)+[A-z]{2,4}$";//Регулярное выражение для проверки заполнения Почты
+        string patPassword = @"(?=^.{8,}$)((?=.*\d)|(?=.*\W+))(?![.\n])(?=.*[A-Z])(?=.*[a-z]).*$";//Регулярное выражение для проверки Пароля
         int Enable;
         public Form_Registration()
         {
@@ -25,7 +25,7 @@ namespace SiPPOON_PP
             tbRepeatPass.UseSystemPasswordChar = true;
         }
 
-        public static string Hash(string input)
+        public static string Hash(string input)//Хеширование пароля
         {
             using (SHA256Managed sha2 = new SHA256Managed())
             {
@@ -38,7 +38,7 @@ namespace SiPPOON_PP
             }
         }
 
-        private void btReg_Click(object sender, EventArgs e)
+        private void btReg_Click(object sender, EventArgs e)//Событие при нажатии на кнопку "Регистрация"
         {
             string mySelectQuery = "SELECT [ID_Employee] FROM [dbo].[Employee] WHERE [Fam_Employee] = '" + tb_Fam.Text + "'";
             Registry_Class reg = new Registry_Class();
@@ -56,7 +56,7 @@ namespace SiPPOON_PP
                 this.Close();
         }
 
-        private void btProv_Click(object sender, EventArgs e)
+        private void btProv_Click(object sender, EventArgs e)//Событие при нажатии на кнопку "Проверить"
         {
             Enable = 0;
             if (tb_Fam.Text.Length >= 4)
@@ -120,7 +120,7 @@ namespace SiPPOON_PP
             tbRepeatPass.UseSystemPasswordChar = true;
         }
 
-        private void tb_Fam_KeyPress(object sender, KeyPressEventArgs e)
+        private void tb_Fam_KeyPress(object sender, KeyPressEventArgs e)//Проверка на ввод символов
         {
             char l = e.KeyChar;
             if ((l < 'А' || l > 'я') && l != '\b' && l != '.')

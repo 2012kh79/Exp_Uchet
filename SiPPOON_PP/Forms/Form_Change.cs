@@ -26,7 +26,7 @@ namespace SiPPOON_PP
 
         }
 
-        private void Reload(string param)
+        private void Reload(string param)//Метод для синхронизации форм
         {
             switch (param)
             {
