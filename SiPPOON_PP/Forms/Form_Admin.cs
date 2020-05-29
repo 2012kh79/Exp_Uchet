@@ -174,25 +174,9 @@ namespace SiPPOON_PP
             }
         }
 
-        private void dgv_Users_CellContentClick(object sender, DataGridViewCellEventArgs e)//Передача значений в элементы управления по клику в DataGridView
-        {
-            tb_Login.Text = dgv_Users.CurrentRow.Cells[0].Value.ToString();
-            tb_Password.Text = dgv_Users.CurrentRow.Cells[1].Value.ToString();
-            tb_Mail.Text = dgv_Users.CurrentRow.Cells[2].Value.ToString();
-            cmb_Role.SelectedValue = dgv_Users.CurrentRow.Cells[3].Value.ToString();
-            cmb_Employee.SelectedValue = dgv_Users.CurrentRow.Cells[4].Value.ToString();
-        }
-
         private void pb_Exit_Click(object sender, EventArgs e)
         {
             this.Close();
-        }
-
-        private void dgv_Employee_CellContentClick(object sender, DataGridViewCellEventArgs e)
-        {
-            tb_Fam.Text = dgv_Employee.CurrentRow.Cells[1].Value.ToString();
-            tb_Imya.Text = dgv_Employee.CurrentRow.Cells[2].Value.ToString();
-            tb_Path.Text = dgv_Employee.CurrentRow.Cells[3].Value.ToString();
         }
 
         private void btn_Insert_Sotrudnik_Click(object sender, EventArgs e)//Событие для обработки процедуры добавления Сотрудника
@@ -280,6 +264,22 @@ namespace SiPPOON_PP
         {
             FTP_Server FTP_Server = new FTP_Server();
             FTP_Server.Delete_Files(lv_Photo);
+        }
+
+        private void dgv_Users_CellClick(object sender, DataGridViewCellEventArgs e)
+        {
+            tb_Login.Text = dgv_Users.CurrentRow.Cells[0].Value.ToString();
+            tb_Password.Text = dgv_Users.CurrentRow.Cells[1].Value.ToString();
+            tb_Mail.Text = dgv_Users.CurrentRow.Cells[2].Value.ToString();
+            cmb_Role.SelectedValue = dgv_Users.CurrentRow.Cells[3].Value.ToString();
+            cmb_Employee.SelectedValue = dgv_Users.CurrentRow.Cells[4].Value.ToString();
+        }
+
+        private void dgv_Employee_CellClick(object sender, DataGridViewCellEventArgs e)
+        {
+            tb_Fam.Text = dgv_Employee.CurrentRow.Cells[1].Value.ToString();
+            tb_Imya.Text = dgv_Employee.CurrentRow.Cells[2].Value.ToString();
+            tb_Path.Text = dgv_Employee.CurrentRow.Cells[3].Value.ToString();
         }
     }
 }

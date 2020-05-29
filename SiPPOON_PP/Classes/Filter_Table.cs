@@ -113,22 +113,6 @@ namespace SiPPOON_PP
             }
         }
 
-        public void Sort_Table(DataGridView dgv)//Метод для сортировки данныхв таблицах
-        {
-            int i = 0;
-            for (int row = dgv.Rows.Count - 2; row >= i; row--)
-            {
-                if (dgv.Rows[row].Cells[4].Value.ToString() == "")
-                {
-                    dgv.Rows.RemoveAt(row);
-                    dgv.Rows[row - 1].DefaultCellStyle.BackColor = Color.Yellow;
-                }
-                if (dgv.Rows[row].DefaultCellStyle.BackColor == Color.Yellow)
-                    dgv.Rows[row].Cells[3].Value = "Итог:";
-            }
-            dgv.Refresh();
-        }
-
         public void Clear_Filter(DataGridView data, RadioButton radio)//Метод для очистки фильтров, примененных к таблицам
         {
             switch (radio.Checked)

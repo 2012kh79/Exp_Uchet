@@ -49,65 +49,9 @@
             System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea7 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
             System.Windows.Forms.DataVisualization.Charting.Legend legend7 = new System.Windows.Forms.DataVisualization.Charting.Legend();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle7 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea8 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend8 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle8 = new System.Windows.Forms.DataGridViewCellStyle();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form_Kategorii));
             this.lbl_Kategorii = new System.Windows.Forms.Label();
             this.tc_Kategorii = new System.Windows.Forms.TabControl();
-            this.Kategorii = new System.Windows.Forms.TabPage();
-            this.gb_Chart_Kategorii = new System.Windows.Forms.GroupBox();
-            this.chart_Kategorii = new System.Windows.Forms.DataVisualization.Charting.Chart();
-            this.clb_Kategorii = new System.Windows.Forms.CheckedListBox();
-            this.gb_Kategorii = new System.Windows.Forms.GroupBox();
-            this.rb_Clear_Kategorii = new System.Windows.Forms.RadioButton();
-            this.rb_Deffect_Kategorii = new System.Windows.Forms.RadioButton();
-            this.rb_Prev_Kategorii = new System.Windows.Forms.RadioButton();
-            this.lbl_Filter_Kategorii = new System.Windows.Forms.Label();
-            this.dgv_Kategorii = new System.Windows.Forms.DataGridView();
-            this.dataGridViewCheckBoxColumn2 = new System.Windows.Forms.DataGridViewCheckBoxColumn();
-            this.dataGridViewTextBoxColumn421 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn422 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn423 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn424 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn425 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn426 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn427 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn428 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn429 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn430 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn431 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn432 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn433 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn434 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn435 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn436 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn437 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn438 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn439 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn440 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn441 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn442 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn443 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn444 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn445 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn446 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn447 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn448 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn449 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn450 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn451 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn452 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn453 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn454 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn455 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn456 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn457 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn458 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn459 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn460 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn461 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn462 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Kategoriya_1 = new System.Windows.Forms.TabPage();
             this.gb_Chart_Kategoriya1 = new System.Windows.Forms.GroupBox();
             this.chart_Kategoriya1 = new System.Windows.Forms.DataVisualization.Charting.Chart();
@@ -480,10 +424,12 @@
             this.dataGridViewTextBoxColumn293 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn294 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.menuStrip_Kategoriya = new System.Windows.Forms.MenuStrip();
-            this.файлToolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
-            this.открытьToolStripMenuItem3 = new System.Windows.Forms.ToolStripMenuItem();
-            this.печатьToolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
-            this.excelToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.отчётыToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.создатьToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.отчётОбАнализеToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.выбранныеОбъектыToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.всеОбъектыToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.деффектныеУчасткиToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItem6 = new System.Windows.Forms.ToolStripSeparator();
             this.выходToolStripMenuItem3 = new System.Windows.Forms.ToolStripMenuItem();
             this.Menu_File = new System.Windows.Forms.ToolStripMenuItem();
@@ -507,11 +453,6 @@
             this.toolStripMenuItem5 = new System.Windows.Forms.ToolStripSeparator();
             this.выходToolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
             this.tc_Kategorii.SuspendLayout();
-            this.Kategorii.SuspendLayout();
-            this.gb_Chart_Kategorii.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.chart_Kategorii)).BeginInit();
-            this.gb_Kategorii.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dgv_Kategorii)).BeginInit();
             this.Kategoriya_1.SuspendLayout();
             this.gb_Chart_Kategoriya1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.chart_Kategoriya1)).BeginInit();
@@ -563,7 +504,6 @@
             // 
             // tc_Kategorii
             // 
-            this.tc_Kategorii.Controls.Add(this.Kategorii);
             this.tc_Kategorii.Controls.Add(this.Kategoriya_1);
             this.tc_Kategorii.Controls.Add(this.Kategoriya_2);
             this.tc_Kategorii.Controls.Add(this.Kategoriya_3);
@@ -578,503 +518,6 @@
             this.tc_Kategorii.SelectedIndex = 0;
             this.tc_Kategorii.Size = new System.Drawing.Size(984, 698);
             this.tc_Kategorii.TabIndex = 3;
-            // 
-            // Kategorii
-            // 
-            this.Kategorii.Controls.Add(this.gb_Chart_Kategorii);
-            this.Kategorii.Controls.Add(this.gb_Kategorii);
-            this.Kategorii.Controls.Add(this.lbl_Filter_Kategorii);
-            this.Kategorii.Controls.Add(this.dgv_Kategorii);
-            this.Kategorii.Location = new System.Drawing.Point(4, 22);
-            this.Kategorii.Name = "Kategorii";
-            this.Kategorii.Padding = new System.Windows.Forms.Padding(3);
-            this.Kategorii.Size = new System.Drawing.Size(976, 672);
-            this.Kategorii.TabIndex = 7;
-            this.Kategorii.Text = "Категории";
-            this.Kategorii.UseVisualStyleBackColor = true;
-            // 
-            // gb_Chart_Kategorii
-            // 
-            this.gb_Chart_Kategorii.Controls.Add(this.chart_Kategorii);
-            this.gb_Chart_Kategorii.Controls.Add(this.clb_Kategorii);
-            this.gb_Chart_Kategorii.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.gb_Chart_Kategorii.Location = new System.Drawing.Point(271, 560);
-            this.gb_Chart_Kategorii.Name = "gb_Chart_Kategorii";
-            this.gb_Chart_Kategorii.Size = new System.Drawing.Size(702, 109);
-            this.gb_Chart_Kategorii.TabIndex = 17;
-            this.gb_Chart_Kategorii.TabStop = false;
-            this.gb_Chart_Kategorii.Text = "Работа с диаграммой";
-            // 
-            // chart_Kategorii
-            // 
-            chartArea1.Name = "ChartArea1";
-            this.chart_Kategorii.ChartAreas.Add(chartArea1);
-            this.chart_Kategorii.Dock = System.Windows.Forms.DockStyle.Fill;
-            legend1.Name = "Legend1";
-            this.chart_Kategorii.Legends.Add(legend1);
-            this.chart_Kategorii.Location = new System.Drawing.Point(3, 35);
-            this.chart_Kategorii.Name = "chart_Kategorii";
-            this.chart_Kategorii.Size = new System.Drawing.Size(696, 71);
-            this.chart_Kategorii.TabIndex = 1;
-            this.chart_Kategorii.Text = "chart1";
-            // 
-            // clb_Kategorii
-            // 
-            this.clb_Kategorii.CheckOnClick = true;
-            this.clb_Kategorii.ColumnWidth = 160;
-            this.clb_Kategorii.Dock = System.Windows.Forms.DockStyle.Top;
-            this.clb_Kategorii.FormattingEnabled = true;
-            this.clb_Kategorii.Items.AddRange(new object[] {
-            "Продольная ровность",
-            "Поперечная ровность",
-            "Плотность трещин",
-            "Плотность ремонтных карт"});
-            this.clb_Kategorii.Location = new System.Drawing.Point(3, 16);
-            this.clb_Kategorii.MultiColumn = true;
-            this.clb_Kategorii.Name = "clb_Kategorii";
-            this.clb_Kategorii.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.clb_Kategorii.Size = new System.Drawing.Size(696, 19);
-            this.clb_Kategorii.TabIndex = 0;
-            this.clb_Kategorii.SelectedIndexChanged += new System.EventHandler(this.clb_Kategorii_SelectedIndexChanged);
-            // 
-            // gb_Kategorii
-            // 
-            this.gb_Kategorii.Controls.Add(this.rb_Clear_Kategorii);
-            this.gb_Kategorii.Controls.Add(this.rb_Deffect_Kategorii);
-            this.gb_Kategorii.Controls.Add(this.rb_Prev_Kategorii);
-            this.gb_Kategorii.Dock = System.Windows.Forms.DockStyle.Left;
-            this.gb_Kategorii.Location = new System.Drawing.Point(3, 560);
-            this.gb_Kategorii.Name = "gb_Kategorii";
-            this.gb_Kategorii.Size = new System.Drawing.Size(268, 109);
-            this.gb_Kategorii.TabIndex = 16;
-            this.gb_Kategorii.TabStop = false;
-            this.gb_Kategorii.Text = "Работа с данными";
-            // 
-            // rb_Clear_Kategorii
-            // 
-            this.rb_Clear_Kategorii.AutoSize = true;
-            this.rb_Clear_Kategorii.Dock = System.Windows.Forms.DockStyle.Top;
-            this.rb_Clear_Kategorii.Location = new System.Drawing.Point(3, 50);
-            this.rb_Clear_Kategorii.Name = "rb_Clear_Kategorii";
-            this.rb_Clear_Kategorii.Size = new System.Drawing.Size(262, 17);
-            this.rb_Clear_Kategorii.TabIndex = 2;
-            this.rb_Clear_Kategorii.TabStop = true;
-            this.rb_Clear_Kategorii.Text = "Очистить фильтр";
-            this.rb_Clear_Kategorii.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.rb_Clear_Kategorii.UseVisualStyleBackColor = true;
-            this.rb_Clear_Kategorii.CheckedChanged += new System.EventHandler(this.rb_Clear_Kategorii_CheckedChanged);
-            // 
-            // rb_Deffect_Kategorii
-            // 
-            this.rb_Deffect_Kategorii.AutoSize = true;
-            this.rb_Deffect_Kategorii.Dock = System.Windows.Forms.DockStyle.Top;
-            this.rb_Deffect_Kategorii.Location = new System.Drawing.Point(3, 33);
-            this.rb_Deffect_Kategorii.Name = "rb_Deffect_Kategorii";
-            this.rb_Deffect_Kategorii.Size = new System.Drawing.Size(262, 17);
-            this.rb_Deffect_Kategorii.TabIndex = 1;
-            this.rb_Deffect_Kategorii.TabStop = true;
-            this.rb_Deffect_Kategorii.Text = "Деффектные участки дорог (>40%)";
-            this.rb_Deffect_Kategorii.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.rb_Deffect_Kategorii.UseVisualStyleBackColor = true;
-            this.rb_Deffect_Kategorii.CheckedChanged += new System.EventHandler(this.rb_Deffect_Kategorii_CheckedChanged);
-            // 
-            // rb_Prev_Kategorii
-            // 
-            this.rb_Prev_Kategorii.AutoSize = true;
-            this.rb_Prev_Kategorii.Dock = System.Windows.Forms.DockStyle.Top;
-            this.rb_Prev_Kategorii.Location = new System.Drawing.Point(3, 16);
-            this.rb_Prev_Kategorii.Name = "rb_Prev_Kategorii";
-            this.rb_Prev_Kategorii.Size = new System.Drawing.Size(262, 17);
-            this.rb_Prev_Kategorii.TabIndex = 0;
-            this.rb_Prev_Kategorii.TabStop = true;
-            this.rb_Prev_Kategorii.Text = "Превышающие элементы";
-            this.rb_Prev_Kategorii.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.rb_Prev_Kategorii.UseVisualStyleBackColor = true;
-            this.rb_Prev_Kategorii.CheckedChanged += new System.EventHandler(this.rb_Prev_Kategorii_CheckedChanged);
-            // 
-            // lbl_Filter_Kategorii
-            // 
-            this.lbl_Filter_Kategorii.Dock = System.Windows.Forms.DockStyle.Top;
-            this.lbl_Filter_Kategorii.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.lbl_Filter_Kategorii.Location = new System.Drawing.Point(3, 521);
-            this.lbl_Filter_Kategorii.Name = "lbl_Filter_Kategorii";
-            this.lbl_Filter_Kategorii.Size = new System.Drawing.Size(970, 39);
-            this.lbl_Filter_Kategorii.TabIndex = 15;
-            this.lbl_Filter_Kategorii.Text = "Фильтр";
-            this.lbl_Filter_Kategorii.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // dgv_Kategorii
-            // 
-            this.dgv_Kategorii.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            dataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgv_Kategorii.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
-            this.dgv_Kategorii.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgv_Kategorii.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.dataGridViewCheckBoxColumn2,
-            this.dataGridViewTextBoxColumn421,
-            this.dataGridViewTextBoxColumn422,
-            this.dataGridViewTextBoxColumn423,
-            this.dataGridViewTextBoxColumn424,
-            this.dataGridViewTextBoxColumn425,
-            this.dataGridViewTextBoxColumn426,
-            this.dataGridViewTextBoxColumn427,
-            this.dataGridViewTextBoxColumn428,
-            this.dataGridViewTextBoxColumn429,
-            this.dataGridViewTextBoxColumn430,
-            this.dataGridViewTextBoxColumn431,
-            this.dataGridViewTextBoxColumn432,
-            this.dataGridViewTextBoxColumn433,
-            this.dataGridViewTextBoxColumn434,
-            this.dataGridViewTextBoxColumn435,
-            this.dataGridViewTextBoxColumn436,
-            this.dataGridViewTextBoxColumn437,
-            this.dataGridViewTextBoxColumn438,
-            this.dataGridViewTextBoxColumn439,
-            this.dataGridViewTextBoxColumn440,
-            this.dataGridViewTextBoxColumn441,
-            this.dataGridViewTextBoxColumn442,
-            this.dataGridViewTextBoxColumn443,
-            this.dataGridViewTextBoxColumn444,
-            this.dataGridViewTextBoxColumn445,
-            this.dataGridViewTextBoxColumn446,
-            this.dataGridViewTextBoxColumn447,
-            this.dataGridViewTextBoxColumn448,
-            this.dataGridViewTextBoxColumn449,
-            this.dataGridViewTextBoxColumn450,
-            this.dataGridViewTextBoxColumn451,
-            this.dataGridViewTextBoxColumn452,
-            this.dataGridViewTextBoxColumn453,
-            this.dataGridViewTextBoxColumn454,
-            this.dataGridViewTextBoxColumn455,
-            this.dataGridViewTextBoxColumn456,
-            this.dataGridViewTextBoxColumn457,
-            this.dataGridViewTextBoxColumn458,
-            this.dataGridViewTextBoxColumn459,
-            this.dataGridViewTextBoxColumn460,
-            this.dataGridViewTextBoxColumn461,
-            this.dataGridViewTextBoxColumn462});
-            this.dgv_Kategorii.Dock = System.Windows.Forms.DockStyle.Top;
-            this.dgv_Kategorii.Location = new System.Drawing.Point(3, 3);
-            this.dgv_Kategorii.Name = "dgv_Kategorii";
-            this.dgv_Kategorii.ReadOnly = true;
-            this.dgv_Kategorii.Size = new System.Drawing.Size(970, 518);
-            this.dgv_Kategorii.TabIndex = 14;
-            this.dgv_Kategorii.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgv_Kategorii_CellContentClick);
-            // 
-            // dataGridViewCheckBoxColumn2
-            // 
-            this.dataGridViewCheckBoxColumn2.Frozen = true;
-            this.dataGridViewCheckBoxColumn2.HeaderText = "";
-            this.dataGridViewCheckBoxColumn2.Name = "dataGridViewCheckBoxColumn2";
-            this.dataGridViewCheckBoxColumn2.ReadOnly = true;
-            this.dataGridViewCheckBoxColumn2.Width = 30;
-            // 
-            // dataGridViewTextBoxColumn421
-            // 
-            this.dataGridViewTextBoxColumn421.Frozen = true;
-            this.dataGridViewTextBoxColumn421.HeaderText = "№ п/п";
-            this.dataGridViewTextBoxColumn421.Name = "dataGridViewTextBoxColumn421";
-            this.dataGridViewTextBoxColumn421.ReadOnly = true;
-            this.dataGridViewTextBoxColumn421.Width = 59;
-            // 
-            // dataGridViewTextBoxColumn422
-            // 
-            this.dataGridViewTextBoxColumn422.HeaderText = "ID ОДХ";
-            this.dataGridViewTextBoxColumn422.Name = "dataGridViewTextBoxColumn422";
-            this.dataGridViewTextBoxColumn422.ReadOnly = true;
-            this.dataGridViewTextBoxColumn422.Width = 65;
-            // 
-            // dataGridViewTextBoxColumn423
-            // 
-            this.dataGridViewTextBoxColumn423.HeaderText = "Наименование объекта";
-            this.dataGridViewTextBoxColumn423.Name = "dataGridViewTextBoxColumn423";
-            this.dataGridViewTextBoxColumn423.ReadOnly = true;
-            this.dataGridViewTextBoxColumn423.Width = 140;
-            // 
-            // dataGridViewTextBoxColumn424
-            // 
-            this.dataGridViewTextBoxColumn424.HeaderText = "Площадь проезжей части, кв.м";
-            this.dataGridViewTextBoxColumn424.Name = "dataGridViewTextBoxColumn424";
-            this.dataGridViewTextBoxColumn424.ReadOnly = true;
-            this.dataGridViewTextBoxColumn424.Width = 82;
-            // 
-            // dataGridViewTextBoxColumn425
-            // 
-            this.dataGridViewTextBoxColumn425.HeaderText = "ПРОДОЛЬНАЯ РОВНОСТЬ. max мм/м";
-            this.dataGridViewTextBoxColumn425.Name = "dataGridViewTextBoxColumn425";
-            this.dataGridViewTextBoxColumn425.ReadOnly = true;
-            this.dataGridViewTextBoxColumn425.Width = 135;
-            // 
-            // dataGridViewTextBoxColumn426
-            // 
-            this.dataGridViewTextBoxColumn426.HeaderText = "ПРОДОЛЬНАЯ РОВНОСТЬ. ср. значение, мм/м";
-            this.dataGridViewTextBoxColumn426.Name = "dataGridViewTextBoxColumn426";
-            this.dataGridViewTextBoxColumn426.ReadOnly = true;
-            this.dataGridViewTextBoxColumn426.Width = 162;
-            // 
-            // dataGridViewTextBoxColumn427
-            // 
-            this.dataGridViewTextBoxColumn427.HeaderText = "ПРОДОЛЬНАЯ РОВНОСТЬ. ср. дефектное, мм/м";
-            this.dataGridViewTextBoxColumn427.Name = "dataGridViewTextBoxColumn427";
-            this.dataGridViewTextBoxColumn427.ReadOnly = true;
-            this.dataGridViewTextBoxColumn427.Width = 112;
-            // 
-            // dataGridViewTextBoxColumn428
-            // 
-            this.dataGridViewTextBoxColumn428.HeaderText = "ПРОДОЛЬНАЯ РОВНОСТЬ. площадь проезжей части с выявленным нарушением (%)";
-            this.dataGridViewTextBoxColumn428.Name = "dataGridViewTextBoxColumn428";
-            this.dataGridViewTextBoxColumn428.ReadOnly = true;
-            this.dataGridViewTextBoxColumn428.Width = 205;
-            // 
-            // dataGridViewTextBoxColumn429
-            // 
-            this.dataGridViewTextBoxColumn429.HeaderText = "ПРОДОЛЬНАЯ РОВНОСТЬ. площадь проезжей части с выявленным нарушением (кв.м)";
-            this.dataGridViewTextBoxColumn429.Name = "dataGridViewTextBoxColumn429";
-            this.dataGridViewTextBoxColumn429.ReadOnly = true;
-            this.dataGridViewTextBoxColumn429.Width = 178;
-            // 
-            // dataGridViewTextBoxColumn430
-            // 
-            this.dataGridViewTextBoxColumn430.HeaderText = "ПОПЕРЕЧНАЯ РОВНОСТЬ. max мм/м";
-            this.dataGridViewTextBoxColumn430.Name = "dataGridViewTextBoxColumn430";
-            this.dataGridViewTextBoxColumn430.ReadOnly = true;
-            this.dataGridViewTextBoxColumn430.Width = 109;
-            // 
-            // dataGridViewTextBoxColumn431
-            // 
-            this.dataGridViewTextBoxColumn431.HeaderText = "ПОПЕРЕЧНАЯ РОВНОСТЬ. ср.значение, мм/м";
-            this.dataGridViewTextBoxColumn431.Name = "dataGridViewTextBoxColumn431";
-            this.dataGridViewTextBoxColumn431.ReadOnly = true;
-            this.dataGridViewTextBoxColumn431.Width = 118;
-            // 
-            // dataGridViewTextBoxColumn432
-            // 
-            this.dataGridViewTextBoxColumn432.HeaderText = "ПОПЕРЕЧНАЯ РОВНОСТЬ. ср.дефектное мм/м";
-            this.dataGridViewTextBoxColumn432.Name = "dataGridViewTextBoxColumn432";
-            this.dataGridViewTextBoxColumn432.ReadOnly = true;
-            this.dataGridViewTextBoxColumn432.Width = 123;
-            // 
-            // dataGridViewTextBoxColumn433
-            // 
-            this.dataGridViewTextBoxColumn433.HeaderText = "ПОПЕРЕЧНАЯ РОВНОСТЬ. площадь проезжей части с выявленным нарушением (%)";
-            this.dataGridViewTextBoxColumn433.Name = "dataGridViewTextBoxColumn433";
-            this.dataGridViewTextBoxColumn433.ReadOnly = true;
-            this.dataGridViewTextBoxColumn433.Width = 204;
-            // 
-            // dataGridViewTextBoxColumn434
-            // 
-            this.dataGridViewTextBoxColumn434.HeaderText = "ПОПЕРЕЧНАЯ РОВНОСТЬ. площадь проезжей части с выявленным нарушением (кв.м)";
-            this.dataGridViewTextBoxColumn434.Name = "dataGridViewTextBoxColumn434";
-            this.dataGridViewTextBoxColumn434.ReadOnly = true;
-            this.dataGridViewTextBoxColumn434.Width = 178;
-            // 
-            // dataGridViewTextBoxColumn435
-            // 
-            this.dataGridViewTextBoxColumn435.HeaderText = "ПЛОТНОСТЬ ТРЕЩИН. max мм/м";
-            this.dataGridViewTextBoxColumn435.Name = "dataGridViewTextBoxColumn435";
-            this.dataGridViewTextBoxColumn435.ReadOnly = true;
-            this.dataGridViewTextBoxColumn435.Width = 124;
-            // 
-            // dataGridViewTextBoxColumn436
-            // 
-            this.dataGridViewTextBoxColumn436.HeaderText = "ПЛОТНОСТЬ ТРЕЩИН. ср.значение, мм/м";
-            this.dataGridViewTextBoxColumn436.Name = "dataGridViewTextBoxColumn436";
-            this.dataGridViewTextBoxColumn436.ReadOnly = true;
-            this.dataGridViewTextBoxColumn436.Width = 118;
-            // 
-            // dataGridViewTextBoxColumn437
-            // 
-            this.dataGridViewTextBoxColumn437.HeaderText = "ПЛОТНОСТЬ ТРЕЩИН. ср.дефектное, мм/м";
-            this.dataGridViewTextBoxColumn437.Name = "dataGridViewTextBoxColumn437";
-            this.dataGridViewTextBoxColumn437.ReadOnly = true;
-            this.dataGridViewTextBoxColumn437.Width = 125;
-            // 
-            // dataGridViewTextBoxColumn438
-            // 
-            this.dataGridViewTextBoxColumn438.HeaderText = "ПЛОТНОСТЬ ТРЕЩИН. площадь проезжей части с выявленным нарушением (%)";
-            this.dataGridViewTextBoxColumn438.Name = "dataGridViewTextBoxColumn438";
-            this.dataGridViewTextBoxColumn438.ReadOnly = true;
-            this.dataGridViewTextBoxColumn438.Width = 165;
-            // 
-            // dataGridViewTextBoxColumn439
-            // 
-            this.dataGridViewTextBoxColumn439.HeaderText = "ПЛОТНОСТЬ ТРЕЩИН. площадь проезжей части с выявленным нарушением (кв.м)";
-            this.dataGridViewTextBoxColumn439.Name = "dataGridViewTextBoxColumn439";
-            this.dataGridViewTextBoxColumn439.ReadOnly = true;
-            this.dataGridViewTextBoxColumn439.Width = 158;
-            // 
-            // dataGridViewTextBoxColumn440
-            // 
-            this.dataGridViewTextBoxColumn440.HeaderText = "ПЛОЩАДЬ РЕМОНТНЫХ КАРТ. max мм/м";
-            this.dataGridViewTextBoxColumn440.Name = "dataGridViewTextBoxColumn440";
-            this.dataGridViewTextBoxColumn440.ReadOnly = true;
-            this.dataGridViewTextBoxColumn440.Width = 107;
-            // 
-            // dataGridViewTextBoxColumn441
-            // 
-            this.dataGridViewTextBoxColumn441.HeaderText = "ПЛОЩАДЬ РЕМОНТНЫХ КАРТ. ср.значение, мм/м";
-            this.dataGridViewTextBoxColumn441.Name = "dataGridViewTextBoxColumn441";
-            this.dataGridViewTextBoxColumn441.ReadOnly = true;
-            this.dataGridViewTextBoxColumn441.Width = 151;
-            // 
-            // dataGridViewTextBoxColumn442
-            // 
-            this.dataGridViewTextBoxColumn442.HeaderText = "ПЛОЩАДЬ РЕМОНТНЫХ КАРТ. ср.дефектное, мм/м";
-            this.dataGridViewTextBoxColumn442.Name = "dataGridViewTextBoxColumn442";
-            this.dataGridViewTextBoxColumn442.ReadOnly = true;
-            this.dataGridViewTextBoxColumn442.Width = 156;
-            // 
-            // dataGridViewTextBoxColumn443
-            // 
-            this.dataGridViewTextBoxColumn443.HeaderText = "ПЛОЩАДЬ РЕМОНТНЫХ КАРТ. площадь проезжей части с выявленным нарушением (%)";
-            this.dataGridViewTextBoxColumn443.Name = "dataGridViewTextBoxColumn443";
-            this.dataGridViewTextBoxColumn443.ReadOnly = true;
-            this.dataGridViewTextBoxColumn443.Width = 182;
-            // 
-            // dataGridViewTextBoxColumn444
-            // 
-            this.dataGridViewTextBoxColumn444.HeaderText = "ПЛОЩАДЬ РЕМОНТНЫХ КАРТ. площадь проезжей части с выявленным нарушением (кв.м)";
-            this.dataGridViewTextBoxColumn444.Name = "dataGridViewTextBoxColumn444";
-            this.dataGridViewTextBoxColumn444.ReadOnly = true;
-            this.dataGridViewTextBoxColumn444.Width = 182;
-            // 
-            // dataGridViewTextBoxColumn445
-            // 
-            this.dataGridViewTextBoxColumn445.HeaderText = "ПЛОЩАДЬ ПРОЕЗЖЕЙ ЧАСТИ С ВЫЯВЛЕННЫМИ НАРУШЕНИЯМИ. по 1 показателю (%)";
-            this.dataGridViewTextBoxColumn445.Name = "dataGridViewTextBoxColumn445";
-            this.dataGridViewTextBoxColumn445.ReadOnly = true;
-            this.dataGridViewTextBoxColumn445.Width = 180;
-            // 
-            // dataGridViewTextBoxColumn446
-            // 
-            this.dataGridViewTextBoxColumn446.HeaderText = "ПЛОЩАДЬ ПРОЕЗЖЕЙ ЧАСТИ С ВЫЯВЛЕННЫМИ НАРУШЕНИЯМИ. по 1 показателю (кв.м)";
-            this.dataGridViewTextBoxColumn446.Name = "dataGridViewTextBoxColumn446";
-            this.dataGridViewTextBoxColumn446.ReadOnly = true;
-            this.dataGridViewTextBoxColumn446.Width = 180;
-            // 
-            // dataGridViewTextBoxColumn447
-            // 
-            this.dataGridViewTextBoxColumn447.HeaderText = "ПЛОЩАДЬ ПРОЕЗЖЕЙ ЧАСТИ С ВЫЯВЛЕННЫМИ НАРУШЕНИЯМИ. по 2 показателям (%)";
-            this.dataGridViewTextBoxColumn447.Name = "dataGridViewTextBoxColumn447";
-            this.dataGridViewTextBoxColumn447.ReadOnly = true;
-            this.dataGridViewTextBoxColumn447.Width = 180;
-            // 
-            // dataGridViewTextBoxColumn448
-            // 
-            this.dataGridViewTextBoxColumn448.HeaderText = "ПЛОЩАДЬ ПРОЕЗЖЕЙ ЧАСТИ С ВЫЯВЛЕННЫМИ НАРУШЕНИЯМИ. по 2 показателям (кв.м)";
-            this.dataGridViewTextBoxColumn448.Name = "dataGridViewTextBoxColumn448";
-            this.dataGridViewTextBoxColumn448.ReadOnly = true;
-            this.dataGridViewTextBoxColumn448.Width = 180;
-            // 
-            // dataGridViewTextBoxColumn449
-            // 
-            this.dataGridViewTextBoxColumn449.HeaderText = "ПЛОЩАДЬ ПРОЕЗЖЕЙ ЧАСТИ С ВЫЯВЛЕННЫМИ НАРУШЕНИЯМИ. по 3 показателям (%)";
-            this.dataGridViewTextBoxColumn449.Name = "dataGridViewTextBoxColumn449";
-            this.dataGridViewTextBoxColumn449.ReadOnly = true;
-            this.dataGridViewTextBoxColumn449.Width = 180;
-            // 
-            // dataGridViewTextBoxColumn450
-            // 
-            this.dataGridViewTextBoxColumn450.HeaderText = "ПЛОЩАДЬ ПРОЕЗЖЕЙ ЧАСТИ С ВЫЯВЛЕННЫМИ НАРУШЕНИЯМИ. по 3 показателям (кв.м)";
-            this.dataGridViewTextBoxColumn450.Name = "dataGridViewTextBoxColumn450";
-            this.dataGridViewTextBoxColumn450.ReadOnly = true;
-            this.dataGridViewTextBoxColumn450.Width = 180;
-            // 
-            // dataGridViewTextBoxColumn451
-            // 
-            this.dataGridViewTextBoxColumn451.HeaderText = "ПЛОЩАДЬ ПРОЕЗЖЕЙ ЧАСТИ С ВЫЯВЛЕННЫМИ НАРУШЕНИЯМИ. по 4 показателям (%)";
-            this.dataGridViewTextBoxColumn451.Name = "dataGridViewTextBoxColumn451";
-            this.dataGridViewTextBoxColumn451.ReadOnly = true;
-            this.dataGridViewTextBoxColumn451.Width = 180;
-            // 
-            // dataGridViewTextBoxColumn452
-            // 
-            this.dataGridViewTextBoxColumn452.HeaderText = "ПЛОЩАДЬ ПРОЕЗЖЕЙ ЧАСТИ С ВЫЯВЛЕННЫМИ НАРУШЕНИЯМИ. по 4 показателям (кв.м)";
-            this.dataGridViewTextBoxColumn452.Name = "dataGridViewTextBoxColumn452";
-            this.dataGridViewTextBoxColumn452.ReadOnly = true;
-            this.dataGridViewTextBoxColumn452.Width = 180;
-            // 
-            // dataGridViewTextBoxColumn453
-            // 
-            this.dataGridViewTextBoxColumn453.HeaderText = "ПЛОЩАДЬ ПРОЕЗЖЕЙ ЧАСТИ С ВЫЯВЛЕННЫМИ НАРУШЕНИЯМИ. Трещины или карты (%)";
-            this.dataGridViewTextBoxColumn453.Name = "dataGridViewTextBoxColumn453";
-            this.dataGridViewTextBoxColumn453.ReadOnly = true;
-            this.dataGridViewTextBoxColumn453.Width = 180;
-            // 
-            // dataGridViewTextBoxColumn454
-            // 
-            this.dataGridViewTextBoxColumn454.HeaderText = "ПЛОЩАДЬ ПРОЕЗЖЕЙ ЧАСТИ С ВЫЯВЛЕННЫМИ НАРУШЕНИЯМИ. Трещины или карты (кв.м)";
-            this.dataGridViewTextBoxColumn454.Name = "dataGridViewTextBoxColumn454";
-            this.dataGridViewTextBoxColumn454.ReadOnly = true;
-            this.dataGridViewTextBoxColumn454.Width = 180;
-            // 
-            // dataGridViewTextBoxColumn455
-            // 
-            this.dataGridViewTextBoxColumn455.HeaderText = "ПЛОЩАДЬ ПРОЕЗЖЕЙ ЧАСТИ С ВЫЯВЛЕННЫМИ НАРУШЕНИЯМИ. по 1-му параметру: продольная р" +
-    "овность (IRI) (%)";
-            this.dataGridViewTextBoxColumn455.Name = "dataGridViewTextBoxColumn455";
-            this.dataGridViewTextBoxColumn455.ReadOnly = true;
-            this.dataGridViewTextBoxColumn455.Width = 234;
-            // 
-            // dataGridViewTextBoxColumn456
-            // 
-            this.dataGridViewTextBoxColumn456.HeaderText = "ПЛОЩАДЬ ПРОЕЗЖЕЙ ЧАСТИ С ВЫЯВЛЕННЫМИ НАРУШЕНИЯМИ. по 1-му параметру: продольная р" +
-    "овность (IRI) (кв.м)";
-            this.dataGridViewTextBoxColumn456.Name = "dataGridViewTextBoxColumn456";
-            this.dataGridViewTextBoxColumn456.ReadOnly = true;
-            this.dataGridViewTextBoxColumn456.Width = 234;
-            // 
-            // dataGridViewTextBoxColumn457
-            // 
-            this.dataGridViewTextBoxColumn457.HeaderText = "ПЛОЩАДЬ ПРОЕЗЖЕЙ ЧАСТИ С ВЫЯВЛЕННЫМИ НАРУШЕНИЯМИ. по 1-му параметру: поперечная р" +
-    "овность (3D) (%)";
-            this.dataGridViewTextBoxColumn457.Name = "dataGridViewTextBoxColumn457";
-            this.dataGridViewTextBoxColumn457.ReadOnly = true;
-            this.dataGridViewTextBoxColumn457.Width = 234;
-            // 
-            // dataGridViewTextBoxColumn458
-            // 
-            this.dataGridViewTextBoxColumn458.HeaderText = "ПЛОЩАДЬ ПРОЕЗЖЕЙ ЧАСТИ С ВЫЯВЛЕННЫМИ НАРУШЕНИЯМИ. по 1-му параметру: поперечная р" +
-    "овность (3D) (кв.м)";
-            this.dataGridViewTextBoxColumn458.Name = "dataGridViewTextBoxColumn458";
-            this.dataGridViewTextBoxColumn458.ReadOnly = true;
-            this.dataGridViewTextBoxColumn458.Width = 234;
-            // 
-            // dataGridViewTextBoxColumn459
-            // 
-            this.dataGridViewTextBoxColumn459.HeaderText = "ПЛОЩАДЬ ПРОЕЗЖЕЙ ЧАСТИ С ВЫЯВЛЕННЫМИ НАРУШЕНИЯМИ. по 2-м параметрам: продольная и" +
-    " поперечная ровность (IRI+3D) (%)";
-            this.dataGridViewTextBoxColumn459.Name = "dataGridViewTextBoxColumn459";
-            this.dataGridViewTextBoxColumn459.ReadOnly = true;
-            this.dataGridViewTextBoxColumn459.Width = 230;
-            // 
-            // dataGridViewTextBoxColumn460
-            // 
-            this.dataGridViewTextBoxColumn460.HeaderText = "ПЛОЩАДЬ ПРОЕЗЖЕЙ ЧАСТИ С ВЫЯВЛЕННЫМИ НАРУШЕНИЯМИ. по 2-м параметрам: продольная и" +
-    " поперечная ровность (IRI+3D) (кв.м)";
-            this.dataGridViewTextBoxColumn460.Name = "dataGridViewTextBoxColumn460";
-            this.dataGridViewTextBoxColumn460.ReadOnly = true;
-            this.dataGridViewTextBoxColumn460.Width = 230;
-            // 
-            // dataGridViewTextBoxColumn461
-            // 
-            this.dataGridViewTextBoxColumn461.HeaderText = "Общая площадь проезжей части с выявленными нарушениями (%)";
-            this.dataGridViewTextBoxColumn461.Name = "dataGridViewTextBoxColumn461";
-            this.dataGridViewTextBoxColumn461.ReadOnly = true;
-            this.dataGridViewTextBoxColumn461.Width = 156;
-            // 
-            // dataGridViewTextBoxColumn462
-            // 
-            this.dataGridViewTextBoxColumn462.HeaderText = "Общая площадь проезжей части с выявленными нарушениями (кв.м)";
-            this.dataGridViewTextBoxColumn462.Name = "dataGridViewTextBoxColumn462";
-            this.dataGridViewTextBoxColumn462.ReadOnly = true;
-            this.dataGridViewTextBoxColumn462.Width = 156;
             // 
             // Kategoriya_1
             // 
@@ -1104,11 +547,11 @@
             // 
             // chart_Kategoriya1
             // 
-            chartArea2.Name = "ChartArea1";
-            this.chart_Kategoriya1.ChartAreas.Add(chartArea2);
+            chartArea1.Name = "ChartArea1";
+            this.chart_Kategoriya1.ChartAreas.Add(chartArea1);
             this.chart_Kategoriya1.Dock = System.Windows.Forms.DockStyle.Fill;
-            legend2.Name = "Legend1";
-            this.chart_Kategoriya1.Legends.Add(legend2);
+            legend1.Name = "Legend1";
+            this.chart_Kategoriya1.Legends.Add(legend1);
             this.chart_Kategoriya1.Location = new System.Drawing.Point(3, 35);
             this.chart_Kategoriya1.Name = "chart_Kategoriya1";
             this.chart_Kategoriya1.Size = new System.Drawing.Size(696, 71);
@@ -1203,14 +646,14 @@
             // dgv_Kategoriya1
             // 
             this.dgv_Kategoriya1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle2.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            dataGridViewCellStyle2.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgv_Kategoriya1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
+            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            dataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgv_Kategoriya1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
             this.dgv_Kategoriya1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgv_Kategoriya1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.dataGridViewCheckBoxColumn1,
@@ -1262,7 +705,7 @@
             this.dgv_Kategoriya1.ReadOnly = true;
             this.dgv_Kategoriya1.Size = new System.Drawing.Size(970, 518);
             this.dgv_Kategoriya1.TabIndex = 15;
-            this.dgv_Kategoriya1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgv_Kategoriya1_CellContentClick);
+            this.dgv_Kategoriya1.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgv_Kategoriya1_CellClick);
             // 
             // dataGridViewCheckBoxColumn1
             // 
@@ -1278,6 +721,7 @@
             this.dataGridViewTextBoxColumn1.HeaderText = "№ п/п";
             this.dataGridViewTextBoxColumn1.Name = "dataGridViewTextBoxColumn1";
             this.dataGridViewTextBoxColumn1.ReadOnly = true;
+            this.dataGridViewTextBoxColumn1.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
             this.dataGridViewTextBoxColumn1.Width = 59;
             // 
             // dataGridViewTextBoxColumn2
@@ -1285,6 +729,7 @@
             this.dataGridViewTextBoxColumn2.HeaderText = "ID ОДХ";
             this.dataGridViewTextBoxColumn2.Name = "dataGridViewTextBoxColumn2";
             this.dataGridViewTextBoxColumn2.ReadOnly = true;
+            this.dataGridViewTextBoxColumn2.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
             this.dataGridViewTextBoxColumn2.Width = 65;
             // 
             // dataGridViewTextBoxColumn3
@@ -1292,6 +737,7 @@
             this.dataGridViewTextBoxColumn3.HeaderText = "Наименование объекта";
             this.dataGridViewTextBoxColumn3.Name = "dataGridViewTextBoxColumn3";
             this.dataGridViewTextBoxColumn3.ReadOnly = true;
+            this.dataGridViewTextBoxColumn3.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
             this.dataGridViewTextBoxColumn3.Width = 140;
             // 
             // dataGridViewTextBoxColumn4
@@ -1299,6 +745,7 @@
             this.dataGridViewTextBoxColumn4.HeaderText = "Площадь проезжей части, кв.м";
             this.dataGridViewTextBoxColumn4.Name = "dataGridViewTextBoxColumn4";
             this.dataGridViewTextBoxColumn4.ReadOnly = true;
+            this.dataGridViewTextBoxColumn4.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
             this.dataGridViewTextBoxColumn4.Width = 82;
             // 
             // dataGridViewTextBoxColumn5
@@ -1306,6 +753,7 @@
             this.dataGridViewTextBoxColumn5.HeaderText = "ПРОДОЛЬНАЯ РОВНОСТЬ. max мм/м";
             this.dataGridViewTextBoxColumn5.Name = "dataGridViewTextBoxColumn5";
             this.dataGridViewTextBoxColumn5.ReadOnly = true;
+            this.dataGridViewTextBoxColumn5.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
             this.dataGridViewTextBoxColumn5.Width = 135;
             // 
             // dataGridViewTextBoxColumn6
@@ -1313,6 +761,7 @@
             this.dataGridViewTextBoxColumn6.HeaderText = "ПРОДОЛЬНАЯ РОВНОСТЬ. ср. значение, мм/м";
             this.dataGridViewTextBoxColumn6.Name = "dataGridViewTextBoxColumn6";
             this.dataGridViewTextBoxColumn6.ReadOnly = true;
+            this.dataGridViewTextBoxColumn6.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
             this.dataGridViewTextBoxColumn6.Width = 162;
             // 
             // dataGridViewTextBoxColumn7
@@ -1320,6 +769,7 @@
             this.dataGridViewTextBoxColumn7.HeaderText = "ПРОДОЛЬНАЯ РОВНОСТЬ. ср. дефектное, мм/м";
             this.dataGridViewTextBoxColumn7.Name = "dataGridViewTextBoxColumn7";
             this.dataGridViewTextBoxColumn7.ReadOnly = true;
+            this.dataGridViewTextBoxColumn7.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
             this.dataGridViewTextBoxColumn7.Width = 112;
             // 
             // dataGridViewTextBoxColumn8
@@ -1601,11 +1051,11 @@
             // 
             // chart_Kategoriya2
             // 
-            chartArea3.Name = "ChartArea1";
-            this.chart_Kategoriya2.ChartAreas.Add(chartArea3);
+            chartArea2.Name = "ChartArea1";
+            this.chart_Kategoriya2.ChartAreas.Add(chartArea2);
             this.chart_Kategoriya2.Dock = System.Windows.Forms.DockStyle.Fill;
-            legend3.Name = "Legend1";
-            this.chart_Kategoriya2.Legends.Add(legend3);
+            legend2.Name = "Legend1";
+            this.chart_Kategoriya2.Legends.Add(legend2);
             this.chart_Kategoriya2.Location = new System.Drawing.Point(3, 35);
             this.chart_Kategoriya2.Name = "chart_Kategoriya2";
             this.chart_Kategoriya2.Size = new System.Drawing.Size(696, 71);
@@ -1700,14 +1150,14 @@
             // dgv_Kategoriya2
             // 
             this.dgv_Kategoriya2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle3.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            dataGridViewCellStyle3.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgv_Kategoriya2.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle3;
+            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle2.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            dataGridViewCellStyle2.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgv_Kategoriya2.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
             this.dgv_Kategoriya2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgv_Kategoriya2.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.dataGridViewCheckBoxColumn3,
@@ -1759,7 +1209,7 @@
             this.dgv_Kategoriya2.ReadOnly = true;
             this.dgv_Kategoriya2.Size = new System.Drawing.Size(970, 518);
             this.dgv_Kategoriya2.TabIndex = 15;
-            this.dgv_Kategoriya2.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgv_Kategoriya2_CellContentClick);
+            this.dgv_Kategoriya2.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgv_Kategoriya2_CellClick);
             // 
             // dataGridViewCheckBoxColumn3
             // 
@@ -2098,11 +1548,11 @@
             // 
             // chart_Kategoriya3
             // 
-            chartArea4.Name = "ChartArea1";
-            this.chart_Kategoriya3.ChartAreas.Add(chartArea4);
+            chartArea3.Name = "ChartArea1";
+            this.chart_Kategoriya3.ChartAreas.Add(chartArea3);
             this.chart_Kategoriya3.Dock = System.Windows.Forms.DockStyle.Fill;
-            legend4.Name = "Legend1";
-            this.chart_Kategoriya3.Legends.Add(legend4);
+            legend3.Name = "Legend1";
+            this.chart_Kategoriya3.Legends.Add(legend3);
             this.chart_Kategoriya3.Location = new System.Drawing.Point(3, 35);
             this.chart_Kategoriya3.Name = "chart_Kategoriya3";
             this.chart_Kategoriya3.Size = new System.Drawing.Size(696, 71);
@@ -2197,14 +1647,14 @@
             // dgv_Kategoriya3
             // 
             this.dgv_Kategoriya3.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle4.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle4.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            dataGridViewCellStyle4.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle4.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle4.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle4.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgv_Kategoriya3.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle4;
+            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle3.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            dataGridViewCellStyle3.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgv_Kategoriya3.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle3;
             this.dgv_Kategoriya3.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgv_Kategoriya3.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.dataGridViewCheckBoxColumn4,
@@ -2256,7 +1706,7 @@
             this.dgv_Kategoriya3.ReadOnly = true;
             this.dgv_Kategoriya3.Size = new System.Drawing.Size(970, 518);
             this.dgv_Kategoriya3.TabIndex = 16;
-            this.dgv_Kategoriya3.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgv_Kategoriya3_CellContentClick);
+            this.dgv_Kategoriya3.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgv_Kategoriya3_CellClick);
             // 
             // dataGridViewCheckBoxColumn4
             // 
@@ -2595,11 +2045,11 @@
             // 
             // chart_Kategoriya4
             // 
-            chartArea5.Name = "ChartArea1";
-            this.chart_Kategoriya4.ChartAreas.Add(chartArea5);
+            chartArea4.Name = "ChartArea1";
+            this.chart_Kategoriya4.ChartAreas.Add(chartArea4);
             this.chart_Kategoriya4.Dock = System.Windows.Forms.DockStyle.Fill;
-            legend5.Name = "Legend1";
-            this.chart_Kategoriya4.Legends.Add(legend5);
+            legend4.Name = "Legend1";
+            this.chart_Kategoriya4.Legends.Add(legend4);
             this.chart_Kategoriya4.Location = new System.Drawing.Point(3, 35);
             this.chart_Kategoriya4.Name = "chart_Kategoriya4";
             this.chart_Kategoriya4.Size = new System.Drawing.Size(696, 71);
@@ -2694,14 +2144,14 @@
             // dgv_Kategoriya4
             // 
             this.dgv_Kategoriya4.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle5.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle5.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            dataGridViewCellStyle5.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle5.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle5.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgv_Kategoriya4.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle5;
+            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle4.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle4.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            dataGridViewCellStyle4.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle4.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle4.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle4.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgv_Kategoriya4.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle4;
             this.dgv_Kategoriya4.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgv_Kategoriya4.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.dataGridViewCheckBoxColumn5,
@@ -2753,7 +2203,7 @@
             this.dgv_Kategoriya4.ReadOnly = true;
             this.dgv_Kategoriya4.Size = new System.Drawing.Size(970, 518);
             this.dgv_Kategoriya4.TabIndex = 17;
-            this.dgv_Kategoriya4.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgv_Kategoriya4_CellContentClick);
+            this.dgv_Kategoriya4.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgv_Kategoriya4_CellClick);
             // 
             // dataGridViewCheckBoxColumn5
             // 
@@ -3092,11 +2542,11 @@
             // 
             // chart_Kategoriya5
             // 
-            chartArea6.Name = "ChartArea1";
-            this.chart_Kategoriya5.ChartAreas.Add(chartArea6);
+            chartArea5.Name = "ChartArea1";
+            this.chart_Kategoriya5.ChartAreas.Add(chartArea5);
             this.chart_Kategoriya5.Dock = System.Windows.Forms.DockStyle.Fill;
-            legend6.Name = "Legend1";
-            this.chart_Kategoriya5.Legends.Add(legend6);
+            legend5.Name = "Legend1";
+            this.chart_Kategoriya5.Legends.Add(legend5);
             this.chart_Kategoriya5.Location = new System.Drawing.Point(3, 35);
             this.chart_Kategoriya5.Name = "chart_Kategoriya5";
             this.chart_Kategoriya5.Size = new System.Drawing.Size(696, 71);
@@ -3191,14 +2641,14 @@
             // dgv_Kategoriya5
             // 
             this.dgv_Kategoriya5.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle6.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle6.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            dataGridViewCellStyle6.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle6.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle6.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle6.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgv_Kategoriya5.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle6;
+            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle5.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle5.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            dataGridViewCellStyle5.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle5.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle5.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgv_Kategoriya5.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle5;
             this.dgv_Kategoriya5.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgv_Kategoriya5.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.dataGridViewCheckBoxColumn6,
@@ -3250,7 +2700,7 @@
             this.dgv_Kategoriya5.ReadOnly = true;
             this.dgv_Kategoriya5.Size = new System.Drawing.Size(970, 518);
             this.dgv_Kategoriya5.TabIndex = 18;
-            this.dgv_Kategoriya5.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgv_Kategoriya5_CellContentClick);
+            this.dgv_Kategoriya5.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgv_Kategoriya5_CellClick);
             // 
             // dataGridViewCheckBoxColumn6
             // 
@@ -3589,11 +3039,11 @@
             // 
             // chart_Kategoriya6
             // 
-            chartArea7.Name = "ChartArea1";
-            this.chart_Kategoriya6.ChartAreas.Add(chartArea7);
+            chartArea6.Name = "ChartArea1";
+            this.chart_Kategoriya6.ChartAreas.Add(chartArea6);
             this.chart_Kategoriya6.Dock = System.Windows.Forms.DockStyle.Fill;
-            legend7.Name = "Legend1";
-            this.chart_Kategoriya6.Legends.Add(legend7);
+            legend6.Name = "Legend1";
+            this.chart_Kategoriya6.Legends.Add(legend6);
             this.chart_Kategoriya6.Location = new System.Drawing.Point(3, 35);
             this.chart_Kategoriya6.Name = "chart_Kategoriya6";
             this.chart_Kategoriya6.Size = new System.Drawing.Size(696, 71);
@@ -3688,14 +3138,14 @@
             // dgv_Kategoriya6
             // 
             this.dgv_Kategoriya6.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            dataGridViewCellStyle7.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle7.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle7.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            dataGridViewCellStyle7.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle7.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle7.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle7.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgv_Kategoriya6.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle7;
+            dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle6.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle6.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            dataGridViewCellStyle6.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle6.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle6.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle6.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgv_Kategoriya6.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle6;
             this.dgv_Kategoriya6.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgv_Kategoriya6.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.dataGridViewCheckBoxColumn7,
@@ -3747,7 +3197,7 @@
             this.dgv_Kategoriya6.ReadOnly = true;
             this.dgv_Kategoriya6.Size = new System.Drawing.Size(970, 518);
             this.dgv_Kategoriya6.TabIndex = 19;
-            this.dgv_Kategoriya6.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgv_Kategoriya6_CellContentClick);
+            this.dgv_Kategoriya6.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgv_Kategoriya6_CellClick);
             // 
             // dataGridViewCheckBoxColumn7
             // 
@@ -4086,11 +3536,11 @@
             // 
             // chart_VKO
             // 
-            chartArea8.Name = "ChartArea1";
-            this.chart_VKO.ChartAreas.Add(chartArea8);
+            chartArea7.Name = "ChartArea1";
+            this.chart_VKO.ChartAreas.Add(chartArea7);
             this.chart_VKO.Dock = System.Windows.Forms.DockStyle.Fill;
-            legend8.Name = "Legend1";
-            this.chart_VKO.Legends.Add(legend8);
+            legend7.Name = "Legend1";
+            this.chart_VKO.Legends.Add(legend7);
             this.chart_VKO.Location = new System.Drawing.Point(3, 35);
             this.chart_VKO.Name = "chart_VKO";
             this.chart_VKO.Size = new System.Drawing.Size(696, 71);
@@ -4185,14 +3635,14 @@
             // dgv_VKO
             // 
             this.dgv_VKO.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            dataGridViewCellStyle8.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle8.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle8.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            dataGridViewCellStyle8.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle8.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle8.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle8.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgv_VKO.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle8;
+            dataGridViewCellStyle7.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle7.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle7.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            dataGridViewCellStyle7.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle7.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle7.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle7.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgv_VKO.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle7;
             this.dgv_VKO.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgv_VKO.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.dataGridViewCheckBoxColumn8,
@@ -4244,7 +3694,7 @@
             this.dgv_VKO.ReadOnly = true;
             this.dgv_VKO.Size = new System.Drawing.Size(970, 518);
             this.dgv_VKO.TabIndex = 20;
-            this.dgv_VKO.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgv_VKO_CellContentClick);
+            this.dgv_VKO.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgv_VKO_CellClick);
             // 
             // dataGridViewCheckBoxColumn8
             // 
@@ -4558,49 +4008,63 @@
             // menuStrip_Kategoriya
             // 
             this.menuStrip_Kategoriya.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.файлToolStripMenuItem2});
+            this.отчётыToolStripMenuItem});
             this.menuStrip_Kategoriya.Location = new System.Drawing.Point(0, 0);
             this.menuStrip_Kategoriya.Name = "menuStrip_Kategoriya";
             this.menuStrip_Kategoriya.Size = new System.Drawing.Size(984, 24);
             this.menuStrip_Kategoriya.TabIndex = 4;
             this.menuStrip_Kategoriya.Text = "menuStrip1";
             // 
-            // файлToolStripMenuItem2
+            // отчётыToolStripMenuItem
             // 
-            this.файлToolStripMenuItem2.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.открытьToolStripMenuItem3,
-            this.печатьToolStripMenuItem2,
+            this.отчётыToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.создатьToolStripMenuItem,
             this.toolStripMenuItem6,
             this.выходToolStripMenuItem3});
-            this.файлToolStripMenuItem2.Name = "файлToolStripMenuItem2";
-            this.файлToolStripMenuItem2.Size = new System.Drawing.Size(48, 20);
-            this.файлToolStripMenuItem2.Text = "Файл";
+            this.отчётыToolStripMenuItem.Name = "отчётыToolStripMenuItem";
+            this.отчётыToolStripMenuItem.Size = new System.Drawing.Size(60, 20);
+            this.отчётыToolStripMenuItem.Text = "Отчёты";
             // 
-            // открытьToolStripMenuItem3
+            // создатьToolStripMenuItem
             // 
-            this.открытьToolStripMenuItem3.Image = global::SiPPOON_PP.Properties.Resources.Open;
-            this.открытьToolStripMenuItem3.Name = "открытьToolStripMenuItem3";
-            this.открытьToolStripMenuItem3.Size = new System.Drawing.Size(180, 22);
-            this.открытьToolStripMenuItem3.Text = "Открыть";
-            this.открытьToolStripMenuItem3.Click += new System.EventHandler(this.открытьToolStripMenuItem_Click);
+            this.создатьToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.отчётОбАнализеToolStripMenuItem,
+            this.деффектныеУчасткиToolStripMenuItem});
+            this.создатьToolStripMenuItem.Name = "создатьToolStripMenuItem";
+            this.создатьToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.создатьToolStripMenuItem.Text = "Создать";
             // 
-            // печатьToolStripMenuItem2
+            // отчётОбАнализеToolStripMenuItem
             // 
-            this.печатьToolStripMenuItem2.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.excelToolStripMenuItem1});
-            this.печатьToolStripMenuItem2.Image = global::SiPPOON_PP.Properties.Resources.Export;
-            this.печатьToolStripMenuItem2.Name = "печатьToolStripMenuItem2";
-            this.печатьToolStripMenuItem2.Size = new System.Drawing.Size(180, 22);
-            this.печатьToolStripMenuItem2.Text = "Печать";
+            this.отчётОбАнализеToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.выбранныеОбъектыToolStripMenuItem,
+            this.всеОбъектыToolStripMenuItem});
+            this.отчётОбАнализеToolStripMenuItem.Name = "отчётОбАнализеToolStripMenuItem";
+            this.отчётОбАнализеToolStripMenuItem.Size = new System.Drawing.Size(191, 22);
+            this.отчётОбАнализеToolStripMenuItem.Text = "Отчёт об анализе";
             // 
-            // excelToolStripMenuItem1
+            // выбранныеОбъектыToolStripMenuItem
             // 
-            this.excelToolStripMenuItem1.Enabled = false;
-            this.excelToolStripMenuItem1.Image = global::SiPPOON_PP.Properties.Resources.Excel;
-            this.excelToolStripMenuItem1.Name = "excelToolStripMenuItem1";
-            this.excelToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
-            this.excelToolStripMenuItem1.Text = "Excel";
-            this.excelToolStripMenuItem1.Click += new System.EventHandler(this.toolStripMenuItem3_Click);
+            this.выбранныеОбъектыToolStripMenuItem.Enabled = false;
+            this.выбранныеОбъектыToolStripMenuItem.Name = "выбранныеОбъектыToolStripMenuItem";
+            this.выбранныеОбъектыToolStripMenuItem.Size = new System.Drawing.Size(189, 22);
+            this.выбранныеОбъектыToolStripMenuItem.Text = "Выбранные объекты";
+            this.выбранныеОбъектыToolStripMenuItem.Click += new System.EventHandler(this.выбранныеОбъектыToolStripMenuItem_Click);
+            // 
+            // всеОбъектыToolStripMenuItem
+            // 
+            this.всеОбъектыToolStripMenuItem.Name = "всеОбъектыToolStripMenuItem";
+            this.всеОбъектыToolStripMenuItem.Size = new System.Drawing.Size(189, 22);
+            this.всеОбъектыToolStripMenuItem.Text = "Все объекты";
+            this.всеОбъектыToolStripMenuItem.Click += new System.EventHandler(this.всеОбъектыToolStripMenuItem_Click);
+            // 
+            // деффектныеУчасткиToolStripMenuItem
+            // 
+            this.деффектныеУчасткиToolStripMenuItem.Enabled = false;
+            this.деффектныеУчасткиToolStripMenuItem.Name = "деффектныеУчасткиToolStripMenuItem";
+            this.деффектныеУчасткиToolStripMenuItem.Size = new System.Drawing.Size(191, 22);
+            this.деффектныеУчасткиToolStripMenuItem.Text = "Деффектные участки";
+            this.деффектныеУчасткиToolStripMenuItem.Click += new System.EventHandler(this.деффектныеУчасткиToolStripMenuItem_Click);
             // 
             // toolStripMenuItem6
             // 
@@ -4609,11 +4073,9 @@
             // 
             // выходToolStripMenuItem3
             // 
-            this.выходToolStripMenuItem3.Image = global::SiPPOON_PP.Properties.Resources.Exit;
             this.выходToolStripMenuItem3.Name = "выходToolStripMenuItem3";
             this.выходToolStripMenuItem3.Size = new System.Drawing.Size(180, 22);
             this.выходToolStripMenuItem3.Text = "Выход";
-            this.выходToolStripMenuItem3.Click += new System.EventHandler(this.выходToolStripMenuItem_Click);
             // 
             // Menu_File
             // 
@@ -4628,11 +4090,8 @@
             // 
             // открытьToolStripMenuItem
             // 
-            this.открытьToolStripMenuItem.Image = global::SiPPOON_PP.Properties.Resources.Open;
             this.открытьToolStripMenuItem.Name = "открытьToolStripMenuItem";
-            this.открытьToolStripMenuItem.Size = new System.Drawing.Size(121, 22);
-            this.открытьToolStripMenuItem.Text = "Открыть";
-            this.открытьToolStripMenuItem.Click += new System.EventHandler(this.открытьToolStripMenuItem_Click);
+            this.открытьToolStripMenuItem.Size = new System.Drawing.Size(119, 22);
             // 
             // toolStripMenuItem2
             // 
@@ -4640,28 +4099,24 @@
             this.toolStripMenuItem3});
             this.toolStripMenuItem2.Image = global::SiPPOON_PP.Properties.Resources.Export;
             this.toolStripMenuItem2.Name = "toolStripMenuItem2";
-            this.toolStripMenuItem2.Size = new System.Drawing.Size(121, 22);
+            this.toolStripMenuItem2.Size = new System.Drawing.Size(119, 22);
             this.toolStripMenuItem2.Text = "Экспорт";
             // 
             // toolStripMenuItem3
             // 
-            this.toolStripMenuItem3.Enabled = false;
-            this.toolStripMenuItem3.Image = global::SiPPOON_PP.Properties.Resources.Excel;
             this.toolStripMenuItem3.Name = "toolStripMenuItem3";
-            this.toolStripMenuItem3.Size = new System.Drawing.Size(101, 22);
-            this.toolStripMenuItem3.Text = "Excel";
-            this.toolStripMenuItem3.Click += new System.EventHandler(this.toolStripMenuItem3_Click);
+            this.toolStripMenuItem3.Size = new System.Drawing.Size(67, 22);
             // 
             // toolStripMenuItem1
             // 
             this.toolStripMenuItem1.Name = "toolStripMenuItem1";
-            this.toolStripMenuItem1.Size = new System.Drawing.Size(118, 6);
+            this.toolStripMenuItem1.Size = new System.Drawing.Size(116, 6);
             // 
             // выходToolStripMenuItem
             // 
             this.выходToolStripMenuItem.Image = global::SiPPOON_PP.Properties.Resources.Exit;
             this.выходToolStripMenuItem.Name = "выходToolStripMenuItem";
-            this.выходToolStripMenuItem.Size = new System.Drawing.Size(121, 22);
+            this.выходToolStripMenuItem.Size = new System.Drawing.Size(119, 22);
             this.выходToolStripMenuItem.Text = "Выход";
             this.выходToolStripMenuItem.Click += new System.EventHandler(this.выходToolStripMenuItem_Click);
             // 
@@ -4692,11 +4147,8 @@
             // 
             // открытьToolStripMenuItem1
             // 
-            this.открытьToolStripMenuItem1.Image = global::SiPPOON_PP.Properties.Resources.Open;
             this.открытьToolStripMenuItem1.Name = "открытьToolStripMenuItem1";
-            this.открытьToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
-            this.открытьToolStripMenuItem1.Text = "Открыть";
-            this.открытьToolStripMenuItem1.Click += new System.EventHandler(this.открытьToolStripMenuItem_Click);
+            this.открытьToolStripMenuItem1.Size = new System.Drawing.Size(32, 19);
             // 
             // печатьToolStripMenuItem
             // 
@@ -4720,11 +4172,8 @@
             // 
             // excelToolStripMenuItem
             // 
-            this.excelToolStripMenuItem.Image = global::SiPPOON_PP.Properties.Resources.Excel;
             this.excelToolStripMenuItem.Name = "excelToolStripMenuItem";
-            this.excelToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.excelToolStripMenuItem.Text = "Excel";
-            this.excelToolStripMenuItem.Click += new System.EventHandler(this.toolStripMenuItem3_Click);
+            this.excelToolStripMenuItem.Size = new System.Drawing.Size(32, 19);
             // 
             // файлToolStripMenuItem1
             // 
@@ -4770,13 +4219,8 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Результаты по категориям";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Form_Kategorii_FormClosing);
+            this.Load += new System.EventHandler(this.Form_Kategorii_Load);
             this.tc_Kategorii.ResumeLayout(false);
-            this.Kategorii.ResumeLayout(false);
-            this.gb_Chart_Kategorii.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.chart_Kategorii)).EndInit();
-            this.gb_Kategorii.ResumeLayout(false);
-            this.gb_Kategorii.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dgv_Kategorii)).EndInit();
             this.Kategoriya_1.ResumeLayout(false);
             this.gb_Chart_Kategoriya1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.chart_Kategoriya1)).EndInit();
@@ -4846,7 +4290,6 @@
         private System.Windows.Forms.ToolStripMenuItem выходToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem2;
         private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem3;
-        private System.Windows.Forms.TabPage Kategorii;
         private System.Windows.Forms.ToolStripMenuItem файлToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem открытьToolStripMenuItem1;
         private System.Windows.Forms.ToolStripMenuItem печатьToolStripMenuItem;
@@ -4858,21 +4301,6 @@
         private System.Windows.Forms.ToolStripMenuItem печатьToolStripMenuItem1;
         private System.Windows.Forms.ToolStripSeparator toolStripMenuItem5;
         private System.Windows.Forms.ToolStripMenuItem выходToolStripMenuItem2;
-        private System.Windows.Forms.ToolStripMenuItem файлToolStripMenuItem2;
-        private System.Windows.Forms.ToolStripMenuItem открытьToolStripMenuItem3;
-        private System.Windows.Forms.ToolStripMenuItem печатьToolStripMenuItem2;
-        private System.Windows.Forms.ToolStripMenuItem excelToolStripMenuItem1;
-        private System.Windows.Forms.ToolStripSeparator toolStripMenuItem6;
-        private System.Windows.Forms.ToolStripMenuItem выходToolStripMenuItem3;
-        private System.Windows.Forms.GroupBox gb_Chart_Kategorii;
-        private System.Windows.Forms.DataVisualization.Charting.Chart chart_Kategorii;
-        private System.Windows.Forms.CheckedListBox clb_Kategorii;
-        private System.Windows.Forms.GroupBox gb_Kategorii;
-        private System.Windows.Forms.RadioButton rb_Clear_Kategorii;
-        private System.Windows.Forms.RadioButton rb_Deffect_Kategorii;
-        private System.Windows.Forms.RadioButton rb_Prev_Kategorii;
-        private System.Windows.Forms.Label lbl_Filter_Kategorii;
-        private System.Windows.Forms.DataGridView dgv_Kategorii;
         private System.Windows.Forms.GroupBox gb_Chart_Kategoriya1;
         private System.Windows.Forms.DataVisualization.Charting.Chart chart_Kategoriya1;
         private System.Windows.Forms.CheckedListBox clb_Kategoriya1;
@@ -5194,49 +4622,9 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn292;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn293;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn294;
-        private System.Windows.Forms.DataGridViewCheckBoxColumn dataGridViewCheckBoxColumn2;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn421;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn422;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn423;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn424;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn425;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn426;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn427;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn428;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn429;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn430;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn431;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn432;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn433;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn434;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn435;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn436;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn437;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn438;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn439;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn440;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn441;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn442;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn443;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn444;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn445;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn446;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn447;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn448;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn449;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn450;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn451;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn452;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn453;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn454;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn455;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn456;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn457;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn458;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn459;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn460;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn461;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn462;
+        private System.Windows.Forms.ToolStripMenuItem отчётыToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem создатьToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem отчётОбАнализеToolStripMenuItem;
         private System.Windows.Forms.DataGridViewCheckBoxColumn dataGridViewCheckBoxColumn1;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn1;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn2;
@@ -5280,6 +4668,11 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn40;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn41;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn42;
+        private System.Windows.Forms.ToolStripMenuItem выбранныеОбъектыToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem всеОбъектыToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem деффектныеУчасткиToolStripMenuItem;
+        private System.Windows.Forms.ToolStripSeparator toolStripMenuItem6;
+        private System.Windows.Forms.ToolStripMenuItem выходToolStripMenuItem3;
     }
 }
 

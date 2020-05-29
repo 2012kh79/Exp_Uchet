@@ -9,7 +9,7 @@ namespace SiPPOON_PP
     public partial class Form_Authorize : Form
     {
         public static SQLCon con = new SQLCon();//Переменная для хранения соединения с SQL
-        public enum Role {Failed, Admin, Otdel_Kachestva};//Хранит перечисление ролей
+        public enum Role {Failed, Admin, Otdel_Kachestva, Nachalnik_Otdel_Kachestva};//Хранит перечисление ролей
         public static Role role;
         public static string Login;//Хранит логин
         public Form_Authorize()
@@ -55,6 +55,7 @@ namespace SiPPOON_PP
                     {
                         case 1: role = Role.Admin; break;
                         case 2: role = Role.Otdel_Kachestva; break;
+                        case 3: role = Role.Nachalnik_Otdel_Kachestva; break;
                     }
                 }
             }
@@ -72,7 +73,7 @@ namespace SiPPOON_PP
                 if (role == Role.Otdel_Kachestva)
                 {
                     Login = tbLogin.Text;
-                    MessageBox.Show("Вы авторизовались, как \"Начальник отдела по контролю качества\".", "Сообщение", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    MessageBox.Show("Вы авторизовались, как \"Сотрудник отдела по контролю качества\".", "Сообщение", MessageBoxButtons.OK, MessageBoxIcon.Information);
                     Form_Main main = new Form_Main();
                     main.Show();
                     this.Close();
@@ -82,6 +83,14 @@ namespace SiPPOON_PP
                     MessageBox.Show("Вы авторизовались, как \"Администратор\".", "Сообщение", MessageBoxButtons.OK, MessageBoxIcon.Information);
                     Form_Admin admin = new Form_Admin();
                     admin.Show();
+                    this.Close();
+                }
+                if (role == Role.Nachalnik_Otdel_Kachestva)
+                {
+                    Login = tbLogin.Text;
+                    MessageBox.Show("Вы авторизовались, как \"Начальник отдела по контролю качества\".", "Сообщение", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    Form_Main main = new Form_Main();
+                    main.Show();
                     this.Close();
                 }
             }

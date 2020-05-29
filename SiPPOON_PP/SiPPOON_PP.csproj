@@ -56,6 +56,8 @@
   <ItemGroup>
     <Compile Include="Classes\CallBack.cs" />
     <Compile Include="Classes\FTP_Server.cs" />
+    <Compile Include="Classes\Otchet.cs" />
+    <Compile Include="Classes\XML.cs" />
     <Compile Include="Forms\About_Form.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -109,6 +111,12 @@
     <Compile Include="Forms\Form_Kategorii.Designer.cs">
       <DependentUpon>Form_Kategorii.cs</DependentUpon>
     </Compile>
+    <Compile Include="Forms\Form_Otchet.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Form_Otchet.Designer.cs">
+      <DependentUpon>Form_Otchet.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forms\Form_Registration.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -120,6 +128,12 @@
     </Compile>
     <Compile Include="Forms\Form_Main.Designer.cs">
       <DependentUpon>Form_Main.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Form_Settings.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Form_Settings.Designer.cs">
+      <DependentUpon>Form_Settings.cs</DependentUpon>
     </Compile>
     <Compile Include="Forms\Form_Uchet.cs">
       <SubType>Form</SubType>
@@ -179,11 +193,17 @@
     <EmbeddedResource Include="Forms\Form_Kategorii.resx">
       <DependentUpon>Form_Kategorii.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Form_Otchet.resx">
+      <DependentUpon>Form_Otchet.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forms\Form_Registration.resx">
       <DependentUpon>Form_Registration.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\Form_Main.resx">
       <DependentUpon>Form_Main.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Form_Settings.resx">
+      <DependentUpon>Form_Settings.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\Form_Uchet.resx">
       <DependentUpon>Form_Uchet.cs</DependentUpon>
@@ -222,6 +242,8 @@
     <None Include="Resources\Main_Propusk.png" />
     <None Include="Resources\Main_Result.png" />
     <None Include="Resources\Main_Settings.png" />
+    <None Include="Resources\Word.png" />
+    <None Include="Resources\PDF.png" />
     <Content Include="Иконка.ico" />
     <None Include="Resources\Иконка.ico" />
     <None Include="Resources\Zastavka.png" />

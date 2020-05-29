@@ -61,65 +61,9 @@
             System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea11 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
             System.Windows.Forms.DataVisualization.Charting.Legend legend11 = new System.Windows.Forms.DataVisualization.Charting.Legend();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle11 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea12 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend12 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle12 = new System.Windows.Forms.DataGridViewCellStyle();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form_Okruga));
             this.lbl_Result_Okrug = new System.Windows.Forms.Label();
             this.tc_Okruga = new System.Windows.Forms.TabControl();
-            this.Okruga = new System.Windows.Forms.TabPage();
-            this.gb_chart_Okruga = new System.Windows.Forms.GroupBox();
-            this.chart_Okruga = new System.Windows.Forms.DataVisualization.Charting.Chart();
-            this.clb_Okruga = new System.Windows.Forms.CheckedListBox();
-            this.gb_Rabota_Okruga = new System.Windows.Forms.GroupBox();
-            this.rb_Clear_Okruga = new System.Windows.Forms.RadioButton();
-            this.rb_Deffect_Okruga = new System.Windows.Forms.RadioButton();
-            this.rb_Prev_Okruga = new System.Windows.Forms.RadioButton();
-            this.lbl_Filter_Okruga = new System.Windows.Forms.Label();
-            this.dgv_Okruga = new System.Windows.Forms.DataGridView();
-            this.Column1 = new System.Windows.Forms.DataGridViewCheckBoxColumn();
-            this.dataGridViewTextBoxColumn421 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn422 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn423 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn424 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn425 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn426 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn427 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn428 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn429 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn430 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn431 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn432 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn433 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn434 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn435 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn436 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn437 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn438 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn439 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn440 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn441 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn442 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn443 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn444 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn445 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn446 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn447 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn448 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn449 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn450 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn451 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn452 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn453 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn454 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn455 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn456 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn457 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn458 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn459 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn460 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn461 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn462 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.VAO = new System.Windows.Forms.TabPage();
             this.gb_chart_VAO = new System.Windows.Forms.GroupBox();
             this.chart_VAO = new System.Windows.Forms.DataVisualization.Charting.Chart();
@@ -705,7 +649,6 @@
             this.dataGridViewTextBoxColumn420 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.menuStrip_Okruga = new System.Windows.Forms.MenuStrip();
             this.файлToolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
-            this.открытьToolStripMenuItem3 = new System.Windows.Forms.ToolStripMenuItem();
             this.печатьToolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
             this.excelToolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItem6 = new System.Windows.Forms.ToolStripSeparator();
@@ -732,11 +675,6 @@
             this.выходToolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
             this.excelToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.tc_Okruga.SuspendLayout();
-            this.Okruga.SuspendLayout();
-            this.gb_chart_Okruga.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.chart_Okruga)).BeginInit();
-            this.gb_Rabota_Okruga.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dgv_Okruga)).BeginInit();
             this.VAO.SuspendLayout();
             this.gb_chart_VAO.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.chart_VAO)).BeginInit();
@@ -808,7 +746,6 @@
             // 
             // tc_Okruga
             // 
-            this.tc_Okruga.Controls.Add(this.Okruga);
             this.tc_Okruga.Controls.Add(this.VAO);
             this.tc_Okruga.Controls.Add(this.ZAO);
             this.tc_Okruga.Controls.Add(this.ZelAO);
@@ -826,503 +763,6 @@
             this.tc_Okruga.SelectedIndex = 0;
             this.tc_Okruga.Size = new System.Drawing.Size(984, 698);
             this.tc_Okruga.TabIndex = 7;
-            // 
-            // Okruga
-            // 
-            this.Okruga.Controls.Add(this.gb_chart_Okruga);
-            this.Okruga.Controls.Add(this.gb_Rabota_Okruga);
-            this.Okruga.Controls.Add(this.lbl_Filter_Okruga);
-            this.Okruga.Controls.Add(this.dgv_Okruga);
-            this.Okruga.Location = new System.Drawing.Point(4, 22);
-            this.Okruga.Name = "Okruga";
-            this.Okruga.Padding = new System.Windows.Forms.Padding(3);
-            this.Okruga.Size = new System.Drawing.Size(976, 672);
-            this.Okruga.TabIndex = 11;
-            this.Okruga.Text = "Округа";
-            this.Okruga.UseVisualStyleBackColor = true;
-            // 
-            // gb_chart_Okruga
-            // 
-            this.gb_chart_Okruga.Controls.Add(this.chart_Okruga);
-            this.gb_chart_Okruga.Controls.Add(this.clb_Okruga);
-            this.gb_chart_Okruga.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.gb_chart_Okruga.Location = new System.Drawing.Point(271, 560);
-            this.gb_chart_Okruga.Name = "gb_chart_Okruga";
-            this.gb_chart_Okruga.Size = new System.Drawing.Size(702, 109);
-            this.gb_chart_Okruga.TabIndex = 16;
-            this.gb_chart_Okruga.TabStop = false;
-            this.gb_chart_Okruga.Text = "Работа с диаграммой";
-            // 
-            // chart_Okruga
-            // 
-            chartArea1.Name = "ChartArea1";
-            this.chart_Okruga.ChartAreas.Add(chartArea1);
-            this.chart_Okruga.Dock = System.Windows.Forms.DockStyle.Fill;
-            legend1.Name = "Legend1";
-            this.chart_Okruga.Legends.Add(legend1);
-            this.chart_Okruga.Location = new System.Drawing.Point(3, 35);
-            this.chart_Okruga.Name = "chart_Okruga";
-            this.chart_Okruga.Size = new System.Drawing.Size(696, 71);
-            this.chart_Okruga.TabIndex = 1;
-            this.chart_Okruga.Text = "chart7";
-            // 
-            // clb_Okruga
-            // 
-            this.clb_Okruga.CheckOnClick = true;
-            this.clb_Okruga.ColumnWidth = 160;
-            this.clb_Okruga.Dock = System.Windows.Forms.DockStyle.Top;
-            this.clb_Okruga.FormattingEnabled = true;
-            this.clb_Okruga.Items.AddRange(new object[] {
-            "Продольная ровность",
-            "Поперечная ровность",
-            "Плотность трещин",
-            "Плотность ремонтных карт"});
-            this.clb_Okruga.Location = new System.Drawing.Point(3, 16);
-            this.clb_Okruga.MultiColumn = true;
-            this.clb_Okruga.Name = "clb_Okruga";
-            this.clb_Okruga.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.clb_Okruga.Size = new System.Drawing.Size(696, 19);
-            this.clb_Okruga.TabIndex = 0;
-            this.clb_Okruga.SelectedIndexChanged += new System.EventHandler(this.clb_Okruga_SelectedIndexChanged);
-            // 
-            // gb_Rabota_Okruga
-            // 
-            this.gb_Rabota_Okruga.Controls.Add(this.rb_Clear_Okruga);
-            this.gb_Rabota_Okruga.Controls.Add(this.rb_Deffect_Okruga);
-            this.gb_Rabota_Okruga.Controls.Add(this.rb_Prev_Okruga);
-            this.gb_Rabota_Okruga.Dock = System.Windows.Forms.DockStyle.Left;
-            this.gb_Rabota_Okruga.Location = new System.Drawing.Point(3, 560);
-            this.gb_Rabota_Okruga.Name = "gb_Rabota_Okruga";
-            this.gb_Rabota_Okruga.Size = new System.Drawing.Size(268, 109);
-            this.gb_Rabota_Okruga.TabIndex = 15;
-            this.gb_Rabota_Okruga.TabStop = false;
-            this.gb_Rabota_Okruga.Text = "Работа с данными";
-            // 
-            // rb_Clear_Okruga
-            // 
-            this.rb_Clear_Okruga.AutoSize = true;
-            this.rb_Clear_Okruga.Dock = System.Windows.Forms.DockStyle.Top;
-            this.rb_Clear_Okruga.Location = new System.Drawing.Point(3, 50);
-            this.rb_Clear_Okruga.Name = "rb_Clear_Okruga";
-            this.rb_Clear_Okruga.Size = new System.Drawing.Size(262, 17);
-            this.rb_Clear_Okruga.TabIndex = 5;
-            this.rb_Clear_Okruga.TabStop = true;
-            this.rb_Clear_Okruga.Text = "Очистить фильтр";
-            this.rb_Clear_Okruga.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.rb_Clear_Okruga.UseVisualStyleBackColor = true;
-            this.rb_Clear_Okruga.CheckedChanged += new System.EventHandler(this.rb_Clear_Okruga_CheckedChanged);
-            // 
-            // rb_Deffect_Okruga
-            // 
-            this.rb_Deffect_Okruga.AutoSize = true;
-            this.rb_Deffect_Okruga.Dock = System.Windows.Forms.DockStyle.Top;
-            this.rb_Deffect_Okruga.Location = new System.Drawing.Point(3, 33);
-            this.rb_Deffect_Okruga.Name = "rb_Deffect_Okruga";
-            this.rb_Deffect_Okruga.Size = new System.Drawing.Size(262, 17);
-            this.rb_Deffect_Okruga.TabIndex = 1;
-            this.rb_Deffect_Okruga.TabStop = true;
-            this.rb_Deffect_Okruga.Text = "Деффектные участки дорог (>40%)";
-            this.rb_Deffect_Okruga.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.rb_Deffect_Okruga.UseVisualStyleBackColor = true;
-            this.rb_Deffect_Okruga.CheckedChanged += new System.EventHandler(this.rb_Deffect_Okruga_CheckedChanged);
-            // 
-            // rb_Prev_Okruga
-            // 
-            this.rb_Prev_Okruga.AutoSize = true;
-            this.rb_Prev_Okruga.Dock = System.Windows.Forms.DockStyle.Top;
-            this.rb_Prev_Okruga.Location = new System.Drawing.Point(3, 16);
-            this.rb_Prev_Okruga.Name = "rb_Prev_Okruga";
-            this.rb_Prev_Okruga.Size = new System.Drawing.Size(262, 17);
-            this.rb_Prev_Okruga.TabIndex = 0;
-            this.rb_Prev_Okruga.TabStop = true;
-            this.rb_Prev_Okruga.Text = "Превышающие элементы";
-            this.rb_Prev_Okruga.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.rb_Prev_Okruga.UseVisualStyleBackColor = true;
-            this.rb_Prev_Okruga.CheckedChanged += new System.EventHandler(this.rb_Prev_Okruga_CheckedChanged);
-            // 
-            // lbl_Filter_Okruga
-            // 
-            this.lbl_Filter_Okruga.Dock = System.Windows.Forms.DockStyle.Top;
-            this.lbl_Filter_Okruga.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.lbl_Filter_Okruga.Location = new System.Drawing.Point(3, 521);
-            this.lbl_Filter_Okruga.Name = "lbl_Filter_Okruga";
-            this.lbl_Filter_Okruga.Size = new System.Drawing.Size(970, 39);
-            this.lbl_Filter_Okruga.TabIndex = 14;
-            this.lbl_Filter_Okruga.Text = "Фильтр";
-            this.lbl_Filter_Okruga.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // dgv_Okruga
-            // 
-            this.dgv_Okruga.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            dataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgv_Okruga.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
-            this.dgv_Okruga.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgv_Okruga.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.Column1,
-            this.dataGridViewTextBoxColumn421,
-            this.dataGridViewTextBoxColumn422,
-            this.dataGridViewTextBoxColumn423,
-            this.dataGridViewTextBoxColumn424,
-            this.dataGridViewTextBoxColumn425,
-            this.dataGridViewTextBoxColumn426,
-            this.dataGridViewTextBoxColumn427,
-            this.dataGridViewTextBoxColumn428,
-            this.dataGridViewTextBoxColumn429,
-            this.dataGridViewTextBoxColumn430,
-            this.dataGridViewTextBoxColumn431,
-            this.dataGridViewTextBoxColumn432,
-            this.dataGridViewTextBoxColumn433,
-            this.dataGridViewTextBoxColumn434,
-            this.dataGridViewTextBoxColumn435,
-            this.dataGridViewTextBoxColumn436,
-            this.dataGridViewTextBoxColumn437,
-            this.dataGridViewTextBoxColumn438,
-            this.dataGridViewTextBoxColumn439,
-            this.dataGridViewTextBoxColumn440,
-            this.dataGridViewTextBoxColumn441,
-            this.dataGridViewTextBoxColumn442,
-            this.dataGridViewTextBoxColumn443,
-            this.dataGridViewTextBoxColumn444,
-            this.dataGridViewTextBoxColumn445,
-            this.dataGridViewTextBoxColumn446,
-            this.dataGridViewTextBoxColumn447,
-            this.dataGridViewTextBoxColumn448,
-            this.dataGridViewTextBoxColumn449,
-            this.dataGridViewTextBoxColumn450,
-            this.dataGridViewTextBoxColumn451,
-            this.dataGridViewTextBoxColumn452,
-            this.dataGridViewTextBoxColumn453,
-            this.dataGridViewTextBoxColumn454,
-            this.dataGridViewTextBoxColumn455,
-            this.dataGridViewTextBoxColumn456,
-            this.dataGridViewTextBoxColumn457,
-            this.dataGridViewTextBoxColumn458,
-            this.dataGridViewTextBoxColumn459,
-            this.dataGridViewTextBoxColumn460,
-            this.dataGridViewTextBoxColumn461,
-            this.dataGridViewTextBoxColumn462});
-            this.dgv_Okruga.Dock = System.Windows.Forms.DockStyle.Top;
-            this.dgv_Okruga.Location = new System.Drawing.Point(3, 3);
-            this.dgv_Okruga.Name = "dgv_Okruga";
-            this.dgv_Okruga.ReadOnly = true;
-            this.dgv_Okruga.Size = new System.Drawing.Size(970, 518);
-            this.dgv_Okruga.TabIndex = 13;
-            this.dgv_Okruga.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgv_Okruga_CellContentClick);
-            // 
-            // Column1
-            // 
-            this.Column1.Frozen = true;
-            this.Column1.HeaderText = "";
-            this.Column1.Name = "Column1";
-            this.Column1.ReadOnly = true;
-            this.Column1.Width = 30;
-            // 
-            // dataGridViewTextBoxColumn421
-            // 
-            this.dataGridViewTextBoxColumn421.Frozen = true;
-            this.dataGridViewTextBoxColumn421.HeaderText = "№ п/п";
-            this.dataGridViewTextBoxColumn421.Name = "dataGridViewTextBoxColumn421";
-            this.dataGridViewTextBoxColumn421.ReadOnly = true;
-            this.dataGridViewTextBoxColumn421.Width = 59;
-            // 
-            // dataGridViewTextBoxColumn422
-            // 
-            this.dataGridViewTextBoxColumn422.HeaderText = "ID ОДХ";
-            this.dataGridViewTextBoxColumn422.Name = "dataGridViewTextBoxColumn422";
-            this.dataGridViewTextBoxColumn422.ReadOnly = true;
-            this.dataGridViewTextBoxColumn422.Width = 65;
-            // 
-            // dataGridViewTextBoxColumn423
-            // 
-            this.dataGridViewTextBoxColumn423.HeaderText = "Наименование объекта";
-            this.dataGridViewTextBoxColumn423.Name = "dataGridViewTextBoxColumn423";
-            this.dataGridViewTextBoxColumn423.ReadOnly = true;
-            this.dataGridViewTextBoxColumn423.Width = 140;
-            // 
-            // dataGridViewTextBoxColumn424
-            // 
-            this.dataGridViewTextBoxColumn424.HeaderText = "Площадь проезжей части, кв.м";
-            this.dataGridViewTextBoxColumn424.Name = "dataGridViewTextBoxColumn424";
-            this.dataGridViewTextBoxColumn424.ReadOnly = true;
-            this.dataGridViewTextBoxColumn424.Width = 82;
-            // 
-            // dataGridViewTextBoxColumn425
-            // 
-            this.dataGridViewTextBoxColumn425.HeaderText = "ПРОДОЛЬНАЯ РОВНОСТЬ. max мм/м";
-            this.dataGridViewTextBoxColumn425.Name = "dataGridViewTextBoxColumn425";
-            this.dataGridViewTextBoxColumn425.ReadOnly = true;
-            this.dataGridViewTextBoxColumn425.Width = 135;
-            // 
-            // dataGridViewTextBoxColumn426
-            // 
-            this.dataGridViewTextBoxColumn426.HeaderText = "ПРОДОЛЬНАЯ РОВНОСТЬ. ср. значение, мм/м";
-            this.dataGridViewTextBoxColumn426.Name = "dataGridViewTextBoxColumn426";
-            this.dataGridViewTextBoxColumn426.ReadOnly = true;
-            this.dataGridViewTextBoxColumn426.Width = 162;
-            // 
-            // dataGridViewTextBoxColumn427
-            // 
-            this.dataGridViewTextBoxColumn427.HeaderText = "ПРОДОЛЬНАЯ РОВНОСТЬ. ср. дефектное, мм/м";
-            this.dataGridViewTextBoxColumn427.Name = "dataGridViewTextBoxColumn427";
-            this.dataGridViewTextBoxColumn427.ReadOnly = true;
-            this.dataGridViewTextBoxColumn427.Width = 112;
-            // 
-            // dataGridViewTextBoxColumn428
-            // 
-            this.dataGridViewTextBoxColumn428.HeaderText = "ПРОДОЛЬНАЯ РОВНОСТЬ. площадь проезжей части с выявленным нарушением (%)";
-            this.dataGridViewTextBoxColumn428.Name = "dataGridViewTextBoxColumn428";
-            this.dataGridViewTextBoxColumn428.ReadOnly = true;
-            this.dataGridViewTextBoxColumn428.Width = 205;
-            // 
-            // dataGridViewTextBoxColumn429
-            // 
-            this.dataGridViewTextBoxColumn429.HeaderText = "ПРОДОЛЬНАЯ РОВНОСТЬ. площадь проезжей части с выявленным нарушением (кв.м)";
-            this.dataGridViewTextBoxColumn429.Name = "dataGridViewTextBoxColumn429";
-            this.dataGridViewTextBoxColumn429.ReadOnly = true;
-            this.dataGridViewTextBoxColumn429.Width = 178;
-            // 
-            // dataGridViewTextBoxColumn430
-            // 
-            this.dataGridViewTextBoxColumn430.HeaderText = "ПОПЕРЕЧНАЯ РОВНОСТЬ. max мм/м";
-            this.dataGridViewTextBoxColumn430.Name = "dataGridViewTextBoxColumn430";
-            this.dataGridViewTextBoxColumn430.ReadOnly = true;
-            this.dataGridViewTextBoxColumn430.Width = 109;
-            // 
-            // dataGridViewTextBoxColumn431
-            // 
-            this.dataGridViewTextBoxColumn431.HeaderText = "ПОПЕРЕЧНАЯ РОВНОСТЬ. ср.значение, мм/м";
-            this.dataGridViewTextBoxColumn431.Name = "dataGridViewTextBoxColumn431";
-            this.dataGridViewTextBoxColumn431.ReadOnly = true;
-            this.dataGridViewTextBoxColumn431.Width = 118;
-            // 
-            // dataGridViewTextBoxColumn432
-            // 
-            this.dataGridViewTextBoxColumn432.HeaderText = "ПОПЕРЕЧНАЯ РОВНОСТЬ. ср.дефектное мм/м";
-            this.dataGridViewTextBoxColumn432.Name = "dataGridViewTextBoxColumn432";
-            this.dataGridViewTextBoxColumn432.ReadOnly = true;
-            this.dataGridViewTextBoxColumn432.Width = 123;
-            // 
-            // dataGridViewTextBoxColumn433
-            // 
-            this.dataGridViewTextBoxColumn433.HeaderText = "ПОПЕРЕЧНАЯ РОВНОСТЬ. площадь проезжей части с выявленным нарушением (%)";
-            this.dataGridViewTextBoxColumn433.Name = "dataGridViewTextBoxColumn433";
-            this.dataGridViewTextBoxColumn433.ReadOnly = true;
-            this.dataGridViewTextBoxColumn433.Width = 204;
-            // 
-            // dataGridViewTextBoxColumn434
-            // 
-            this.dataGridViewTextBoxColumn434.HeaderText = "ПОПЕРЕЧНАЯ РОВНОСТЬ. площадь проезжей части с выявленным нарушением (кв.м)";
-            this.dataGridViewTextBoxColumn434.Name = "dataGridViewTextBoxColumn434";
-            this.dataGridViewTextBoxColumn434.ReadOnly = true;
-            this.dataGridViewTextBoxColumn434.Width = 178;
-            // 
-            // dataGridViewTextBoxColumn435
-            // 
-            this.dataGridViewTextBoxColumn435.HeaderText = "ПЛОТНОСТЬ ТРЕЩИН. max мм/м";
-            this.dataGridViewTextBoxColumn435.Name = "dataGridViewTextBoxColumn435";
-            this.dataGridViewTextBoxColumn435.ReadOnly = true;
-            this.dataGridViewTextBoxColumn435.Width = 124;
-            // 
-            // dataGridViewTextBoxColumn436
-            // 
-            this.dataGridViewTextBoxColumn436.HeaderText = "ПЛОТНОСТЬ ТРЕЩИН. ср.значение, мм/м";
-            this.dataGridViewTextBoxColumn436.Name = "dataGridViewTextBoxColumn436";
-            this.dataGridViewTextBoxColumn436.ReadOnly = true;
-            this.dataGridViewTextBoxColumn436.Width = 118;
-            // 
-            // dataGridViewTextBoxColumn437
-            // 
-            this.dataGridViewTextBoxColumn437.HeaderText = "ПЛОТНОСТЬ ТРЕЩИН. ср.дефектное, мм/м";
-            this.dataGridViewTextBoxColumn437.Name = "dataGridViewTextBoxColumn437";
-            this.dataGridViewTextBoxColumn437.ReadOnly = true;
-            this.dataGridViewTextBoxColumn437.Width = 125;
-            // 
-            // dataGridViewTextBoxColumn438
-            // 
-            this.dataGridViewTextBoxColumn438.HeaderText = "ПЛОТНОСТЬ ТРЕЩИН. площадь проезжей части с выявленным нарушением (%)";
-            this.dataGridViewTextBoxColumn438.Name = "dataGridViewTextBoxColumn438";
-            this.dataGridViewTextBoxColumn438.ReadOnly = true;
-            this.dataGridViewTextBoxColumn438.Width = 165;
-            // 
-            // dataGridViewTextBoxColumn439
-            // 
-            this.dataGridViewTextBoxColumn439.HeaderText = "ПЛОТНОСТЬ ТРЕЩИН. площадь проезжей части с выявленным нарушением (кв.м)";
-            this.dataGridViewTextBoxColumn439.Name = "dataGridViewTextBoxColumn439";
-            this.dataGridViewTextBoxColumn439.ReadOnly = true;
-            this.dataGridViewTextBoxColumn439.Width = 158;
-            // 
-            // dataGridViewTextBoxColumn440
-            // 
-            this.dataGridViewTextBoxColumn440.HeaderText = "ПЛОЩАДЬ РЕМОНТНЫХ КАРТ. max мм/м";
-            this.dataGridViewTextBoxColumn440.Name = "dataGridViewTextBoxColumn440";
-            this.dataGridViewTextBoxColumn440.ReadOnly = true;
-            this.dataGridViewTextBoxColumn440.Width = 107;
-            // 
-            // dataGridViewTextBoxColumn441
-            // 
-            this.dataGridViewTextBoxColumn441.HeaderText = "ПЛОЩАДЬ РЕМОНТНЫХ КАРТ. ср.значение, мм/м";
-            this.dataGridViewTextBoxColumn441.Name = "dataGridViewTextBoxColumn441";
-            this.dataGridViewTextBoxColumn441.ReadOnly = true;
-            this.dataGridViewTextBoxColumn441.Width = 151;
-            // 
-            // dataGridViewTextBoxColumn442
-            // 
-            this.dataGridViewTextBoxColumn442.HeaderText = "ПЛОЩАДЬ РЕМОНТНЫХ КАРТ. ср.дефектное, мм/м";
-            this.dataGridViewTextBoxColumn442.Name = "dataGridViewTextBoxColumn442";
-            this.dataGridViewTextBoxColumn442.ReadOnly = true;
-            this.dataGridViewTextBoxColumn442.Width = 156;
-            // 
-            // dataGridViewTextBoxColumn443
-            // 
-            this.dataGridViewTextBoxColumn443.HeaderText = "ПЛОЩАДЬ РЕМОНТНЫХ КАРТ. площадь проезжей части с выявленным нарушением (%)";
-            this.dataGridViewTextBoxColumn443.Name = "dataGridViewTextBoxColumn443";
-            this.dataGridViewTextBoxColumn443.ReadOnly = true;
-            this.dataGridViewTextBoxColumn443.Width = 182;
-            // 
-            // dataGridViewTextBoxColumn444
-            // 
-            this.dataGridViewTextBoxColumn444.HeaderText = "ПЛОЩАДЬ РЕМОНТНЫХ КАРТ. площадь проезжей части с выявленным нарушением (кв.м)";
-            this.dataGridViewTextBoxColumn444.Name = "dataGridViewTextBoxColumn444";
-            this.dataGridViewTextBoxColumn444.ReadOnly = true;
-            this.dataGridViewTextBoxColumn444.Width = 182;
-            // 
-            // dataGridViewTextBoxColumn445
-            // 
-            this.dataGridViewTextBoxColumn445.HeaderText = "ПЛОЩАДЬ ПРОЕЗЖЕЙ ЧАСТИ С ВЫЯВЛЕННЫМИ НАРУШЕНИЯМИ. по 1 показателю (%)";
-            this.dataGridViewTextBoxColumn445.Name = "dataGridViewTextBoxColumn445";
-            this.dataGridViewTextBoxColumn445.ReadOnly = true;
-            this.dataGridViewTextBoxColumn445.Width = 180;
-            // 
-            // dataGridViewTextBoxColumn446
-            // 
-            this.dataGridViewTextBoxColumn446.HeaderText = "ПЛОЩАДЬ ПРОЕЗЖЕЙ ЧАСТИ С ВЫЯВЛЕННЫМИ НАРУШЕНИЯМИ. по 1 показателю (кв.м)";
-            this.dataGridViewTextBoxColumn446.Name = "dataGridViewTextBoxColumn446";
-            this.dataGridViewTextBoxColumn446.ReadOnly = true;
-            this.dataGridViewTextBoxColumn446.Width = 180;
-            // 
-            // dataGridViewTextBoxColumn447
-            // 
-            this.dataGridViewTextBoxColumn447.HeaderText = "ПЛОЩАДЬ ПРОЕЗЖЕЙ ЧАСТИ С ВЫЯВЛЕННЫМИ НАРУШЕНИЯМИ. по 2 показателям (%)";
-            this.dataGridViewTextBoxColumn447.Name = "dataGridViewTextBoxColumn447";
-            this.dataGridViewTextBoxColumn447.ReadOnly = true;
-            this.dataGridViewTextBoxColumn447.Width = 180;
-            // 
-            // dataGridViewTextBoxColumn448
-            // 
-            this.dataGridViewTextBoxColumn448.HeaderText = "ПЛОЩАДЬ ПРОЕЗЖЕЙ ЧАСТИ С ВЫЯВЛЕННЫМИ НАРУШЕНИЯМИ. по 2 показателям (кв.м)";
-            this.dataGridViewTextBoxColumn448.Name = "dataGridViewTextBoxColumn448";
-            this.dataGridViewTextBoxColumn448.ReadOnly = true;
-            this.dataGridViewTextBoxColumn448.Width = 180;
-            // 
-            // dataGridViewTextBoxColumn449
-            // 
-            this.dataGridViewTextBoxColumn449.HeaderText = "ПЛОЩАДЬ ПРОЕЗЖЕЙ ЧАСТИ С ВЫЯВЛЕННЫМИ НАРУШЕНИЯМИ. по 3 показателям (%)";
-            this.dataGridViewTextBoxColumn449.Name = "dataGridViewTextBoxColumn449";
-            this.dataGridViewTextBoxColumn449.ReadOnly = true;
-            this.dataGridViewTextBoxColumn449.Width = 180;
-            // 
-            // dataGridViewTextBoxColumn450
-            // 
-            this.dataGridViewTextBoxColumn450.HeaderText = "ПЛОЩАДЬ ПРОЕЗЖЕЙ ЧАСТИ С ВЫЯВЛЕННЫМИ НАРУШЕНИЯМИ. по 3 показателям (кв.м)";
-            this.dataGridViewTextBoxColumn450.Name = "dataGridViewTextBoxColumn450";
-            this.dataGridViewTextBoxColumn450.ReadOnly = true;
-            this.dataGridViewTextBoxColumn450.Width = 180;
-            // 
-            // dataGridViewTextBoxColumn451
-            // 
-            this.dataGridViewTextBoxColumn451.HeaderText = "ПЛОЩАДЬ ПРОЕЗЖЕЙ ЧАСТИ С ВЫЯВЛЕННЫМИ НАРУШЕНИЯМИ. по 4 показателям (%)";
-            this.dataGridViewTextBoxColumn451.Name = "dataGridViewTextBoxColumn451";
-            this.dataGridViewTextBoxColumn451.ReadOnly = true;
-            this.dataGridViewTextBoxColumn451.Width = 180;
-            // 
-            // dataGridViewTextBoxColumn452
-            // 
-            this.dataGridViewTextBoxColumn452.HeaderText = "ПЛОЩАДЬ ПРОЕЗЖЕЙ ЧАСТИ С ВЫЯВЛЕННЫМИ НАРУШЕНИЯМИ. по 4 показателям (кв.м)";
-            this.dataGridViewTextBoxColumn452.Name = "dataGridViewTextBoxColumn452";
-            this.dataGridViewTextBoxColumn452.ReadOnly = true;
-            this.dataGridViewTextBoxColumn452.Width = 180;
-            // 
-            // dataGridViewTextBoxColumn453
-            // 
-            this.dataGridViewTextBoxColumn453.HeaderText = "ПЛОЩАДЬ ПРОЕЗЖЕЙ ЧАСТИ С ВЫЯВЛЕННЫМИ НАРУШЕНИЯМИ. Трещины или карты (%)";
-            this.dataGridViewTextBoxColumn453.Name = "dataGridViewTextBoxColumn453";
-            this.dataGridViewTextBoxColumn453.ReadOnly = true;
-            this.dataGridViewTextBoxColumn453.Width = 180;
-            // 
-            // dataGridViewTextBoxColumn454
-            // 
-            this.dataGridViewTextBoxColumn454.HeaderText = "ПЛОЩАДЬ ПРОЕЗЖЕЙ ЧАСТИ С ВЫЯВЛЕННЫМИ НАРУШЕНИЯМИ. Трещины или карты (кв.м)";
-            this.dataGridViewTextBoxColumn454.Name = "dataGridViewTextBoxColumn454";
-            this.dataGridViewTextBoxColumn454.ReadOnly = true;
-            this.dataGridViewTextBoxColumn454.Width = 180;
-            // 
-            // dataGridViewTextBoxColumn455
-            // 
-            this.dataGridViewTextBoxColumn455.HeaderText = "ПЛОЩАДЬ ПРОЕЗЖЕЙ ЧАСТИ С ВЫЯВЛЕННЫМИ НАРУШЕНИЯМИ. по 1-му параметру: продольная р" +
-    "овность (IRI) (%)";
-            this.dataGridViewTextBoxColumn455.Name = "dataGridViewTextBoxColumn455";
-            this.dataGridViewTextBoxColumn455.ReadOnly = true;
-            this.dataGridViewTextBoxColumn455.Width = 234;
-            // 
-            // dataGridViewTextBoxColumn456
-            // 
-            this.dataGridViewTextBoxColumn456.HeaderText = "ПЛОЩАДЬ ПРОЕЗЖЕЙ ЧАСТИ С ВЫЯВЛЕННЫМИ НАРУШЕНИЯМИ. по 1-му параметру: продольная р" +
-    "овность (IRI) (кв.м)";
-            this.dataGridViewTextBoxColumn456.Name = "dataGridViewTextBoxColumn456";
-            this.dataGridViewTextBoxColumn456.ReadOnly = true;
-            this.dataGridViewTextBoxColumn456.Width = 234;
-            // 
-            // dataGridViewTextBoxColumn457
-            // 
-            this.dataGridViewTextBoxColumn457.HeaderText = "ПЛОЩАДЬ ПРОЕЗЖЕЙ ЧАСТИ С ВЫЯВЛЕННЫМИ НАРУШЕНИЯМИ. по 1-му параметру: поперечная р" +
-    "овность (3D) (%)";
-            this.dataGridViewTextBoxColumn457.Name = "dataGridViewTextBoxColumn457";
-            this.dataGridViewTextBoxColumn457.ReadOnly = true;
-            this.dataGridViewTextBoxColumn457.Width = 234;
-            // 
-            // dataGridViewTextBoxColumn458
-            // 
-            this.dataGridViewTextBoxColumn458.HeaderText = "ПЛОЩАДЬ ПРОЕЗЖЕЙ ЧАСТИ С ВЫЯВЛЕННЫМИ НАРУШЕНИЯМИ. по 1-му параметру: поперечная р" +
-    "овность (3D) (кв.м)";
-            this.dataGridViewTextBoxColumn458.Name = "dataGridViewTextBoxColumn458";
-            this.dataGridViewTextBoxColumn458.ReadOnly = true;
-            this.dataGridViewTextBoxColumn458.Width = 234;
-            // 
-            // dataGridViewTextBoxColumn459
-            // 
-            this.dataGridViewTextBoxColumn459.HeaderText = "ПЛОЩАДЬ ПРОЕЗЖЕЙ ЧАСТИ С ВЫЯВЛЕННЫМИ НАРУШЕНИЯМИ. по 2-м параметрам: продольная и" +
-    " поперечная ровность (IRI+3D) (%)";
-            this.dataGridViewTextBoxColumn459.Name = "dataGridViewTextBoxColumn459";
-            this.dataGridViewTextBoxColumn459.ReadOnly = true;
-            this.dataGridViewTextBoxColumn459.Width = 230;
-            // 
-            // dataGridViewTextBoxColumn460
-            // 
-            this.dataGridViewTextBoxColumn460.HeaderText = "ПЛОЩАДЬ ПРОЕЗЖЕЙ ЧАСТИ С ВЫЯВЛЕННЫМИ НАРУШЕНИЯМИ. по 2-м параметрам: продольная и" +
-    " поперечная ровность (IRI+3D) (кв.м)";
-            this.dataGridViewTextBoxColumn460.Name = "dataGridViewTextBoxColumn460";
-            this.dataGridViewTextBoxColumn460.ReadOnly = true;
-            this.dataGridViewTextBoxColumn460.Width = 230;
-            // 
-            // dataGridViewTextBoxColumn461
-            // 
-            this.dataGridViewTextBoxColumn461.HeaderText = "Общая площадь проезжей части с выявленными нарушениями (%)";
-            this.dataGridViewTextBoxColumn461.Name = "dataGridViewTextBoxColumn461";
-            this.dataGridViewTextBoxColumn461.ReadOnly = true;
-            this.dataGridViewTextBoxColumn461.Width = 156;
-            // 
-            // dataGridViewTextBoxColumn462
-            // 
-            this.dataGridViewTextBoxColumn462.HeaderText = "Общая площадь проезжей части с выявленными нарушениями (кв.м)";
-            this.dataGridViewTextBoxColumn462.Name = "dataGridViewTextBoxColumn462";
-            this.dataGridViewTextBoxColumn462.ReadOnly = true;
-            this.dataGridViewTextBoxColumn462.Width = 156;
             // 
             // VAO
             // 
@@ -1352,11 +792,11 @@
             // 
             // chart_VAO
             // 
-            chartArea2.Name = "ChartArea1";
-            this.chart_VAO.ChartAreas.Add(chartArea2);
+            chartArea1.Name = "ChartArea1";
+            this.chart_VAO.ChartAreas.Add(chartArea1);
             this.chart_VAO.Dock = System.Windows.Forms.DockStyle.Fill;
-            legend2.Name = "Legend1";
-            this.chart_VAO.Legends.Add(legend2);
+            legend1.Name = "Legend1";
+            this.chart_VAO.Legends.Add(legend1);
             this.chart_VAO.Location = new System.Drawing.Point(3, 35);
             this.chart_VAO.Name = "chart_VAO";
             this.chart_VAO.Size = new System.Drawing.Size(696, 71);
@@ -1451,14 +891,14 @@
             // dgv_VAO
             // 
             this.dgv_VAO.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle2.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            dataGridViewCellStyle2.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgv_VAO.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
+            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            dataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgv_VAO.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
             this.dgv_VAO.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgv_VAO.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.dataGridViewCheckBoxColumn1,
@@ -1849,11 +1289,11 @@
             // 
             // chart_ZAO
             // 
-            chartArea3.Name = "ChartArea1";
-            this.chart_ZAO.ChartAreas.Add(chartArea3);
+            chartArea2.Name = "ChartArea1";
+            this.chart_ZAO.ChartAreas.Add(chartArea2);
             this.chart_ZAO.Dock = System.Windows.Forms.DockStyle.Fill;
-            legend3.Name = "Legend1";
-            this.chart_ZAO.Legends.Add(legend3);
+            legend2.Name = "Legend1";
+            this.chart_ZAO.Legends.Add(legend2);
             this.chart_ZAO.Location = new System.Drawing.Point(3, 35);
             this.chart_ZAO.Name = "chart_ZAO";
             this.chart_ZAO.Size = new System.Drawing.Size(696, 71);
@@ -1948,14 +1388,14 @@
             // dgv_ZAO
             // 
             this.dgv_ZAO.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle3.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            dataGridViewCellStyle3.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgv_ZAO.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle3;
+            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle2.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            dataGridViewCellStyle2.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgv_ZAO.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
             this.dgv_ZAO.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgv_ZAO.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.dataGridViewCheckBoxColumn2,
@@ -2346,11 +1786,11 @@
             // 
             // chart_ZelAO
             // 
-            chartArea4.Name = "ChartArea1";
-            this.chart_ZelAO.ChartAreas.Add(chartArea4);
+            chartArea3.Name = "ChartArea1";
+            this.chart_ZelAO.ChartAreas.Add(chartArea3);
             this.chart_ZelAO.Dock = System.Windows.Forms.DockStyle.Fill;
-            legend4.Name = "Legend1";
-            this.chart_ZelAO.Legends.Add(legend4);
+            legend3.Name = "Legend1";
+            this.chart_ZelAO.Legends.Add(legend3);
             this.chart_ZelAO.Location = new System.Drawing.Point(3, 35);
             this.chart_ZelAO.Name = "chart_ZelAO";
             this.chart_ZelAO.Size = new System.Drawing.Size(696, 71);
@@ -2445,14 +1885,14 @@
             // dgv_ZelAO
             // 
             this.dgv_ZelAO.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle4.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle4.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            dataGridViewCellStyle4.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle4.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle4.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle4.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgv_ZelAO.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle4;
+            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle3.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            dataGridViewCellStyle3.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgv_ZelAO.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle3;
             this.dgv_ZelAO.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgv_ZelAO.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.dataGridViewCheckBoxColumn3,
@@ -2843,11 +2283,11 @@
             // 
             // chart_SAO
             // 
-            chartArea5.Name = "ChartArea1";
-            this.chart_SAO.ChartAreas.Add(chartArea5);
+            chartArea4.Name = "ChartArea1";
+            this.chart_SAO.ChartAreas.Add(chartArea4);
             this.chart_SAO.Dock = System.Windows.Forms.DockStyle.Fill;
-            legend5.Name = "Legend1";
-            this.chart_SAO.Legends.Add(legend5);
+            legend4.Name = "Legend1";
+            this.chart_SAO.Legends.Add(legend4);
             this.chart_SAO.Location = new System.Drawing.Point(3, 35);
             this.chart_SAO.Name = "chart_SAO";
             this.chart_SAO.Size = new System.Drawing.Size(696, 71);
@@ -2942,14 +2382,14 @@
             // dgv_SAO
             // 
             this.dgv_SAO.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle5.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle5.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            dataGridViewCellStyle5.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle5.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle5.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgv_SAO.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle5;
+            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle4.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle4.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            dataGridViewCellStyle4.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle4.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle4.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle4.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgv_SAO.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle4;
             this.dgv_SAO.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgv_SAO.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.dataGridViewCheckBoxColumn4,
@@ -3340,11 +2780,11 @@
             // 
             // chart_SVAO
             // 
-            chartArea6.Name = "ChartArea1";
-            this.chart_SVAO.ChartAreas.Add(chartArea6);
+            chartArea5.Name = "ChartArea1";
+            this.chart_SVAO.ChartAreas.Add(chartArea5);
             this.chart_SVAO.Dock = System.Windows.Forms.DockStyle.Fill;
-            legend6.Name = "Legend1";
-            this.chart_SVAO.Legends.Add(legend6);
+            legend5.Name = "Legend1";
+            this.chart_SVAO.Legends.Add(legend5);
             this.chart_SVAO.Location = new System.Drawing.Point(3, 35);
             this.chart_SVAO.Name = "chart_SVAO";
             this.chart_SVAO.Size = new System.Drawing.Size(696, 71);
@@ -3439,14 +2879,14 @@
             // dgv_SVAO
             // 
             this.dgv_SVAO.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle6.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle6.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            dataGridViewCellStyle6.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle6.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle6.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle6.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgv_SVAO.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle6;
+            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle5.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle5.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            dataGridViewCellStyle5.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle5.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle5.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgv_SVAO.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle5;
             this.dgv_SVAO.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgv_SVAO.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.dataGridViewCheckBoxColumn5,
@@ -3837,11 +3277,11 @@
             // 
             // chart_SZAO
             // 
-            chartArea7.Name = "ChartArea1";
-            this.chart_SZAO.ChartAreas.Add(chartArea7);
+            chartArea6.Name = "ChartArea1";
+            this.chart_SZAO.ChartAreas.Add(chartArea6);
             this.chart_SZAO.Dock = System.Windows.Forms.DockStyle.Fill;
-            legend7.Name = "Legend1";
-            this.chart_SZAO.Legends.Add(legend7);
+            legend6.Name = "Legend1";
+            this.chart_SZAO.Legends.Add(legend6);
             this.chart_SZAO.Location = new System.Drawing.Point(3, 35);
             this.chart_SZAO.Name = "chart_SZAO";
             this.chart_SZAO.Size = new System.Drawing.Size(696, 71);
@@ -3936,14 +3376,14 @@
             // dgv_SZAO
             // 
             this.dgv_SZAO.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            dataGridViewCellStyle7.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle7.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle7.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            dataGridViewCellStyle7.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle7.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle7.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle7.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgv_SZAO.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle7;
+            dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle6.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle6.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            dataGridViewCellStyle6.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle6.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle6.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle6.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgv_SZAO.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle6;
             this.dgv_SZAO.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgv_SZAO.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.dataGridViewCheckBoxColumn6,
@@ -4334,11 +3774,11 @@
             // 
             // chart_TiNAO
             // 
-            chartArea8.Name = "ChartArea1";
-            this.chart_TiNAO.ChartAreas.Add(chartArea8);
+            chartArea7.Name = "ChartArea1";
+            this.chart_TiNAO.ChartAreas.Add(chartArea7);
             this.chart_TiNAO.Dock = System.Windows.Forms.DockStyle.Fill;
-            legend8.Name = "Legend1";
-            this.chart_TiNAO.Legends.Add(legend8);
+            legend7.Name = "Legend1";
+            this.chart_TiNAO.Legends.Add(legend7);
             this.chart_TiNAO.Location = new System.Drawing.Point(3, 35);
             this.chart_TiNAO.Name = "chart_TiNAO";
             this.chart_TiNAO.Size = new System.Drawing.Size(696, 71);
@@ -4433,14 +3873,14 @@
             // dgv_TiNAO
             // 
             this.dgv_TiNAO.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            dataGridViewCellStyle8.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle8.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle8.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            dataGridViewCellStyle8.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle8.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle8.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle8.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgv_TiNAO.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle8;
+            dataGridViewCellStyle7.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle7.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle7.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            dataGridViewCellStyle7.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle7.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle7.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle7.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgv_TiNAO.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle7;
             this.dgv_TiNAO.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgv_TiNAO.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.dataGridViewCheckBoxColumn7,
@@ -4831,11 +4271,11 @@
             // 
             // chart_TSAO
             // 
-            chartArea9.Name = "ChartArea1";
-            this.chart_TSAO.ChartAreas.Add(chartArea9);
+            chartArea8.Name = "ChartArea1";
+            this.chart_TSAO.ChartAreas.Add(chartArea8);
             this.chart_TSAO.Dock = System.Windows.Forms.DockStyle.Fill;
-            legend9.Name = "Legend1";
-            this.chart_TSAO.Legends.Add(legend9);
+            legend8.Name = "Legend1";
+            this.chart_TSAO.Legends.Add(legend8);
             this.chart_TSAO.Location = new System.Drawing.Point(3, 35);
             this.chart_TSAO.Name = "chart_TSAO";
             this.chart_TSAO.Size = new System.Drawing.Size(696, 71);
@@ -4930,14 +4370,14 @@
             // dgv_TSAO
             // 
             this.dgv_TSAO.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            dataGridViewCellStyle9.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle9.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle9.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            dataGridViewCellStyle9.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle9.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle9.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle9.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgv_TSAO.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle9;
+            dataGridViewCellStyle8.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle8.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle8.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            dataGridViewCellStyle8.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle8.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle8.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle8.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgv_TSAO.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle8;
             this.dgv_TSAO.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgv_TSAO.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.dataGridViewCheckBoxColumn8,
@@ -5328,11 +4768,11 @@
             // 
             // chart_YAO
             // 
-            chartArea10.Name = "ChartArea1";
-            this.chart_YAO.ChartAreas.Add(chartArea10);
+            chartArea9.Name = "ChartArea1";
+            this.chart_YAO.ChartAreas.Add(chartArea9);
             this.chart_YAO.Dock = System.Windows.Forms.DockStyle.Fill;
-            legend10.Name = "Legend1";
-            this.chart_YAO.Legends.Add(legend10);
+            legend9.Name = "Legend1";
+            this.chart_YAO.Legends.Add(legend9);
             this.chart_YAO.Location = new System.Drawing.Point(3, 35);
             this.chart_YAO.Name = "chart_YAO";
             this.chart_YAO.Size = new System.Drawing.Size(696, 71);
@@ -5427,14 +4867,14 @@
             // dgv_YAO
             // 
             this.dgv_YAO.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            dataGridViewCellStyle10.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle10.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle10.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            dataGridViewCellStyle10.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle10.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle10.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle10.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgv_YAO.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle10;
+            dataGridViewCellStyle9.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle9.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle9.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            dataGridViewCellStyle9.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle9.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle9.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle9.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgv_YAO.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle9;
             this.dgv_YAO.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgv_YAO.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.dataGridViewCheckBoxColumn9,
@@ -5825,11 +5265,11 @@
             // 
             // chart_YVAO
             // 
-            chartArea11.Name = "ChartArea1";
-            this.chart_YVAO.ChartAreas.Add(chartArea11);
+            chartArea10.Name = "ChartArea1";
+            this.chart_YVAO.ChartAreas.Add(chartArea10);
             this.chart_YVAO.Dock = System.Windows.Forms.DockStyle.Fill;
-            legend11.Name = "Legend1";
-            this.chart_YVAO.Legends.Add(legend11);
+            legend10.Name = "Legend1";
+            this.chart_YVAO.Legends.Add(legend10);
             this.chart_YVAO.Location = new System.Drawing.Point(3, 35);
             this.chart_YVAO.Name = "chart_YVAO";
             this.chart_YVAO.Size = new System.Drawing.Size(696, 71);
@@ -5924,14 +5364,14 @@
             // dgv_YVAO
             // 
             this.dgv_YVAO.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            dataGridViewCellStyle11.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle11.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle11.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            dataGridViewCellStyle11.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle11.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle11.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle11.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgv_YVAO.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle11;
+            dataGridViewCellStyle10.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle10.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle10.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            dataGridViewCellStyle10.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle10.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle10.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle10.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgv_YVAO.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle10;
             this.dgv_YVAO.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgv_YVAO.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.dataGridViewCheckBoxColumn10,
@@ -6322,11 +5762,11 @@
             // 
             // chart_YZAO
             // 
-            chartArea12.Name = "ChartArea1";
-            this.chart_YZAO.ChartAreas.Add(chartArea12);
+            chartArea11.Name = "ChartArea1";
+            this.chart_YZAO.ChartAreas.Add(chartArea11);
             this.chart_YZAO.Dock = System.Windows.Forms.DockStyle.Fill;
-            legend12.Name = "Legend1";
-            this.chart_YZAO.Legends.Add(legend12);
+            legend11.Name = "Legend1";
+            this.chart_YZAO.Legends.Add(legend11);
             this.chart_YZAO.Location = new System.Drawing.Point(3, 35);
             this.chart_YZAO.Name = "chart_YZAO";
             this.chart_YZAO.Size = new System.Drawing.Size(696, 71);
@@ -6421,14 +5861,14 @@
             // dgv_YZAO
             // 
             this.dgv_YZAO.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            dataGridViewCellStyle12.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle12.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle12.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            dataGridViewCellStyle12.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle12.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle12.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle12.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgv_YZAO.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle12;
+            dataGridViewCellStyle11.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle11.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle11.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            dataGridViewCellStyle11.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle11.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle11.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle11.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgv_YZAO.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle11;
             this.dgv_YZAO.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgv_YZAO.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.dataGridViewCheckBoxColumn11,
@@ -6804,7 +6244,6 @@
             // файлToolStripMenuItem2
             // 
             this.файлToolStripMenuItem2.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.открытьToolStripMenuItem3,
             this.печатьToolStripMenuItem2,
             this.toolStripMenuItem6,
             this.выходToolStripMenuItem3});
@@ -6812,21 +6251,13 @@
             this.файлToolStripMenuItem2.Size = new System.Drawing.Size(48, 20);
             this.файлToolStripMenuItem2.Text = "Файл";
             // 
-            // открытьToolStripMenuItem3
-            // 
-            this.открытьToolStripMenuItem3.Image = global::SiPPOON_PP.Properties.Resources.Open;
-            this.открытьToolStripMenuItem3.Name = "открытьToolStripMenuItem3";
-            this.открытьToolStripMenuItem3.Size = new System.Drawing.Size(180, 22);
-            this.открытьToolStripMenuItem3.Text = "Открыть";
-            this.открытьToolStripMenuItem3.Click += new System.EventHandler(this.открытьToolStripMenuItem_Click);
-            // 
             // печатьToolStripMenuItem2
             // 
             this.печатьToolStripMenuItem2.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.excelToolStripMenuItem2});
             this.печатьToolStripMenuItem2.Image = global::SiPPOON_PP.Properties.Resources.Export;
             this.печатьToolStripMenuItem2.Name = "печатьToolStripMenuItem2";
-            this.печатьToolStripMenuItem2.Size = new System.Drawing.Size(180, 22);
+            this.печатьToolStripMenuItem2.Size = new System.Drawing.Size(113, 22);
             this.печатьToolStripMenuItem2.Text = "Печать";
             // 
             // excelToolStripMenuItem2
@@ -6834,20 +6265,20 @@
             this.excelToolStripMenuItem2.Enabled = false;
             this.excelToolStripMenuItem2.Image = global::SiPPOON_PP.Properties.Resources.Excel;
             this.excelToolStripMenuItem2.Name = "excelToolStripMenuItem2";
-            this.excelToolStripMenuItem2.Size = new System.Drawing.Size(180, 22);
+            this.excelToolStripMenuItem2.Size = new System.Drawing.Size(101, 22);
             this.excelToolStripMenuItem2.Text = "Excel";
             this.excelToolStripMenuItem2.Click += new System.EventHandler(this.toolStripMenuItem3_Click);
             // 
             // toolStripMenuItem6
             // 
             this.toolStripMenuItem6.Name = "toolStripMenuItem6";
-            this.toolStripMenuItem6.Size = new System.Drawing.Size(177, 6);
+            this.toolStripMenuItem6.Size = new System.Drawing.Size(110, 6);
             // 
             // выходToolStripMenuItem3
             // 
             this.выходToolStripMenuItem3.Image = global::SiPPOON_PP.Properties.Resources.Exit;
             this.выходToolStripMenuItem3.Name = "выходToolStripMenuItem3";
-            this.выходToolStripMenuItem3.Size = new System.Drawing.Size(180, 22);
+            this.выходToolStripMenuItem3.Size = new System.Drawing.Size(113, 22);
             this.выходToolStripMenuItem3.Text = "Выход";
             this.выходToolStripMenuItem3.Click += new System.EventHandler(this.выходToolStripMenuItem_Click);
             // 
@@ -6864,11 +6295,8 @@
             // 
             // открытьToolStripMenuItem
             // 
-            this.открытьToolStripMenuItem.Image = global::SiPPOON_PP.Properties.Resources.Open;
             this.открытьToolStripMenuItem.Name = "открытьToolStripMenuItem";
-            this.открытьToolStripMenuItem.Size = new System.Drawing.Size(121, 22);
-            this.открытьToolStripMenuItem.Text = "Открыть";
-            this.открытьToolStripMenuItem.Click += new System.EventHandler(this.открытьToolStripMenuItem_Click);
+            this.открытьToolStripMenuItem.Size = new System.Drawing.Size(119, 22);
             // 
             // toolStripMenuItem2
             // 
@@ -6876,7 +6304,7 @@
             this.toolStripMenuItem3});
             this.toolStripMenuItem2.Image = global::SiPPOON_PP.Properties.Resources.Export;
             this.toolStripMenuItem2.Name = "toolStripMenuItem2";
-            this.toolStripMenuItem2.Size = new System.Drawing.Size(121, 22);
+            this.toolStripMenuItem2.Size = new System.Drawing.Size(119, 22);
             this.toolStripMenuItem2.Text = "Экспорт";
             // 
             // toolStripMenuItem3
@@ -6891,13 +6319,13 @@
             // toolStripMenuItem1
             // 
             this.toolStripMenuItem1.Name = "toolStripMenuItem1";
-            this.toolStripMenuItem1.Size = new System.Drawing.Size(118, 6);
+            this.toolStripMenuItem1.Size = new System.Drawing.Size(116, 6);
             // 
             // выходToolStripMenuItem
             // 
             this.выходToolStripMenuItem.Image = global::SiPPOON_PP.Properties.Resources.Exit;
             this.выходToolStripMenuItem.Name = "выходToolStripMenuItem";
-            this.выходToolStripMenuItem.Size = new System.Drawing.Size(121, 22);
+            this.выходToolStripMenuItem.Size = new System.Drawing.Size(119, 22);
             this.выходToolStripMenuItem.Text = "Выход";
             this.выходToolStripMenuItem.Click += new System.EventHandler(this.выходToolStripMenuItem_Click);
             // 
@@ -6928,11 +6356,8 @@
             // 
             // открытьToolStripMenuItem1
             // 
-            this.открытьToolStripMenuItem1.Image = global::SiPPOON_PP.Properties.Resources.Open;
             this.открытьToolStripMenuItem1.Name = "открытьToolStripMenuItem1";
-            this.открытьToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
-            this.открытьToolStripMenuItem1.Text = "Открыть";
-            this.открытьToolStripMenuItem1.Click += new System.EventHandler(this.открытьToolStripMenuItem_Click);
+            this.открытьToolStripMenuItem1.Size = new System.Drawing.Size(32, 19);
             // 
             // печатьToolStripMenuItem
             // 
@@ -7011,13 +6436,8 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Результаты по округам";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Form_Okruga_FormClosing);
+            this.Load += new System.EventHandler(this.Form_Okruga_Load);
             this.tc_Okruga.ResumeLayout(false);
-            this.Okruga.ResumeLayout(false);
-            this.gb_chart_Okruga.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.chart_Okruga)).EndInit();
-            this.gb_Rabota_Okruga.ResumeLayout(false);
-            this.gb_Rabota_Okruga.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dgv_Okruga)).EndInit();
             this.VAO.ResumeLayout(false);
             this.gb_chart_VAO.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.chart_VAO)).EndInit();
@@ -7170,12 +6590,6 @@
         private System.Windows.Forms.ToolStripMenuItem справкаToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem информацияОбАвтореToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem информацияОПрограммеToolStripMenuItem;
-        private System.Windows.Forms.TabPage Okruga;
-        private System.Windows.Forms.GroupBox gb_Rabota_Okruga;
-        private System.Windows.Forms.RadioButton rb_Deffect_Okruga;
-        private System.Windows.Forms.RadioButton rb_Prev_Okruga;
-        private System.Windows.Forms.Label lbl_Filter_Okruga;
-        private System.Windows.Forms.RadioButton rb_Clear_Okruga;
         private System.Windows.Forms.RadioButton rb_Clear_VAO;
         private System.Windows.Forms.RadioButton rb_Clear_ZAO;
         private System.Windows.Forms.RadioButton rb_ZelAO;
@@ -7187,9 +6601,6 @@
         private System.Windows.Forms.RadioButton rb_Clear_YAO;
         private System.Windows.Forms.RadioButton rb_Clear_YVAO;
         private System.Windows.Forms.RadioButton rb_Clear_YZAO;
-        private System.Windows.Forms.GroupBox gb_chart_Okruga;
-        private System.Windows.Forms.DataVisualization.Charting.Chart chart_Okruga;
-        private System.Windows.Forms.CheckedListBox clb_Okruga;
         private System.Windows.Forms.GroupBox gb_chart_VAO;
         private System.Windows.Forms.DataVisualization.Charting.Chart chart_VAO;
         private System.Windows.Forms.CheckedListBox clb_VAO;
@@ -7709,55 +7120,10 @@
         private System.Windows.Forms.ToolStripSeparator toolStripMenuItem5;
         private System.Windows.Forms.ToolStripMenuItem выходToolStripMenuItem2;
         private System.Windows.Forms.ToolStripMenuItem файлToolStripMenuItem2;
-        private System.Windows.Forms.ToolStripMenuItem открытьToolStripMenuItem3;
         private System.Windows.Forms.ToolStripMenuItem печатьToolStripMenuItem2;
         private System.Windows.Forms.ToolStripSeparator toolStripMenuItem6;
         private System.Windows.Forms.ToolStripMenuItem выходToolStripMenuItem3;
         private System.Windows.Forms.ToolStripMenuItem excelToolStripMenuItem2;
-        private System.Windows.Forms.DataGridView dgv_Okruga;
-        private System.Windows.Forms.DataGridViewCheckBoxColumn Column1;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn421;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn422;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn423;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn424;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn425;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn426;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn427;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn428;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn429;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn430;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn431;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn432;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn433;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn434;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn435;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn436;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn437;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn438;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn439;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn440;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn441;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn442;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn443;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn444;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn445;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn446;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn447;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn448;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn449;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn450;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn451;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn452;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn453;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn454;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn455;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn456;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn457;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn458;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn459;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn460;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn461;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn462;
     }
 }
 

@@ -5,6 +5,8 @@ namespace SiPPOON_PP
 {
     public partial class Form_Change : Form
     {
+        Form_Kategorii form_Kategorii = new Form_Kategorii();
+        Form_Okruga form_Okruga = new Form_Okruga();
         public Form_Change()
         {
             InitializeComponent();
@@ -13,16 +15,24 @@ namespace SiPPOON_PP
 
         private void btn_Kategorii_Click(object sender, EventArgs e)
         {
-            Form_Kategorii form_Kategorii = new Form_Kategorii();
-            form_Kategorii.Show();
-            btn_Kategorii.Enabled = false;
+            if (Form_Main.Location_Result == null)
+                MessageBox.Show("Здравствуйте, " + Form_Authorize.Login + ". Укажите в настройках путь для работы с результатами дорожного исследования!", "Сообщение", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            else
+            {
+                form_Kategorii.Show();
+                btn_Kategorii.Enabled = false;
+            }
         }
 
         private void btn_Okruga_Click(object sender, EventArgs e)
         {
-            Form_Okruga form_Okruga = new Form_Okruga();
-            form_Okruga.Show();
-            btn_Okruga.Enabled = false;
+            if (Form_Main.Location_Result == null)
+                MessageBox.Show("Здравствуйте, " + Form_Authorize.Login + ". Укажите в настройках путь для работы с результатами дорожного исследования!", "Сообщение", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            else
+            {
+                form_Okruga.Show();
+                btn_Okruga.Enabled = false;
+            }
 
         }
 

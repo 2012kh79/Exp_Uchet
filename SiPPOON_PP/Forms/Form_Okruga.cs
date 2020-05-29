@@ -8,9 +8,7 @@ namespace SiPPOON_PP
 {
     public partial class Form_Okruga : Form
     {
-        public static string constr;
         DataGridView dgv_Excel;
-        List<string> List_Okruga = new List<string>();
         List<string> List_VAO = new List<string>();
         List<string> List_ZAO = new List<string>();
         List<string> List_ZelAO = new List<string>();
@@ -28,26 +26,6 @@ namespace SiPPOON_PP
         {
             InitializeComponent();
             this.DoubleBuffered = true;
-        }
-
-        public void dgv_Okruga_Fill()
-        {
-            Fill_Table table = new Fill_Table();
-            Filter_Table filter = new Filter_Table();
-            Action action = () =>
-            {
-                try
-                {
-                    table.dtOkrugaFill();
-                    table.Table(dgv_Okruga, table.dtOkruga);
-                    filter.Sort_Table(dgv_Okruga);
-                }
-                catch (Exception ex)
-                {
-                    MessageBox.Show(ex.ToString(), "Сообщение", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                }
-            };
-            Invoke(action);
         }
 
         public void dgv_VAO_Fill()
@@ -248,49 +226,6 @@ namespace SiPPOON_PP
             Invoke(action);
         }
 
-        private void открытьToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            try
-            {
-                OpenFileDialog dlg_im = new OpenFileDialog();
-                dlg_im.Filter = "Excel File|*.xls;*.xlsx;*.xlsm";
-                if (dlg_im.ShowDialog() == DialogResult.OK)
-                {
-                    constr = "Provider=Microsoft.ACE.OLEDB.12.0;Data Source=" + dlg_im.FileName + ";Extended Properties='Excel 12.0 XML;HDR=YES;';";
-                    Fill_Table.connectionString = constr;
-                    Thread thread_Okruga = new Thread(dgv_Okruga_Fill);
-                    thread_Okruga.Start();
-                    Thread thread_VAO = new Thread(dgv_VAO_Fill);
-                    thread_VAO.Start();
-                    Thread thread_ZAO = new Thread(dgv_ZAO_Fill);
-                    thread_ZAO.Start();
-                    Thread thread_ZelAO = new Thread(dgv_ZelAO_Fill);
-                    thread_ZelAO.Start();
-                    Thread thread_SAO = new Thread(dgv_SAO_Fill);
-                    thread_SAO.Start();
-                    Thread thread_SVAO = new Thread(dgv_SVAO_Fill);
-                    thread_SVAO.Start();
-                    Thread thread_SZAO = new Thread(dgv_SZAO_Fill);
-                    thread_SZAO.Start();
-                    Thread thread_TiNAO = new Thread(dgv_TiNAO_Fill);
-                    thread_TiNAO.Start();
-                    Thread thread_TSAO = new Thread(dgv_TSAO_Fill);
-                    thread_TSAO.Start();
-                    Thread thread_YAO = new Thread(dgv_YAO_Fill);
-                    thread_YAO.Start();
-                    Thread thread_YVAO = new Thread(dgv_YVAO_Fill);
-                    thread_YVAO.Start();
-                    Thread thread_YZAO = new Thread(dgv_YZAO_Fill);
-                    thread_YZAO.Start();
-                    MessageBox.Show("Данные успешно загружены!", "Сообщение", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                }
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show(ex.ToString(), "Сообщение", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
-        }
-
         private void выходToolStripMenuItem_Click(object sender, EventArgs e)
         {
             Application.Exit();
@@ -467,13 +402,6 @@ namespace SiPPOON_PP
             excelToolStripMenuItem2.Enabled = true;
         }
 
-        private void rb_Prev_Okruga_CheckedChanged(object sender, EventArgs e)
-        {
-            Filter_Table filter = new Filter_Table();
-            filter.Check_Prev(dgv_Okruga, rb_Prev_Okruga);
-            excelToolStripMenuItem2.Enabled = false;
-        }
-
         private void toolStripMenuItem3_Click(object sender, EventArgs e)
         {
             try
@@ -522,25 +450,10 @@ namespace SiPPOON_PP
             }
         }
 
-        private void rb_Deffect_Okruga_CheckedChanged(object sender, EventArgs e)
-        {
-            dgv_Excel = dgv_Okruga;
-            Filter_Table filter = new Filter_Table();
-            filter.Check_Deffect(dgv_Okruga, rb_Deffect_Okruga);
-            excelToolStripMenuItem2.Enabled = true;
-        }
-
-        private void rb_Clear_Okruga_CheckedChanged(object sender, EventArgs e)
-        {
-            Filter_Table filter = new Filter_Table();
-            filter.Clear_Filter(dgv_Okruga, rb_Clear_Okruga);
-            excelToolStripMenuItem2.Enabled = false;
-        }
-
         private void rb_Clear_VAO_CheckedChanged(object sender, EventArgs e)
         {
             Filter_Table filter = new Filter_Table();
-            filter.Clear_Filter(dgv_Okruga, rb_Clear_Okruga);
+            filter.Clear_Filter(dgv_VAO, rb_Clear_VAO);
             excelToolStripMenuItem2.Enabled = false;
         }
 
@@ -612,18 +525,6 @@ namespace SiPPOON_PP
             Filter_Table filter = new Filter_Table();
             filter.Clear_Filter(dgv_YZAO, rb_Clear_YZAO);
             excelToolStripMenuItem2.Enabled = false;
-        }
-
-        private void dgv_Okruga_CellContentClick(object sender, DataGridViewCellEventArgs e)
-        {
-            Filter_Table filter = new Filter_Table();
-            filter.Chart_Export(chart_Okruga, dgv_Okruga, clb_Okruga, List_Okruga);
-        }
-
-        private void clb_Okruga_SelectedIndexChanged(object sender, EventArgs e)
-        {
-            Filter_Table filter = new Filter_Table();
-            filter.Chart_Import(chart_Okruga, dgv_Okruga, clb_Okruga, List_Okruga);
         }
 
         private void dgv_VAO_CellContentClick(object sender, DataGridViewCellEventArgs e)
@@ -761,6 +662,43 @@ namespace SiPPOON_PP
         private void Form_Okruga_FormClosing(object sender, FormClosingEventArgs e)
         {
             Classes.CallBack.callbackEventHandler("Enable_Okruga");
+            e.Cancel = true;
+            this.Hide();
+        }
+
+        private void Form_Okruga_Load(object sender, EventArgs e)
+        {
+            try
+            {
+                Fill_Table.connectionString = Form_Main.Location_Result;
+                Thread thread_VAO = new Thread(dgv_VAO_Fill);
+                thread_VAO.Start();
+                Thread thread_ZAO = new Thread(dgv_ZAO_Fill);
+                thread_ZAO.Start();
+                Thread thread_ZelAO = new Thread(dgv_ZelAO_Fill);
+                thread_ZelAO.Start();
+                Thread thread_SAO = new Thread(dgv_SAO_Fill);
+                thread_SAO.Start();
+                Thread thread_SVAO = new Thread(dgv_SVAO_Fill);
+                thread_SVAO.Start();
+                Thread thread_SZAO = new Thread(dgv_SZAO_Fill);
+                thread_SZAO.Start();
+                Thread thread_TiNAO = new Thread(dgv_TiNAO_Fill);
+                thread_TiNAO.Start();
+                Thread thread_TSAO = new Thread(dgv_TSAO_Fill);
+                thread_TSAO.Start();
+                Thread thread_YAO = new Thread(dgv_YAO_Fill);
+                thread_YAO.Start();
+                Thread thread_YVAO = new Thread(dgv_YVAO_Fill);
+                thread_YVAO.Start();
+                Thread thread_YZAO = new Thread(dgv_YZAO_Fill);
+                thread_YZAO.Start();
+                MessageBox.Show("Результаты были успешно загружены!", "Сообщение", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+            catch
+            {
+                MessageBox.Show("При загрузке результатов произошла ошибка, выберите корректный файл. Если ошибка осталась, обратитесь к администратору", "Сообщение", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
         }
     }
 }

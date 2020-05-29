@@ -1,12 +1,17 @@
-﻿using System;
+﻿using SiPPOON_PP.Forms;
+using System;
 using System.Drawing;
 using System.Windows.Forms;
+using System.Xml;
+using System.IO;
 
 namespace SiPPOON_PP
 {
     public partial class Form_Main : Form
     {
         Form_Change form_Change = new Form_Change();
+        public static string Location_Result { get; set; }
+        public static string Location_Folder { get; set; }
         public Form_Main()
         {
             InitializeComponent();
@@ -103,7 +108,8 @@ namespace SiPPOON_PP
 
         private void btn_Propusk_Click(object sender, EventArgs e)
         {
-
+            Form_Uchet form_Uchet = new Form_Uchet();
+            form_Uchet.ShowDialog();
         }
 
         private void btn_FeedBack_Click(object sender, EventArgs e)
@@ -126,7 +132,24 @@ namespace SiPPOON_PP
 
         private void btn_Settings_Click(object sender, EventArgs e)
         {
+            Form_Settings form_Settings = new Form_Settings();
+            form_Settings.ShowDialog();
+        }
 
+        private void Form_Main_Load(object sender, EventArgs e)
+        {
+            if (!File.Exists("Настройки.xml"))
+                MessageBox.Show("Здравствуйте, " + Form_Authorize.Login + ". Не забудьте указать путь к файлу с результатами дорожного исследования в настройках и папку для хранения отчёта!", "Сообщение", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            else
+            {
+                XmlDocument doc = new XmlDocument();
+                doc.Load("Настройки.xml");
+                foreach (XmlNode node in doc.DocumentElement)
+                {
+                    Location_Result = node["Path_File"].InnerText;
+                    Location_Folder = node["Path_Folder"].InnerText;
+                }
+            }
         }
     }
 }

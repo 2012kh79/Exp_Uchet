@@ -147,6 +147,7 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Главное меню";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Form_Result_FormClosing);
+            this.Load += new System.EventHandler(this.Form_Main_Load);
             this.ResumeLayout(false);
 
         }

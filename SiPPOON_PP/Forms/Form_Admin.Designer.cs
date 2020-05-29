@@ -257,7 +257,7 @@
             this.dgv_Users.ReadOnly = true;
             this.dgv_Users.Size = new System.Drawing.Size(770, 249);
             this.dgv_Users.TabIndex = 0;
-            this.dgv_Users.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgv_Users_CellContentClick);
+            this.dgv_Users.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgv_Users_CellClick);
             // 
             // tp_Employee
             // 
@@ -429,7 +429,7 @@
             this.dgv_Employee.ReadOnly = true;
             this.dgv_Employee.Size = new System.Drawing.Size(770, 249);
             this.dgv_Employee.TabIndex = 4;
-            this.dgv_Employee.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgv_Employee_CellContentClick);
+            this.dgv_Employee.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgv_Employee_CellClick);
             // 
             // Form_Admin
             // 
