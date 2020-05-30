@@ -23,6 +23,7 @@ namespace SiPPOON_PP.Classes
         public static double Metr_PPCBN { get; set; }
         public void Otchet_Fill_Set(DataGridView data)
         {
+            Ploshad = 0;
             Percent_One = 0;
             Percent_Two = 0;
             Percent_Three = 0;
@@ -70,9 +71,10 @@ namespace SiPPOON_PP.Classes
             }
         }
 
-        public void Set_Object(DataGridView dataGridView, ToolStripMenuItem toolStripButton)
+        public void Set_Object(DataGridView dataGridView, Chart chart, CheckedListBox checkedListBox, List<string> objectList, ToolStripMenuItem toolStripButton)
         {
             DB_Procedures procedures = new DB_Procedures();
+            Filter_Table filter_Table = new Filter_Table();
             DataTable table = new DataTable();
             try
             {
@@ -90,11 +92,12 @@ namespace SiPPOON_PP.Classes
                             Convert.ToDouble(dataGridView.Rows[i].Cells[32].Value), Convert.ToDouble(dataGridView.Rows[i].Cells[33].Value), Convert.ToDouble(dataGridView.Rows[i].Cells[34].Value),
                             DateTime.Now.ToShortDateString(), Convert.ToInt32(table.Rows[0]["ID_Employee"].ToString()));
                             dataGridView.Rows[i].Cells[0].Value = false;
-                            toolStripButton.Enabled = false;
                             dataGridView.Rows[i].DefaultCellStyle.BackColor = Color.Green;
                         }
                     }
                 }
+                toolStripButton.Enabled = false;
+                filter_Table.Chart_Import(chart, dataGridView, checkedListBox, objectList);
             }
             catch
             {

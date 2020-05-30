@@ -12,7 +12,7 @@ namespace SiPPOON_PP
             excel.Application application = new excel.Application();//Переменная для создания приложения Excel
             excel.Workbook workbook = application.Workbooks.Add();//Переменная для создания книги Excel
             excel.Worksheet worksheet = (excel.Worksheet)workbook.ActiveSheet;//Переменная для создания листа Excel
-            string file_name = Form_Configuration.document_default_path + "\\Деффектные участки (" + DateTime.Now.ToString("dd.MM.yyyy)") + ".xlsx";//Путь, по котрому будет храниться выходной документ
+            string file_name = Form_Main.Location_Folder + "\\Деффектные участки (" + DateTime.Now.ToString("dd.MM.yyyy)") + ".xlsx";//Путь, по котрому будет храниться выходной документ
             try
             {
                 worksheet.Name = "Деффектные участки";

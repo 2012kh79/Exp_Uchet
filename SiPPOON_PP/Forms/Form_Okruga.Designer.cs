@@ -649,8 +649,11 @@
             this.dataGridViewTextBoxColumn420 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.menuStrip_Okruga = new System.Windows.Forms.MenuStrip();
             this.файлToolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
-            this.печатьToolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
-            this.excelToolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
+            this.создатьToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.отчётОбАнализеToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.выбранныеОбъектыToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.всеОбъектыToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.деффектныеУчасткиToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItem6 = new System.Windows.Forms.ToolStripSeparator();
             this.выходToolStripMenuItem3 = new System.Windows.Forms.ToolStripMenuItem();
             this.Menu_File = new System.Windows.Forms.ToolStripMenuItem();
@@ -950,7 +953,7 @@
             this.dgv_VAO.ReadOnly = true;
             this.dgv_VAO.Size = new System.Drawing.Size(970, 518);
             this.dgv_VAO.TabIndex = 1;
-            this.dgv_VAO.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgv_VAO_CellContentClick);
+            this.dgv_VAO.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgv_VAO_CellClick);
             // 
             // dataGridViewCheckBoxColumn1
             // 
@@ -1447,7 +1450,7 @@
             this.dgv_ZAO.ReadOnly = true;
             this.dgv_ZAO.Size = new System.Drawing.Size(970, 518);
             this.dgv_ZAO.TabIndex = 2;
-            this.dgv_ZAO.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgv_ZAO_CellContentClick);
+            this.dgv_ZAO.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgv_ZAO_CellClick);
             // 
             // dataGridViewCheckBoxColumn2
             // 
@@ -1944,7 +1947,7 @@
             this.dgv_ZelAO.ReadOnly = true;
             this.dgv_ZelAO.Size = new System.Drawing.Size(970, 518);
             this.dgv_ZelAO.TabIndex = 2;
-            this.dgv_ZelAO.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgv_ZelAO_CellContentClick);
+            this.dgv_ZelAO.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgv_ZelAO_CellClick);
             // 
             // dataGridViewCheckBoxColumn3
             // 
@@ -2441,7 +2444,7 @@
             this.dgv_SAO.ReadOnly = true;
             this.dgv_SAO.Size = new System.Drawing.Size(970, 518);
             this.dgv_SAO.TabIndex = 2;
-            this.dgv_SAO.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgv_SAO_CellContentClick);
+            this.dgv_SAO.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgv_SAO_CellClick);
             // 
             // dataGridViewCheckBoxColumn4
             // 
@@ -2938,7 +2941,7 @@
             this.dgv_SVAO.ReadOnly = true;
             this.dgv_SVAO.Size = new System.Drawing.Size(970, 518);
             this.dgv_SVAO.TabIndex = 2;
-            this.dgv_SVAO.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgv_SVAO_CellContentClick);
+            this.dgv_SVAO.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgv_SVAO_CellClick);
             // 
             // dataGridViewCheckBoxColumn5
             // 
@@ -3435,7 +3438,7 @@
             this.dgv_SZAO.ReadOnly = true;
             this.dgv_SZAO.Size = new System.Drawing.Size(970, 518);
             this.dgv_SZAO.TabIndex = 2;
-            this.dgv_SZAO.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgv_SZAO_CellContentClick);
+            this.dgv_SZAO.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgv_SZAO_CellClick);
             // 
             // dataGridViewCheckBoxColumn6
             // 
@@ -3932,7 +3935,7 @@
             this.dgv_TiNAO.ReadOnly = true;
             this.dgv_TiNAO.Size = new System.Drawing.Size(970, 518);
             this.dgv_TiNAO.TabIndex = 2;
-            this.dgv_TiNAO.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgv_TiNAO_CellContentClick);
+            this.dgv_TiNAO.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgv_TiNAO_CellClick);
             // 
             // dataGridViewCheckBoxColumn7
             // 
@@ -4429,7 +4432,7 @@
             this.dgv_TSAO.ReadOnly = true;
             this.dgv_TSAO.Size = new System.Drawing.Size(970, 518);
             this.dgv_TSAO.TabIndex = 3;
-            this.dgv_TSAO.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgv_TSAO_CellContentClick);
+            this.dgv_TSAO.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgv_TSAO_CellClick);
             // 
             // dataGridViewCheckBoxColumn8
             // 
@@ -4926,7 +4929,7 @@
             this.dgv_YAO.ReadOnly = true;
             this.dgv_YAO.Size = new System.Drawing.Size(970, 518);
             this.dgv_YAO.TabIndex = 3;
-            this.dgv_YAO.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgv_YAO_CellContentClick);
+            this.dgv_YAO.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgv_YAO_CellClick);
             // 
             // dataGridViewCheckBoxColumn9
             // 
@@ -5423,7 +5426,7 @@
             this.dgv_YVAO.ReadOnly = true;
             this.dgv_YVAO.Size = new System.Drawing.Size(970, 518);
             this.dgv_YVAO.TabIndex = 3;
-            this.dgv_YVAO.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgv_YVAO_CellContentClick);
+            this.dgv_YVAO.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgv_YVAO_CellClick);
             // 
             // dataGridViewCheckBoxColumn10
             // 
@@ -5920,7 +5923,7 @@
             this.dgv_YZAO.ReadOnly = true;
             this.dgv_YZAO.Size = new System.Drawing.Size(970, 518);
             this.dgv_YZAO.TabIndex = 3;
-            this.dgv_YZAO.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgv_YZAO_CellContentClick);
+            this.dgv_YZAO.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgv_YZAO_CellClick);
             // 
             // dataGridViewCheckBoxColumn11
             // 
@@ -6244,41 +6247,66 @@
             // файлToolStripMenuItem2
             // 
             this.файлToolStripMenuItem2.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.печатьToolStripMenuItem2,
+            this.создатьToolStripMenuItem,
             this.toolStripMenuItem6,
             this.выходToolStripMenuItem3});
             this.файлToolStripMenuItem2.Name = "файлToolStripMenuItem2";
-            this.файлToolStripMenuItem2.Size = new System.Drawing.Size(48, 20);
-            this.файлToolStripMenuItem2.Text = "Файл";
+            this.файлToolStripMenuItem2.Size = new System.Drawing.Size(51, 20);
+            this.файлToolStripMenuItem2.Text = "Отчёт";
             // 
-            // печатьToolStripMenuItem2
+            // создатьToolStripMenuItem
             // 
-            this.печатьToolStripMenuItem2.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.excelToolStripMenuItem2});
-            this.печатьToolStripMenuItem2.Image = global::SiPPOON_PP.Properties.Resources.Export;
-            this.печатьToolStripMenuItem2.Name = "печатьToolStripMenuItem2";
-            this.печатьToolStripMenuItem2.Size = new System.Drawing.Size(113, 22);
-            this.печатьToolStripMenuItem2.Text = "Печать";
+            this.создатьToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.отчётОбАнализеToolStripMenuItem,
+            this.деффектныеУчасткиToolStripMenuItem});
+            this.создатьToolStripMenuItem.Name = "создатьToolStripMenuItem";
+            this.создатьToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.создатьToolStripMenuItem.Text = "Создать";
             // 
-            // excelToolStripMenuItem2
+            // отчётОбАнализеToolStripMenuItem
             // 
-            this.excelToolStripMenuItem2.Enabled = false;
-            this.excelToolStripMenuItem2.Image = global::SiPPOON_PP.Properties.Resources.Excel;
-            this.excelToolStripMenuItem2.Name = "excelToolStripMenuItem2";
-            this.excelToolStripMenuItem2.Size = new System.Drawing.Size(101, 22);
-            this.excelToolStripMenuItem2.Text = "Excel";
-            this.excelToolStripMenuItem2.Click += new System.EventHandler(this.toolStripMenuItem3_Click);
+            this.отчётОбАнализеToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.выбранныеОбъектыToolStripMenuItem,
+            this.всеОбъектыToolStripMenuItem});
+            this.отчётОбАнализеToolStripMenuItem.Image = global::SiPPOON_PP.Properties.Resources.Export;
+            this.отчётОбАнализеToolStripMenuItem.Name = "отчётОбАнализеToolStripMenuItem";
+            this.отчётОбАнализеToolStripMenuItem.Size = new System.Drawing.Size(191, 22);
+            this.отчётОбАнализеToolStripMenuItem.Text = "Отчёт об анализе";
+            // 
+            // выбранныеОбъектыToolStripMenuItem
+            // 
+            this.выбранныеОбъектыToolStripMenuItem.Enabled = false;
+            this.выбранныеОбъектыToolStripMenuItem.Name = "выбранныеОбъектыToolStripMenuItem";
+            this.выбранныеОбъектыToolStripMenuItem.Size = new System.Drawing.Size(189, 22);
+            this.выбранныеОбъектыToolStripMenuItem.Text = "Выбранные объекты";
+            this.выбранныеОбъектыToolStripMenuItem.Click += new System.EventHandler(this.выбранныеОбъектыToolStripMenuItem_Click);
+            // 
+            // всеОбъектыToolStripMenuItem
+            // 
+            this.всеОбъектыToolStripMenuItem.Name = "всеОбъектыToolStripMenuItem";
+            this.всеОбъектыToolStripMenuItem.Size = new System.Drawing.Size(189, 22);
+            this.всеОбъектыToolStripMenuItem.Text = "Все объекты";
+            this.всеОбъектыToolStripMenuItem.Click += new System.EventHandler(this.всеОбъектыToolStripMenuItem_Click);
+            // 
+            // деффектныеУчасткиToolStripMenuItem
+            // 
+            this.деффектныеУчасткиToolStripMenuItem.Enabled = false;
+            this.деффектныеУчасткиToolStripMenuItem.Image = global::SiPPOON_PP.Properties.Resources.Excel;
+            this.деффектныеУчасткиToolStripMenuItem.Name = "деффектныеУчасткиToolStripMenuItem";
+            this.деффектныеУчасткиToolStripMenuItem.Size = new System.Drawing.Size(191, 22);
+            this.деффектныеУчасткиToolStripMenuItem.Text = "Деффектные участки";
+            this.деффектныеУчасткиToolStripMenuItem.Click += new System.EventHandler(this.деффектныеУчасткиToolStripMenuItem_Click);
             // 
             // toolStripMenuItem6
             // 
             this.toolStripMenuItem6.Name = "toolStripMenuItem6";
-            this.toolStripMenuItem6.Size = new System.Drawing.Size(110, 6);
+            this.toolStripMenuItem6.Size = new System.Drawing.Size(177, 6);
             // 
             // выходToolStripMenuItem3
             // 
             this.выходToolStripMenuItem3.Image = global::SiPPOON_PP.Properties.Resources.Exit;
             this.выходToolStripMenuItem3.Name = "выходToolStripMenuItem3";
-            this.выходToolStripMenuItem3.Size = new System.Drawing.Size(113, 22);
+            this.выходToolStripMenuItem3.Size = new System.Drawing.Size(180, 22);
             this.выходToolStripMenuItem3.Text = "Выход";
             this.выходToolStripMenuItem3.Click += new System.EventHandler(this.выходToolStripMenuItem_Click);
             // 
@@ -6309,12 +6337,8 @@
             // 
             // toolStripMenuItem3
             // 
-            this.toolStripMenuItem3.Enabled = false;
-            this.toolStripMenuItem3.Image = global::SiPPOON_PP.Properties.Resources.Excel;
             this.toolStripMenuItem3.Name = "toolStripMenuItem3";
-            this.toolStripMenuItem3.Size = new System.Drawing.Size(101, 22);
-            this.toolStripMenuItem3.Text = "Excel";
-            this.toolStripMenuItem3.Click += new System.EventHandler(this.toolStripMenuItem3_Click);
+            this.toolStripMenuItem3.Size = new System.Drawing.Size(67, 22);
             // 
             // toolStripMenuItem1
             // 
@@ -6381,11 +6405,8 @@
             // 
             // excelToolStripMenuItem
             // 
-            this.excelToolStripMenuItem.Image = global::SiPPOON_PP.Properties.Resources.Excel;
             this.excelToolStripMenuItem.Name = "excelToolStripMenuItem";
-            this.excelToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.excelToolStripMenuItem.Text = "Excel";
-            this.excelToolStripMenuItem.Click += new System.EventHandler(this.toolStripMenuItem3_Click);
+            this.excelToolStripMenuItem.Size = new System.Drawing.Size(32, 19);
             // 
             // файлToolStripMenuItem1
             // 
@@ -7120,10 +7141,13 @@
         private System.Windows.Forms.ToolStripSeparator toolStripMenuItem5;
         private System.Windows.Forms.ToolStripMenuItem выходToolStripMenuItem2;
         private System.Windows.Forms.ToolStripMenuItem файлToolStripMenuItem2;
-        private System.Windows.Forms.ToolStripMenuItem печатьToolStripMenuItem2;
         private System.Windows.Forms.ToolStripSeparator toolStripMenuItem6;
         private System.Windows.Forms.ToolStripMenuItem выходToolStripMenuItem3;
-        private System.Windows.Forms.ToolStripMenuItem excelToolStripMenuItem2;
+        private System.Windows.Forms.ToolStripMenuItem создатьToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem отчётОбАнализеToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem деффектныеУчасткиToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem выбранныеОбъектыToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem всеОбъектыToolStripMenuItem;
     }
 }
 

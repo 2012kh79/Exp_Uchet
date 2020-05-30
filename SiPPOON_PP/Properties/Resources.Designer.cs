@@ -243,26 +243,6 @@ namespace SiPPOON_PP.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Star_disable {
-            get {
-                object obj = ResourceManager.GetObject("Star_disable", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap Star_enable {
-            get {
-                object obj = ResourceManager.GetObject("Star_enable", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
-        /// </summary>
         internal static System.Drawing.Bitmap Word {
             get {
                 object obj = ResourceManager.GetObject("Word", resourceCulture);

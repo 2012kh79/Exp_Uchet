@@ -4022,8 +4022,8 @@
             this.toolStripMenuItem6,
             this.выходToolStripMenuItem3});
             this.отчётыToolStripMenuItem.Name = "отчётыToolStripMenuItem";
-            this.отчётыToolStripMenuItem.Size = new System.Drawing.Size(60, 20);
-            this.отчётыToolStripMenuItem.Text = "Отчёты";
+            this.отчётыToolStripMenuItem.Size = new System.Drawing.Size(51, 20);
+            this.отчётыToolStripMenuItem.Text = "Отчёт";
             // 
             // создатьToolStripMenuItem
             // 
@@ -4039,6 +4039,7 @@
             this.отчётОбАнализеToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.выбранныеОбъектыToolStripMenuItem,
             this.всеОбъектыToolStripMenuItem});
+            this.отчётОбАнализеToolStripMenuItem.Image = global::SiPPOON_PP.Properties.Resources.Export;
             this.отчётОбАнализеToolStripMenuItem.Name = "отчётОбАнализеToolStripMenuItem";
             this.отчётОбАнализеToolStripMenuItem.Size = new System.Drawing.Size(191, 22);
             this.отчётОбАнализеToolStripMenuItem.Text = "Отчёт об анализе";
@@ -4061,6 +4062,7 @@
             // деффектныеУчасткиToolStripMenuItem
             // 
             this.деффектныеУчасткиToolStripMenuItem.Enabled = false;
+            this.деффектныеУчасткиToolStripMenuItem.Image = global::SiPPOON_PP.Properties.Resources.Excel;
             this.деффектныеУчасткиToolStripMenuItem.Name = "деффектныеУчасткиToolStripMenuItem";
             this.деффектныеУчасткиToolStripMenuItem.Size = new System.Drawing.Size(191, 22);
             this.деффектныеУчасткиToolStripMenuItem.Text = "Деффектные участки";
@@ -4073,6 +4075,7 @@
             // 
             // выходToolStripMenuItem3
             // 
+            this.выходToolStripMenuItem3.Image = global::SiPPOON_PP.Properties.Resources.Exit;
             this.выходToolStripMenuItem3.Name = "выходToolStripMenuItem3";
             this.выходToolStripMenuItem3.Size = new System.Drawing.Size(180, 22);
             this.выходToolStripMenuItem3.Text = "Выход";

@@ -247,8 +247,6 @@
     <Content Include="Иконка.ico" />
     <None Include="Resources\Иконка.ico" />
     <None Include="Resources\Zastavka.png" />
-    <None Include="Resources\star_disable.png" />
-    <None Include="Resources\star_enable.png" />
     <None Include="Resources\krest.png" />
     <None Include="Resources\gal.png" />
     <None Include="Resources\Mail.png" />

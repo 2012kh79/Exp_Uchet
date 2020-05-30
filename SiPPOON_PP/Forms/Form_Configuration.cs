@@ -10,6 +10,8 @@ namespace SiPPOON_PP
         public Form_Configuration()
         {
             InitializeComponent();
+            btnConfirm.DialogResult = DialogResult.OK;
+            btnCancel.DialogResult = DialogResult.Cancel;
         }
 
         private void btnConfirm_Click(object sender, EventArgs e)
@@ -33,13 +35,17 @@ namespace SiPPOON_PP
 
         private void btBrowse_Click(object sender, EventArgs e)
         {
-            folderBrowserDialog1.ShowDialog();
-            tbPut.Text = folderBrowserDialog1.SelectedPath;
+            if (folderBrowserDialog1.ShowDialog() == DialogResult.OK)
+            {
+                tbPut.Text = folderBrowserDialog1.SelectedPath;
+                btnConfirm.Enabled = true;
+            }
         }
 
         private void Form_Configuration_FormClosing(object sender, FormClosingEventArgs e)
         {
             document_default_path = tbPut.Text;
+            btnConfirm.Enabled = false;
         }
     }
 }
