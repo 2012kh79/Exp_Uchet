@@ -52,7 +52,6 @@ namespace SiPPOON_PP
                     table.dtVAOFill();
                     table.Table(dgv_VAO, table.dtVAO);
                     otchet.Get_Object(dgv_VAO);
-                    Get_Okruga();
                 }
                 catch (Exception ex)
                 {
@@ -73,7 +72,6 @@ namespace SiPPOON_PP
                     table.dtZAOFill();
                     table.Table(dgv_ZAO, table.dtZAO);
                     otchet.Get_Object(dgv_ZAO);
-                    Get_Okruga();
                 }
                 catch (Exception ex)
                 {
@@ -94,7 +92,6 @@ namespace SiPPOON_PP
                     table.dtZelAoFill();
                     table.Table(dgv_ZelAO, table.dtZelAO);
                     otchet.Get_Object(dgv_ZelAO);
-                    Get_Okruga();
                 }
                 catch (Exception ex)
                 {
@@ -115,7 +112,6 @@ namespace SiPPOON_PP
                     table.dtSAOFill();
                     table.Table(dgv_SAO, table.dtSAO);
                     otchet.Get_Object(dgv_SAO);
-                    Get_Okruga();
                 }
                 catch (Exception ex)
                 {
@@ -136,7 +132,6 @@ namespace SiPPOON_PP
                     table.dtSVAOFill();
                     table.Table(dgv_SVAO, table.dtSVAO);
                     otchet.Get_Object(dgv_SVAO);
-                    Get_Okruga();
                 }
                 catch (Exception ex)
                 {
@@ -157,7 +152,6 @@ namespace SiPPOON_PP
                     table.dtSZAOFill();
                     table.Table(dgv_SZAO, table.dtSZAO);
                     otchet.Get_Object(dgv_SZAO);
-                    Get_Okruga();
                 }
                 catch (Exception ex)
                 {
@@ -178,7 +172,6 @@ namespace SiPPOON_PP
                     table.dtTiNAOFill();
                     table.Table(dgv_TiNAO, table.dtTiNAO);
                     otchet.Get_Object(dgv_TiNAO);
-                    Get_Okruga();
                 }
                 catch (Exception ex)
                 {
@@ -199,7 +192,6 @@ namespace SiPPOON_PP
                     table.dtTSAOFill();
                     table.Table(dgv_TSAO, table.dtTSAO);
                     otchet.Get_Object(dgv_TSAO);
-                    Get_Okruga();
                 }
                 catch (Exception ex)
                 {
@@ -220,7 +212,6 @@ namespace SiPPOON_PP
                     table.dtYAOFill();
                     table.Table(dgv_YAO, table.dtYAO);
                     otchet.Get_Object(dgv_YAO);
-                    Get_Okruga();
                 }
                 catch (Exception ex)
                 {
@@ -241,7 +232,6 @@ namespace SiPPOON_PP
                     table.dtYVAOFill();
                     table.Table(dgv_YVAO, table.dtYVAO);
                     otchet.Get_Object(dgv_YVAO);
-                    Get_Okruga();
                 }
                 catch (Exception ex)
                 {
@@ -262,7 +252,6 @@ namespace SiPPOON_PP
                     table.dtYZAOFill();
                     table.Table(dgv_YZAO, table.dtYZAO);
                     otchet.Get_Object(dgv_YZAO);
-                    Get_Okruga();
                 }
                 catch (Exception ex)
                 {
@@ -625,6 +614,8 @@ namespace SiPPOON_PP
                 thread_YVAO.Start();
                 Thread thread_YZAO = new Thread(new ThreadStart(dgv_YZAO_Fill));
                 thread_YZAO.Start();
+                Thread thread_Okruga = new Thread(new ThreadStart(Get_Okruga));
+                thread_Okruga.Start();
                 MessageBox.Show("Результаты были успешно загружены!", "Сообщение", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
             catch
@@ -646,15 +637,9 @@ namespace SiPPOON_PP
                         dataAdapter.Fill(table);
                         foreach (DataRow row in table.Rows)
                         {
-                            if (Convert.ToString(row["Naim_Object"]) == "ВАО" || Convert.ToString(row["Naim_Object"]) == "ЗАО" || Convert.ToString(row["Naim_Object"]) == "ЗелАО"
-                                || Convert.ToString(row["Naim_Object"]) == "САО" || Convert.ToString(row["Naim_Object"]) == "СВАО" || Convert.ToString(row["Naim_Object"]) == "СЗАО"
-                                || Convert.ToString(row["Naim_Object"]) == "ТиНАО" || Convert.ToString(row["Naim_Object"]) == "ЦАО" || Convert.ToString(row["Naim_Object"]) == "ЮАО"
-                                || Convert.ToString(row["Naim_Object"]) == "ЮВАО" || Convert.ToString(row["Naim_Object"]) == "ЮЗАО" || Convert.ToString(row["Data_Otchet"]) == DateTime.Now.ToShortDateString())
+                            if (Convert.ToString(row["Naim_Object"]) == "ВАО" & Convert.ToString(row["Data_Otchet"]) == DateTime.Now.ToShortDateString())
                                 всеОбъектыToolStripMenuItem.Enabled = false;
-                            else if (Convert.ToString(row["Naim_Object"]) == "ВАО" || Convert.ToString(row["Naim_Object"]) == "ЗАО" || Convert.ToString(row["Naim_Object"]) == "ЗелАО"
-                                || Convert.ToString(row["Naim_Object"]) == "САО" || Convert.ToString(row["Naim_Object"]) == "СВАО" || Convert.ToString(row["Naim_Object"]) == "СЗАО"
-                                || Convert.ToString(row["Naim_Object"]) == "ТиНАО" || Convert.ToString(row["Naim_Object"]) == "ЦАО" || Convert.ToString(row["Naim_Object"]) == "ЮАО"
-                                || Convert.ToString(row["Naim_Object"]) == "ЮВАО" || Convert.ToString(row["Naim_Object"]) == "ЮЗАО" || Convert.ToString(row["Data_Otchet"]) != DateTime.Now.ToShortDateString())
+                            else if (Convert.ToString(row["Naim_Object"]) != "ВАО" & Convert.ToString(row["Data_Otchet"]) != DateTime.Now.ToShortDateString())
                                 всеОбъектыToolStripMenuItem.Enabled = true;
                         }
                     }

@@ -26,6 +26,7 @@ namespace SiPPOON_PP
         public DataTable dtKategoriya_6 = new DataTable("Kategoriya_6");
         public DataTable dtVKO = new DataTable("VKO");
 
+        public DataTable dtOtchet_Analisys_Proverka = new DataTable("Otchet_Analisys_Proverka");
         public DataTable dtOtchet_Kategorii = new DataTable("Otchet_Kategorii");
         public DataTable dtOtchet_Kategoriya_1 = new DataTable("Otchet_Kategoriya_1");
         public DataTable dtOtchet_Kategoriya_2 = new DataTable("Otchet_Kategoriya_2");
@@ -62,6 +63,7 @@ namespace SiPPOON_PP
         public string qrRole = "select [ID_Role],[Role_name] from [Role]",//Переменная, которая хранит в себе запрос на выборку данных из таблицы
         qrAccount = "select [Login_Account],[Parol_Account],[Mail],[Role_name],[Employee_ID] from [Account] inner join [Role] on [Role].[ID_Role] = [Account].[Role_ID] inner join [Employee] on [Employee].[ID_Employee] = [Account].[Employee_ID]",
         qrEmployee = "select [ID_Employee],[Fam_Employee],[Imya_Employee],[Photo_Employee] from [Employee]",
+        qrOtchet_Analisys_Proverka = "select * FROM [Otchet_Analisys_Proverka]",
         qrOtchet_Kategorii = "select * FROM [Otchet_Kategorii]",
         qrOtchet_Kategoriya_1 = "select * FROM [Otchet_Kategoriya_1]",
         qrOtchet_Kategoriya_2 = "select * FROM [Otchet_Kategoriya_2]",
@@ -268,6 +270,11 @@ namespace SiPPOON_PP
         public void dtYZAOFill()//Метод для заполнения справочника "ЮЗАО"
         {
             dtFill_Ole(dtYZAO, qrYZAO);
+        }
+
+        public void dtOtchet_Analisys_ProverkaFill()//Метод для заполнения отчета "Категория 1"
+        {
+            dtFill_SQL(dtOtchet_Analisys_Proverka, qrOtchet_Analisys_Proverka);
         }
 
         public void dtOtchet_Kategoriya_1Fill()//Метод для заполнения отчета "Категория 1"

@@ -419,13 +419,9 @@ namespace SiPPOON_PP
                     dataAdapter.Fill(table);
                     foreach (DataRow row in table.Rows)
                     {
-                        if (Convert.ToString(row["Naim_Object"]) == "1 категория" || Convert.ToString(row["Naim_Object"]) == "2 категория" || Convert.ToString(row["Naim_Object"]) == "3 категория"
-                                || Convert.ToString(row["Naim_Object"]) == "4 категория" || Convert.ToString(row["Naim_Object"]) == "5 категория" || Convert.ToString(row["Naim_Object"]) == "6 категория"
-                                || Convert.ToString(row["Naim_Object"]) == "ВКО" & Convert.ToString(row["Data_Otchet"]) == DateTime.Now.ToShortDateString())
+                        if (Convert.ToString(row["Naim_Object"]) == "1 категория" & Convert.ToString(row["Data_Otchet"]) == DateTime.Now.ToShortDateString())
                             всеОбъектыToolStripMenuItem.Enabled = false;
-                        else if (Convert.ToString(row["Naim_Object"]) == "1 категория" || Convert.ToString(row["Naim_Object"]) == "2 категория" || Convert.ToString(row["Naim_Object"]) == "3 категория"
-                                || Convert.ToString(row["Naim_Object"]) == "4 категория" || Convert.ToString(row["Naim_Object"]) == "5 категория" || Convert.ToString(row["Naim_Object"]) == "6 категория"
-                                || Convert.ToString(row["Naim_Object"]) == "ВКО" & Convert.ToString(row["Data_Otchet"]) != DateTime.Now.ToShortDateString())
+                        else if (Convert.ToString(row["Naim_Object"]) != "1 категория" & Convert.ToString(row["Data_Otchet"]) != DateTime.Now.ToShortDateString())
                             всеОбъектыToolStripMenuItem.Enabled = true;
                     }
                 }

@@ -111,12 +111,6 @@
     <Compile Include="Forms\Form_Kategorii.Designer.cs">
       <DependentUpon>Form_Kategorii.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\Form_Otchet.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Forms\Form_Otchet.Designer.cs">
-      <DependentUpon>Form_Otchet.cs</DependentUpon>
-    </Compile>
     <Compile Include="Forms\Form_Registration.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -193,9 +187,6 @@
     <EmbeddedResource Include="Forms\Form_Kategorii.resx">
       <DependentUpon>Form_Kategorii.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\Form_Otchet.resx">
-      <DependentUpon>Form_Otchet.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Forms\Form_Registration.resx">
       <DependentUpon>Form_Registration.cs</DependentUpon>
     </EmbeddedResource>
@@ -242,8 +233,8 @@
     <None Include="Resources\Main_Propusk.png" />
     <None Include="Resources\Main_Result.png" />
     <None Include="Resources\Main_Settings.png" />
-    <None Include="Resources\Word.png" />
     <None Include="Resources\PDF.png" />
+    <None Include="Resources\Word.png" />
     <Content Include="Иконка.ico" />
     <None Include="Resources\Иконка.ico" />
     <None Include="Resources\Zastavka.png" />

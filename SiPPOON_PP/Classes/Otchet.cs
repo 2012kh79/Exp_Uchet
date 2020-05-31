@@ -58,13 +58,13 @@ namespace SiPPOON_PP.Classes
         public void Check_Object(DataGridView dataGridView, Chart chart, CheckedListBox checkedListBox, List<string> objectList, ToolStripMenuItem toolStripButton)
         {
             int k = dataGridView.SelectedCells[0].RowIndex;
-            if (dataGridView.Rows[k].DefaultCellStyle.BackColor == Color.Green)
+            if (dataGridView.Rows[k].DefaultCellStyle.BackColor == Color.GreenYellow)
                 MessageBox.Show("Вы уже внесли этот объект в отчёт!", "Сообщение", MessageBoxButtons.OK, MessageBoxIcon.Information);
             else
             {
                 Filter_Table filter_Table = new Filter_Table();
                 filter_Table.Chart_Export(chart, dataGridView, checkedListBox, objectList);
-                if (objectList.Count > 0)
+                if (objectList.Count >= 1)
                     toolStripButton.Enabled = true;
                 else
                     toolStripButton.Enabled = false;
@@ -92,7 +92,7 @@ namespace SiPPOON_PP.Classes
                             Convert.ToDouble(dataGridView.Rows[i].Cells[32].Value), Convert.ToDouble(dataGridView.Rows[i].Cells[33].Value), Convert.ToDouble(dataGridView.Rows[i].Cells[34].Value),
                             DateTime.Now.ToShortDateString(), Convert.ToInt32(table.Rows[0]["ID_Employee"].ToString()));
                             dataGridView.Rows[i].Cells[0].Value = false;
-                            dataGridView.Rows[i].DefaultCellStyle.BackColor = Color.Green;
+                            dataGridView.Rows[i].DefaultCellStyle.BackColor = Color.GreenYellow;
                         }
                     }
                 }
@@ -119,7 +119,7 @@ namespace SiPPOON_PP.Classes
                         foreach (DataRow row in table.Rows)
                         {
                             if (Convert.ToString(dataGridView.Rows[i].Cells[3].Value) == Convert.ToString(row["Naim_Object"]))
-                                dataGridView.Rows[i].DefaultCellStyle.BackColor = Color.Green;
+                                dataGridView.Rows[i].DefaultCellStyle.BackColor = Color.GreenYellow;
                         }
                     }
                 }

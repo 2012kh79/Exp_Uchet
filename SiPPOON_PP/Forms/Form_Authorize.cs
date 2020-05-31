@@ -9,7 +9,7 @@ namespace SiPPOON_PP
     public partial class Form_Authorize : Form
     {
         public static SQLCon con = new SQLCon();//Переменная для хранения соединения с SQL
-        public enum Role {Failed, Admin, Otdel_Kachestva, Nachalnik_Otdel_Kachestva};//Хранит перечисление ролей
+        public enum Role {Failed, Admin, Otdel_Kachestva, Nachalnik_Otdel_Kachestva };//Хранит перечисление ролей
         public static Role role;
         public static string Login;//Хранит логин
         public Form_Authorize()
@@ -54,8 +54,8 @@ namespace SiPPOON_PP
                     switch ((int)dataReader["Role_ID"])
                     {
                         case 1: role = Role.Admin; break;
-                        case 2: role = Role.Otdel_Kachestva; break;
-                        case 3: role = Role.Nachalnik_Otdel_Kachestva; break;
+                        case 2: role = Role.Nachalnik_Otdel_Kachestva; break;
+                        case 3: role = Role.Otdel_Kachestva; break;
                     }
                 }
             }
