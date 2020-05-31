@@ -54,23 +54,22 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Classes\CallBack.cs" />
-    <Compile Include="Classes\FTP_Server.cs" />
-    <Compile Include="Classes\Otchet.cs" />
-    <Compile Include="Classes\PDF_Document.cs" />
-    <Compile Include="Classes\Word_Document.cs" />
-    <Compile Include="Classes\XML.cs" />
+    <Compile Include="Classes\CallBack_Class.cs" />
+    <Compile Include="Classes\FTPServer_Class.cs" />
+    <Compile Include="Classes\Otchet_Class.cs" />
+    <Compile Include="Classes\WordDocument_Class.cs" />
+    <Compile Include="Classes\XML_Class.cs" />
     <Compile Include="Forms\About_Form.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Forms\About_Form.Designer.cs">
       <DependentUpon>About_Form.cs</DependentUpon>
     </Compile>
-    <Compile Include="Classes\DB_Procedures.cs" />
-    <Compile Include="Classes\Excel_Document.cs" />
-    <Compile Include="Classes\Fill_Table.cs" />
-    <Compile Include="Classes\Filter_Table.cs" />
-    <Compile Include="Classes\Forget_Password.cs" />
+    <Compile Include="Classes\DBProcedures_Class.cs" />
+    <Compile Include="Classes\ExcelDocument_Class.cs" />
+    <Compile Include="Classes\FillTable_Class.cs" />
+    <Compile Include="Classes\FilterTable_Class.cs" />
+    <Compile Include="Classes\ForgetPassword_Class.cs" />
     <Compile Include="Forms\Form_Admin.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -158,7 +157,7 @@
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Classes\Registry_Class.cs" />
-    <Compile Include="Classes\Send_Mail.cs" />
+    <Compile Include="Classes\SendMail_Class.cs" />
     <EmbeddedResource Include="Forms\About_Form.resx">
       <DependentUpon>About_Form.cs</DependentUpon>
     </EmbeddedResource>
@@ -209,6 +208,7 @@
       <SubType>Designer</SubType>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
+    <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -235,7 +235,6 @@
     <None Include="Resources\Main_Propusk.png" />
     <None Include="Resources\Main_Result.png" />
     <None Include="Resources\Main_Settings.png" />
-    <None Include="Resources\PDF.png" />
     <None Include="Resources\Word.png" />
     <Content Include="Иконка.ico" />
     <None Include="Resources\Иконка.ico" />

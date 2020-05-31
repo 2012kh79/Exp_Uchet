@@ -5,7 +5,7 @@ using System.Text;
 
 namespace SiPPOON_PP.Classes
 {
-    class XML
+    class XML_Class
     {
         public void XML_Write(string Path_File, string Path_Folder)
         {

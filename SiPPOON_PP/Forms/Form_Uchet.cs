@@ -1,12 +1,6 @@
 ﻿using SiPPOON_PP.Classes;
 using System;
-using System.Collections.Generic;
-using System.ComponentModel;
 using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Threading;
 using System.Data.SqlClient;
@@ -205,7 +199,7 @@ namespace SiPPOON_PP.Forms
         {
             Form_Configuration configForm = new Form_Configuration();
             DataTable data = new DataTable();
-            Word_Document document = new Word_Document();
+            WordDocument_Class document = new WordDocument_Class();
             DataRow dr;
             if (configForm.ShowDialog() == DialogResult.OK)
             {
@@ -242,11 +236,6 @@ namespace SiPPOON_PP.Forms
                 }
                 document.Shet_Facture(data);
             }
-        }
-
-        private void btn_PDF_Click(object sender, EventArgs e)
-        {
-
         }
 
         private void rb_Filter_Data_CheckedChanged(object sender, EventArgs e)

@@ -10,7 +10,7 @@ namespace SiPPOON_PP
         public Form_Change()
         {
             InitializeComponent();
-            Classes.CallBack.callbackEventHandler = new Classes.CallBack.callbackEvent(this.Reload);
+            Classes.CallBack_Class.callbackEventHandler = new Classes.CallBack_Class.callbackEvent(this.Reload);
         }
 
         private void btn_Kategorii_Click(object sender, EventArgs e)

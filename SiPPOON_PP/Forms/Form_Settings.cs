@@ -27,7 +27,7 @@ namespace SiPPOON_PP.Forms
 
         private void btn_Save_Click(object sender, EventArgs e)
         {
-            XML xml_doc = new XML();
+            XML_Class xml_doc = new XML_Class();
             btn_Save.Enabled = false;
             btn_Review.Enabled = false;
             btn_Review_Folder.Enabled = false;

@@ -41,6 +41,7 @@
             this.выходToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.gb_Uchet = new System.Windows.Forms.GroupBox();
             this.gb_FIlter_Uchet = new System.Windows.Forms.GroupBox();
+            this.rb_Clear_Filter = new System.Windows.Forms.RadioButton();
             this.rb_Filter_Data = new System.Windows.Forms.RadioButton();
             this.rb_Filter_Sotrudnik = new System.Windows.Forms.RadioButton();
             this.lbl_Sotrudnik = new System.Windows.Forms.Label();
@@ -54,15 +55,11 @@
             this.tb_Proveril = new System.Windows.Forms.TextBox();
             this.lbl_Proveril = new System.Windows.Forms.Label();
             this.mc_Uchet = new System.Windows.Forms.MonthCalendar();
-            this.gb_Export_Otchet = new System.Windows.Forms.GroupBox();
-            this.btn_PDF = new System.Windows.Forms.Button();
             this.btn_Word = new System.Windows.Forms.Button();
-            this.rb_Clear_Filter = new System.Windows.Forms.RadioButton();
             ((System.ComponentModel.ISupportInitialize)(this.dgv_Uchet)).BeginInit();
             this.menuStrip1.SuspendLayout();
             this.gb_Uchet.SuspendLayout();
             this.gb_FIlter_Uchet.SuspendLayout();
-            this.gb_Export_Otchet.SuspendLayout();
             this.SuspendLayout();
             // 
             // dgv_Uchet
@@ -114,43 +111,44 @@
             this.округаToolStripMenuItem,
             this.всеОбъектыToolStripMenuItem});
             this.открытьToolStripMenuItem.Name = "открытьToolStripMenuItem";
-            this.открытьToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.открытьToolStripMenuItem.Size = new System.Drawing.Size(121, 22);
             this.открытьToolStripMenuItem.Text = "Открыть";
             // 
             // категорииToolStripMenuItem
             // 
             this.категорииToolStripMenuItem.Name = "категорииToolStripMenuItem";
-            this.категорииToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.категорииToolStripMenuItem.Size = new System.Drawing.Size(143, 22);
             this.категорииToolStripMenuItem.Text = "Категории";
             this.категорииToolStripMenuItem.Click += new System.EventHandler(this.категорииToolStripMenuItem_Click);
             // 
             // округаToolStripMenuItem
             // 
             this.округаToolStripMenuItem.Name = "округаToolStripMenuItem";
-            this.округаToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.округаToolStripMenuItem.Size = new System.Drawing.Size(143, 22);
             this.округаToolStripMenuItem.Text = "Округа";
             this.округаToolStripMenuItem.Click += new System.EventHandler(this.округаToolStripMenuItem_Click);
             // 
             // всеОбъектыToolStripMenuItem
             // 
             this.всеОбъектыToolStripMenuItem.Name = "всеОбъектыToolStripMenuItem";
-            this.всеОбъектыToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.всеОбъектыToolStripMenuItem.Size = new System.Drawing.Size(143, 22);
             this.всеОбъектыToolStripMenuItem.Text = "Все объекты";
             this.всеОбъектыToolStripMenuItem.Click += new System.EventHandler(this.всеОбъектыToolStripMenuItem_Click);
             // 
             // toolStripMenuItem1
             // 
             this.toolStripMenuItem1.Name = "toolStripMenuItem1";
-            this.toolStripMenuItem1.Size = new System.Drawing.Size(177, 6);
+            this.toolStripMenuItem1.Size = new System.Drawing.Size(118, 6);
             // 
             // выходToolStripMenuItem
             // 
             this.выходToolStripMenuItem.Name = "выходToolStripMenuItem";
-            this.выходToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.выходToolStripMenuItem.Size = new System.Drawing.Size(121, 22);
             this.выходToolStripMenuItem.Text = "Выход";
             // 
             // gb_Uchet
             // 
+            this.gb_Uchet.Controls.Add(this.btn_Word);
             this.gb_Uchet.Controls.Add(this.gb_FIlter_Uchet);
             this.gb_Uchet.Controls.Add(this.mtb_Data_Uchet);
             this.gb_Uchet.Controls.Add(this.label2);
@@ -159,7 +157,6 @@
             this.gb_Uchet.Controls.Add(this.tb_Proveril);
             this.gb_Uchet.Controls.Add(this.lbl_Proveril);
             this.gb_Uchet.Controls.Add(this.mc_Uchet);
-            this.gb_Uchet.Controls.Add(this.gb_Export_Otchet);
             this.gb_Uchet.Dock = System.Windows.Forms.DockStyle.Fill;
             this.gb_Uchet.Location = new System.Drawing.Point(0, 372);
             this.gb_Uchet.Name = "gb_Uchet";
@@ -183,6 +180,20 @@
             this.gb_FIlter_Uchet.TabIndex = 10;
             this.gb_FIlter_Uchet.TabStop = false;
             this.gb_FIlter_Uchet.Text = "Фильтр по:";
+            // 
+            // rb_Clear_Filter
+            // 
+            this.rb_Clear_Filter.AutoSize = true;
+            this.rb_Clear_Filter.CheckAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.rb_Clear_Filter.Checked = true;
+            this.rb_Clear_Filter.Location = new System.Drawing.Point(220, 75);
+            this.rb_Clear_Filter.Name = "rb_Clear_Filter";
+            this.rb_Clear_Filter.Size = new System.Drawing.Size(115, 17);
+            this.rb_Clear_Filter.TabIndex = 18;
+            this.rb_Clear_Filter.TabStop = true;
+            this.rb_Clear_Filter.Text = "Очистить фильтр:";
+            this.rb_Clear_Filter.UseVisualStyleBackColor = true;
+            this.rb_Clear_Filter.CheckedChanged += new System.EventHandler(this.rb_Clear_Filter_CheckedChanged);
             // 
             // rb_Filter_Data
             // 
@@ -303,54 +314,16 @@
             this.mc_Uchet.TabIndex = 3;
             this.mc_Uchet.DateChanged += new System.Windows.Forms.DateRangeEventHandler(this.mc_Uchet_DateChanged);
             // 
-            // gb_Export_Otchet
-            // 
-            this.gb_Export_Otchet.Controls.Add(this.btn_PDF);
-            this.gb_Export_Otchet.Controls.Add(this.btn_Word);
-            this.gb_Export_Otchet.Location = new System.Drawing.Point(587, 83);
-            this.gb_Export_Otchet.Name = "gb_Export_Otchet";
-            this.gb_Export_Otchet.Size = new System.Drawing.Size(185, 100);
-            this.gb_Export_Otchet.TabIndex = 2;
-            this.gb_Export_Otchet.TabStop = false;
-            this.gb_Export_Otchet.Text = "Сформировать отчёт в: ";
-            // 
-            // btn_PDF
-            // 
-            this.btn_PDF.BackgroundImage = global::SiPPOON_PP.Properties.Resources.PDF;
-            this.btn_PDF.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btn_PDF.Dock = System.Windows.Forms.DockStyle.Right;
-            this.btn_PDF.Location = new System.Drawing.Point(92, 16);
-            this.btn_PDF.Name = "btn_PDF";
-            this.btn_PDF.Size = new System.Drawing.Size(90, 81);
-            this.btn_PDF.TabIndex = 1;
-            this.btn_PDF.UseVisualStyleBackColor = true;
-            this.btn_PDF.Click += new System.EventHandler(this.btn_PDF_Click);
-            // 
             // btn_Word
             // 
             this.btn_Word.BackgroundImage = global::SiPPOON_PP.Properties.Resources.Word;
             this.btn_Word.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btn_Word.Dock = System.Windows.Forms.DockStyle.Left;
-            this.btn_Word.Location = new System.Drawing.Point(3, 16);
+            this.btn_Word.Location = new System.Drawing.Point(645, 90);
             this.btn_Word.Name = "btn_Word";
-            this.btn_Word.Size = new System.Drawing.Size(90, 81);
+            this.btn_Word.Size = new System.Drawing.Size(90, 80);
             this.btn_Word.TabIndex = 0;
             this.btn_Word.UseVisualStyleBackColor = true;
             this.btn_Word.Click += new System.EventHandler(this.btn_Word_Click);
-            // 
-            // rb_Clear_Filter
-            // 
-            this.rb_Clear_Filter.AutoSize = true;
-            this.rb_Clear_Filter.CheckAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.rb_Clear_Filter.Checked = true;
-            this.rb_Clear_Filter.Location = new System.Drawing.Point(220, 75);
-            this.rb_Clear_Filter.Name = "rb_Clear_Filter";
-            this.rb_Clear_Filter.Size = new System.Drawing.Size(115, 17);
-            this.rb_Clear_Filter.TabIndex = 18;
-            this.rb_Clear_Filter.TabStop = true;
-            this.rb_Clear_Filter.Text = "Очистить фильтр:";
-            this.rb_Clear_Filter.UseVisualStyleBackColor = true;
-            this.rb_Clear_Filter.CheckedChanged += new System.EventHandler(this.rb_Clear_Filter_CheckedChanged);
             // 
             // Form_Uchet
             // 
@@ -374,7 +347,6 @@
             this.gb_Uchet.PerformLayout();
             this.gb_FIlter_Uchet.ResumeLayout(false);
             this.gb_FIlter_Uchet.PerformLayout();
-            this.gb_Export_Otchet.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -390,9 +362,6 @@
         private System.Windows.Forms.ToolStripMenuItem округаToolStripMenuItem;
         private System.Windows.Forms.ToolStripSeparator toolStripMenuItem1;
         private System.Windows.Forms.GroupBox gb_Uchet;
-        private System.Windows.Forms.GroupBox gb_Export_Otchet;
-        private System.Windows.Forms.Button btn_PDF;
-        private System.Windows.Forms.Button btn_Word;
         private System.Windows.Forms.TextBox tb_Proveril;
         private System.Windows.Forms.Label lbl_Proveril;
         private System.Windows.Forms.MonthCalendar mc_Uchet;
@@ -410,5 +379,6 @@
         private System.Windows.Forms.RadioButton rb_Filter_Sotrudnik;
         private System.Windows.Forms.RadioButton rb_Filter_Data;
         private System.Windows.Forms.RadioButton rb_Clear_Filter;
+        private System.Windows.Forms.Button btn_Word;
     }
 }

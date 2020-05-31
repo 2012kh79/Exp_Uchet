@@ -7,7 +7,7 @@ using System.Data;
 
 namespace SiPPOON_PP.Classes
 {
-    class FTP_Server
+    class FTPServer_Class
     {
         FtpWebRequest request;//Переменная для работы с FTP-клиентом
         public FileInfo info { get; set; }//Переменная для хранения имени файла

@@ -1,15 +1,10 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Data;
 using word = Microsoft.Office.Interop.Word;
-using excel = Microsoft.Office.Interop.Excel;
-using core = Microsoft.Office.Core;
-using Microsoft.Office.Core;
 
 namespace SiPPOON_PP.Classes
 {
-    class Word_Document
+    class WordDocument_Class
     {
         word.Application application = new word.Application();
         word.Document document;

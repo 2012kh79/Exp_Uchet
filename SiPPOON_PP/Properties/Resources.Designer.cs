@@ -233,16 +233,6 @@ namespace SiPPOON_PP.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap PDF {
-            get {
-                object obj = ResourceManager.GetObject("PDF", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
-        /// </summary>
         internal static System.Drawing.Bitmap Word {
             get {
                 object obj = ResourceManager.GetObject("Word", resourceCulture);

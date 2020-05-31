@@ -35,7 +35,7 @@ namespace SiPPOON_PP
         public void dgv_Kategoriya_1_Fill()
         {
             Fill_Table table = new Fill_Table();
-            Classes.Otchet otchet = new Classes.Otchet();
+            Classes.Otchet_Class otchet = new Classes.Otchet_Class();
             Action action = () =>
             {
                 try
@@ -55,7 +55,7 @@ namespace SiPPOON_PP
         public void dgv_Kategoriya_2_Fill()
         {
             Fill_Table table = new Fill_Table();
-            Classes.Otchet otchet = new Classes.Otchet();
+            Classes.Otchet_Class otchet = new Classes.Otchet_Class();
             Action action = () =>
             {
                 try
@@ -75,7 +75,7 @@ namespace SiPPOON_PP
         public void dgv_Kategoriya_3_Fill()
         {
             Fill_Table table = new Fill_Table();
-            Classes.Otchet otchet = new Classes.Otchet();
+            Classes.Otchet_Class otchet = new Classes.Otchet_Class();
             Action action = () =>
             {
                 try
@@ -95,7 +95,7 @@ namespace SiPPOON_PP
         public void dgv_Kategoriya_4_Fill()
         {
             Fill_Table table = new Fill_Table();
-            Classes.Otchet otchet = new Classes.Otchet();
+            Classes.Otchet_Class otchet = new Classes.Otchet_Class();
             Action action = () =>
             {
                 try
@@ -115,7 +115,7 @@ namespace SiPPOON_PP
         public void dgv_Kategoriya_5_Fill()
         {
             Fill_Table table = new Fill_Table();
-            Classes.Otchet otchet = new Classes.Otchet();
+            Classes.Otchet_Class otchet = new Classes.Otchet_Class();
             Action action = () =>
             {
                 try
@@ -135,7 +135,7 @@ namespace SiPPOON_PP
         public void dgv_Kategoriya_6_Fill()
         {
             Fill_Table table = new Fill_Table();
-            Classes.Otchet otchet = new Classes.Otchet();
+            Classes.Otchet_Class otchet = new Classes.Otchet_Class();
             Action action = () =>
             {
                 try
@@ -155,7 +155,7 @@ namespace SiPPOON_PP
         public void dgv_VKO_Fill()
         {
             Fill_Table table = new Fill_Table();
-            Classes.Otchet otchet = new Classes.Otchet();
+            Classes.Otchet_Class otchet = new Classes.Otchet_Class();
             Action action = () =>
             {
                 try
@@ -374,7 +374,7 @@ namespace SiPPOON_PP
 
         private void Form_Kategorii_FormClosing(object sender, FormClosingEventArgs e)
         {
-            Classes.CallBack.callbackEventHandler("Enable_Kategorii");
+            Classes.CallBack_Class.callbackEventHandler("Enable_Kategorii");
             e.Cancel = true;
             this.Hide();
         }
@@ -434,7 +434,7 @@ namespace SiPPOON_PP
 
         private void выбранныеОбъектыToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Classes.Otchet otchet = new Classes.Otchet();
+            Classes.Otchet_Class otchet = new Classes.Otchet_Class();
             switch (tc_Kategorii.SelectedIndex)
             {
                 case 0:
@@ -463,7 +463,7 @@ namespace SiPPOON_PP
 
         private void всеОбъектыToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Classes.Otchet otchet = new Classes.Otchet();
+            Classes.Otchet_Class otchet = new Classes.Otchet_Class();
             DataTable table = new DataTable();
             DB_Procedures procedures = new DB_Procedures();
             try
@@ -473,33 +473,33 @@ namespace SiPPOON_PP
                 {
                     dataAdapter.Fill(table);
                     otchet.Otchet_Fill_Set(dgv_Kategoriya1);
-                    procedures.spOtchet_Analisys_Insert(tc_Kategorii.TabPages[0].Text, dgv_Kategoriya1.RowCount - 2, Classes.Otchet.Ploshad, Classes.Otchet.Percent_One, Classes.Otchet.Metr_One,
-                        Classes.Otchet.Percent_Two, Classes.Otchet.Metr_Two, Classes.Otchet.Percent_Three, Classes.Otchet.Metr_Three, Classes.Otchet.Percent_Four, Classes.Otchet.Metr_Four,
-                        Classes.Otchet.Percent_PPCBN, Classes.Otchet.Metr_PPCBN, DateTime.Now.ToShortDateString(), Convert.ToInt32(table.Rows[0]["ID_Employee"].ToString()));
+                    procedures.spOtchet_Analisys_Insert(tc_Kategorii.TabPages[0].Text, dgv_Kategoriya1.RowCount - 2, Classes.Otchet_Class.Ploshad, Classes.Otchet_Class.Percent_One, Classes.Otchet_Class.Metr_One,
+                        Classes.Otchet_Class.Percent_Two, Classes.Otchet_Class.Metr_Two, Classes.Otchet_Class.Percent_Three, Classes.Otchet_Class.Metr_Three, Classes.Otchet_Class.Percent_Four, Classes.Otchet_Class.Metr_Four,
+                        Classes.Otchet_Class.Percent_PPCBN, Classes.Otchet_Class.Metr_PPCBN, DateTime.Now.ToShortDateString(), Convert.ToInt32(table.Rows[0]["ID_Employee"].ToString()));
                     otchet.Otchet_Fill_Set(dgv_Kategoriya2);
-                    procedures.spOtchet_Analisys_Insert(tc_Kategorii.TabPages[1].Text, dgv_Kategoriya2.RowCount - 2, Classes.Otchet.Ploshad, Classes.Otchet.Percent_One, Classes.Otchet.Metr_One,
-                         Classes.Otchet.Percent_Two, Classes.Otchet.Metr_Two, Classes.Otchet.Percent_Three, Classes.Otchet.Metr_Three, Classes.Otchet.Percent_Four, Classes.Otchet.Metr_Four,
-                         Classes.Otchet.Percent_PPCBN, Classes.Otchet.Metr_PPCBN, DateTime.Now.ToShortDateString(), Convert.ToInt32(table.Rows[0]["ID_Employee"].ToString()));
+                    procedures.spOtchet_Analisys_Insert(tc_Kategorii.TabPages[1].Text, dgv_Kategoriya2.RowCount - 2, Classes.Otchet_Class.Ploshad, Classes.Otchet_Class.Percent_One, Classes.Otchet_Class.Metr_One,
+                         Classes.Otchet_Class.Percent_Two, Classes.Otchet_Class.Metr_Two, Classes.Otchet_Class.Percent_Three, Classes.Otchet_Class.Metr_Three, Classes.Otchet_Class.Percent_Four, Classes.Otchet_Class.Metr_Four,
+                         Classes.Otchet_Class.Percent_PPCBN, Classes.Otchet_Class.Metr_PPCBN, DateTime.Now.ToShortDateString(), Convert.ToInt32(table.Rows[0]["ID_Employee"].ToString()));
                     otchet.Otchet_Fill_Set(dgv_Kategoriya3);
-                    procedures.spOtchet_Analisys_Insert(tc_Kategorii.TabPages[2].Text, dgv_Kategoriya3.RowCount - 2, Classes.Otchet.Ploshad, Classes.Otchet.Percent_One, Classes.Otchet.Metr_One,
-                        Classes.Otchet.Percent_Two, Classes.Otchet.Metr_Two, Classes.Otchet.Percent_Three, Classes.Otchet.Metr_Three, Classes.Otchet.Percent_Four, Classes.Otchet.Metr_Four,
-                        Classes.Otchet.Percent_PPCBN, Classes.Otchet.Metr_PPCBN, DateTime.Now.ToShortDateString(), Convert.ToInt32(table.Rows[0]["ID_Employee"].ToString()));
+                    procedures.spOtchet_Analisys_Insert(tc_Kategorii.TabPages[2].Text, dgv_Kategoriya3.RowCount - 2, Classes.Otchet_Class.Ploshad, Classes.Otchet_Class.Percent_One, Classes.Otchet_Class.Metr_One,
+                        Classes.Otchet_Class.Percent_Two, Classes.Otchet_Class.Metr_Two, Classes.Otchet_Class.Percent_Three, Classes.Otchet_Class.Metr_Three, Classes.Otchet_Class.Percent_Four, Classes.Otchet_Class.Metr_Four,
+                        Classes.Otchet_Class.Percent_PPCBN, Classes.Otchet_Class.Metr_PPCBN, DateTime.Now.ToShortDateString(), Convert.ToInt32(table.Rows[0]["ID_Employee"].ToString()));
                     otchet.Otchet_Fill_Set(dgv_Kategoriya4);
-                    procedures.spOtchet_Analisys_Insert(tc_Kategorii.TabPages[3].Text, dgv_Kategoriya4.RowCount - 2, Classes.Otchet.Ploshad, Classes.Otchet.Percent_One, Classes.Otchet.Metr_One,
-                         Classes.Otchet.Percent_Two, Classes.Otchet.Metr_Two, Classes.Otchet.Percent_Three, Classes.Otchet.Metr_Three, Classes.Otchet.Percent_Four, Classes.Otchet.Metr_Four,
-                         Classes.Otchet.Percent_PPCBN, Classes.Otchet.Metr_PPCBN, DateTime.Now.ToShortDateString(), Convert.ToInt32(table.Rows[0]["ID_Employee"].ToString()));
+                    procedures.spOtchet_Analisys_Insert(tc_Kategorii.TabPages[3].Text, dgv_Kategoriya4.RowCount - 2, Classes.Otchet_Class.Ploshad, Classes.Otchet_Class.Percent_One, Classes.Otchet_Class.Metr_One,
+                         Classes.Otchet_Class.Percent_Two, Classes.Otchet_Class.Metr_Two, Classes.Otchet_Class.Percent_Three, Classes.Otchet_Class.Metr_Three, Classes.Otchet_Class.Percent_Four, Classes.Otchet_Class.Metr_Four,
+                         Classes.Otchet_Class.Percent_PPCBN, Classes.Otchet_Class.Metr_PPCBN, DateTime.Now.ToShortDateString(), Convert.ToInt32(table.Rows[0]["ID_Employee"].ToString()));
                     otchet.Otchet_Fill_Set(dgv_Kategoriya5);
-                    procedures.spOtchet_Analisys_Insert(tc_Kategorii.TabPages[4].Text, dgv_Kategoriya5.RowCount - 2, Classes.Otchet.Ploshad, Classes.Otchet.Percent_One, Classes.Otchet.Metr_One,
-                         Classes.Otchet.Percent_Two, Classes.Otchet.Metr_Two, Classes.Otchet.Percent_Three, Classes.Otchet.Metr_Three, Classes.Otchet.Percent_Four, Classes.Otchet.Metr_Four,
-                         Classes.Otchet.Percent_PPCBN, Classes.Otchet.Metr_PPCBN, DateTime.Now.ToShortDateString(), Convert.ToInt32(table.Rows[0]["ID_Employee"].ToString()));
+                    procedures.spOtchet_Analisys_Insert(tc_Kategorii.TabPages[4].Text, dgv_Kategoriya5.RowCount - 2, Classes.Otchet_Class.Ploshad, Classes.Otchet_Class.Percent_One, Classes.Otchet_Class.Metr_One,
+                         Classes.Otchet_Class.Percent_Two, Classes.Otchet_Class.Metr_Two, Classes.Otchet_Class.Percent_Three, Classes.Otchet_Class.Metr_Three, Classes.Otchet_Class.Percent_Four, Classes.Otchet_Class.Metr_Four,
+                         Classes.Otchet_Class.Percent_PPCBN, Classes.Otchet_Class.Metr_PPCBN, DateTime.Now.ToShortDateString(), Convert.ToInt32(table.Rows[0]["ID_Employee"].ToString()));
                     otchet.Otchet_Fill_Set(dgv_Kategoriya6);
-                    procedures.spOtchet_Analisys_Insert(tc_Kategorii.TabPages[5].Text, dgv_Kategoriya6.RowCount - 2, Classes.Otchet.Ploshad, Classes.Otchet.Percent_One, Classes.Otchet.Metr_One,
-                          Classes.Otchet.Percent_Two, Classes.Otchet.Metr_Two, Classes.Otchet.Percent_Three, Classes.Otchet.Metr_Three, Classes.Otchet.Percent_Four, Classes.Otchet.Metr_Four,
-                          Classes.Otchet.Percent_PPCBN, Classes.Otchet.Metr_PPCBN, DateTime.Now.ToShortDateString(), Convert.ToInt32(table.Rows[0]["ID_Employee"].ToString()));
+                    procedures.spOtchet_Analisys_Insert(tc_Kategorii.TabPages[5].Text, dgv_Kategoriya6.RowCount - 2, Classes.Otchet_Class.Ploshad, Classes.Otchet_Class.Percent_One, Classes.Otchet_Class.Metr_One,
+                          Classes.Otchet_Class.Percent_Two, Classes.Otchet_Class.Metr_Two, Classes.Otchet_Class.Percent_Three, Classes.Otchet_Class.Metr_Three, Classes.Otchet_Class.Percent_Four, Classes.Otchet_Class.Metr_Four,
+                          Classes.Otchet_Class.Percent_PPCBN, Classes.Otchet_Class.Metr_PPCBN, DateTime.Now.ToShortDateString(), Convert.ToInt32(table.Rows[0]["ID_Employee"].ToString()));
                     otchet.Otchet_Fill_Set(dgv_VKO);
-                    procedures.spOtchet_Analisys_Insert(tc_Kategorii.TabPages[6].Text, dgv_VKO.RowCount - 2, Classes.Otchet.Ploshad, Classes.Otchet.Percent_One, Classes.Otchet.Metr_One,
-                        Classes.Otchet.Percent_Two, Classes.Otchet.Metr_Two, Classes.Otchet.Percent_Three, Classes.Otchet.Metr_Three, Classes.Otchet.Percent_Four, Classes.Otchet.Metr_Four,
-                        Classes.Otchet.Percent_PPCBN, Classes.Otchet.Metr_PPCBN, DateTime.Now.ToShortDateString(), Convert.ToInt32(table.Rows[0]["ID_Employee"].ToString()));
+                    procedures.spOtchet_Analisys_Insert(tc_Kategorii.TabPages[6].Text, dgv_VKO.RowCount - 2, Classes.Otchet_Class.Ploshad, Classes.Otchet_Class.Percent_One, Classes.Otchet_Class.Metr_One,
+                        Classes.Otchet_Class.Percent_Two, Classes.Otchet_Class.Metr_Two, Classes.Otchet_Class.Percent_Three, Classes.Otchet_Class.Metr_Three, Classes.Otchet_Class.Percent_Four, Classes.Otchet_Class.Metr_Four,
+                        Classes.Otchet_Class.Percent_PPCBN, Classes.Otchet_Class.Metr_PPCBN, DateTime.Now.ToShortDateString(), Convert.ToInt32(table.Rows[0]["ID_Employee"].ToString()));
                     MessageBox.Show("Данные по категориям были уcпешно загружены!", "Сообщение", MessageBoxButtons.OK, MessageBoxIcon.Information);
                     всеОбъектыToolStripMenuItem.Enabled = false;
                 }
@@ -561,43 +561,43 @@ namespace SiPPOON_PP
 
         private void dgv_Kategoriya1_CellClick(object sender, DataGridViewCellEventArgs e)
         {
-            Classes.Otchet otchet = new Classes.Otchet();
+            Classes.Otchet_Class otchet = new Classes.Otchet_Class();
             otchet.Check_Object(dgv_Kategoriya1, chart_Kategoriya1, clb_Kategoriya1, List_Kategoriya1, выбранныеОбъектыToolStripMenuItem);
         }
 
         private void dgv_Kategoriya2_CellClick(object sender, DataGridViewCellEventArgs e)
         {
-            Classes.Otchet otchet = new Classes.Otchet();
+            Classes.Otchet_Class otchet = new Classes.Otchet_Class();
             otchet.Check_Object(dgv_Kategoriya2, chart_Kategoriya2, clb_Kategoriya2, List_Kategoriya2, выбранныеОбъектыToolStripMenuItem);
         }
 
         private void dgv_Kategoriya3_CellClick(object sender, DataGridViewCellEventArgs e)
         {
-            Classes.Otchet otchet = new Classes.Otchet();
+            Classes.Otchet_Class otchet = new Classes.Otchet_Class();
             otchet.Check_Object(dgv_Kategoriya3, chart_Kategoriya3, clb_Kategoriya3, List_Kategoriya3, выбранныеОбъектыToolStripMenuItem);
         }
 
         private void dgv_Kategoriya4_CellClick(object sender, DataGridViewCellEventArgs e)
         {
-            Classes.Otchet otchet = new Classes.Otchet();
+            Classes.Otchet_Class otchet = new Classes.Otchet_Class();
             otchet.Check_Object(dgv_Kategoriya4, chart_Kategoriya4, clb_Kategoriya4, List_Kategoriya4, выбранныеОбъектыToolStripMenuItem);
         }
 
         private void dgv_Kategoriya5_CellClick(object sender, DataGridViewCellEventArgs e)
         {
-            Classes.Otchet otchet = new Classes.Otchet();
+            Classes.Otchet_Class otchet = new Classes.Otchet_Class();
             otchet.Check_Object(dgv_Kategoriya5, chart_Kategoriya5, clb_Kategoriya5, List_Kategoriya5, выбранныеОбъектыToolStripMenuItem);
         }
 
         private void dgv_Kategoriya6_CellClick(object sender, DataGridViewCellEventArgs e)
         {
-            Classes.Otchet otchet = new Classes.Otchet();
+            Classes.Otchet_Class otchet = new Classes.Otchet_Class();
             otchet.Check_Object(dgv_Kategoriya6, chart_Kategoriya6, clb_Kategoriya6, List_Kategoriya6, выбранныеОбъектыToolStripMenuItem);
         }
 
         private void dgv_VKO_CellClick(object sender, DataGridViewCellEventArgs e)
         {
-            Classes.Otchet otchet = new Classes.Otchet();
+            Classes.Otchet_Class otchet = new Classes.Otchet_Class();
             otchet.Check_Object(dgv_VKO, chart_VKO, clb_VKO, List_VKO, выбранныеОбъектыToolStripMenuItem);
         }
     }

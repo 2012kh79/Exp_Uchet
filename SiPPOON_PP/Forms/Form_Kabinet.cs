@@ -37,7 +37,7 @@ namespace SiPPOON_PP
                     pb_Sotrudnik.BackgroundImage = pb_Sotrudnik.ErrorImage;
                 else
                 {
-                    FTP_Server ftp = new FTP_Server();
+                    FTPServer_Class ftp = new FTPServer_Class();
                     if (System.IO.File.Exists(location))
                         pb_Sotrudnik.BackgroundImage = new Bitmap(location);
                     else

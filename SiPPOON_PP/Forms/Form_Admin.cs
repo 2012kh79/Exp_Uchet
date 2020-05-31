@@ -71,7 +71,7 @@ namespace SiPPOON_PP
             threadEmployee.Start();
             cmbID_RoleFill();
             cmbID_EmployeeFill();
-            FTP_Server FTP_Server = new FTP_Server();//Создание переменной для обращения к классу, которая необходима для подключения к FTP-серверу
+            FTPServer_Class FTP_Server = new FTPServer_Class();//Создание переменной для обращения к классу, которая необходима для подключения к FTP-серверу
             FTP_Server.Get_Files(lv_Photo);
         }
 
@@ -249,7 +249,7 @@ namespace SiPPOON_PP
 
         private void btn_InsertPhoto_Click(object sender, EventArgs e)
         {
-            FTP_Server FTP_Server = new FTP_Server();
+            FTPServer_Class FTP_Server = new FTPServer_Class();
             FTP_Server.Set_Files();
             FTP_Server.Get_Files(lv_Photo);
         }
@@ -262,7 +262,7 @@ namespace SiPPOON_PP
 
         private void btn_DeletePhoto_Click(object sender, EventArgs e)
         {
-            FTP_Server FTP_Server = new FTP_Server();
+            FTPServer_Class FTP_Server = new FTPServer_Class();
             FTP_Server.Delete_Files(lv_Photo);
         }
 

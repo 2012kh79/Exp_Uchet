@@ -8,7 +8,7 @@ using System.Data.SqlClient;
 
 namespace SiPPOON_PP.Classes
 {
-    class Otchet
+    class Otchet_Class
     {
         public static double Ploshad { get; set; }
         public static double Percent_One { get; set; }

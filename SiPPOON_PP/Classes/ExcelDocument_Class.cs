@@ -50,21 +50,6 @@ namespace SiPPOON_PP
                 worksheet.Columns[5].ColumnWidth = 100;
                 worksheet.Columns[6].ColumnWidth = 100;
                 worksheet.Columns[7].ColumnWidth = 100;
-
-
-                workbook.Charts.Add();
-                workbook.ActiveChart.Name = "Диаграмма выявленных нарушений";
-                workbook.ActiveChart.ChartType = excel.XlChartType.xl3DColumn;
-
-                workbook.ActiveChart.HasLegend = true;
-                workbook.ActiveChart.HasTitle = true;
-                workbook.ActiveChart.ChartTitle.Characters.Text = "Площадь проезжей части с выявленными нарушениями";
-
-                workbook.ActiveChart.Axes(excel.XlAxisType.xlCategory).HasTitle = true;
-                workbook.ActiveChart.Axes(excel.XlAxisType.xlCategory).AxisTitle.Characters.Text = "Значения";
-
-                workbook.ActiveChart.Axes(excel.XlAxisType.xlCategory).HasTitle = true;
-                workbook.ActiveChart.Axes(excel.XlAxisType.xlCategory).AxisTitle.Characters.Text = "Показатели";
             }
             catch (Exception ex)
             {
