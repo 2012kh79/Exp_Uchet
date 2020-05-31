@@ -26,6 +26,7 @@ namespace SiPPOON_PP.Forms
         private void Otchet_Kategorii()
         {
             Fill_Table tables = new Fill_Table();
+            Object_Select = "Категории";
             Action action = () =>
             {
                 try
@@ -49,6 +50,7 @@ namespace SiPPOON_PP.Forms
         private void Otchet_Okruga()
         {
             Fill_Table tables = new Fill_Table();
+            Object_Select = "Округа";
             Action action = () =>
             {
                 try
@@ -72,6 +74,7 @@ namespace SiPPOON_PP.Forms
         private void Otchet_Analisys()
         {
             Fill_Table tables = new Fill_Table();
+            Object_Select = "Все объекты";
             Action action = () =>
             {
                 try
@@ -129,7 +132,6 @@ namespace SiPPOON_PP.Forms
 
         private void категорииToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Object_Select = "Категории";
             Otchet_Kategorii();
             tb_Search.Text = "";
             rb_Clear_Filter.Checked = true;
@@ -137,7 +139,6 @@ namespace SiPPOON_PP.Forms
 
         private void округаToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Object_Select = "Округа";
             Otchet_Okruga();
             tb_Search.Text = "";
             rb_Clear_Filter.Checked = true;
@@ -145,7 +146,6 @@ namespace SiPPOON_PP.Forms
 
         private void всеОбъектыToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Object_Select = "Все объекты";
             Otchet_Analisys();
             tb_Search.Text = "";
             rb_Clear_Filter.Checked = true;
@@ -203,7 +203,45 @@ namespace SiPPOON_PP.Forms
 
         private void btn_Word_Click(object sender, EventArgs e)
         {
-
+            Form_Configuration configForm = new Form_Configuration();
+            DataTable data = new DataTable();
+            Word_Document document = new Word_Document();
+            DataRow dr;
+            if (configForm.ShowDialog() == DialogResult.OK)
+            {
+                data.Columns.Add("Наименование объекта");
+                data.Columns.Add("Количество объектов");
+                data.Columns.Add("Площадь объекта");
+                data.Columns.Add("Площадь прозжей части с выявленными нарушениями. по 1-му параметру, %");
+                data.Columns.Add("Площадь прозжей части с выявленными нарушениями. по 1-му параметру, кв.м");
+                data.Columns.Add("Площадь прозжей части с выявленными нарушениями. по 2-му параметру, %");
+                data.Columns.Add("Площадь прозжей части с выявленными нарушениями. по 2-му параметру, кв.м");
+                data.Columns.Add("Площадь прозжей части с выявленными нарушениями. по 3-му параметру, %");
+                data.Columns.Add("Площадь прозжей части с выявленными нарушениями. по 3-му параметру, кв.м");
+                data.Columns.Add("Площадь прозжей части с выявленными нарушениями. по 4-му параметру, %");
+                data.Columns.Add("Площадь прозжей части с выявленными нарушениями. по 4-му параметру, кв.м");
+                data.Columns.Add("Площадь прозжей части без нарушений, %");
+                data.Columns.Add("Площадь прозжей части без нарушений, кв.м");
+                foreach (DataGridViewRow row in dgv_Uchet.Rows)
+                {
+                    dr = data.NewRow();
+                    dr["Наименование объекта"] = row.Cells[0].Value.ToString();
+                    dr["Количество объектов"] = row.Cells[1].Value.ToString();
+                    dr["Площадь объекта"] = row.Cells[2].Value.ToString();
+                    dr["Площадь прозжей части с выявленными нарушениями. по 1-му параметру, %"] = row.Cells[3].Value.ToString();
+                    dr["Площадь прозжей части с выявленными нарушениями. по 1-му параметру, кв.м"] = row.Cells[4].Value.ToString();
+                    dr["Площадь прозжей части с выявленными нарушениями. по 2-му параметру, %"] = row.Cells[5].Value.ToString();
+                    dr["Площадь прозжей части с выявленными нарушениями. по 2-му параметру, кв.м"] = row.Cells[6].Value.ToString();
+                    dr["Площадь прозжей части с выявленными нарушениями. по 3-му параметру, %"] = row.Cells[7].Value.ToString();
+                    dr["Площадь прозжей части с выявленными нарушениями. по 3-му параметру, кв.м"] = row.Cells[8].Value.ToString();
+                    dr["Площадь прозжей части с выявленными нарушениями. по 4-му параметру, %"] = row.Cells[9].Value.ToString();
+                    dr["Площадь прозжей части с выявленными нарушениями. по 4-му параметру, кв.м"] = row.Cells[10].Value.ToString();
+                    dr["Площадь прозжей части без нарушений, %"] = row.Cells[11].Value.ToString();
+                    dr["Площадь прозжей части без нарушений, кв.м"] = row.Cells[12].Value.ToString();
+                    data.Rows.Add(dr);
+                }
+                document.Shet_Facture(data);
+            }
         }
 
         private void btn_PDF_Click(object sender, EventArgs e)
