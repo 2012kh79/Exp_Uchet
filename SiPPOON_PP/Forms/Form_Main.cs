@@ -12,11 +12,14 @@ namespace SiPPOON_PP
         Form_Change form_Change = new Form_Change();
         public static string Location_Result { get; set; }
         public static string Location_Folder { get; set; }
-        public Form_Main()
+        public Form_Main(bool Settings, bool Result, bool Propusk)
         {
             InitializeComponent();
             this.DoubleBuffered = true;
             this.BackgroundImage = new Bitmap(Properties.Resources.Zastavka);
+            btn_Settings.Enabled = Settings;
+            btn_Result.Enabled = Result;
+            btn_Propusk.Enabled = Propusk;
         }
 
         private void Form_Result_FormClosing(object sender, FormClosingEventArgs e)
@@ -32,7 +35,7 @@ namespace SiPPOON_PP
         private void btn_Result_MouseEnter(object sender, EventArgs e)
         {
             btn_Result.BackgroundImage = null;
-            btn_Result.Text = "Результаты";
+            btn_Result.Text = "Анализ результатов";
         }
 
         private void btn_Result_MouseLeave(object sender, EventArgs e)
@@ -56,7 +59,7 @@ namespace SiPPOON_PP
         private void btn_Propusk_MouseEnter(object sender, EventArgs e)
         {
             btn_Propusk.BackgroundImage = null;
-            btn_Propusk.Text = "Пропуска";
+            btn_Propusk.Text = "Учёт результатов";
         }
 
         private void btn_Propusk_MouseLeave(object sender, EventArgs e)

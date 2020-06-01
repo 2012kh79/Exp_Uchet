@@ -198,6 +198,7 @@ namespace SiPPOON_PP.Forms
         private void btn_Word_Click(object sender, EventArgs e)
         {
             Form_Configuration configForm = new Form_Configuration();
+            DB_Procedures dB_Procedures = new DB_Procedures();
             DataTable data = new DataTable();
             WordDocument_Class document = new WordDocument_Class();
             DataRow dr;
@@ -234,7 +235,18 @@ namespace SiPPOON_PP.Forms
                     dr["Площадь прозжей части без нарушений, кв.м"] = row.Cells[12].Value.ToString();
                     data.Rows.Add(dr);
                 }
+                foreach (DataRow row in data.Rows)
+                {
+                    string mySelectQuery = "select [ID_Analisys] from [Object_Obsledovaniya] where [Naim_Object] = '" + Convert.ToString(row["Наименование объекта"]) + "'";
+                    using (SqlDataAdapter dataAdapter = new SqlDataAdapter(mySelectQuery, Registry_Class.sql))
+                    {
+                        DataTable table = new DataTable();
+                        dataAdapter.Fill(table);
+                        dB_Procedures.spOtchet_Analisys_Delete(Convert.ToInt32(table.Rows[0]["ID_Analisys"]));
+                    }
+                }
                 document.Shet_Facture(data);
+                MessageBox.Show("Экспорт данных произошел успешно!", "Сообщение", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
         }
 

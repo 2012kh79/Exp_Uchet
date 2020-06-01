@@ -413,7 +413,7 @@ namespace SiPPOON_PP
             DataTable table = new DataTable();
             try
             {
-                string mySelectQuery = "select [Naim_Object], [Data_Otchet] from [Otchet_Analisys]";
+                string mySelectQuery = "select [Naim_Object], [Data_Otchet] from [Object_Obsledovaniya]";
                 using (SqlDataAdapter dataAdapter = new SqlDataAdapter(mySelectQuery, Registry_Class.sql))
                 {
                     dataAdapter.Fill(table);

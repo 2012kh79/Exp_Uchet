@@ -28,24 +28,6 @@ namespace SiPPOON_PP
 
         public DataTable dtOtchet_Analisys_Proverka = new DataTable("Otchet_Analisys_Proverka");
         public DataTable dtOtchet_Kategorii = new DataTable("Otchet_Kategorii");
-        public DataTable dtOtchet_Kategoriya_1 = new DataTable("Otchet_Kategoriya_1");
-        public DataTable dtOtchet_Kategoriya_2 = new DataTable("Otchet_Kategoriya_2");
-        public DataTable dtOtchet_Kategoriya_3 = new DataTable("Otchet_Kategoriya_3");
-        public DataTable dtOtchet_Kategoriya_4 = new DataTable("Otchet_Kategoriya_4");
-        public DataTable dtOtchet_Kategoriya_5 = new DataTable("Otchet_Kategoriya_5");
-        public DataTable dtOtchet_Kategoriya_6 = new DataTable("Otchet_Kategoriya_6");
-        public DataTable dtOtchet_VKO = new DataTable("Otchet_VKO");
-        public DataTable dtOtchet_VAO = new DataTable("Otchet_VAO");
-        public DataTable dtOtchet_ZAO = new DataTable("Otchet_ZAO");
-        public DataTable dtOtchet_ZelAO = new DataTable("Otchet_ZelAO");
-        public DataTable dtOtchet_SAO = new DataTable("Otchet_SAO");
-        public DataTable dtOtchet_SVAO = new DataTable("Otchet_SVAO");
-        public DataTable dtOtchet_SZAO = new DataTable("Otchet_SZAO");
-        public DataTable dtOtchet_TiNAO = new DataTable("Otchet_TiNAO");
-        public DataTable dtOtchet_TSAO = new DataTable("Otchet_TSAO");
-        public DataTable dtOtchet_YAO = new DataTable("Otchet_YAO");
-        public DataTable dtOtchet_YVAO = new DataTable("Otchet_YVAO");
-        public DataTable dtOtchet_YZAO = new DataTable("Otchet_YZAO");
         public DataTable dtOtchet_Okruga = new DataTable("Otchet_Okruga");
 
         public DataTable dtVAO = new DataTable("VAO");
@@ -65,24 +47,6 @@ namespace SiPPOON_PP
         qrEmployee = "select [ID_Employee],[Fam_Employee],[Imya_Employee],[Photo_Employee] from [Employee]",
         qrOtchet_Analisys_Proverka = "select * FROM [Otchet_Analisys_Proverka]",
         qrOtchet_Kategorii = "select * FROM [Otchet_Kategorii]",
-        qrOtchet_Kategoriya_1 = "select * FROM [Otchet_Kategoriya_1]",
-        qrOtchet_Kategoriya_2 = "select * FROM [Otchet_Kategoriya_2]",
-        qrOtchet_Kategoriya_3 = "select * FROM [Otchet_Kategoriya_3]",
-        qrOtchet_Kategoriya_4 = "select * FROM [Otchet_Kategoriya_4]",
-        qrOtchet_Kategoriya_5 = "select * FROM [Otchet_Kategoriya_5]",
-        qrOtchet_Kategoriya_6 = "select * FROM [Otchet_Kategoriya_6]",
-        qrOtchet_VKO = "select * FROM [Otchet_VKO]",
-        qrOtchet_VAO = "select * FROM [Otchet_VAO]",
-        qrOtchet_ZAO = "select * FROM [Otchet_ZAO]",
-        qrOtchet_ZelAO = "select * FROM [Otchet_ZelAO]",
-        qrOtchet_SAO = "select * FROM [Otchet_SAO]",
-        qrOtchet_SVAO = "select * FROM [Otchet_SVAO]",
-        qrOtchet_SZAO = "select * FROM [Otchet_SZAO]",
-        qrOtchet_TiNAO = "select * FROM [Otchet_TiNAO]",
-        qrOtchet_TSAO = "select * FROM [Otchet_TSAO]",
-        qrOtchet_YAO = "select * FROM [Otchet_YAO]",
-        qrOtchet_YVAO = "select * FROM [Otchet_YVAO]",
-        qrOtchet_YZAO = "select * FROM [Otchet_YZAO]",
         qrOtchet_Okruga = "select * FROM [Otchet_Okruga]",
 
         qrKategoriya_1 = "SELECT * FROM [Категории$A9:AP223]",
@@ -275,96 +239,6 @@ namespace SiPPOON_PP
         public void dtOtchet_Analisys_ProverkaFill()//Метод для заполнения отчета "Категория 1"
         {
             dtFill_SQL(dtOtchet_Analisys_Proverka, qrOtchet_Analisys_Proverka);
-        }
-
-        public void dtOtchet_Kategoriya_1Fill()//Метод для заполнения отчета "Категория 1"
-        {
-            dtFill_SQL(dtOtchet_Kategoriya_1, qrOtchet_Kategoriya_1);
-        }
-
-        public void dtOtchet_Kategoriya_2Fill()//Метод для заполнения отчета "Категория 2"
-        {
-            dtFill_SQL(dtOtchet_Kategoriya_2, qrOtchet_Kategoriya_2);
-        }
-
-        public void dtOtchet_Kategoriya_3Fill()//Метод для заполнения отчета "Категория 3"
-        {
-            dtFill_SQL(dtOtchet_Kategoriya_3, qrOtchet_Kategoriya_3);
-        }
-
-        public void dtOtchet_Kategoriya_4Fill()//Метод для заполнения отчета "Категория 4"
-        {
-            dtFill_SQL(dtOtchet_Kategoriya_4, qrOtchet_Kategoriya_4);
-        }
-
-        public void dtOtchet_Kategoriya_5Fill()//Метод для заполнения отчета "Категория 5"
-        {
-            dtFill_SQL(dtOtchet_Kategoriya_5, qrOtchet_Kategoriya_5);
-        }
-
-        public void dtOtchet_Kategoriya_6Fill()//Метод для заполнения отчета "Категория 6"
-        {
-            dtFill_SQL(dtOtchet_Kategoriya_6, qrOtchet_Kategoriya_6);
-        }
-
-        public void dtOtchet_VKOFill()//Метод для заполнения отчета "ВКО"
-        {
-            dtFill_SQL(dtOtchet_VKO, qrOtchet_VKO);
-        }
-
-        public void dtOtchet_VAOFill()//Метод для заполнения отчета "ВАО"
-        {
-            dtFill_SQL(dtOtchet_VAO, qrOtchet_VAO);
-        }
-
-        public void dtOtchet_ZAOFill()//Метод для заполнения отчета "ЗАО"
-        {
-            dtFill_SQL(dtOtchet_ZAO, qrOtchet_ZAO);
-        }
-
-        public void dtOtchet_ZelAOFill()//Метод для заполнения отчета "ЗелАО"
-        {
-            dtFill_SQL(dtOtchet_ZelAO, qrOtchet_ZelAO);
-        }
-
-        public void dtOtchet_SAOFill()//Метод для заполнения отчета "САО"
-        {
-            dtFill_SQL(dtOtchet_SAO, qrOtchet_SAO);
-        }
-
-        public void dtOtchet_SVAOFill()//Метод для заполнения отчета "СВАО"
-        {
-            dtFill_SQL(dtOtchet_SVAO, qrOtchet_SVAO);
-        }
-
-        public void dtOtchet_SZAOFill()//Метод для заполнения отчета "СЗАО"
-        {
-            dtFill_SQL(dtOtchet_SZAO, qrOtchet_SZAO);
-        }
-
-        public void dtOtchet_TiNAOFill()//Метод для заполнения отчета "ТиНАО"
-        {
-            dtFill_SQL(dtOtchet_TiNAO, qrOtchet_TiNAO);
-        }
-
-        public void dtOtchet_TSAOFill()//Метод для заполнения отчета "ТСАО"
-        {
-            dtFill_SQL(dtOtchet_TSAO, qrOtchet_TSAO);
-        }
-
-        public void dtOtchet_YAOFill()//Метод для заполнения отчета "ЮАО"
-        {
-            dtFill_SQL(dtOtchet_YAO, qrOtchet_YAO);
-        }
-
-        public void dtOtchet_YVAOFill()//Метод для заполнения отчета "ЮВАО"
-        {
-            dtFill_SQL(dtOtchet_YVAO, qrOtchet_YVAO);
-        }
-
-        public void dtOtchet_YZAOFill()//Метод для заполнения отчета "ЮЗАО"
-        {
-            dtFill_SQL(dtOtchet_YZAO, qrOtchet_YZAO);
         }
 
         public void dtOtchet_KategoriiFill()//Метод для заполнения Сотрудника

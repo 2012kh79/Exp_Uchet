@@ -49,7 +49,7 @@ namespace SiPPOON_PP
             {
                 DataTable table = new DataTable();
                 dataAdapter.Fill(table);
-                procedure.spAccount_Insert(tbLogin.Text, Hash(tbPass.Text), tb_Pochta.Text, 2, Convert.ToInt32(table.Rows[0][0].ToString()));
+                procedure.spAccount_Insert(tbLogin.Text, Hash(tbPass.Text), tb_Pochta.Text, 3, Convert.ToInt32(table.Rows[0][0].ToString()));
             }
             DialogResult result = MessageBox.Show("Регистрация прошла успешно", "Сообщение", MessageBoxButtons.OK, MessageBoxIcon.Information);
             if (result == DialogResult.OK)

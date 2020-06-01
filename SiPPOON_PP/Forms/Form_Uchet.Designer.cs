@@ -40,6 +40,7 @@
             this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripSeparator();
             this.выходToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.gb_Uchet = new System.Windows.Forms.GroupBox();
+            this.btn_Word = new System.Windows.Forms.Button();
             this.gb_FIlter_Uchet = new System.Windows.Forms.GroupBox();
             this.rb_Clear_Filter = new System.Windows.Forms.RadioButton();
             this.rb_Filter_Data = new System.Windows.Forms.RadioButton();
@@ -50,12 +51,9 @@
             this.lbl_Search = new System.Windows.Forms.Label();
             this.mtb_Data_Uchet = new System.Windows.Forms.MaskedTextBox();
             this.label2 = new System.Windows.Forms.Label();
-            this.tb_Comment = new System.Windows.Forms.TextBox();
-            this.lbl_Comment = new System.Windows.Forms.Label();
             this.tb_Proveril = new System.Windows.Forms.TextBox();
             this.lbl_Proveril = new System.Windows.Forms.Label();
             this.mc_Uchet = new System.Windows.Forms.MonthCalendar();
-            this.btn_Word = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dgv_Uchet)).BeginInit();
             this.menuStrip1.SuspendLayout();
             this.gb_Uchet.SuspendLayout();
@@ -152,8 +150,6 @@
             this.gb_Uchet.Controls.Add(this.gb_FIlter_Uchet);
             this.gb_Uchet.Controls.Add(this.mtb_Data_Uchet);
             this.gb_Uchet.Controls.Add(this.label2);
-            this.gb_Uchet.Controls.Add(this.tb_Comment);
-            this.gb_Uchet.Controls.Add(this.lbl_Comment);
             this.gb_Uchet.Controls.Add(this.tb_Proveril);
             this.gb_Uchet.Controls.Add(this.lbl_Proveril);
             this.gb_Uchet.Controls.Add(this.mc_Uchet);
@@ -164,6 +160,17 @@
             this.gb_Uchet.TabIndex = 7;
             this.gb_Uchet.TabStop = false;
             this.gb_Uchet.Text = "Работа с учетными документами";
+            // 
+            // btn_Word
+            // 
+            this.btn_Word.BackgroundImage = global::SiPPOON_PP.Properties.Resources.Word;
+            this.btn_Word.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btn_Word.Location = new System.Drawing.Point(645, 90);
+            this.btn_Word.Name = "btn_Word";
+            this.btn_Word.Size = new System.Drawing.Size(90, 80);
+            this.btn_Word.TabIndex = 0;
+            this.btn_Word.UseVisualStyleBackColor = true;
+            this.btn_Word.Click += new System.EventHandler(this.btn_Word_Click);
             // 
             // gb_FIlter_Uchet
             // 
@@ -273,22 +280,6 @@
             this.label2.TabIndex = 8;
             this.label2.Text = "от:";
             // 
-            // tb_Comment
-            // 
-            this.tb_Comment.Location = new System.Drawing.Point(285, 160);
-            this.tb_Comment.Name = "tb_Comment";
-            this.tb_Comment.Size = new System.Drawing.Size(289, 20);
-            this.tb_Comment.TabIndex = 7;
-            // 
-            // lbl_Comment
-            // 
-            this.lbl_Comment.AutoSize = true;
-            this.lbl_Comment.Location = new System.Drawing.Point(199, 163);
-            this.lbl_Comment.Name = "lbl_Comment";
-            this.lbl_Comment.Size = new System.Drawing.Size(80, 13);
-            this.lbl_Comment.TabIndex = 6;
-            this.lbl_Comment.Text = "Комментарий:";
-            // 
             // tb_Proveril
             // 
             this.tb_Proveril.Enabled = false;
@@ -313,17 +304,6 @@
             this.mc_Uchet.Name = "mc_Uchet";
             this.mc_Uchet.TabIndex = 3;
             this.mc_Uchet.DateChanged += new System.Windows.Forms.DateRangeEventHandler(this.mc_Uchet_DateChanged);
-            // 
-            // btn_Word
-            // 
-            this.btn_Word.BackgroundImage = global::SiPPOON_PP.Properties.Resources.Word;
-            this.btn_Word.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btn_Word.Location = new System.Drawing.Point(645, 90);
-            this.btn_Word.Name = "btn_Word";
-            this.btn_Word.Size = new System.Drawing.Size(90, 80);
-            this.btn_Word.TabIndex = 0;
-            this.btn_Word.UseVisualStyleBackColor = true;
-            this.btn_Word.Click += new System.EventHandler(this.btn_Word_Click);
             // 
             // Form_Uchet
             // 
@@ -365,8 +345,6 @@
         private System.Windows.Forms.TextBox tb_Proveril;
         private System.Windows.Forms.Label lbl_Proveril;
         private System.Windows.Forms.MonthCalendar mc_Uchet;
-        private System.Windows.Forms.TextBox tb_Comment;
-        private System.Windows.Forms.Label lbl_Comment;
         private System.Windows.Forms.GroupBox gb_FIlter_Uchet;
         private System.Windows.Forms.MaskedTextBox mtb_Data_Uchet;
         private System.Windows.Forms.Label label2;

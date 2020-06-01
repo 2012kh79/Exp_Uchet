@@ -74,7 +74,7 @@ namespace SiPPOON_PP
                 {
                     Login = tbLogin.Text;
                     MessageBox.Show("Вы авторизовались, как \"Сотрудник отдела по контролю качества\".", "Сообщение", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                    Form_Main main = new Form_Main();
+                    Form_Main main = new Form_Main(true, true, false);
                     main.Show();
                     this.Close();
                 }
@@ -89,7 +89,7 @@ namespace SiPPOON_PP
                 {
                     Login = tbLogin.Text;
                     MessageBox.Show("Вы авторизовались, как \"Начальник отдела по контролю качества\".", "Сообщение", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                    Form_Main main = new Form_Main();
+                    Form_Main main = new Form_Main(false, false, true);
                     main.Show();
                     this.Close();
                 }
