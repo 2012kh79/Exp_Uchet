@@ -96,6 +96,7 @@ namespace SiPPOON_PP.Classes
             try
             {
                 string datalocation = dataTable.Rows[0]["Photo_Employee"].ToString();
+                System.IO.Directory.CreateDirectory("Сотрудники");
                 location = AppDomain.CurrentDomain.BaseDirectory + "/Сотрудники/" + datalocation.Replace("ftp://127.0.0.1/", "");
                 request = (FtpWebRequest)WebRequest.Create(dataTable.Rows[0]["Photo_Employee"].ToString());
                 request.Method = WebRequestMethods.Ftp.DownloadFile;
