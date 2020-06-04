@@ -95,9 +95,10 @@ namespace SiPPOON_PP.Classes
         {
             try
             {
+                string path = Directory.GetCurrentDirectory();
                 string datalocation = dataTable.Rows[0]["Photo_Employee"].ToString();
-                System.IO.Directory.CreateDirectory("Сотрудники");
-                location = AppDomain.CurrentDomain.BaseDirectory + "/Сотрудники/" + datalocation.Replace("ftp://127.0.0.1/", "");
+                location = path + "/Сотрудники/" + datalocation.Replace("ftp://127.0.0.1/", "");
+                path += System.IO.Directory.CreateDirectory("Сотрудники");
                 request = (FtpWebRequest)WebRequest.Create(dataTable.Rows[0]["Photo_Employee"].ToString());
                 request.Method = WebRequestMethods.Ftp.DownloadFile;
                 request.Credentials = new NetworkCredential("ilnaz41", "12082000Ilnaz");

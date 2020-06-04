@@ -4,6 +4,8 @@ using System.Drawing;
 using System.Windows.Forms;
 using System.Xml;
 using System.IO;
+using System.Data;
+using System.Data.SqlClient;
 
 namespace SiPPOON_PP
 {
@@ -141,17 +143,24 @@ namespace SiPPOON_PP
 
         private void Form_Main_Load(object sender, EventArgs e)
         {
-            if (!File.Exists("Настройки.xml"))
-                MessageBox.Show("Здравствуйте, " + Form_Authorize.Login + ". Не забудьте указать путь к файлу с результатами дорожного исследования в настройках и папку для хранения отчёта!", "Сообщение", MessageBoxButtons.OK, MessageBoxIcon.Information);
-            else
+            string mySelectQuery = "select [Role_name], [Login_Account] from [Account] inner join [Role] on [Account].[Role_ID] = [Role].[ID_Role] where [Login_Account] = '" + Form_Authorize.Login + "'";
+            using (SqlDataAdapter dataAdapter = new SqlDataAdapter(mySelectQuery, Registry_Class.sql))
             {
-                XmlDocument doc = new XmlDocument();
-                doc.Load("Настройки.xml");
-                foreach (XmlNode node in doc.DocumentElement)
-                {
-                    Location_Result = node["Path_File"].InnerText;
-                    Location_Folder = node["Path_Folder"].InnerText;
-                }
+                DataTable table = new DataTable();
+                dataAdapter.Fill(table);
+                if (table.Rows[0]["Role_name"].ToString() == "Сотрудник отдела контроля качества")
+                    if (!File.Exists("Настройки.xml"))
+                        MessageBox.Show("Здравствуйте, " + Form_Authorize.Login + ". Не забудьте указать путь к файлу с результатами дорожного исследования в настройках и папку для хранения отчёта!", "Сообщение", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    else
+                    {
+                        XmlDocument doc = new XmlDocument();
+                        doc.Load("Настройки.xml");
+                        foreach (XmlNode node in doc.DocumentElement)
+                        {
+                            Location_Result = node["Path_File"].InnerText;
+                            Location_Folder = node["Path_Folder"].InnerText;
+                        }
+                    }
             }
         }
     }

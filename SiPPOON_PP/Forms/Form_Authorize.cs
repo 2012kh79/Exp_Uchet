@@ -2,13 +2,11 @@
 using System.Drawing;
 using System.Windows.Forms;
 using System.Data.SqlClient;
-using DLLConnectionString;
 
 namespace SiPPOON_PP
 {
     public partial class Form_Authorize : Form
     {
-        public static SQLCon con = new SQLCon();//Переменная для хранения соединения с SQL
         public enum Role {Failed, Admin, Otdel_Kachestva, Nachalnik_Otdel_Kachestva };//Хранит перечисление ролей
         public static Role role;
         public static string Login;//Хранит логин
@@ -28,7 +26,7 @@ namespace SiPPOON_PP
         private void Form_Authorize_Load(object sender, EventArgs e)
         {
             Registry_Class reg = new Registry_Class();
-            reg.Registry_Set(con.DS, con.DSSN, con.IC, con.ID, con.PSWRD);//Осуществление подключения к SQL
+            reg.Registry_Get();
         }
 
         private void tbPass_KeyPress(object sender, KeyPressEventArgs e)

@@ -20,8 +20,8 @@ namespace SiPPOON_PP
             else
             {
                 timer1.Enabled = false;
-                Form_Authorize form_authorize = new Form_Authorize();
-                form_authorize.Show();
+                Forms.Form_Connection form_Connection = new Forms.Form_Connection();
+                form_Connection.Show();
                 this.Hide();
             }
         }
